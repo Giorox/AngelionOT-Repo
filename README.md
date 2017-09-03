@@ -1,4 +1,4 @@
-# AngelionOT-Repo
+# AngelionOT Project
 
 Angelion OT is an 8.6 Full Global Open Tibia Server project which seeks to fulfill a niche of having an ACTUAL 100% Global OT Server.
 
