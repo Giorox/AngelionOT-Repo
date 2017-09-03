@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Bertha" script="data/npc/scripts/Bertha.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="140" head="38" body="59" legs="40" feet="23" addons="1"/>
+<voices>
+<voice text="Hey there, need some general goods or paperware?" interval2="100" margin="1" yell="no"/>
+</voices>
+<parameters>
+<parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="goods;" />
+		<parameter key="keyword_reply1" value="My inventory of general goods and paperware is large, ask me for a {trade} to take a look."/>
+        <parameter key="message_farewell" value="Good bye, |PLAYERNAME|."/>
+		<parameter key="message_walkaway" value="Good bye, |PLAYERNAME|." />
+		<parameter key="module_shop" value="1" />
+		<parameter key="message_sendtrade" value="Of course, just browse through my wares." />
+		<parameter key="message_greet" value="Oh, please come in, |PLAYERNAME|. What sort of {goods} do you need?" />
+		<parameter key="shop_buyable" value="blessed wooden stake,5942,10000;obsidian knife,5908,10000;shovel,2554,50;fur backpack,7342,20;fishing rod,2580,150;rope,2120,50;machete,2420,40;fur bag,7343,5;pick,2553,50;scythe,2550,50;machete,2420,40;torch,2050,2;bottle,2007,3,1;book,1955,15;book,1950,15;document,1952,12;book,1958,15;parchment,1948,8;scroll,1949,5;valentines card,6538,30;plate,2035,6;present box,1990,10;watch,2036,20;worm,3976,1" />
+	</parameters>
+</npc>

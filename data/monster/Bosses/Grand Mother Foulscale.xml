@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Grand Mother Foulscale" nameDescription="Grand Mother Foulscale" race="blood" experience="1400" speed="180" manacost="0">
+  <health now="1850" max="1850"/>
+  <look type="34" head="20" body="30" legs="40" feet="50" corpse="5973"/>
+  <targetchange interval="5000" chance="20"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="300"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="50" attack="50"/>
+    <attack name="fire" interval="3000" chance="40" range="7" radius="4" target="1" min="-65" max="-115">
+      <attribute key="shootEffect" value="fire"/>
+      <attribute key="areaEffect" value="firearea"/>
+    </attack>
+    <attack name="fire" interval="5000" chance="25" length="8" spread="3" min="-110" max="-170">
+      <attribute key="areaEffect" value="firearea"/>
+    </attack>
+  </attacks>
+  <defenses armor="25" defense="25">
+    <defense name="healing" interval="1000" chance="13" min="34" max="56">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+  <immunities>
+    <immunity fire="1"/>
+    <immunity paralyze="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <elements>
+	<element earthPercent="-80"/>
+	<element energyPercent="-20"/>
+	<element icePercent="10"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="GROOAAARRR" yell="1"/>    
+  </voices>
+<summons maxSummons="4">
+<summon name="Dragon Hatchling" interval="2000" chance="18" max="2"/>
+</summons>
+  <loot>
+    <item id="2672" countmax="3" chance1="20000" chancemax="0"/>
+    <item id="2148" countmax="67" chance1="40000" chancemax="0"/>      
+    <item id="2546" countmax="8" chance1="4000" chancemax="0"/>
+    <item id="1987" chance="100000">
+      <inside>
+        <item id="2398" chance="90000"/>
+        <item id="2397" chance="60000"/>        
+        <item id="2509" chance="1818"/> 
+      </inside>
+    </item>
+  </loot>
+</monster>

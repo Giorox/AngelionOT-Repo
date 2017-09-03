@@ -1,0 +1,17 @@
+<raid>
+<!--Announcements-->
+<announce delay="1000" type="event" message="Goblins are converging west of Edron." />
+
+<!--Area Spawns-->
+  <areaspawn delay="240000" fromx="33103" fromy="31786" fromz="7" tox="33131" toy="31802" toz="7">
+    <monster name="Goblin" amount="40" />
+    <monster name="Goblin Assassin" amount="22" />
+	<monster name="Goblin Scavenger" amount="22" />
+  </areaspawn>
+  
+  <areaspawn delay="300000" fromx="33103" fromy="31786" fromz="7" tox="33131" toy="31802" toz="7">
+    <monster name="Goblin" amount="40" />
+    <monster name="Goblin Assassin" amount="22" />
+	<monster name="Goblin Scavenger" amount="22" />
+  </areaspawn>
+</raid>

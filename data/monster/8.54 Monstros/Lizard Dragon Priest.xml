@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Lizard Dragon Priest" nameDescription="a lizard dragon priest" race="blood" experience="1320" speed="320" manacost="0">
+<health now="1450" max="1450"/>
+<look type="339" corpse="11271"/>
+<targetchange interval="5000" chance="8"/>
+<strategy attack="100" defense="0"/>
+<flags>
+<flag summonable="0"/>
+<flag attackable="1"/>
+<flag hostile="1"/>
+<flag illusionable="1"/>
+<flag convinceable="0"/>
+<flag pushable="0"/>
+<flag canpushitems="1"/>
+<flag canpushcreatures="0"/>
+<flag targetdistance="1"/>
+<flag staticattack="90"/>
+<flag runonhealth="50"/>
+</flags>
+<attacks>
+	<attack name="melee" interval="2000" skill="40" attack="60"/>
+<attack name="fire" interval="3000" chance="12" length="8" spread="3" min="-125" max="-190">
+<attribute key="areaEffect" value="firearea"/>
+</attack>
+</attacks>
+	<defenses armor="25" defense="25">
+		<defense name="healing" interval="1000" chance="18" min="200" max="400">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+		<defense name="invisible" interval="2000" chance="15" duration="4000">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+<elements>
+<element firePercent="-45"/>
+</elements>
+<immunities>
+<immunity earth="1"/>
+<immunity invisible="1"/>
+</immunities>
+<voices interval="5000" chance="10">
+<voice sentence="I ssssmell warm blood!"/>
+</voices>
+<summons maxSummons="2">
+<summon name="Dragon Hatchling" interval="2000" chance="18" max="2"/>
+</summons>
+<loot>
+<item id="2148" countmax="137" chance="10000"/>
+<item id="11354" chance="1100"/>
+<item id="2181" chance="500"/>
+<item id="2205" chance="650"/>
+<item id="5876" countmax="1" chance="800"/>
+<item id="1987" chance="100000">
+<inside>
+<item id="11349" chance="600"/>
+<item id="11296" chance="633"/>
+<item id="2154" chance="533"/>
+</inside>
+</item>
+</loot>
+</monster>

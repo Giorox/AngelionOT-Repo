@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Druid Yandur" script="data/npc/scripts/ioddruid.lua" walkinterval="20000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="144" head="115" body="115" legs="132" feet="115" addons="3"/>
+    	<parameters>
+		<parameter key="message_greet" value="Hi |PLAYERNAME|. are you interested in druid vocation, {Ok}?."/>
+	</parameters>
+</npc>

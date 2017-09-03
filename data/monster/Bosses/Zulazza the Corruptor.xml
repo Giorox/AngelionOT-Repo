@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Zulazza the Corruptor" nameDescription="Zulazza the Corruptor" race="blood" experience="9800" speed="220" manacost="0">
+<health now="28000" max="28000"/>
+<look type="334" corpse="11103"/>
+<targetchange interval="5000" chance="8"/>
+<strategy attack="100" defense="0"/>
+<flags>
+<flag summonable="0"/>
+<flag attackable="1"/>
+<flag hostile="1"/>
+<flag illusionable="1"/>
+<flag convinceable="0"/>
+<flag pushable="0"/>
+<flag canpushitems="1"/>
+<flag canpushcreatures="0"/>
+<flag targetdistance="1"/>
+<flag staticattack="90"/>
+<flag runonhealth="0"/>
+</flags>
+<attacks>
+<attack name="melee" interval="2000" min="-0" max="-2100"/>
+<attack name="fire" interval="2000" chance="15" range="7" radius="4" target="1" min="-120" max="-480">
+<attribute key="shootEffect" value="fire"/>
+<attribute key="areaEffect" value="firearea"/>
+</attack>
+<attack name="poisonfield" interval="1000" chance="15" range="7" radius="4" target="1">
+      <attribute key="shootEffect" value="poison"/>
+    </attack>
+<attack name="manadrain" interval="2000" chance="15" radius="4" target="0" min="-50" max="-130">
+		<attribute key="areaEffect" value="redshimmer"/>
+    </attack>
+<attack name="speed" interval="1000" chance="13" length="8" spread="0" speedchange="-800" duration="20000">
+      <attribute key="areaEffect" value="energy"/>
+    </attack>
+</attacks>
+<defenses armor="16" defense="19">
+ <defense name="healing" interval="1000" chance="30" min="1000" max="1500">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+</defenses>
+<elements>
+<element holyPercent="-20"/>
+<element deathPercent="-30"/>
+<element icePercent="-20"/>
+<element earthPercent="-70"/>
+</elements>
+<immunities>
+<immunity fire="1"/>
+<immunity energy="1"/>
+<immunity paralyze="?"/>
+</immunities>
+<loot>
+<item id="2148" countmax="89" chance="46000"/>
+<item id="2152" countmax="23" chance="46000"/>
+<item id="2666" countmax="5"  chancemax="15300"/>
+<item id="7632" countmax="2"  chancemax="15300"/>
+<item id="2127" chance="7000"/>
+<item id="7591" chance="10000"/>
+<item id="7590" chance="5000"/>
+<item id="7440" chance="5000"/>
+<item id="8473" chance="3000"/>
+<item id="8472" chance="4000"/>
+<item id="2514" chance="4000"/>
+<item id="8882" chance="8000"/>
+<item id="11298" chance="2900"/>
+<item id="11316" chance="2800"/>
+<item id="1987" chance="100000">
+<inside>
+<item id="11297" chance="1400"/>
+<item id="2156" chance="6000"/>
+<item id="2155" chance="4000"/>
+<item id="2154" chance="7000"/>
+<item id="2158" chance="9000"/>
+<item id="2153" chance="5000"/>
+<item id="2515" chance="4000"/>
+<item id="2528" chance="8000"/>
+<item id="9810" chance="1600"/>
+<item id="8891" chance="5000"/>
+<item id="2153" chance="5000"/>
+</inside>
+</item>
+</loot>
+</monster>

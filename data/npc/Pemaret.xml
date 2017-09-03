@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Pemaret" script="data/npc/scripts/Pemaret.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="128" head="79" body="10" legs="127" feet="127" addons="0"/>
+<voices>
+<voice text="Passages to Kazordoon! Gotta try the beer there." interval2="120" margin="1" yell="no"/>
+</voices>
+<parameters>
+<parameter key="module_shop" value="1" />
+<parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="passage;fish;" />
+		<parameter key="shop_buyable" value="fish,2667,5;"/>
+        <parameter key="keyword_reply1" value="My boat is ready to bring you to Edron."/>
+		<parameter key="keyword_reply2" value="My fish is of the finest quality you could find. Ask me for a trade to check for yourself."/>
+        <parameter key="message_greet" value="Greetings. Looking for a {passage} or some {fish}, |PLAYERNAME|?"/>
+        <parameter key="message_farewell" value="Good bye, |PLAYERNAME|. You are welcome."/>
+		<parameter key="message_walkaway" value="Good bye, |PLAYERNAME|. You are welcome." />
+</parameters>
+</npc>

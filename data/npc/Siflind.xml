@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Siflind" script="data/npc/scripts/Siflind.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="158" head="38" body="25" legs="100" feet="39" addons="2"/>
+</npc>

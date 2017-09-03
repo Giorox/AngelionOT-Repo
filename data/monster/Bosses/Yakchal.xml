@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Yakchal" nameDescription="the wizard yakchal" race="undead" experience="4400" speed="260" manacost="0">
+  <health now="5400" max="5400"/>
+  <look type="149" head="0" body="47" legs="105" feet="105" addons="3" corpse="6081"/>
+  <targetchange interval="2000" chance="5"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag staticattack="50"/>
+    <flag lightlevel="0"/>
+    <flag lightcolor="0"/>
+    <flag targetdistance="4"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="70" attack="95"/>
+    <attack name="outfit" interval="3000" chance="10" range="7" item="7172" duration="8000">
+       <attribute key="areaEffect" value="blueshimmer"/>
+     </attack>
+    <attack name="ice" interval="2000" chance="18" length="6" spread="4" min="-50" max="-430">
+      <attribute key="areaEffect" value="iceattack"/>
+    </attack>
+    <attack name="ice" interval="1000" chance="14" range="7" target="1" radius="4" min="-30" max="-110">
+      <attribute key="shootEffect" value="snowball"/>
+	  <attribute key="areaEffect" value="icearea"/>
+    </attack>
+    <attack name="speed" interval="2000" chance="11" range="7" speedchange="-700" duration="20000">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </attack>
+  </attacks>
+  <defenses armor="65" defense="50">
+    <defense name="healing" interval="1000" chance="25" min="50" max="230">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+  <elements>
+	<element energyPercent="5"/>
+  </elements>
+  <immunities>
+    <immunity ice="1"/>
+    <immunity paralyze="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="1000" chance="8">
+    <voice sentence="YOU BETTER DIE TO MY MINIONS BECAUSE YOU'LL WHISH YOU DID IF I COME FOR YOU!" yell="1"/>
+    <voice sentence="You are mine!"/>
+    <voice sentence="I will make you all pay!"/>
+  </voices>
+  <summons maxSummons="4">
+	<summon name="ice golem" interval="2000" chance="25"/>
+  </summons>
+  <loot>
+    <item id="2148" countmax="80" chance1="10000" chancemax="0"/> --Gold Coins
+    <item id="7290" chance="100000"/> --Shard  
+	<item id="5912" chance="28000"/> -Blue piece of cloth
+	<item id="7387" chance="7777"/> --Diamond Sceptre
+                   <item id="2168" chance="10000"/> --
+                  <item id="2473" chance="1000"/> --
+                    <item id="2201" chance="10000"/> --
+    <item id="1987" chance="100000"> --Bag
+      <inside>
+        <item id="7896" chance="25000"/> --Glacier Kilt
+		<item id="7897" chance="21000"/> --Glacier robe
+        <item id="2195" chance="13777"/> --Boots of haste
+        <item id="7459" chance="9090"/> --Ear Muffs 
+          <item id="7443" chance="9090"/> --
+          <item id="7440" chance="9090"/> --
+            <item id="7449" chance="9090"/> --
+		<item id="7410" chance="7777"/> --Queen Sceptre
+      </inside>
+    </item>
+  </loot>
+</monster>
+

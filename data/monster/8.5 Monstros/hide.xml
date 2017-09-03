@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="hide" nameDescription="a hide" race="VENOM" experience="240" speed="280" manacost="485">
+  <health now="500" max="500"/>
+  <look type="219" head="20" body="30" legs="40" feet="50" corpse="6060"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" min="0" max="-114"/>
+    <attack name="poisoncondition" interval="1000" chance="20" range="1" min="-20" max="-30">
+      <attribute key="shootEffect" value="poison"/>
+    </attack>
+  </attacks>
+  <defenses armor="15" defense="17">
+    <defense name="speed" interval="1000" chance="13" speedchange="414" duration="5000">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </defense>
+  </defenses>
+    <elements>
+	<element physicalPercent="20"/>	
+  </elements>
+  <immunities/>
+  <loot>
+    <item id="2152" countmax="5" chance1="20000" chancemax="0"/>	
+    <item id="2457" chance="20000"/>
+    <item id="7903" chance="10000"/>
+    <item id="5879" chance="33333"/>
+    <item id="2477" chance="5000"/>	
+	<item id="2169" chance="1000"/>
+  </loot>
+</monster>

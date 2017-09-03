@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Towncryer" script="data/npc/scripts/Towncryer.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="131" head="95" body="86" legs="10" feet="114" addons="1"/>
+<voices>
+<voice text="Hear me! Hear me! The mage Wyrdin in the Edron academy is looking for brave adventurers to undertake a task!" interval2="100" margin="1" yell="no"/>
+<voice text="Hear me! Hear me! The postmaster's guild has open spots for aspiring postmen! Contact Kevin Postner at the post office in the plains south of Kazordoon!" interval2="100" margin="1" yell="no"/>
+<voice text="Hear me! Hear me! The inquisition is looking for daring people to fight evil! Apply at the inquisition headquarters next to the Thaian jail!" interval2="100" margin="1" yell="no"/>
+</voices>
+ <parameters>
+        <parameter key="message_greet" value="Sorry, I'm busy!"/>
+        <parameter key="message_farewell" value="Bye."/>
+		<parameter key="message_walkaway" value="Bye." />
+        <parameter key="module_keywords" value="1" />
+    </parameters>
+</npc>

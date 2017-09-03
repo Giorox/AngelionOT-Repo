@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Svoren the Mad" nameDescription="svoren the mad" race="blood" experience="3000" speed="260" manacost="0">
+  <health now="6300" max="6300"/>
+  <look type="254" head="80" body="99" legs="118" feet="38" corpse="7349"/>
+  <targetchange interval="2000" chance="5"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag staticattack="90"/>
+    <flag lightlevel="0"/>
+    <flag lightcolor="0"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="90" attack="95" poison="200"/>
+    <attack name="speed" interval="2000" chance="18" target="1" range="7" radius="5" duration="5000" speedchange="-850">
+		<attribute key="areaEffect" value="yellownote"/>
+	</attack>
+    <attack name="death" interval="1000" chance="9" length="5" spread="0" min="0" max="-190">
+		<attribute key="areaEffect" value="purplenote"/>
+	</attack>
+  </attacks>
+  <defenses armor="45" defense="35"/>
+  <immunities>
+    <immunity energy="1"/>
+    <immunity fire="1"/>
+    <immunity poison="1"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <voices interval="2000" chance="50">
+    <voice sentence="NO mommy NO. Leave me alone!" yell="1"/> 
+  </voices>
+</monster>

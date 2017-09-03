@@ -1,0 +1,7 @@
+<raid>
+<announce delay="1000" type="event" message="Oh noes! It's a mutated pumpkin!" />
+
+  <!--Single Spawns-->
+  <singlespawn delay="1000" name="The Mutated Pumpkin" x="33170" y="32433" z="7" />
+
+</raid>

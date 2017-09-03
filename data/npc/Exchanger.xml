@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Exchanger" script="data/npc/scripts/Exchanger.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="152" head="85" body="86" legs="106" feet="86" addons="3"/>
+<voices>
+<voice text="Exchanges, Exchanges for addon items only HERE!!!" interval2="100" margin="1" yell="no"/>
+</voices>
+<parameters>
+        <parameter key="message_greet" value="Hello there. What would you like to get?"/>
+        <parameter key="message_farewell" value="Good bye, Arghhhh."/>
+		<parameter key="message_walkaway" value="Good bye, Arghhhh." />
+		 <parameter key="module_keywords" value="1" />
+ <parameter key="keywords" value="trade;job;" />
+  <parameter key="keyword_reply1" value="You can here change some items for {spider silk yarn}, {chunk of crude iron}, {draconian steel}, {warrior's sweat}, {magic sulphur}, {enchanted chicken wing}, {royal steel}, {hell steel}, {fighting spirit}, {infernal bolt}, {lottery ticket}." />
+ <parameter key="keyword_reply2" value="My job is to exchange and help people with getting new addons" />
+</parameters>
+</npc>

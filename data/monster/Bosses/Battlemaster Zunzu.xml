@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Battlemaster Zunzu" nameDescription="Battlemaster Zunzu" race="blood" experience="2500" speed="420" manacost="0">
+<health now="5000" max="5000"/>
+<look type="343" corpse="11278"/>
+<targetchange interval="5000" chance="8"/>
+<strategy attack="100" defense="0"/>
+<flags>
+<flag summonable="0"/>
+<flag attackable="1"/>
+<flag hostile="1"/>
+<flag illusionable="1"/>
+<flag convinceable="0"/>
+<flag pushable="0"/>
+<flag canpushitems="1"/>
+<flag canpushcreatures="0"/>
+<flag targetdistance="1"/>
+<flag staticattack="90"/>
+<flag runonhealth="0"/>
+</flags>
+<attacks>
+<attack name="melee" interval="2000" skill="55" attack="88"/>
+<attack name="poison" interval="2000" chance="12" range="1" radius="1" target="1" min="-0" max="-350">
+<attribute key="areaEffect" value="poison"/>
+</attack>
+</attacks>
+	<defenses armor="35" defense="35">
+		<defense name="healing" interval="1000" chance="18" min="200" max="400">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+<defense name="invisible" interval="5000" chance="20" duration="5000">
+<attribute key="areaEffect" value="redshimmer"/>
+</defense>
+	</defenses>
+<elements>
+<element physicalPercent="-15"/>
+<element deathPercent="-10"/>
+<element firePercent="-25"/>
+<element energyPercent="-20"/>
+<element icePercent="-15"/>
+</elements>
+<immunities>
+<immunity earth="1"/>
+<immunity invisible="1"/>
+</immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Hissss!"/>
+  </voices>
+<loot>
+<item id="2148" countmax="136" chance="10000"/>
+<item id="11324" chance="1900"/>
+<item id="7591" chance="2200"/>
+<item id="11199" chance="1500"/>
+<item id="11323" chance="840"/>
+<item id="7588" chance="1900"/>
+<item id="5881" chance="1200"/>
+<item id="2149" chance="1100"/>
+<item id="11297" chance="710"/>
+</loot>
+</monster>

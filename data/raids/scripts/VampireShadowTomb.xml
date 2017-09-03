@@ -1,0 +1,36 @@
+<raid>
+<announce delay="1000" type="event" message="Cold bodies with long teeth have lowered the temperature down in the Ankrahmun Mahrdis tombs." />
+<announce delay="300000" type="event" message="Cold bodies with long teeth. Many teeth. Down in the Ankrahmun Mahrdis tombs." />
+  <!--Area Spawns-->
+  
+  <!--3rd Hunting Floor-->
+  <areaspawn delay="300000" fromx="33184" fromy="32807" fromz="14" tox="33188" toy="32812" toz="14">
+    <monster name="vampire" amount="5" />
+  </areaspawn>
+  
+  <areaspawn delay="300000" fromx="33252" fromy="32810" fromz="14" tox="33260" toy="32817" toz="14">
+    <monster name="vampire" amount="5" />
+  </areaspawn>
+  
+  <areaspawn delay="300000" fromx="33251" fromy="32895" fromz="14" tox="33256" toy="32898" toz="14">
+    <monster name="vampire" amount="5" />
+  </areaspawn>
+  
+  <!--4th Hunting Floor-->
+  <areaspawn delay="300000" fromx="33229" fromy="32858" fromz="15" tox="33237" toy="32865" toz="15">
+    <monster name="vampire" amount="5" />
+  </areaspawn>
+  
+  <areaspawn delay="300000" fromx="33229" fromy="32883" fromz="15" tox="33237" toy="32891" toz="15">
+    <monster name="vampire" amount="5" />
+  </areaspawn>
+  
+  <areaspawn delay="300000" fromx="33232" fromy="32904" fromz="15" tox="33234" toy="32908" toz="15">
+    <monster name="vampire" amount="5" />
+  </areaspawn>
+  
+  <areaspawn delay="300000" fromx="33262" fromy="32843" fromz="15" tox="33267" toy="32848" toz="15">
+    <monster name="vampire" amount="5" />
+  </areaspawn>
+
+</raid>

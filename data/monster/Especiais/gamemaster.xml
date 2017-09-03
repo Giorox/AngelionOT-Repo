@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="gamemaster" nameDescription="a gamemaster" race="blood" experience="0" speed="1000" manacost="0">
+  <health now="9999999999999" max="9999999999999"/>
+  <look type="75" corpse="6080"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="25"/>
+  </flags>
+  <attacks>
+<attack name="melee" interval="2000" min="-999999999999999999999" max="-9999999999999999999999"/>
+  </attacks>
+  <defenses armor="11" defense="999999999999999999">
+    <defense name="healing" interval="1" chance="17" min="9999999999999" max="9999999999999">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+</defenses>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+
+</monster>

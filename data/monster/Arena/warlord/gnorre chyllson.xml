@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Gnorre Chyllson" nameDescription="gnorre chyllson" race="blood" experience="4000" speed="380" manacost="0">
+    <health now="7100" max="7100"/>
+	<look type="251" head="11" body="9" legs="11" feet="85" addons="1" corpse="7349"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+	    <flag hostile="1"/>
+	    <flag illusionable="0"/>
+	    <flag convinceable="0"/>
+	    <flag pushable="0"/>
+	    <flag canpushitems="1"/>
+        <flag staticattack="90"/>
+	    <flag lightlevel="0"/>
+	    <flag lightcolor="0"/>
+	    <flag targetdistance="1"/>
+	    <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+		<attack name="melee" interval="2000" skill="90" attack="110"/>
+		<attack name="physical" interval="1000" chance="15" radius="3" target="0" min="-210" max="-400">
+			<attribute key="areaEffect" value="blackspark"/>
+		</attack>
+		<attack name="death" interval="1000" chance="9" range="7" target="1" min="-170" max="-240">
+			<attribute key="areaEffect" value="giantice"/>
+			<attribute key="shootEffect" value="snowball"/>
+		</attack>
+		<attack name="ice" interval="1000" chance="13" length="8" spread="0" min="0" max="-230">
+			<attribute key="areaEffect" value="bluenote"/>
+		</attack>
+		<attack name="drowncondition" interval="1000" chance="11" radius="4" target="0" min="-800" max="-1400">
+			<attribute key="areaEffect" value="bluebubble"/>
+		</attack>
+    </attacks>
+    <defenses armor="35" defense="30"/>
+    <immunities>
+		<immunity earth="1"/>
+	    <immunity ice="1"/>
+	    <immunity fire="1"/>
+	    <immunity paralyze="1"/>
+		<immunity invisible="1"/>
+    </immunities>
+	<elements>
+		<element holyPercent="-1"/>
+		<element physicalPercent="1"/>
+		<element energyPercent="1"/>
+	</elements>
+    <summons maxSummons="0">
+    </summons>
+    <voices interval="2000" chance="5">
+		<voice sentence="I am like the merciless northwind"/>
+		<voice sentence="Snow will be your death shroud."/>
+                                    <voice sentence="Feel the wrath of father chyll!"/>
+    </voices>
+</monster>

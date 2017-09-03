@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="The Dreadorian" nameDescription="The Dreadorian" race="blood" experience="4000" speed="285" manacost="0">
+	<health now="8350" max="8350"/>
+	<look type="234" corpse="6328"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="115" attack="130"/>
+		<attack name="death" interval="1000" chance="12" length="8" spread="4" min="0" max="0">
+			<attribute key="areaEffect" value="purplenote"/>
+		</attack>		
+	</attacks>
+	<defenses armor="50" defense="60">
+	<defense name="healing" interval="1000" min="0" max="100">
+	         <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+    </defenses>
+</monster>

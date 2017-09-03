@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Rocko" nameDescription="Rocko" race="undead" experience="3400" speed="180" manacost="0">
+  <health now="10000" max="10000"/>
+  <look type="67" head="20" body="30" legs="40" feet="50" corpse="6005"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="72" attack="58"/>
+   <attack name="poison" interval="2000" chance="20" range="7" radius="4" target="1" min="-40" max="-125">
+      <attribute key="shootEffect" value="poison"/>
+      <attribute key="areaEffect" value="poison"/>
+   <attack name="earth" interval="1000" chance="12" length="8" spread="3" min="-160" max="-320">
+      <attribute key="areaEffect" value="largerock"/>
+    </attack>
+    </attack>
+  </attacks>
+  <defenses armor="12" defense="20"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="1"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+<elements>
+<element physicalPercent="-15"/>
+<element holyPercent="-10"/>
+<element firePercent="-30"/>
+<element energyPercent="-25"/>
+<element icePercent="-20"/>
+</elements>
+</monster>

@@ -1,0 +1,7 @@
+<raid>
+  <!--Area Spawns-->
+  <areaspawn delay="1000" fromx="33273" fromy="31962" fromz="7" tox="33334" toy="32017" toz="7">
+    <monster name="dwarf soldier" amount="60" />
+  </areaspawn>
+
+</raid>

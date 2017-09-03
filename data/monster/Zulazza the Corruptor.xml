@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<monster name="Zulazza the Corruptor" nameDescription="a zulazza the corruptor" race="blood" experience="9800" speed="132" manacost="0"> 
+<health now="28000" max="28000"/> 
+<look type="334" corpse="11104"/> 
+<targetchange interval="5000" chance="8"/> 
+<strategy attack="100" defense="0"/> 
+<flags> 
+<flag summonable="0"/> 
+<flag attackable="1"/> 
+<flag hostile="1"/> 
+<flag illusionable="1"/> 
+<flag convinceable="0"/> 
+<flag pushable="0"/> 
+<flag canpushitems="1"/> 
+<flag canpushcreatures="0"/> 
+<flag targetdistance="1"/> 
+<flag staticattack="80"/> 
+<flag runonhealth="0"/> 
+</flags> 
+<attacks> 
+    <attack name="melee" interval="2000" min="-300" max="-2088"/> 
+<attack name="earth" interval="2000" chance="21" range="7" radius="3" target="1" min="-212" max="-523"> 
+<attribute key="areaEffect" value="smallplants"/> 
+<attribute key="shootEffect" value="earth"/> 
+</attack> 
+<attack name="physical" interval="2000" chance="21" range="7" radius="4" target="1" min="-749" max="-1211"> 
+<attribute key="areaEffect" value="groundshaker"/> 
+<attribute key="shootEffect" value="suddendeath"/> 
+</attack> 
+<attack name="earth" interval="2100" chance="25" range="7" radius="4" target="1" min="-435" max="-643"> 
+<attribute key="areaEffect" value="carniphila"/> 
+<attribute key="shootEffect" value="earth"/> 
+</attack> 
+<attack name="physical" interval="2100" chance="25" range="7" radius="4" target="1" min="-252" max="-568"> 
+<attribute key="areaEffect" value="poff"/> 
+<attribute key="shootEffect" value="suddendeath"/> 
+</attack> 
+<attack name="poison" interval="2100" chance="25" range="7" radius="4" target="1" min="-300" max="-831"> 
+<attribute key="areaEffect" value="poison"/> 
+<attribute key="shootEffect" value="poison"/> 
+</attack> 
+<attack name="cursecondition" interval="2000" chance="21" length="7" spread="0" min="-3500" max="-6800"> 
+<attribute key="areaEffect" value="smallclouds"/> 
+</attack> 
+        <attack name="speed" interval="1300" chance="10" range="7" speedchange="-500" duration="10000"> 
+            <attribute key="areaEffect" value="redshimmer"/> 
+        </attack> 
+<attack name="manadrain" interval="3000" chance="12" range="7" target="1" min="-50" max="-128"> 
+<attribute key="areaEffect" value="greenshimmer"/> 
+</attack> 
+</attacks> 
+<defenses armor="96" defense="119"> 
+        <defense name="healing" interval="2000" chance="28" min="500" max="840"> 
+<attribute key="areaEffect" value="blueshimmer"/> 
+        </defense> 
+    </defenses> 
+<elements> 
+<element holyPercent="20"/> 
+<element deathPercent="30"/> 
+<element energyPercent="30"/> 
+<element icePercent="20"/> 
+</elements> 
+<immunities> 
+<immunity earth="1"/> 
+<immunity paralyze="1"/> 
+<immunity invisible="1"/> 
+<immunity energy="1"/> 
+</immunities> 
+<loot> 
+<item id="2148" countmax="41" chance="66000"/> --gold 
+<item id="2148" countmax="47" chance="56000"/> --gold 
+<item id="2152" countmax="21" chance="16000"/> --platinum coin 
+<item id="5944" countmax="5"  chancemax="9000"/> --soul orb 
+<item id="9971" countmax="3" chance="10000"/> --gold ignot 
+<item id="7632" countmax="2" chance="4000"/> --giant shimmer~ pearl 
+<item id="8891" chance="3000"/> --paladin armor 
+<item id="2515" chance="9800"/> --guardian shield 
+<item id="8882" chance="800"/> --earthborn giant armor 
+<item id="7591" chance="9800"/> --GHP 
+<item id="1987" chance="100000"> --bag 
+<inside>     
+<item id="7440" chance="7000"/> --mastermind potion 
+<item id="2127" chance="14400"/> --emerald bangle 
+<item id="9810" chance="5800"/> --rusty armor :rare: 
+<item id="2528" chance="4000"/> --tower shield 
+<item id="11114" chance="800"/> --dragon scale boots 
+<item id="7590" chance="9800"/> --GMP 
+<item id="2153" chance="3000"/> --violet gem 
+<item id="2154" chance="6000"/> --yellow gem 
+<item id="8472" chance="9800"/> --GSP 
+<item id="2155" chance="6800"/> --green gem 
+<item id="2156" chance="6800"/> --red gem 
+<item id="2514" chance="2000"/> --mastermind shield 
+<item id="8473" chance="9800"/> --UHP 
+<item id="2158" chance="6800"/> --blue gem 
+</inside> 
+</item> 
+</loot> 
+</monster>

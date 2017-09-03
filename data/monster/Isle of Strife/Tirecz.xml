@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Tirecz" nameDescription="Tirecz" race="blood" experience="6000" speed="220" manacost="0">
+<health now="25000" max="25000"/>
+<look type="334" corpse="11103"/>
+<targetchange interval="5000" chance="8"/>
+<strategy attack="100" defense="0"/>
+<flags>
+<flag summonable="0"/>
+<flag attackable="1"/>
+<flag hostile="1"/>
+<flag illusionable="1"/>
+<flag convinceable="0"/>
+<flag pushable="0"/>
+<flag canpushitems="1"/>
+<flag canpushcreatures="0"/>
+<flag targetdistance="1"/>
+<flag staticattack="90"/>
+<flag runonhealth="0"/>
+</flags>
+<attacks>
+	<attack name="melee" interval="2000" skill="55" attack="50"/>
+<attack name="fire" interval="2000" chance="15" range="7" radius="4" target="1" min="-120" max="-480">
+<attribute key="shootEffect" value="fire"/>
+<attribute key="areaEffect" value="firearea"/>
+</attack>
+</attacks>
+<defenses armor="16" defense="19"/>
+<elements>
+<element physicalPercent="-10"/>
+<element holyPercent="-30"/>
+<element deathPercent="-30"/>
+<element firePercent="-50"/>
+<element energyPercent="-30"/>
+<element icePercent="-30"/>
+<element earthPercent="-30"/>
+</elements>
+<immunities>
+<immunity fire="1"/>
+</immunities>
+<voices interval="5000" chance="10">
+    <voice sentence="Hissss!"/>
+  </voices>
+</monster>

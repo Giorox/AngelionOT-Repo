@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="The Mutated Pumpkin" tp="1" nameDescription="The Mutated Pumpkin" race="fire" experience="35000" speed="210" manacost="0">
+<health now="550000" max="550000"/>
+<look type="292" corpse="8960"/>
+<targetchange interval="60000" chance="0"/>
+<strategy attack="100" defense="0"/>
+<flags>
+<flag summonable="0"/>
+<flag attackable="1"/>
+<flag hostile="1"/>
+<flag illusionable="0"/>
+<flag convinceable="0"/>
+<flag pushable="0"/>
+<flag canpushitems="1"/>
+<flag canpushcreatures="1"/>
+<flag staticattack="100"/>
+<flag targetdistance="1"/>
+<flag runonhealth="0"/>
+</flags>
+<attacks>
+<attack name="melee" interval="1000" min="-180" max="-250"/>
+<attack name="drunk" interval="1000" chance="10">
+</attack>
+<attack name="manadrain" interval="3000" chance="13" range="7" min="-80" max="-300"/>
+<attack name="outfit" interval="1000" chance="17" range="7" length="8" spread="0" monster="rat" duration="20000">
+<attribute key="areaEffect" value="smallplants"/>
+</attack>
+</attacks>
+<defenses armor="1" defense="1">
+<defense name="healing" interval="1000" chance="25" min="60" max="400">
+<attribute key="areaEffect" value="blueshimmer"/>
+</defense>
+<defense name="strong haste" interval="5000" chance="100"/>
+</defenses>
+<immunities>
+<immunity physical="0"/>
+<immunity energy="0"/>
+<immunity fire="0"/>
+<immunity poison="0"/>
+<immunity lifedrain="0"/>
+<immunity paralyze="0"/>
+<immunity outfit="0"/>
+<immunity drunk="0"/>
+<immunity invisible="1"/>
+</immunities>
+<voices interval="2000" chance="10">
+<voice sentence="I had the Halloween Hare for breakfast!"/>
+<voice sentence="Your soul will be mine...wait, wrong line"/>
+<voice sentence="Trick or treat? I saw death!"/>
+<voice sentence="No wait! Don't kill me! It's me, your friend!"/>
+<voice sentence="Bunnies, bah! I'm the real thing!"/>
+<voice sentence="Muahahahaha!"/>
+<voice sentence="I've come to avenge all those mutilated pumpkins!"/>
+<voice sentence="Wait until I get you!"/>
+<voice sentence="Fear the spirit of Halloween!"/>
+</voices>
+<loot>
+<item id="9006" chance="10000"/>
+<item id="3976" chance="10000"/>
+<item id="8860" chance="9666"/>
+<item id="1987" chance="12500">
+<inside>
+<item id="6492" chance="8666"/>
+<item id="6524" chance="9633"/>
+</inside>
+</item>
+</loot>
+</monster>

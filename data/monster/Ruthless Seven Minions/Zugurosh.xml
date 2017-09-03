@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Zugurosh" nameDescription="Zugurosh" race="fire" experience="10000" speed="340" manacost="0">
+<health now="95000" max="95000"/>
+<look type="12" head="2" body="35" legs="57" feet="91" corpse="6068"/>
+<targetchange interval="5000" chance="15"/>
+<strategy attack="100" defense="0"/>
+
+<flags>
+	<flag summonable="0"/>
+	<flag attackable="1"/>
+	<flag hostile="1"/>
+	<flag illusionable="0"/>
+	<flag convinceable="0"/>
+	<flag pushable="0"/>
+	<flag canpushitems="1"/>
+	<flag canpushcreatures="1"/>
+	<flag targetdistance="1"/>
+	<flag staticattack="85"/>
+	<flag runonhealth="500"/>
+</flags>
+
+<attacks>
+    <attack name="melee" interval="2000" skill="120" attack="110"/>
+    <attack name="fire" interval="3000" chance="20" target="1" radius="4" min="-250" max="-850">
+        <attribute key="areaEffect" value="explosion"/>
+    </attack>
+    <attack name="death" interval="2000" chance="15" target="0" radius="4" min="-100" max="-350">
+        <attribute key="areaEffect" value="smallclouds"/>
+    </attack>
+    <attack name="manadrain" interval="1000" chance="13" radius="5" target="0" min="-60" max="-230">
+        <attribute key="areaEffect" value="watersplash"/>
+    </attack>
+	<attack name="death" interval="2000" chance="15" length="7" spread="0" min="0" max="-500">
+		<attribute key="areaEffect" value="mortarea"/>
+	</attack>
+</attacks>
+
+<defenses armor="45" defense="55">
+	<defense name="healing" interval="2000" chance="15" min="400" max="900">
+		<attribute key="areaEffect" value="greenshimmer"/>
+	</defense>
+	<defense name="invisible" interval="1000" chance="5" duration="6000">
+		<attribute key="areaEffect" value="blueshimmer"/>
+	</defense>
+</defenses>
+
+<elements>
+    <element icePercent="-15"/>
+    <element energyPercent="-20"/>
+    <element earthPercent="-40"/>
+	<element firePercent="-30"/>
+</elements>
+
+<immunities>
+	<immunity death="1"/>
+	<immunity paralyze="1"/>
+	<immunity invisible="1"/>
+</immunities>
+
+<voices interval="5000" chance="10">
+	<voice sentence="You will run out of resources soon enough!!" yell="1"/>
+	<voice sentence="One little mistake and your all are mine!"/>
+	<voice sentence="I sense your strength fading!"/>
+	<voice sentence="I know you will show a weakness!"/>
+	<voice sentence="Your fear will make you prone to mistakes!"/>
+</voices>
+
+<loot>
+	<item id="2148" countmax="100" chance1="80000" chancemax="8"/>
+	<item id="2152" countmax="29" chance1="50000" chancemax="3"/>
+	<item id="6500" countmax="1" chance1="100000" chancemax="10"/>
+	<item id="2147" countmax="25" chance1="80000" chancemax="0"/>
+	<item id="2150" countmax="22" chance1="80000" chancemax="0"/>
+	<item id="2145" countmax="21" chance1="60000" chancemax="1"/>
+	<item id="2149" countmax="25" chance1="40000" chancemax="0"/>
+	<item id="2146" countmax="21" chance1="50000" chancemax="0"/>
+	<item id="2144" countmax="22" chance1="75000" chancemax="3"/>
+	<item id="2143" countmax="25" chance1="68000" chancemax="2"/>
+	<item id="8472" chance="40000"/>
+	<item id="7591" chance="40000"/>
+	<item id="7590" chance="40000"/>
+	<item id="8473" chance="50000"/>
+	<item id="8473" chance="50000"/>
+	<item id="5954" chance="30000"/>
+	<item id="2148" countmax="100" chance1="80000" chancemax="10"/>
+	<item id="2125" chance="70000"/>
+	<item id="2197" chance="50000"/>
+	<item id="2130" chance="45000"/>
+	<item id="2133" chance="30000"/>
+	<item id="3962" chance="40000"/>
+	<item id="7412" chance="30000"/>
+	<item id="8870" chance="40000"/>
+	<item id="8871" chance="25000"/>
+	<item id="2656" chance="35000"/>
+	<item id="2487" chance="35000"/>
+	<item id="2488" chance="40000"/>
+	<item id="2477" chance="20000"/>
+	<item id="7894" chance="50000"/>
+	<item id="2645" chance="30000"/>
+	<item id="8901" chance="30000"/>
+	<item id="8902" chance="20000"/>
+	<item id="8903" chance="1000"/>
+	<item id="2466" chance="20000"/>
+	<item id="2470" chance="22000"/>
+	<item id="2148" countmax="83" chance1="80000" chncemax="2"/>
+	<item id="7388" chance="1000"/>
+	<item id="8904" chance="300"/>
+	<item id="2136" chance="200"/>
+	<item id="8879" chance="200"/>
+	<item id="8918" chance="100"/>
+	<item id="2522" chance="80"/>
+</loot>
+</monster>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Cublarc the Plunderer" nameDescription="Cublarc the Plunderer" race="blood" experience="400" speed="390" manacost="0">
+	<health now="400" max="400"/>
+	<look type="342" corpse="11245"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="45" attack="75"/>
+		<attack name="physical" interval="2000" chance="50" range="7" min="-50" max="-100">
+			<attribute key="shootEffect" value="arrow"/>
+		</attack>
+	</attacks>
+	<defenses armor="20" defense="45">
+		<defense name="speed" interval="1000" chance="7" speedchange="690" duration="4000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element energyPercent="0"/>
+		<element holyPercent="0"/>
+		<element earthPercent="0"/>
+		<element deathPercent="0"/>
+	</elements>
+	<immunities>
+		<immunity invisible="0"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence=""/>
+	</voices>
+	<loot>
+		<item id="2148" countmax="100" chance="15000"/>
+		<item id="2428" chance="29500"/>		
+		<item id="2456" chance="6000"/>		
+		<item id="11317" chance="4000"/>
+		<item id="11108" chance="2000"/>
+	</loot>
+</monster>

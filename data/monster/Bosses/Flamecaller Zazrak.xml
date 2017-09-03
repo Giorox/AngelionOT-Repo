@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Lizard Dragon Priest" nameDescription="a lizard dragon priest" race="blood" experience="3031" speed="320" manacost="0">
+<health now="2690" max="2690"/>
+<look type="339" corpse="11271"/>
+<targetchange interval="5000" chance="8"/>
+<strategy attack="100" defense="0"/>
+<flags>
+<flag summonable="0"/>
+<flag attackable="1"/>
+<flag hostile="1"/>
+<flag illusionable="1"/>
+<flag convinceable="0"/>
+<flag pushable="0"/>
+<flag canpushitems="1"/>
+<flag canpushcreatures="0"/>
+<flag targetdistance="1"/>
+<flag staticattack="90"/>
+<flag runonhealth="50"/>
+</flags>
+<attacks>
+	<attack name="melee" interval="2000" skill="40" attack="60"/>
+<attack name="fire" interval="3000" chance="12" length="8" spread="3" min="-125" max="-463">
+<attribute key="areaEffect" value="firearea"/>
+</attack>
+</attacks>
+	<defenses armor="25" defense="25">
+		<defense name="healing" interval="1000" chance="18" min="200" max="400">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+		<defense name="invisible" interval="2000" chance="15" duration="4000">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+<elements>
+<element icePercent="10"/>
+</elements>
+<immunities>
+<immunity earth="1"/>
+<immunity invisible="1"/>
+</immunities>
+<summons maxSummons="5">
+<summon name="Dragon Hatchling" interval="2000" chance="18" max="2"/>
+<summon name="Fire Elemental" interval="2000" chance="18" max="3"/>
+</summons>
+<loot>
+<item id="2148" countmax="34" chance="10000"/>
+<item id="2168" chance="5000"/>
+<item id="1987" chance="100000">
+<inside>
+<item id="11349" chance="600"/>
+<item id="11296" chance="633"/>
+</inside>
+</item>
+</loot>
+</monster>

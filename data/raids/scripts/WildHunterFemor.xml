@@ -1,0 +1,7 @@
+<raid>
+  <!--Area Spawns-->
+  <areaspawn delay="1000" fromx="32547" fromy="31782" fromz="5" tox="32599" toy="31815" toz="5">
+    <monster name="Hunter" amount="20" />
+    <monster name="Wild Warrior" amount="40" />
+  </areaspawn>
+</raid>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="The Orc King" script="data/npc/scripts/The Orc King.lua" walkinterval="2000">
+    <health now="100" max="100"/>
+    <look type="238"/>
+    <parameters>
+	  <parameter key="message_farewell" value="LEAVE!"/>
+	  <parameter key="message_walkaway" value="YES, LEAVE!"/>
+	  <parameter key="message_idletimeout" value="LEAVE!"/>
+
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="job;name;orc fortress;fortress;orc;offer;human;mission;quest" />
+        <parameter key="keyword_reply1" value="HOW DARE YOU TO ASK MY JOB? I AM THE ORC KING. THAT IS MY JOB, RRRUMAN!" />
+        <parameter key="keyword_reply2" value="You dun need to know my name... I'm the orc king." />
+        <parameter key="keyword_reply3" value="You are in our fortress. How dare you to kill my citizens?" />
+        <parameter key="keyword_reply4" value="You are in our fortress. How dare you to kill my citizens?" />
+        <parameter key="keyword_reply5" value="I am theirrr king!" />
+        <parameter key="keyword_reply6" value="OFFER? ARE YOU ASKING FOR AN OFFER? LEAVE, NOW!" />
+        <parameter key="keyword_reply7" value="HUMAN... YOU, HUMANS, MAKE THE WORLD WORSE!" />
+        <parameter key="keyword_reply8" value="Do you really want a mission? Ok, the mission is: Leave the orc fortress immediatly!" />
+        <parameter key="keyword_reply9" value="Do you really want a mission? Ok, the mission is: Leave the orc fortress immediatly!" />
+    </parameters>
+</npc>

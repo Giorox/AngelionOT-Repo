@@ -1,0 +1,11 @@
+<raid>
+<announce delay="1000" type="event" message="There's a sudden ice cold wind in the Ankrahmun Morguthis tombs!" />
+<announce delay="300000" type="event" message="Some vampires appeared in Ankrahmun Morguthis tombs!" />
+  <!--Area Spawns-->
+  
+  <!--3rd Hunting Floor-->
+  <areaspawn delay="300000" fromx="33229" fromy="32722" fromz="13" tox="33162" toy="32623" toz="13">
+    <monster name="vampire" amount="70" />
+  </areaspawn>
+
+</raid>

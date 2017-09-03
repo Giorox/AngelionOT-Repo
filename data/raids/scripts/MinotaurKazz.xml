@@ -1,0 +1,12 @@
+<raid>
+<announce delay="1000" type="event" message="Kaplar! Flee before it is too late! Minos in the Kazordoon Mines!" />
+
+  <!--Area Spawns--> 
+  <areaspawn delay="1000" fromx="32562" fromy="31996" fromz="8" tox="32481" toy="31883" toz="8">
+    <monster name="Minotaur" amount="60" />
+    <monster name="Minotaur Archer" amount="40" />
+	<monster name="Minotaur Mage" amount="40" />
+	<monster name="Minotaur Guard" amount="30" />
+  </areaspawn>
+
+</raid>

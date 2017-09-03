@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Morik the Gladiator" nameDescription="a Morik the Gladiator" race="blood" experience="160" speed="180" manacost="0">
+  <health now="1235" max="1235"/>
+  <look type="131" head="57" body="57" legs="57" feet="57" corpse="6080"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="15"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="47" attack="80"/>
+<attack name="physical" interval="2000" chance="15" range="7" radius="3" target="0" min="-80" max="-155">
+  <attribute key="areaEffect" value="blackspark"/>
+</attack>
+  </attacks>
+  <defenses armor="11" defense="15"/>
+<elements>
+	<element holyPercent="-10"/>
+	<element firePercent="-10"/>
+	<element energyPercent="-10"/>
+	<element icePercent="-10"/>
+	<element earthPercent="-10"/>
+	<element deathPercent="+1"/>
+</elements>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <summons maxSummons="2">
+    <summon name="gladiator" interval="1000" chance="8" max="2"/>
+  </summons>
+  <voices interval="5000" chance="10">
+    <voice sentence="To be the one you'll have to beat the one!"/>
+    <voice sentence="Where did I put my ultimate health potion again?"/>
+    <voice sentence="I am the best!"/>
+    <voice sentence="I'll take your ears as a trophy!"/>
+  </voices>
+<loot>
+   <item id="2457" chance="10000"/> --steel helmet 
+ </loot>
+</monster>

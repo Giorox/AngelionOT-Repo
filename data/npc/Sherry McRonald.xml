@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Sherry McRonald" script="data/npc/scripts/Sherry McRonald.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="136" head="78" body="94" legs="38" feet="58" addons="0"/>
+<voices>
+<voice text="Isn't this a beautiful day? Perfect for farming." interval2="100" margin="1" yell="no"/>
+</voices>
+<parameters>
+		<parameter key="module_shop" value="1" />
+		 <parameter key="message_farewell" value="Grace our home with another visit soon, |PLAYERNAME|."/>
+		<parameter key="message_sendtrade" value="Of course, just browse through my offers." />
+		<parameter key="message_walkaway" value="What a strange person." />
+		<parameter key="message_greet" value="Hello |PLAYERNAME|! Welcome to our humble farm. If you need food, just ask me for a {trade}." />
+		<parameter key="shop_buyable" value="cherry,2679,5;melon,2682,8;pumpkin,2683,10;cheese,2696,5;" />
+		<parameter key="shop_sellable" value="bread,2689,2;" />
+	</parameters>
+</npc>

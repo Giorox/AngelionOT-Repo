@@ -1,0 +1,28 @@
+<raid>
+<!--Announcements-->
+<announce delay="1000" type="event" message="Goblins are preparing to attack Kazordoon from Femor Hills!" />
+<announce delay="240000" type="event" message="Goblins attack from Femor Hills!" />
+<announce delay="360000" type="event" message="Goblins attack from Femor Hills!" />
+<announce delay="420000" type="event" message="Danger! Now the goblin leaders attack Kazordoon from Femor Hills" />
+
+<!--Area Spawns-->
+  <areaspawn delay="1000" fromx="32491" fromy="31853" fromz="7" tox="32513" toy="31863" toz="7">
+    <monster name="Goblin" amount="20" />
+  </areaspawn>
+  
+  <areaspawn delay="240000" fromx="32491" fromy="31853" fromz="7" tox="32513" toy="31863" toz="7">
+    <monster name="Goblin" amount="40" />
+    <monster name="Goblin Assassin" amount="22" />
+  </areaspawn>
+  
+  <areaspawn delay="360000" fromx="32491" fromy="31853" fromz="7" tox="32513" toy="31863" toz="7">
+    <monster name="Goblin" amount="40" />
+    <monster name="Goblin Assassin" amount="22" />
+  </areaspawn>
+  
+  <areaspawn delay="420000" fromx="32491" fromy="31853" fromz="7" tox="32513" toy="31863" toz="7">
+    <monster name="Goblin" amount="40" />
+    <monster name="Goblin Assassin" amount="22" />
+	<monster name="Goblin Leader" amount="10" />
+  </areaspawn>
+</raid>

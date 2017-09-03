@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Fleabringer" nameDescription="Fleabringer" race="blood" experience="80" speed="206" manacost="0">
+<health now="65" max="265"/>
+<look type="341" corpse="11241"/>
+<targetchange interval="5000" chance="8"/>
+<strategy attack="100" defense="0"/>
+<flags>
+<flag summonable="0"/>
+<flag attackable="1"/>
+<flag hostile="1"/>
+<flag illusionable="1"/>
+<flag convinceable="0"/>
+<flag pushable="0"/>
+<flag canpushitems="1"/>
+<flag canpushcreatures="0"/>
+<flag targetdistance="1"/>
+<flag staticattack="90"/>
+<flag runonhealth="0"/>
+</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="20" attack="30"/>
+	</attacks>
+	<defenses armor="1" defense="3"/>
+<elements>
+<element physicalPercent="0"/>
+<element holyPercent="0"/>
+<element deathPercent="-5"/>
+<element energyPercent="5"/>
+<element icePercent="0"/>
+<element earthPercent="0"/>
+<element firePercent="5"/>
+</elements>
+<voices interval="5000" chance="10">
+<voice sentence="Gnarlll!"/>
+<voice sentence="Grrrrrr!"/>
+</voices>
+	<loot>
+		<item id="2666" countmax="3" chance="46000"/>
+		<item id="3976" countmax="3" chance="46000"/>
+		<item id="11317" countmax="1" chance="2250"/>
+	</loot>
+</monster>

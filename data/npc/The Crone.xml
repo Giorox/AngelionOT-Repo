@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="The Crone" script="data/npc/scripts/The Crone.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="78" head="20" body="30" legs="40" feet="50" corpse="6019"/>
+<voices>
+<voice text="Let me mourn in peace." interval2="100" margin="1" yell="no"/>
+</voices>
+<parameters>
+        <parameter key="message_greet" value="Be greeted, |PLAYERNAME|... mortal."/>
+        <parameter key="message_farewell" value="Good bye."/>
+		<parameter key="message_walkaway" value="Good bye." />
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="job;name;" />
+        <parameter key="keyword_reply1" value="Once I was Vashresamun's favourite handmaid. But I have fallen from grace and now I'm exiled from her tomb." />
+        <parameter key="keyword_reply2" value="I don't remember my name, neither my days as a mortal." />
+    </parameters>
+
+
+</npc>

@@ -1,0 +1,344 @@
+----- 13/01/2012 15:56:26 - The Muzti'ck (189.159.168.26) -----
+Comment: 
+Graphic Engine: DirectX5 (0)
+Operating System: Windows 7 Home Premium Edition 32 Bit in MEX
+Processor: Dual Core Intel Pentium E5800 @ 3
+Video Card: Intel (R) G45/G
+Last Packet Types: 109 030 109 109 030 109 180 109 109 104
+Last Packet: 109 111 126 216 125 007 001 111 126 215 125 007 000 000 000 000
+Player Position: [32363,32216,7]
+Player Name: The Muzti'ck (World)
+Player Action: 049 056 055 046 049 057 053 046 049 053 050 046 049 050 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Player.cpp 465: exception occurred, reason:
+Control.cpp 1728: exception occurred (MessageType: 0 MaW: 1B8BEA8 MoW: 0), reason:
+Control.cpp 1723: exception occurred, reason:
+Control.cpp 386: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 138: exception occurred (Surface = 1), reason:
+NWin32Exception.cpp 50: win32 exception occurred, reason:
+access violation (read attempt at FFFFFFE9)
+Fri Jan 13 15:55:59 2012
+Debug Assertion 8.60 NWin32Exception.cpp 50
+
+----- 13/01/2012 21:44:10 - Gosht dragon (187.161.177.100) -----
+Comment: 
+Graphic Engine: DirectX5 (0)
+Operating System: Windows 7 Starter Edition 32 Bit in ESP
+Processor: Intel Atom N450 @ 1.
+Video Card: Intel (R) GRAPH
+Last Packet Types: 109 106 108 109 131 131 131 131 131 131
+Last Packet: 131 227 003 232 003 007 013 131 227 003 232 003 007 013 131 233
+Player Position: [1001,1003,6]
+Player Name: Dragon Fenix (Big War)
+Player Action: 050 048 056 046 049 049 053 046 050 049 054 046 050 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 946: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1331: exception occurred (Type = 109) (MainWindow = 4111544), reason:
+Communication.cpp 2151: exception occurred, reason:
+Communication.cpp 2142: MoveCreature has been received for a coordinate where there is no creature anymore [bug0000017], reason:
+ sx: 3 sy: 12 sz: 0
+ Position: 2
+ zx: 2 zy: 12 zz: 0
+ dx: -1 dy: 0 dz: 0
+ abs_sx: 995 abs_sy: 1008 abs_sz: 7
+ abs_zx: 994 abs_zy: 1008 abs_zz: 7
+ Start Cylinder (1):  (103,0) (980,0)
+ Start Cylinder (2):  (103,0) (980,0)(-)(-)(-)(-)(-)(-)(-)(-)
+ Destination Cylinder (1):  (103,0) (980,0) (2888,5) (3043,5)
+ Destination Cylinder (2):  (103,0) (980,0) (2888,5) (3043,5)(-)(-)(-)(-)(-)(-)
+Fri Jan 13 21:39:23 2012
+Debug Assertion 8.60 Communication.cpp 2142
+
+----- 14/01/2012 03:24:57 - Death Master (192.168.1.102) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Home Premium Edition 64 Bit in USA
+Processor: AMD Athlon II X2 255
+Video Card: NVIDIA GeForce 9200
+Last Packet Types: 101 109 160 160 160 140 160 160 140 109
+Last Packet: 109 225 125 152 122 007 002 225 125 151 122 007 101 250 017 000
+Player Position: [32225,31383,7]
+Player Name: Death Master (World)
+Player Action: 049 057 050 046 049 054 056 046 049 046 049 048 050 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Player.cpp 465: exception occurred, reason:
+Control.cpp 1728: exception occurred (MessageType: 0 MaW: 28BC98 MoW: 0), reason:
+Control.cpp 1723: exception occurred, reason:
+Control.cpp 386: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 138: exception occurred (Surface = 1), reason:
+NWin32Exception.cpp 50: win32 exception occurred, reason:
+access violation (write attempt at 4EA4B4B1)
+Sat Jan 14 03:24:33 2012
+Debug Assertion 8.60 NWin32Exception.cpp 50
+
+----- 14/01/2012 14:05:33 - Destinate (189.160.57.230) -----
+Comment: 
+Graphic Engine: DirectX5 (0)
+Operating System: Windows XP Professional in MEX
+Processor: Mobile Intel Pentium III 1000M
+Video Card: ATI Mobility Radeon (MICROSOF
+Last Packet Types: 132 131 180 160 160 134 131 134 109 109
+Last Packet: 134 021 169 000 064 000 131 020 128 097 126 007 003 134 021 169
+Player Position: [32788,32353,7]
+Player Name: Destinate (World)
+Player Action: 049 056 055 046 049 057 053 046 049 053 050 046 049 050 058 055 049 055 050
+Player.cpp 368: unknown exception occurred
+Sat Jan 14 14:47:59 2012
+Debug Assertion 8.60 Player.cpp 368
+
+----- 14/01/2012 18:34:09 - CM Destinate (189.160.57.230) -----
+Comment: 
+Graphic Engine: DirectX5 (0)
+Operating System: Windows XP Professional in MEX
+Processor: Mobile Intel Pentium III 1000M
+Video Card: ATI Mobility Radeon (MICROSOF
+Last Packet Types: 131 105 103 109 131 131 105 103 109 131
+Last Packet: 131 101 126 002 126 007 003 000 000 000 000 000 000 000 000 000
+Player Position: [32356,32259,7]
+Player Name: CM Destinate (World)
+Player Action: 049 056 055 046 049 057 053 046 049 053 050 046 049 050 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 946: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1331: exception occurred (Type = -1) (MainWindow = 31602208), reason:
+Network.cpp 445: exception occurred, reason:
+Network.cpp 432: exception occurred, reason:
+Network.cpp 398: packet size does not fit to symmetric encryption (PacketSize = 15341)
+Sat Jan 14 19:27:56 2012
+Debug Assertion 8.60 Network.cpp 398
+
+----- 14/01/2012 20:56:36 - Bebe (201.173.237.107) -----
+Comment: 
+Graphic Engine: OpenGL (1)
+Operating System: Windows XP Professional in ESP
+Processor: AMD Athlon 2650E
+Video Card: NVIDIA GeForce 6150SE NF
+Last Packet Types: 109 109 109 030 170 170 109 170 109 109
+Last Packet: 109 090 126 225 125 007 001 089 126 225 125 007 000 000 000 000
+Player Position: [32347,32226,7]
+Player Name: Bebe (World)
+Player Action: 049 056 055 046 049 057 053 046 049 053 050 046 049 050 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 946: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1331: exception occurred (Type = 109) (MainWindow = 17249920), reason:
+Communication.cpp 2151: exception occurred, reason:
+Communication.cpp 1950: Player object is not where it should be, reason:
+ hx: 8 hy: 6 hz: 0
+ Cylinder (1):  (429,0) (99,268481721)
+ Cylinder (2):  (429,0) (99,268481721)(-)(-)(-)(-)(-)(-)(-)(-)
+Sat Jan 14 09:52:11 2012
+Debug Assertion 8.60 Communication.cpp 1950
+
+----- 14/01/2012 20:57:02 - ADMIN [Killer] (192.168.1.102) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Home Premium Edition 64 Bit in USA
+Processor: AMD Athlon II X2 255
+Video Card: NVIDIA GeForce 9200
+Last Packet Types: 109 109 109 109 109 108 109 109 109 109
+Last Packet: 109 090 126 225 125 007 001 090 126 224 125 007 000 000 000 000
+Player Position: [32343,32220,7]
+Player Name: ADMIN [Killer] (World)
+Player Action: 049 057 050 046 049 054 056 046 049 046 049 048 050 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 946: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1331: exception occurred (Type = 109) (MainWindow = 9485464), reason:
+Communication.cpp 2151: exception occurred, reason:
+Communication.cpp 1950: Player object is not where it should be, reason:
+ hx: 8 hy: 6 hz: 0
+ Cylinder (1):  (429,0) (99,268481751)
+ Cylinder (2):  (429,0) (99,268481751)(-)(-)(-)(-)(-)(-)(-)(-)
+Sat Jan 14 20:56:44 2012
+Debug Assertion 8.60 Communication.cpp 1950
+
+----- 14/01/2012 20:57:18 - ADMIN [Killer] (192.168.1.102) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Home Premium Edition 64 Bit in USA
+Processor: AMD Athlon II X2 255
+Video Card: NVIDIA GeForce 9200
+Last Packet Types: 109 106 109 109 107 108 109 109 109 109
+Last Packet: 109 093 126 219 125 007 001 093 126 218 125 007 000 000 000 000
+Player Position: [32344,32222,7]
+Player Name: ADMIN [Killer] (World)
+Player Action: 049 057 050 046 049 054 056 046 049 046 049 048 050 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 946: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1331: exception occurred (Type = 109) (MainWindow = 38882632), reason:
+Communication.cpp 2151: exception occurred, reason:
+Communication.cpp 1950: Player object is not where it should be, reason:
+ hx: 8 hy: 6 hz: 0
+ Cylinder (1):  (429,0) (99,268481751)
+ Cylinder (2):  (429,0) (99,268481751)(-)(-)(-)(-)(-)(-)(-)(-)
+Sat Jan 14 20:57:07 2012
+Debug Assertion 8.60 Communication.cpp 1950
+
+----- 14/01/2012 21:07:11 - CM Destinate (189.160.57.230) -----
+Comment: 
+Graphic Engine: DirectX5 (0)
+Operating System: Windows XP Professional in MEX
+Processor: Mobile Intel Pentium III 1000M
+Video Card: ATI Mobility Radeon (MICROSOF
+Last Packet Types: 109 103 109 107 108 109 103 109 109 109
+Last Packet: 109 088 126 221 125 007 002 088 126 222 125 007 103 102 003 000
+Player Position: [32344,32221,7]
+Player Name: CM Destinate (World)
+Player Action: 049 056 055 046 049 057 053 046 049 053 050 046 049 050 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 946: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1331: exception occurred (Type = 109) (MainWindow = 31602208), reason:
+Communication.cpp 2151: exception occurred, reason:
+Communication.cpp 2142: MoveCreature has been received for a coordinate where there is no creature anymore [bug0000017], reason:
+ sx: 8 sy: 6 sz: 0
+ Position: 2
+ zx: 8 zy: 7 zz: 0
+ dx: 0 dy: 1 dz: 0
+ abs_sx: 32344 abs_sy: 32221 abs_sz: 7
+ abs_zx: 32344 abs_zy: 32222 abs_zz: 7
+ Start Cylinder (1):  (429,0) (99,268481751)
+ Start Cylinder (2):  (429,0) (99,268481751)(-)(-)(-)(-)(-)(-)(-)(-)
+ Destination Cylinder (1):  (429,0)
+ Destination Cylinder (2):  (429,0)(-)(-)(-)(-)(-)(-)(-)(-)(-)
+Sat Jan 14 21:52:01 2012
+Debug Assertion 8.60 Communication.cpp 2142
+
+----- 15/01/2012 12:05:41 - Bebe (201.173.237.107) -----
+Comment: 
+Graphic Engine: OpenGL (1)
+Operating System: Windows XP Professional in ESP
+Processor: AMD Athlon 2650E
+Video Card: NVIDIA GeForce 6150SE NF
+Last Packet Types: 109 109 109 109 109 030 107 109 140 109
+Last Packet: 109 090 126 214 125 007 001 091 126 213 125 007 000 000 000 000
+Player Position: [32347,32216,7]
+Player Name: Bebe (World)
+Player Action: 049 056 055 046 049 057 053 046 049 051 048 046 050 052 048 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 946: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1331: exception occurred (Type = 109) (MainWindow = 17249920), reason:
+Communication.cpp 2151: exception occurred, reason:
+Communication.cpp 1950: Player object is not where it should be, reason:
+ hx: 8 hy: 6 hz: 0
+ Cylinder (1):  (870,0) (99,268481222)
+ Cylinder (2):  (870,0) (99,268481222)(-)(-)(-)(-)(-)(-)(-)(-)
+Sun Jan 15 01:01:09 2012
+Debug Assertion 8.60 Communication.cpp 1950
+
+----- 15/01/2012 17:02:00 - Bebe (201.173.237.107) -----
+Comment: 
+Graphic Engine: OpenGL (1)
+Operating System: Windows XP Professional in ESP
+Processor: AMD Athlon 2650E
+Video Card: NVIDIA GeForce 6150SE NF
+Last Packet Types: 109 107 132 131 132 131 132 131 132 131
+Last Packet: 109 115 126 237 125 007 001 114 126 237 125 007 000 000 000 000
+Player Position: [32368,32240,7]
+Player Name: Bebe (World)
+Player Action: 049 056 055 046 049 057 053 046 049 051 048 046 050 052 048 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 946: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1331: exception occurred (Type = 109) (MainWindow = 17249920), reason:
+Communication.cpp 2151: exception occurred, reason:
+Communication.cpp 1950: Player object is not where it should be, reason:
+ hx: 8 hy: 6 hz: 0
+ Cylinder (1):  (409,0) (99,268482675)
+ Cylinder (2):  (409,0) (99,268482675)(-)(-)(-)(-)(-)(-)(-)(-)
+Sun Jan 15 05:57:44 2012
+Debug Assertion 8.60 Communication.cpp 1950
+
+----- 15/01/2012 19:29:58 - CM Malo (189.160.57.230) -----
+Comment: 
+Graphic Engine: DirectX5 (0)
+Operating System: Windows XP Professional in MEX
+Processor: Mobile Intel Pentium III 1000M
+Video Card: ATI Mobility Radeon (MICROSOF
+Last Packet Types: 109 101 109 102 109 102 109 101 109 102
+Last Packet: 109 088 126 220 125 007 002 088 126 219 125 007 101 102 003 000
+Player Position: [32344,32220,7]
+Player Name: CM Malo (World)
+Player Action: 049 056 055 046 049 057 053 046 049 051 048 046 050 052 048 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 946: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1331: exception occurred (Type = 109) (MainWindow = 31602208), reason:
+Communication.cpp 2151: exception occurred, reason:
+Communication.cpp 2142: MoveCreature has been received for a coordinate where there is no creature anymore [bug0000017], reason:
+ sx: 8 sy: 6 sz: 0
+ Position: 2
+ zx: 8 zy: 5 zz: 0
+ dx: 0 dy: -1 dz: 0
+ abs_sx: 32344 abs_sy: 32220 abs_sz: 7
+ abs_zx: 32344 abs_zy: 32219 abs_zz: 7
+ Start Cylinder (1):  (429,0) (99,268476266)
+ Start Cylinder (2):  (429,0) (99,268476266)(-)(-)(-)(-)(-)(-)(-)(-)
+ Destination Cylinder (1):  (429,0)
+ Destination Cylinder (2):  (429,0)(-)(-)(-)(-)(-)(-)(-)(-)(-)
+Sun Jan 15 20:23:54 2012
+Debug Assertion 8.60 Communication.cpp 2142
+
+----- 15/01/2012 22:31:09 - CM Malo (189.160.57.230) -----
+Comment: 
+Graphic Engine: DirectX5 (0)
+Operating System: Windows XP Professional in MEX
+Processor: Mobile Intel Pentium III 1000M
+Video Card: ATI Mobility Radeon (MICROSOF
+Player.cpp 326: unknown exception occurred
+Sun Jan 15 23:11:14 2012
+Debug Assertion 8.60 Player.cpp 326
+
+----- 16/01/2012 00:12:16 - Destiinate (189.160.57.230) -----
+Comment: 
+Graphic Engine: DirectX5 (0)
+Operating System: Windows XP Professional in MEX
+Processor: Mobile Intel Pentium III 1000M
+Video Card: ATI Mobility Radeon (MICROSOF
+Last Packet Types: 109 109 162 162 100 108 102 109 131 134
+Last Packet: 109 213 129 023 124 006 002 214 129 023 124 006 109 214 129 023
+Player Position: [33242,31767,7]
+Player Name: Destiinate (World)
+Player Action: 049 056 055 046 049 057 053 046 049 051 048 046 050 052 048 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 946: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1331: exception occurred (Type = 109) (MainWindow = 31603816), reason:
+Communication.cpp 2151: exception occurred, reason:
+Communication.cpp 2142: MoveCreature has been received for a coordinate where there is no creature anymore [bug0000017], reason:
+ sx: 2 sy: 5 sz: 1
+ Position: 2
+ zx: 3 zy: 5 zz: 1
+ dx: 1 dy: 0 dz: 0
+ abs_sx: 33237 abs_sy: 31767 abs_sz: 6
+ abs_zx: 33238 abs_zy: 31767 abs_zz: 6
+ Start Cylinder (1):  (4408,0) (4575,0)
+ Start Cylinder (2):  (4408,0) (4575,0)(-)(-)(-)(-)(-)(-)(-)(-)
+ Destination Cylinder (1):  (4409,0) (4569,0)
+ Destination Cylinder (2):  (4409,0) (4569,0)(-)(-)(-)(-)(-)(-)(-)(-)
+Mon Jan 16 01:06:04 2012
+Debug Assertion 8.60 Communication.cpp 2142
+
+----- 16/01/2012 12:45:48 - Dherion (190.78.253.9) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in VEN
+Processor: AMD Sempron 140
+Video Card: NVIDIA GeForce 6150SE NF
+Last Packet Types: 109 109 131 132 212 132 131 106 108 140
+Last Packet: 132 042 126 229 125 014 112 004 000 043 052 054 057 131 042 126
+Player Position: [32294,32229,13]
+Player Name: Dherion (Global Full 8.6)
+Player Action: 049 056 055 046 049 055 050 046 049 052 048 046 049 057 057 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 946: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1331: exception occurred (Type = 109) (MainWindow = 8830120), reason:
+Communication.cpp 2151: exception occurred, reason:
+Communication.cpp 2142: MoveCreature has been received for a coordinate where there is no creature anymore [bug0000017], reason:
+ sx: 7 sy: 0 sz: 2
+ Position: 1
+ zx: 6 zy: 0 zz: 2
+ dx: -1 dy: 0 dz: 0
+ abs_sx: 32293 abs_sy: 32223 abs_sz: 13
+ abs_zx: 32292 abs_zy: 32223 abs_zz: 13
+ Start Cylinder (1):  (417,0)
+ Start Cylinder (2):  (417,0)(-)(-)(-)(-)(-)(-)(-)(-)(-)
+ Destination Cylinder (1):  (417,0)
+ Destination Cylinder (2):  (417,0)(-)(-)(-)(-)(-)(-)(-)(-)(-)
+Sun Jan 15 22:02:50 2012
+Debug Assertion 8.60 Communication.cpp 2142
+

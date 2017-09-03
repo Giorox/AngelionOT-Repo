@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Draken Abomination" nameDescription="a draken abomination" race="blood" experience="3800" speed="220" manacost="0">
+<health now="6250" max="6250"/>
+<look type="357" corpse="12584"/>
+<targetchange interval="2000" chance="5"/>
+<strategy attack="100" defense="0"/>
+<flags>
+<flag summonable="0"/>
+<flag attackable="1"/>
+<flag hostile="1"/>
+<flag illusionable="1"/>
+<flag convinceable="0"/>
+<flag pushable="0"/>
+<flag canpushitems="1"/>
+<flag canpushcreatures="0"/>
+<flag targetdistance="1"/>
+<flag staticattack="90"/>
+<flag runonhealth="0"/>
+</flags>
+<attacks>
+	<attack name="melee" interval="2000" skill="110" attack="50"/>
+<attack name="fire" interval="2000" chance="20" length="4" spread="3" max="-480">
+<attribute key="shootEffect" value="explosion"/>
+<attribute key="areaEffect" value="explosion"/>
+		</attack>
+	<attack name="death" interval="2000" chance="15" radius="3">
+			<attribute key="areaEffect" value="mortarea"/>
+		</attack>
+	<attack name="drunk" interval="2000" chance="10" target="0" radius="5">
+			<attribute key="shootEffect" value="poison"/>
+			<attribute key="areaEffect" value="poison"/>
+		</attack>	
+</attacks>
+<defenses armor="16" defense="19">
+		<defense name="healing" interval="2000" chance="15" min="650" max="700">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>	
+	</defenses>
+<elements>
+<element physicalPercent="20"/>
+<element holyPercent="-5"/>
+<element energyPercent="-5"/>
+<element icePercent="5"/>
+</elements>
+<immunities>
+<immunity fire="1"/>
+<immunity earth="1"/>
+<immunity death="1"/>
+<immunity invisibility="1"/>
+</immunities>
+	<summons maxSummons="2">
+		<summon name="Death Blob" interval="2000" chance="10" max="2"/>
+	</summons>	
+<voices interval="5000" chance="10">
+		<voice sentence="Ugggh!"/>
+	</voices>
+<loot>
+    <item id="2152" countmax="8" chance="28950" /><!-- platinum coin -->
+    <item id="2148" countmax="100" chance="40000" /><!-- gold coin -->
+    <item id="2148" countmax="100" chance="40000" /><!-- gold coin -->
+	<item id="2666" chance="50160" /><!-- meat -->
+	<item id="12588" chance="11830" /><!-- eye of corruption -->
+	<item id="12589" chance="5630" /><!-- tail of corruption -->
+	<item id="7590" chance="7000" countmax="3" /><!-- great mana potion -->	
+	<item id="9970" chance="6500" /><!-- small toppaz -->
+	<item id="8472" chance="5000" countmax="3" /><!-- great spitit potion -->
+	<item id="7903" chance="7600" /><!-- terra hood -->
+	<item id="12590" chance="11900" /><!-- scale of corruption -->
+	<item id="11298" chance="700" /><!-- zaoan legs -->	
+	<item id="11296" chance="1000" /><!-- zaoan helmet -->	
+	<item id="11295" chance="820" /><!-- zaoan armor -->	
+    <item id="8922" chance="440" /><!-- wand of voodoo -->	
+	<item id="2852" chance="320" /><!-- draken boots -->	
+	<item id="12605" chance="60" /><!-- shield of corruption -->
+</loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</monster>

@@ -1,0 +1,32 @@
+<raid>
+  <!--Announcements-->
+  <announce delay="1000" type="Event" message="A disturbance in the ether stirs up the undead of the Ghostlands." />
+  <announce delay="420000" type="Event" message="The undead area reclaiming the Ghostlands once more!" />
+  <announce delay="900000" type="Event" message="The dreaded Banshees and ther undead retinue are unleashed in the Ghostland." />
+  <announce delay="1200000" type="Event" message="Banshees wish to feast on the souls of the living! Fight them in the Ghostlands or abandon all hope!" />
+  <!--Area Spawns-->
+  <areaspawn delay="1000" fromx="32177" fromy="31780" fromz="7" tox="32217" toy="31850" toz="7">
+    <monster name="Ghoul" amount="70" />
+	<monster name="Stalker" amount="70" />
+	<monster name="Ghost" amount="40" />
+  </areaspawn>
+  
+  <areaspawn delay="420000" fromx="32177" fromy="31780" fromz="7" tox="32217" toy="31850" toz="7">
+    <monster name="Ghost" amount="40" />
+	<monster name="Mummy" amount="70" />
+	<monster name="Demon Skeleton" amount="20" />
+  </areaspawn>
+  
+  <areaspawn delay="900000" fromx="32177" fromy="31780" fromz="7" tox="32217" toy="31850" toz="7">
+    <monster name="Banshee" amount="30" />
+	<monster name="Lich" amount="30" />
+	<monster name="Demon Skeleton" amount="30" />
+  </areaspawn>
+  
+  <areaspawn delay="1200000" fromx="32177" fromy="31780" fromz="7" tox="32217" toy="31850" toz="7">
+    <monster name="Banshee" amount="30" />
+	<monster name="Lich" amount="30" />
+	<monster name="Demon Skeleton" amount="30" />
+  </areaspawn>
+  
+</raid>

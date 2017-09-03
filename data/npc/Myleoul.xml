@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Myleoul" script="data/npc/scripts/Myleoul.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="153" head="0" body="114" legs="0" feet="5" addons="2"/>
+<voices>
+<voice text="Stupid fish.." interval2="100" margin="1" yell="no"/>
+<voice text="*mumble* *mumble*" interval2="200" margin="1" yell="no"/>
+</voices>
+<parameters>
+        <parameter key="message_greet" value="Ah, Good Morning, |PLAYERNAME|! What do you need of me?"/>
+        <parameter key="message_farewell" value="Uh yes, good bye..."/>
+		<parameter key="message_walkaway" value="People aren't polite anymore.." />
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="quest;job;" />
+        <parameter key="keyword_reply1" value="Well, my mission is of too high of an importance to just give away, it has to do with my former {job}." />
+        <parameter key="keyword_reply2" value="I used to be a renowed mage at the Edron Academy until I got exiled from Edron because my {theories} were scaring the citizens." />
+    </parameters>
+
+</npc>

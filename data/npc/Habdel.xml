@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Habdel" script="data/npc/scripts/Habdel.lua" walkinterval="0" floorchange="0">
+<health now="100" max="100"/>
+<look type="146" head="95" body="2" legs="0" feet="97" addons="1"/>
+<voices>
+<voice text="Check out my good and sturdy weapons!" interval2="100" margin="1" yell="no"/>
+</voices>
+<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="axe,2386,20;hand axe,2380,8;battle hammer,2417,350;mace,2398,90;dagger,2379,5;machete,2420,35;rapier,2384,15;sabre,2385,35;sword,2376,85;spear,2389,10;throwing knife,2410,25;" />
+		<parameter key="shop_sellable" value="axe,2386,7;battle axe,2378,80;halberd,2381,400;hand axe,2380,4;battle hammer,2417,120;mace,2398,30;morning star,2394,90;dagger,2379,2;rapier,2384,5;short sword,2406,10;sabre,2385,12;sword,2376,25;two handed sword,2377,450;spear,2389,3;" />
+        <parameter key="message_greet" value="I welcome thee, |PLAYERNAME|! I suppose you are looking for a trade in fine weapons!"/>
+        <parameter key="message_farewell" value="Goodbye and please bring more gold next time. I mean, it would be nice to see you again."/>
+		<parameter key="message_walkaway" value="Goodbye and please bring more gold next time. I mean, it would be nice to see you again." />
+		<parameter key="message_sendtrade" value="Of course, just browse through my wares." />
+</parameters>
+</npc>

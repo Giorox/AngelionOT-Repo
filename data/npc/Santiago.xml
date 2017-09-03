@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Santiago" script="data/npc/scripts/npc/cockroachlegs.lua" walkinterval="2000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="159" head="19" body="86" legs="87" feet="76" addons="1"/>
+	<parameters>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. Want to do me a {favor}?"/>
+        <parameter key="message_farewell" value="Good bye."/>
+		<parameter key="message_walkaway" value="Farewell then.." />
+        
+    </parameters>
+</npc>

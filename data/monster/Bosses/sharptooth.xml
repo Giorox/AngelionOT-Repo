@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="sharptooth" nameDescription="a sharptooth" race="blood" experience="1600" speed="310" manacost="0">
+  <health now="2500" max="2500"/>
+  <look type="20" head="0" body="0" legs="0" feet="0" corpse="6067"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag staticattack="90"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="90" attack="100"/>
+	</attacks>
+  <defenses armor="40" defense="45">
+    <defense name="healing" interval="1000" chance="25" min="113" max="187">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+    <defense name="speed" interval="1000" chance="5" speedchange="250" duration="4000">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </defense>
+  </defenses>
+   <elements>
+	<element energyPercent="+5"/>
+	<element earthPercent="-80"/>
+  </elements>
+  <immunities>
+    <immunity ice="1"/>
+    <immunity drown="1"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Gnarrr!"/>
+    <voice sentence="Tcharrr!"/>
+    <voice sentence="Rrrah!"/>
+    <voice sentence="Rraaar!"/>
+  </voices>
+<loot>
+
+	<item id="2148" chance="10000" countmax="13" /> -- gold coin
+	<item id="2226" chance="100000"/> -- fishbone
+</loot>
+</monster>

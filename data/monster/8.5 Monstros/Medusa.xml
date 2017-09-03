@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Medusa" nameDescription="a Medusa" race="blood" experience="4050" speed="240" manacost="0">
+    <health now="4500" max="4500"/>
+    <look type="330" head="78" body="76" legs="114" feet="114" addons="3" corpse="10524"/>
+    <targetchange interval="10000" chance="50"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag staticattack="70"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="0"/>
+      <flag runonhealth="800"/>
+    </flags>
+    <attacks>
+      <attack name="melee" interval="2000" min="0" max="-350"/>
+      <attack name="lifedrain" interval="2000" chance="15" range="4" target="1" radius="1" min="-150" max="-300">
+      <attribute key="areaEffect" value="plantattack"/>
+      </attack>
+      <attack name="physical" interval="4000" chance="50" target="0" range="7" spread="4" min="-250" max="-450">
+      <attribute key="areaEffect" value="smallplants"/>
+      </attack>
+      <attack name="poisoncondition" interval="2000" chance="25" range="6" min="-30" max="-40" poison="250">
+         <attribute key="shooteffect" value="smallearth"/>
+         <attribute key="areaEffect" value="plantattack"/>
+      </attack>
+      <attack name="speed" interval="2000" chance="15" range="7" speedchange="-500" duration="20000">
+  <attribute key="shootEffect" value="death"/>
+      </attack>
+      <attack name="outfit" interval="4000" chance="50" looktype="333" duration="100000">
+         <attribute key="areaEffect" value="greenshimmer"/>
+      </attack>
+      <attack name="poison" interval="1000" chance="13" radius="10" min="-40" max="-80">
+         <attribute key="areaEffect" value="poff"/>
+      </attack>
+    </attacks>
+    <defenses armor="0" defense="0">
+      <defense name="healing" interval="8000" chance="80" min="500" max="600"/>
+    </defenses>
+    <elements>
+      <element firePercent="-5"/>
+      <element icePercent="20"/>
+      <element energyPercent="-10"/>
+    </elements>
+    <immunities>
+      <immunity poison="1"/>
+      <immunity lifedrain="0"/>
+      <immunity invisible="1"/>
+      <immunity earth="1"/>
+    </immunities>
+    <voices interval="2000" chance="5">
+      <voice sentence="You will make sssuch a fine ssstatue!"/>
+      <voice sentence="There isss no chhhanccce of essscape"/>
+      <voice sentence="Are you tired or why are you moving thhat ssslow"/>
+    </voices>
+    <loot>
+      <item id="2148" countmax="100" chance1="40000" chancemax="0"/> -- gold
+      <item id="2148" countmax="80" chance1="20000" changemax="0"/> -- gold
+      <item id="2152" countmax="2" chance1="10000" chancemax="0"/> -- platinum coin
+      <item id="2149" countmax="3" chance1="25000" chancemax="0"/> -- small emerald
+      <item id="9808" chance="500"/> -- rusty armor
+      <item id="7590" chance="10000"/> -- GMP
+      <item id="7590" chance="11000"/> -- GMP
+      <item id="8473" chance="10000"/> -- UHP
+      <item id="8473" chance="11000"/> -- UHP
+      <item id="2476" chance="3500"/> -- k-armor
+      <item id="1987" chance="100000">
+        <inside>
+          <item id="2536" countmax="1" chance="1428"/> -- medusa shield
+          <item id="7413" chance="550"/> -- titan axe
+          <item id="7887" chance="10000"/> -- terra amulet
+          <item id="7884" chance="400"/> -- terra mantle
+          <item id="7885" chance="400"/> -- terra legs
+          <item id="2143" countmax="4" chance1="10000" chancemax="0"/> -- white pearls
+          <item id="10219" chance="900"/> -- sacred tree amulet
+       </inside>
+      </item>
+    </loot>
+  </monster>

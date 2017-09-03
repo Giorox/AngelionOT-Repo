@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Annihilon" nameDescription="Annihilon" race="fire" experience="15000" speed="380" manacost="0">
+<health now="40000" max="40000"/>
+<look type="12" head="19" body="104" legs="96" feet="96" corpse="6068"/>
+<targetchange interval="5000" chance="8"/>
+<strategy attack="100" defense="0"/>
+<flags>
+	<flag summonable="0"/>
+	<flag attackable="1"/>
+	<flag hostile="1"/>
+	<flag illusionable="0"/>
+	<flag convinceable="0"/>
+	<flag pushable="0"/>
+	<flag canpushitems="1"/>
+	<flag canpushcreatures="1"/>
+	<flag targetdistance="1"/>
+	<flag staticattack="85"/>
+	<flag runonhealth="0"/>
+</flags>
+<attacks>
+    <attack name="melee" interval="2000" min="0" max="-2240"/>
+    <attack name="death" interval="1000" chance="11" length="8" spread="0" min="0" max="-600">
+        <attribute key="areaEffect" value="mortarea"/>
+    </attack>
+    <attack name="energy" interval="2000" chance="15" lenght="8" spread="3" min="-200" max="-700">
+        <attribute key="areaEffect" value="energyarea"/>
+    </attack>
+    <attack name="physical" interval="3000" chance="18" radius="5" target="1" min="-50" max="-255">
+        <attribute key="areaEffect" value="groundshaker"/>
+    </attack>
+    <attack name="energy" interval="2000" chance="15" radius="6" target="1" min="-50" max="-600">
+        <attribute key="areaEffect" value="energyarea"/>
+		<attribute key="shootEffect" value="energy"/>
+    </attack>
+</attacks>
+<defenses armor="60" defense="55">
+	<defense name="healing" interval="1000" chance="14" min="400" max="900">
+		<attribute key="areaEffect" value="greenshimmer"/>
+	</defense>
+	<defense name="speed" interval="1000" chance="4" speedchange="500" duration="7000">
+		<attribute key="areaEffect" value="blueshimmer"/>
+	</defense>
+</defenses>
+<elements>
+    <element icePercent="-20"/>
+    <element deathPercent="-95"/>
+    <element energyPercent="-95"/>
+</elements>
+<immunities>
+	<immunity lifedrain="1"/>
+	<immunity invisible="1"/>
+</immunities>
+<voices interval="5000" chance="10">
+	<voice sentence="Flee as long as you can!"/>
+	<voice sentence="Annihilon's might will crush you all"/>
+	<voice sentence="I am coming for you!"/>
+</voices>
+<loot>
+	<item id="2148" countmax="159" chance1="80000" chancemax="0"/>
+	<item id="2152" countmax="24" chance1="80000" chancemax="0"/>
+	<item id="7440" countmax="2" chance1="50000" chancemax="0"/>
+	<item id="7366" countmax="29" chance1="60000" chancemax="0"/>
+	<item id="2150" countmax="20" chance1="70000" chancemax="0"/>
+	<item id="7439" countmax="2" chance1="80000" chancemax="0"/>
+	<item id="6529" countmax="49" chance1="60000" chancemax="0"/>
+	<item id="2547" countmax="82" chance1="60000" chancemax="0"/>
+	<item id="7840" countmax="99" chance1="60000" chancemax="0"/>
+	<item id="5954" countmax="2" chance1="40000" chancemax="0"/>
+	<item id="8473" chance="60000"/>
+	<item id="7591" chance="60000"/>
+	<item id="2515" chance="60000"/>
+	<item id="2381" chance="50000"/>
+	<item id="2427" chance="60000"/>
+	<item id="2153" chance="50000"/>
+	<item id="2155" chance="50000"/>
+	<item id="2170" chance="60000"/>
+	<item id="2127" chance="50000"/>
+	<item id="2165" chance="50000"/>
+	<item id="2214" chance="50000"/>
+	<item id="2432" chance="50000"/>
+	<item id="2156" chance="50000"/>
+	<item id="2154" chance="50000"/>
+	<item id="2158" chance="50000"/>
+	<item id="2520" chance="50000"/>
+	<item id="2528" chance="50000"/>
+	<item id="8891" chance="50000"/>
+	<item id="2452" chance="50000"/>
+	<item id="8889" chance="1000"/>
+	<item id="7431" chance="300"/>
+	<item id="8928" chance="1000"/>
+	<item id="8877" chance="200"/>
+</loot>
+</monster>

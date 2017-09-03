@@ -1,0 +1,24 @@
+<raid>
+  <!--Single Spawns-->
+  <singlespawn delay="1000" name="Orcshield" x="32392" y="31755" z="7" />
+  <!--Area Spawns-->
+  <areaspawn delay="1000" fromx="32325" fromy="31731" fromz="7" tox="32361" toy="31744" toz="7">
+    <monster name="Orc Shaman" amount="11" />
+    <monster name="Orc" amount="12" />
+	<monster name="Orc Warrior" amount="12" />
+    <monster name="Orc Rider" amount="18" />
+    <monster name="Orc Berserker" amount="8" />
+    <monster name="Orc Warlord" amount="2" />
+	<monster name="War Wolf" amount="12" />
+  </areaspawn>
+  
+  <areaspawn delay="1000" fromx="32430" fromy="31752" fromz="7" tox="32397" toy="31740" toz="7">
+    <monster name="Orc Shaman" amount="11" />
+    <monster name="Orc" amount="12" />
+	<monster name="Orc Warrior" amount="12" />
+    <monster name="Orc Rider" amount="18" />
+    <monster name="Orc Berserker" amount="8" />
+    <monster name="Orc Warlord" amount="2" />
+	<monster name="War Wolf" amount="12" />
+  </areaspawn>
+</raid>

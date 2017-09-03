@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Uzgod" script="data/npc/scripts/Uzgod.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="160" head="77" body="79" legs="56" feet="115" addons="0"/>
+<voices>
+<voice text="By the sons of fire! Best weapons in town!" interval2="100" margin="1" yell="no"/>
+</voices>
+<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="morning star,2394,430;club,2382,5;battle axe,2378,80;axe,2386,20;battle hammer,2417,350;mace,2398,90;dagger,2379,1;rapier,2384,3;sabre,2385,5;sword,2376,15;spear,2389,10;two handed sword,2377,950;" />
+		<parameter key="shop_sellable" value="battle axe,2378,75;halberd,2381,310;battle hammer,2417,50;mace,2398,23;morning star,2394,100;dagger,2379,2;rapier,2384,5;short sword,2406,10;sabre,2385,12;sword,2376,15;two handed sword,2377,190;spear,2389,3;double axe,2387,260;spear,2428,350;spear,2391,450;spear,2395,118;spear,2397,51;spear,2383,225;spear,2392,1000;" />
+        <parameter key="message_greet" value="Hiho |PLAYERNAME|! Wanna {weapon}, eh?"/>
+        <parameter key="message_farewell" value="Guut bye. Coming back soon, |PLAYERNAME|."/>
+		<parameter key="message_walkaway" value="Guut bye. Coming back soon, |PLAYERNAME|." />
+		<parameter key="message_sendtrade" value="Fine weapons, eh?" />
+</parameters>
+</npc>

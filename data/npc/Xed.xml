@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Xed" script="data/npc/scripts/Xed.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="129" head="78" body="36" legs="57" feet="97" addons="0"/>
+<voices>
+<voice text="Selling bows, crossbows and ammunition!" interval2="100" margin="1" yell="no"/>
+</voices>
+<parameters>
+<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="arrow,2544,3;bolt,2543,4;bow,2456,400;crossbow,2455,500;spear,2389,10;" />
+		<parameter key="shop_sellable" value="spear,2389,3;" />
+        <parameter key="message_greet" value="Greetings, |PLAYERNAME|. Welcome to the distance fighting booth of the Ironhouse where you can buy bows, crossbows and ammunition."/>
+        <parameter key="message_farewell" value="Goodbye |PLAYERNAME|, and may the gods be with you."/>
+		<parameter key="message_walkaway" value="Goodbye |PLAYERNAME|, and may the gods be with you." />
+		<parameter key="message_sendtrade" value="Of course, just browse through my wares." />
+</parameters>
+</npc>

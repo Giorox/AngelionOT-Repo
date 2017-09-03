@@ -1,0 +1,9 @@
+<raid>
+<announce delay="1000" type="event" message="There is something slimy going on in the Ankrahmun Mahrdis tombs." />
+<announce delay="300000" type="event" message="Slime attack in the Ankrahmun Mahrdis tombs!" />
+  <!--Area Spawns-->
+  <areaspawn delay="300000" fromx="33192" fromy="32806" fromz="13" tox="33304" toy="32878" toz="13">
+    <monster name="slime" amount="35" />
+  </areaspawn>
+
+</raid>

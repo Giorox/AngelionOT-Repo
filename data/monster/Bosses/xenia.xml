@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Xenia" nameDescription="Xenia" race="blood" experience="255" speed="220" manacost="450">
+	<health now="290" max="290"/>
+	<look type="139" head="113" body="57" legs="95" feet="113" corpse="6081"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="10"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="40" attack="28"/>
+		<attack name="drunk" interval="1000" chance="12" length="4" spread="2">
+			<attribute key="areaEffect" value="greennote"/>
+		</attack>
+	</attacks>
+	<defenses armor="20" defense="20"/>
+	<elements>
+		<element icePercent="10"/>
+		<element firePercent="10"/>
+		<element holyPercent="7"/>
+		<element deathPercent="-7"/>
+		<element physicalPercent="-6"/>
+	</elements>
+	<immunities>
+		<immunity lifedrain="0"/>
+		<immunity paralyze="0"/>
+		<immunity outfit="0"/>
+		<immunity drunk="0"/>
+		<immunity invisible="0"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Stand still!"/>
+		<voice sentence="One more head for me!"/>
+		<voice sentence="Head off!"/>
+	</voices>
+	<loot>
+		<item id="2148" countmax="42" chance1="40000" chancemax="0"/> --Gold
+		<item id="2420" chance="25000"/> --Sabre
+                                     <item id="2229" chance="25000"/> --skull
+		<item id="2463" chance="29000"/> --Plate Armor
+                                     <item id="2526" chance="20000"/> --studded shield
+	</loot>
+</monster>

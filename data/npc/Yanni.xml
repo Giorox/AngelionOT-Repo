@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Yanni" script="data/npc/scripts/Yanni.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="131" head="22" body="22" legs="22" feet="57" addons="0"/>
+<voices>
+<voice text="Armors, helmets, shields and legs. All sizes!" interval2="100" margin="1" yell="no"/>
+</voices>
+<parameters>
+<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="chain helmet,2458,58;chain armor,2464,200;brass armor,2465,450;chain legs,2648,80;wooden shield,2512,15;steel shield,2509,240;" />
+		<parameter key="shop_sellable" value="leather helmet,2461,2;chain helmet,2458,17;steel helmet,2457,190;leather armor,2467,12;chain armor,2464,70;brass armor,2465,150;;plate armor,2463,400;chain legs,2648,25;wooden shield,2512,5;steel shield,2509,80;battle shield,2513,95" />
+        <parameter key="message_greet" value="Salutations, |PLAYERNAME|. Welcome to the Ironhouse, {warehouse} of Abran Ironeye."/>
+        <parameter key="message_farewell" value="Thanks for doing business with us, traveller |PLAYERNAME|!"/>
+		<parameter key="message_walkaway" value="Thanks for doing business with us, traveller |PLAYERNAME|!" />
+		<parameter key="message_sendtrade" value="Of course, just browse through my wares." />
+</parameters>
+</npc>

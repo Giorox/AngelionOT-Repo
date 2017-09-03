@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Banor The Holy Warrior" nameDescription="Banor, the holy warrior" race="blood" experience="15000" speed="575" manacost="0">
+  <health now="70000" max="70000"/>
+  <look type="75" corpse="6080"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="5000" skill="150" attack="450"/>
+	<attack name="physical" interval="1000" chance="20" target="15" radius="4" min="-200" max="-350">
+      		<attribute key="areaEffect" value="blackspark"/>
+  		 	</attack>
+  </attacks>
+  <defenses armor="200" defense="500">
+    <defense name="healing" interval="1000" chance="5" min="670" max="1000">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+  <elements>
+  <element firePercent="-30"/>
+    <element physicalPercent="-30"/>
+	<element holyPercent="-50"/>
+	  <element deathPercent="15"/>
+	    <element earthPercent="-50"/>
+		  <element energyPercent="-25"/>
+		    <element icePercent="-10"/>
+			</elements>
+  <immunities>
+    <immunity paralyze="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <summons maxSummons="5">
+    <summon name="hero" interval="1000" chance="3"/>
+	<summon name="black knight" interval="1000" chance="3"/>
+  </summons>
+  <voices interval="5000" chance="10">
+    <voice sentence="Come fight Banor, the holy warrior!"/>
+    <voice sentence="Welcome to my battleground."/>
+    <voice sentence="Prove your might."/>
+    <voice sentence="You can't beat the first one"/>
+  </voices>
+  <loot>
+    <item id="2151" chance="2950" /><!-- talon -->
+    <item id="8929" chance="15125" /><!-- the stomper -->
+    <item id="2514" chance="20000" /><!-- mastermind shield -->
+    <item id="8852" chance="10000" /><!-- the devileye -->
+    <item id="2470" chance="7825" /><!-- golden legs -->
+    <item id="2462" chance="12700" /><!-- devil helmet -->
+    <item id="2432" chance="10250" /><!-- fire axe -->
+    <item id="2123" chance="7825" /><!-- ring of the sky -->
+    <item id="1988" chance="100000"><!-- bag -->
+        <inside>
+            <item id="2393" chance="7825" /><!-- giant sword -->
+            <item id="8853" chance="10000" /><!-- the ironworker -->
+            <item id="8850" chance="22450" /><!-- chain bolter -->
+            <item id="2171" chance="2950" /><!-- platinum amulet -->
+            <item id="2143" countmax="14" chance="7650" /><!-- white pearl -->
+            <item id="2520" chance="7825" /><!-- demon shield -->
+            <item id="8928" chance="15125" /><!-- obsidian truncheon -->
+            <item id="2174" chance="22450" /><!-- strange symbol -->
+            <item id="8881" chance="12700" /><!-- fireborn giant armor -->
+            <item id="2145" countmax="5" chance="13175" /><!-- small diamond -->
+            <item id="2167" chance="7825" /><!-- energy ring -->
+            <item id="2144" countmax="15" chance="7175" /><!-- black pearl -->
+            <item id="8886" chance="2950" /><!-- molten plate -->
+            <item id="7421" chance="10250" /><!-- onyx flail -->
+            <item id="2200" chance="2950" /><!-- protection amulet -->
+            <item id="7899" chance="5375" /><!-- magma coat -->
+            <item id="1986" chance="12700" /><!-- red tome -->
+            <item id="2387" chance="17575" /><!-- double axe -->
+            <item id="2149" countmax="10" chance="14150" /><!-- small emerald -->
+            <item id="2214" chance="20000" /><!-- ring of healing -->
+            <item id="2197" chance="2950" /><!-- stone skin amulet -->
+            <item id="2472" chance="12700" /><!-- magic plate armor -->
+            <item id="5943" chance="27325" /><!-- morgaroth's heart -->
+            <item id="2152" countmax="74" chance="57875" /><!-- platinum coin -->
+            <item id="2645" chance="2950" /><!-- steel boots -->
+            <item id="8867" chance="5375" /><!-- dragon robe -->
+        </inside>
+    </item>
+  </loot>
+      <script>
+  <event name="banor"/>
+  </script>
+</monster>

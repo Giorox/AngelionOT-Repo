@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Gamel" script="data/npc/scripts/Gamel.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="129" head="79" body="132" legs="115" feet="116" addons="0"/>
+<voices>
+<voice text="Pssst!" interval2="100" margin="1" yell="no"/>
+</voices>
+<parameters>
+<parameter key="module_shop" value="1" />
+<parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="buy;" />
+		<parameter key="shop_buyable" value="brass helmet,2460,120;dagger,2379,5;mace,2398,90;staff,2401,40;throwing knife,2410,25;"/>
+        <parameter key="keyword_reply1" value="I sell maces, staffs, daggers and brass helmets. Ask me for a {trade}."/>
+        <parameter key="message_greet" value="Pssst! Be silent. Do you wish to {buy} something?"/>
+        <parameter key="message_farewell" value="Bye. Tell others about... my little shop here."/>
+		<parameter key="message_walkaway" value="Bye. Tell others about... my little shop here." />
+</parameters>
+</npc>

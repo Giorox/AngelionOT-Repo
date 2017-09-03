@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Borkas" script="data/npc/scripts/Borkas.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="128" head="59" body="82" legs="58" feet="95" addons="0"/>
+<voices>
+<voice text="Welcome to the house of fashion, Iron Sparrow!" interval2="100" margin="1" yell="no"/>
+</voices>
+<parameters>
+        <parameter key="message_greet" value="Hey |PLAYERNAME|, what'cha want?"/>
+        <parameter key="message_farewell" value="Thanks and see ya."/>
+		<parameter key="message_walkaway" value="Thanks and see ya." />
+		<parameter key="message_sendtrade" value="Have a look. Most furniture comes in handy kits. Just use them in your house to assemble the furniture." />
+    </parameters>
+</npc>

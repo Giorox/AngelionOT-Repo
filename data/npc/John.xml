@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="John" script="data/npc/scripts/John.lua" walkinterval="0" floorchange="0">
+<health now="100" max="100"/>
+<look type="128" head="58" body="68" legs="12" feet="114" addons="0"/>
+</npc>

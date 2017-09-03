@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Lubo" script="data/npc/scripts/Lubo.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="128" head="38" body="39" legs="96" feet="118" addons="3"/>
+<voices>
+<voice text="Stop by and rest a while, tired adventurer! Have a look at my wares!" interval2="100" margin="1" yell="no"/>
+</voices>
+<parameters>
+<parameter key="module_shop" value="1" />
+<parameter key="shop_buyable" value="backpack,1988,25;crowbar,2416,260;fishing rod,2580,175;red apple,2674,3;rope,2120,60;torch,2050,3;waterskin of water,2031,10,1;worm,3976,1;" />
+        <parameter key="message_greet" value="Welcome to my adventurer shop, |PLAYERNAME|! What do you need? Ask me for a {trade} to look at my wares."/>
+        <parameter key="message_farewell" value="Good bye, |PLAYERNAME|."/>
+		<parameter key="message_walkaway" value="Good bye." />
+		<parameter key="message_sendtrade" value="Of course, just browse through my offers." />
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="job;dog;offer;name;" />
+        <parameter key="keyword_reply1" value="I am selling equipment for adventurers. If you need anything, let me know." />
+		 <parameter key="keyword_reply2" value="This is Ruffy my dog, please don't do him any harm." />
+		  <parameter key="keyword_reply3" value=" I sell torches, fishing rods, worms, ropes, water hoses, backpacks, apples, and maps." />
+		  <parameter key="keyword_reply4" value="I am Lubo, the owner of this shop." />
+    </parameters>
+</npc>

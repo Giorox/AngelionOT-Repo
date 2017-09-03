@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="thief" nameDescription="a thief" race="blood" experience="5" speed="180" manacost="0">
+  <health now="60" max="60"/>
+  <look type="134" head="114" body="97" legs="21" feet="3" corpse="6080"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="25"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="47" attack="60"/>
+  </attacks>
+  <defenses armor="11" defense="15"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="You dade stealing from us?"/>
+    <voice sentence="Intruder! Get him!"/>
+    <voice sentence="Alarm!"/>
+    <voice sentence="Don't let him escape!"/>
+  </voices>
+</monster>

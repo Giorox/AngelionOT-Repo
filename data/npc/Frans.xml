@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Frans" script="data/npc/scripts/Frans.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look typeex="2229" corpse="3128"/>
+<voices>
+<voice text="Aaaaah... ruuunes... waaaaaands... rooooods... spellboooooks..." interval2="100" margin="1" yell="no"/>
+</voices>
+ <parameters>
+        <parameter key="message_greet" value="Beeee Greeeeted |PLAYERNAME|. What is your neeeed?"/>
+        <parameter key="message_farewell" value="Bye."/>
+		<parameter key="message_walkaway" value="Bye." />
+		<parameter key="message_sendtrade" value="Heeeeeeeeeeeeeere. Or loooook only at {wands} or {runes}?" />
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="job;frans;name;runes;wands;offer;" />
+        <parameter key="keyword_reply1" value="I am selliiiing ruuuunes, wands, roooods and spellbooooooks." />
+		<parameter key="keyword_reply2" value="Floating ReeeeAnimated Necromantic Seeeervant ... FRANS." />
+		<parameter key="keyword_reply3" value="I am a FRANS." />
+		<parameter key="keyword_reply4" value="Heeeeeeeeere. Also loooooook at {wands}." />
+		<parameter key="keyword_reply5" value="Heeeeeeeeere. Also loooooook at {runes}." />
+		<parameter key="keyword_reply6" value="What do youuuu think I am? A lousy barberrrr? I'm selliiiing ruuuunes, waaaaaands, roooods and spellbooks if youuuuu neeeeed a {trader}." />
+    </parameters>
+
+</npc>

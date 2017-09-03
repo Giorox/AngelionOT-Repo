@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Nah'Bob" script="data/npc/scripts/default.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="80" head="0" body="0" legs="0" feet="0" addons="0"/>
+	<parameters>
+	<parameter key="message_greet" value="What do you want from me, |PLAYERNAME|?" />
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_buyable" value="Beholder shield,2518,7000;Noble armor,2486,8000;Spike sword,2383,8000;War hammer,2391,10000"/>
+		<parameter key="shop_sellable" value="Beholder shield,2518,1200;Crown shield,2519,8000;Dragon shield,2516,4000;Guardian shield,2515,2000;Phoenix shield,2539,16000;Blue robe,2656,10000;Crown armor,2487,12000;Noble armor,2486,900;Boots of haste,2195,30000;Broad sword,2413,500;Dragon lance,2414,9000;Fire axe,2432,8000;Fire sword,2392,4000;Ice rapier,2396,1000;Obsidian lance,2425,500;Spike sword,2383,1000;War hammer,2391,1200;Crown helmet,2491,2500;Crusader helmet,2497,6000;Royal helmet,2498,30000;Crown legs,2488,12000;Crown legs,7410,10000"/>
+	</parameters>
+</npc>

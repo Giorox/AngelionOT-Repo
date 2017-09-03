@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Terramite" nameDescription="a terramite" race="venom" experience="160" speed="220" manacost="0">
+<health now="365" max="365"/>
+<look type="346" corpse="8593"/>
+<targetchange interval="5000" chance="12"/>
+<strategy attack="100" defense="0"/>
+<flags>
+<flag summonable="505"/>
+<flag attackable="1"/>
+<flag hostile="1"/>
+<flag illusionable="1"/>
+<flag convinceable="505"/>
+<flag pushable="1"/>
+<flag canpushitems="1"/>
+<flag canpushcreatures="0"/>
+<flag targetdistance="1"/>
+<flag staticattack="90"/>
+<flag runonhealth="0"/>
+</flags>
+<attacks>
+<attack name="melee" interval="2000" min="-0" max="-50"/>
+<attack name="poison" interval="1000" chance="12" range="1" radius="1" target="1" min="-5" max="-15">
+<attribute key="areaEffect" value="poison"/>
+</attack>
+</attacks>
+<defenses armor="16" defense="19"/>
+<elements>
+<element physicalPercent="-5"/>
+<element firePercent="10"/>
+<element energyPercent="5"/>
+<element earthPercent="-20"/>
+</elements>
+<immunities>
+<immunity invisible="1"/>
+</immunities>
+<voices interval="5000" chance="10">
+<voice sentence="Zrp zrp!"/>
+</voices>
+<loot>
+<item id="2148" countmax="20" chance="10000"/>
+<item id="11364" chance="900"/>
+<item id="11363" chance="900"/>
+<item id="11362" chance="900"/>
+</loot>
+</monster>

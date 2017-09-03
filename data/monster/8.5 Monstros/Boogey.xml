@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Boogey" nameDescription="a boogey" race="undead" experience="475" speed="370" manacost="0">
+  <health now="930" max="930"/>
+  <look type="300" corpse="8955"/>
+  <targetchange interval="5000" chance="10"/>
+  <strategy attack="80" defense="20"/>
+  
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="85"/>
+		<flag runonhealth="0"/>
+	</flags>
+  
+  <attacks>
+  	<attack name="melee" interval="2000" skill="135" attack="135"/>
+	<attack name="death" interval="2000" chance="15" range="7" target="1" min="0" max="-60">
+		<attribute key="shootEffect" value="suddendeath"/>
+      	<attribute key="areaEffect" value="mortarea"/>
+    </attack>
+	<attack name="lifedrain" interval="2000" chance="15" length="7" spread="0" min="0" max="-600">
+		<attribute key="areaEffect" value="redspark"/>
+	</attack>
+	<attack name="physical" interval="2000" chance="14" radius="4" target="0" min="0" max="-395">
+      	<attribute key="areaEffect" value="redspark"/>
+   	</attack>
+	<attack name="physical" interval="3000" chance="19" length="7" spread="3" min="0" max="-300">
+		<attribute key="areaEffect" value="explosionarea"/>
+	</attack>
+  </attacks>
+  
+  <defenses armor="30" defense="30">
+    <defense name="healing" interval="1000" chance="25" min="100" max="195">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+  
+	<elements>
+		<element energyPercent="-10"/>
+		<element earthPercent="20"/>
+		<element icePercent="10"/>
+		<element holyPercent="-20"/>
+		<element deathPercent="60"/>
+		<element firePercent="-20"/>
+	</elements>
+	
+  <immunities>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  
+  <voices interval="5000" chance="10">
+    <voice sentence="Death!" yell="1"/>
+    <voice sentence="Come a little closer!" yell="1"/>
+    <voice sentence="The end is near!" yell="1"/>
+  </voices>
+  
+	<loot>
+		<item id="5616" chance="10000"/>
+		<item id="2570" chance="4000"/>
+		<item id="2372" chance="6000"/>
+	</loot>
+</monster>

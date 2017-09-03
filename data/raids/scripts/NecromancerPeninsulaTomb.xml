@@ -1,0 +1,11 @@
+<raid>
+<announce delay="1000" type="event" message="Necromancer attack in the Ankrahmun Omruc tombs." />
+<announce delay="30000" type="event" message="?" />
+  <!--Area Spawns-->
+  
+  <!--1st Hunting Floor-->
+  <areaspawn delay="30000" fromx="33050" fromy="32829" fromz="13" tox="33162" toy="32970" toz="13">
+    <monster name="necromancer" amount="50" />
+  </areaspawn>
+
+</raid>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Ustan" script="data/npc/scripts/Ustan.lua" walkinterval="0" floorchange="0">
+<health now="100" max="100"/>
+<look type="144" head="0" body="24" legs="13" feet="76" addons="1"/>
+<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_sellable" value="minotaur leather,5896,100;minotaur leather,5897,70;minotaur leather,2129,100;" />
+        <parameter key="message_greet" value="Welcome to my house, |PLAYERNAME|!"/>
+        <parameter key="message_farewell" value="Good bye, |PLAYERNAME|."/>
+		<parameter key="message_walkaway" value="Good bye, |PLAYERNAME|." />
+		<parameter key="message_sendtrade" value="I'm currently interested in these materials." />
+    </parameters>
+</npc>

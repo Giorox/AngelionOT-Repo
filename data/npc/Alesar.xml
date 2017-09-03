@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Alesar" script="data/npc/scripts/default.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="80" head="0" body="0" legs="0" feet="0" addons="0"/>
+	<parameters>
+		<parameter key="message_greet" value="What do you want from me, |PLAYERNAME|?" />
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_buyable" value="Ice rapier,2396,5000;Serpent sword,2409,6000;Dark armor,2489,1500;Dark helmet,2490,1000;Ancient shield,2532,5000"/>
+		<parameter key="shop_sellable" value="Dragon hammer,2434,2000;Giant sword,2393,17000;Knight axe,2430,2000;Poison dagger,2411,50;Scimitar,2419,150;Serpent sword,2409,900;Skull staff,2436,6000;Dark armor,2489,400;Knight armor,2476,5000;Dark helmet,2490,250;Mystic turban,2663,150;Strange helmet,2479,500;Warrior helmet,2475,5000;Knight legs,2477,5000;Ancient shield,2532,900;Black shield,2529,800;Tower shield,2528,8000;Vampire shield,2534,15000;Ornamented Axe,7411,20000;dreaded clever,7419,15000;dreaded clever,7428,10000;onyx,7421,22000;haunted,7407,8000;haunted,7413,4000"/>
+	</parameters>
+</npc>

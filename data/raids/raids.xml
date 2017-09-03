@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raids>
+<!-- Ab'dendriel -->
+<raid name="Wolf Ab" file="scripts/WolfsRaid.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="BearWasp Ab" file="scripts/WaspBearRaid.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="Badger Ab" file="scripts/BadgerRaid.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="Dragon Draconia" file="scripts/Dragon Draconia.xml" interval2="30" margin="1000" enabled="yes"/>
+
+<!-- Ankrahmun -->
+<raid name="Nomads" file="scripts/nomads.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="Scarabs" file="scripts/Scarabs.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="Skeles Ank" file="scripts/SkeletonRaidAnk.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="AncientScarabCave" file="scripts/AncientScarabCaveRaid.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="Djinnvasion" file="scripts/DjinnFortress.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="GargoyleOasis" file="scripts/GargoyleOasisTomb.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="SlimeShadow" file="scripts/SlimeShadowTomb.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="VampireShadow" file="scripts/VampireShadowTomb.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="BonebeastMountain" file="scripts/BonebeastMountainTomb.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="CobraMountain" file="scripts/CobraMountainTomb.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="NecromancerPeninsula" file="scripts/NecromancerPeninsulaTomb.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="VampireTarpit" file="scripts/VampireTarpitTomb.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="DragonLairAnk" file="scripts/DragonLairAnk.xml" interval2="30" margin="1000" enabled="yes"/>
+
+<!-- Carlin -->
+<raid name="LesserUndeadGhostland" file="scripts/LesserUndeadGhostland.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="UndeadGhostland" file="scripts/UndeadGhostland.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="OrcCalin" file="scripts/OrcsCarlin.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="OrcsWoodsNorthport" file="scripts/OrcsWoodsNorthport.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="OrcsFemorHills" file="scripts/OrcsFemorHills.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="WildHunterFemor" file="scripts/WildHunterFemor.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="AmazonCampCarlin" file="scripts/AmazonCampCarlin.xml" interval2="30" margin="1000" enabled="yes"/>
+
+<!-- Darashia -->
+<raid name="WaspDarashia" file="scripts/WaspDarashia.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="PirateDarashia" file="scripts/PirateDarashia.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="Undead Raid Darashia" file="scripts/undead darashia.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="Undead Horde Darashia" file="scripts/UndeadHordeDarashia.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="MinotaurDarashia" file="scripts/MinotaurDarashia.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="NecroLichDeeperCatacombs.xml" file="scripts/NecroLichDeeperCatacombs.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="MutatedPumpkin" file="scripts/MutatedPumpkin.xml" interval2="30" margin="1000" enabled="yes"/>
+
+<!-- Edron -->
+<raid name="BadgerEdron" file="scripts/BadgerEdron.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="BadgerStonehome" file="scripts/BadgerStonehome.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="GoblinEdron" file="scripts/GoblinEdron.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="HunterRaidEdron" file="scripts/HunterRaidEdron.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="WyvernEdron" file="scripts/WyvernEdron.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="DwarfCormaya" file="scripts/DwarfCormaya.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="GhoulStonehome" file="scripts/GhoulStonehome.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="OrcBerserkerEdron" file="scripts/OrcBerserkerEdron.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="MonkWarlockEdron" file="scripts/MonkWarlockEdron.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="Orshabaal" file="scripts/Orshabaal.xml" interval2="30" margin="1000" enabled="yes"/> 
+
+<!-- Kazordoon -->
+<raid name="BatKazz" file="scripts/BatKazz.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="SpiderKazz" file="scripts/SpiderKazz.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="GoblinKazz" file="scripts/GoblinKazz.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="MinotaurKazz" file="scripts/MinotaurKazz.xml" interval2="30" margin="1000" enabled="yes"/>
+
+<!-- Wildlands -->
+<raid name="HunterFerngrims" file="scripts/HunterFerngrimsGate.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="WitchGreenClawSwamp" file="scripts/WitchesGreenClawSwamp.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="Old Widow" file="scripts/The Old Widow.xml" interval2="30" margin="1000" enabled="yes"/>
+
+<raid name="Zulazza the Corruptor" file="scripts/Zulazza the Corruptor.xml" interval2="30" margin="1000" enabled="yes"/> 
+<raid name="Morgaroth" file="scripts/Morgaroth.xml" interval2="30" margin="1000" enabled="yes"/>  
+<raid name="RatsThais" file="scripts/Rats.xml" interval2="30" margin="1000" enabled="yes"/> 
+<raid name="OrcsThais" file="scripts/OrcsThais.xml" interval2="30" margin="1000" enabled="yes"/> 
+<raid name="Barbarian" file="scripts/Barbarian.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="Elfs" file="scripts/Elfs.xml" interval2="30" margin="1000" enabled="yes"/> 
+<raid name="Ferumbras" file="scripts/Ferumbras.xml" interval2="30" margin="1000" enabled="yes"/> 
+<raid name="Ghazbaran" file="scripts/Ghazbaran.xml" interval2="30" margin="1000" enabled="yes"/> 
+<raid name="Halloween Hare" file="scripts/halloween.xml" interval2="30" margin="1000" enabled="yes"/> 
+<raid name="Pirates" file="scripts/Pirates.xml" interval2="30" margin="1000" enabled="yes"/> 
+<raid name="Quaras" file="scripts/quaras.xml" interval2="30" margin="1000" enabled="yes"/>  
+<raid name="Orc Thais" file="scripts/OrcsThais.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="Undead Army" file="scripts/undead army.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="Thais Demon" file="scripts/LesserDemons.xml" interval2="30" margin="1000" enabled="yes"/>
+</raids>

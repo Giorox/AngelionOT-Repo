@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Diseased Fred" nameDescription="a Diseased Fred" race="venom" experience="300" speed="300" manacost="0">
+    <health now="2000" max="2000"/>
+    <look type="299" corpse="8951"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag staticattack="83"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="150"/>
+    </flags>
+<attacks>
+      <attack name="melee" interval="2000" skill="60" attack="65" poison="40"/>
+      <attack name="lifedrain" interval="2000" chance="17" min="-250" max="-280" target="1">
+             <attribute key="areaEffect" value="redshimmer"/>
+	</attack>
+      <attack name="earth" interval="1000" chance="12" radius="3" target="0" min="-220" max="-270">
+             <attribute key="areaEffect" value="stones"/>
+	</attack>
+      <attack name="speed" interval="3000" chance="20" target="1" duration="4000" speedchange="-600">
+             <attribute key="areaEffect" value="redshimmer"/>
+	</attack>
+</attacks>
+<defenses armor="10" defense="15">
+    <defense name="haste" interval="10000" chance="40">
+             <attribute key="areaEffect" value="greenshimmer"/>
+	</defense>
+    <defense name="healing" interval="5000" chance="60" min="50" max="80">
+             <attribute key="areaEffect" value="blueshimmer"/>
+	</defense>
+</defenses>
+	<elements>
+	    <element holyPercent="-15"/>
+		<element deathPercent="-1"/>
+		<element firePercent="-15"/>
+		<element energyPercent="-20"/>
+		<element icePercent="-15"/>
+	</elements>
+    <immunities>
+      <immunity earth="1"/>
+      <immunity invisible="1"/>
+    </immunities>
+    <voices interval="2000" chance="5">
+      <voice sentence="You will suffer tha same fate as I do!"/>
+      <voice sentence="The pain! The pain!"/>
+      <voice sentence="Stay away! I am contagious!"/>
+      <voice sentence="The plague will get you!"/>
+    </voices>
+  <loot>
+    <item id="2148" countmax="17" chance1="100000" chancemax="0"/>
+  </loot>
+  </monster>

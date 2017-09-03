@@ -1,0 +1,8 @@
+<raid>
+
+  <!--Area Spawns-->
+  <areaspawn delay="1000" fromx="33156" fromy="31804" fromz="7" tox="33163" toy="31831" toz="7">
+    <monster name="badger" amount="30" />
+  </areaspawn>
+
+</raid>

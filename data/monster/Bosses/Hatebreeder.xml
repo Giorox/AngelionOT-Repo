@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Hatebreeder" nameDescription="a ghastly dragon" race="undead" experience="11000" speed="410" manacost="0">
+<health now="18000" max="18000"/>
+<look type="351" corpse="11356"/>
+<targetchange interval="5000" chance="8"/>
+<strategy attack="100" defense="0"/>
+<flags>
+	<flag summonable="0"/>
+	<flag attackable="1"/>
+	<flag hostile="1"/>
+	<flag illusionable="1"/>
+	<flag convinceable="0"/>
+	<flag pushable="0"/>
+	<flag canpushitems="1"/>
+	<flag canpushcreatures="1"/>
+	<flag targetdistance="1"/>
+	<flag staticattack="90"/>
+	<flag runonhealth="366"/>
+	</flags>
+		<attacks>
+			<attack name="melee" interval="2000" skill="99" attack="100" poison="1200"/>
+			<attack name="lifedrain" interval="2000" chance="15" range="7" target="1" min="-200" max="-300">
+			<attribute key="areaEffect" value="redshimmer"/>
+			</attack>	
+			<attack name="physical" interval="2000" chance="9" range="7" target="1" min="-2" max="-1377">
+				<attribute key="shootEffect" value="suddendeath"/>
+				<attribute key="areaEffect" value="mortarea"/>
+			</attack>
+		<attack name="physical" interval="2000" chance="11" radius="4" min="-0" max="-180">
+		<attribute key="shootEffect" value="suddendeath"/>
+		<attribute key="areaEffect" value="mortarea"/>
+		</attack>
+		<defense name="speed" interval="2000" chance="10" speedchange="550" duration="5000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+		<defense name="healing" interval="2000" chance="40" min="600" max="2500">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+		</attacks>
+		<defenses armor="45" defense="35"/>
+		<elements>
+		<element firePercent="50"/>
+		<element icePercent="50"/>
+		<element physicalPercent="-10"/>
+		<element holyPercent="-15"/>
+		<element energyPercent="-10"/>
+		</elements>
+		<immunities>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+		<immunity death="1"/>
+		<immunity earth="1"/>
+		</immunities>
+		<voices interval="5000" chance="10">
+		<voice sentence="YOU ARE DESECREATING OUR PALACE!" yell="1"/>
+		<voice sentence="SCRAM, YOU FOOLS!" yell="1"/>
+		<voice sentence="YOU ARE NOT WELCOME HERE!" yell="1"/>
+		</voices>
+		<loot>
+    <item id="11360" chance="6850" /><!-- ghastly dragon head -->
+    <item id="8473" countmax="5" chance="5125" /><!-- ultimate health potion -->
+    <item id="11362" chance="1150" /><!-- jade hat -->
+    <item id="11317" chance="8200" /><!-- zaoan halberd -->
+    <item id="8472" countmax="5" chance="3375" /><!-- great spirit potion -->
+    <item id="2152" countmax="2" chance="23550" /><!-- platinum coin -->
+    <item id="11361" chance="21300" /><!-- undead heart -->
+    <item id="2148" countmax="100" chance="43675" /><!-- gold coin -->
+    <item id="2148" countmax="59" chance="43675" /><!-- gold coin -->
+    <item id="6500" chance="9475" /><!-- demonic essence -->
+    <item id="1987" chance="100000"><!-- bag -->
+        <inside>
+            <item id="11298" chance="1675" /><!-- zaoan legs -->
+			<item id="12591" chance="1675" /><!-- cobra crown -->
+            <item id="11303" chance="6175" /><!-- twin hooks -->
+            <item id="11299" chance="1150" /><!-- drakinata -->
+            <item id="11349" chance="1175" /><!-- spellweaver's robe -->
+            <item id="11234" chance="650" /><!-- guardian boots -->
+			<item id="12607" chance="650" /><!-- draken boots -->
+			<item id="12609" chance="650" /><!-- snake god's sceptre -->
+            <item id="11301" chance="575" /><!-- zaoan sword -->
+            <item id="11297" chance="1500" /><!-- zaoan shoes -->
+            <item id="11296" chance="650" /><!-- zaoan helmet -->
+        </inside>
+    </item>
+</loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</monster>

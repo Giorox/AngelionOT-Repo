@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Loot Buyer 2" script="data/npc/scripts/default.lua" walkinterval="2000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="131" head="57" body="112" legs="48" feet="95" addons="0"/>
+    <parameters>
+        <parameter key="message_greet" value="Welcome to my shop, adventurer |PLAYERNAME|! I {trade} with weapons and armor."/>
+        <parameter key="message_farewell" value="Good bye and come again, |PLAYERNAME|."/>
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="job;" />
+        <parameter key="keyword_reply1" value="I am the blacksmith. If you need weapons or armor - just ask me." />
+
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="" />
+        <parameter key="shop_sellable" value="war axe,2454,12000;Crusader Helmet,2497,20000;knight axe,2430,4000;royal helmet,2498,30000;Dragon Scale Mail,2492,40000;rapier,2384,5;short sword,2406,10;sabre,2385,12;bone sword,2450,20;sword,2376,25;carlin sword,2395,118;heavy machete,2442,80;poison dagger,2411,50;katana,2412,35;longsword,2397,51;serpent sword,2409,1500;scimitar,2419,150;templar scytheblade,3963,400;fire sword,2392,8000;spike sword,2383,2000;broadsword,2413,500;crimson sword,7385,3000;two handed sword,2377,450;twin hooks,11303,3000;wyvern fang,7408,3000;crystal sword,7449,3000;bright sword,2407,12000;Epee,2438,8000;Djinn blade,2451,500000;haunted blade,7407,20000;assassin dagger,7404,40000;pharaoh sword,2446,10000000;ice rapier,2396,5000;blacksteel sword,7406,8000;relic sword,7383,40000;bloody edge,7416,60000;mercenary sword,7386,40000;zaoan sword,11301,50000;dragon slayer,7402,25000;mystic blade,7746,45000;runed sword,7417,500000;sais,11300,20000;thaian sword,7391,100000;giant sword,2393,20000;nightmare blade,7418,60000;demonrage sword,7382,150000;twiceslicer,12574,25000;the justice seeker,7390,100000;berserker,7403,80000;blade of corruption,12610,300000;magic sword,2400,250000;havoc blade,7405,3000000;emerald sword,8930,900000;the avenger,6528,50000;the calamity,8932,300000000;warlord sword,2408,300000000;magic longsword,2390,500000000;bone club,2449,5;mace,2398,30;daramian mace,2439,110;battle hammer,2417,120;banana staff,3966,1000;morning star,2394,100;clerical mace,2423,170;mammoth whopper,7381,300;taurus mace,7425,500;furry club,7432,2000;dragon hammer,2434,4000;diamond sceptre,7387,3000;dragonbone staff,7430,5000;brutetamer's staff,7379,2000;skull staff,2436,8000;sapphire hammer,7437,18000;crystal mace,7755,500000;shadow sceptre,7451,15000;lich staff,3961,15000000;lunar staff,7424,30000;silver mace,2424,20000000;spiked squelcher,7452,6000;orcish maul,7757,8000;amber staff,7426,15000;queen's sceptre,7410,80000;Drachaku,11302,20000000;chaos mace,7427,12000;cranial basher,7756,80000;onyx flail,7421,50000;war hammer,2391,1200;bonebreaker,7428,15000;jade hammer,7422,50000;blessed sceptre,7429,150000;abyss hammer,7414,150000;demonbone,7431,1500000;hammer of wrath,2444,100000;heavy mace,2452,200000;thunder hammer,2421,10000000;arcane staff,2453,80000;obsidian truncheon,8928,500000;dark trinity mace,8927,40000000;skullcrusher,7423,8000000;the stomper,8929,4000000;plate shield,2510,45;" />
+    </parameters>
+</npc>

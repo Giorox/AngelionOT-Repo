@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Chuckles" script="data/npc/scripts/Chuckles.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="99" head="0" body="0" legs="0" feet="1" addons="0"/>
+<voices>
+<voice text="My old bones feel a storm approaching. chuckles" interval2="90" margin="1" yell="no"/>
+<voice text="chuckles!" interval2="90" margin="1" yell="no"/>
+</voices>
+<parameters>
+ <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="magic;" />
+        <parameter key="keyword_reply1" value="Magic is nothing but a tool that comes in different shapes. chuckles" />
+        <parameter key="message_greet" value="Come in if you are not here to burn me. chuckles"/>
+        <parameter key="message_farewell" value="Feel free to return - alive or as an ingredient. chuckles"/>
+		<parameter key="message_walkaway" value="Feel free to return - alive or as an ingredient. chuckles" />
+		<parameter key="message_sendtrade" value="Of course, just browse through my wares. Or do you want to look only at {potions}, {wands} or {runes}?" />
+</parameters>
+</npc>

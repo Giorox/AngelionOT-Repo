@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Crunor The Lord of the Trees" nameDescription="Crunor The Lord of the Trees" race="blood" experience="10000" speed="500" manacost="0">
+  <health now="50000" max="50000"/>
+  <look type="144" head="20" body="30" legs="95" feet="50" addons="3" corpse="6080"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="4"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+<attack name="earth" interval="2000" chance="25" length="8" spread="3" min="-700" max="-950">
+			<attribute key="areaEffect" value="smallplants"/>
+		</attack>
+				<attack name="ice" interval="2000" chance="25" length="8" spread="3" min="-900" max="-1500">
+			<attribute key="areaEffect" value="bluebubble"/>
+		</attack>
+		<attack name="earth" interval="2000" chance="25" range="15" min="-550" max="-700">
+		<attribute key="shootEffect" value="earth"/>
+			</attack>
+	<attack name="physical" interval="1000" chance="40" target="15" radius="4" min="400" max="-740">
+      		<attribute key="areaEffect" value="poff"/>
+  		 	</attack>
+	<attack name="earth" interval="2000" chance="30" target="15" radius="4" min="-450" max="-650">
+      		<attribute key="areaEffect" value="smallplants"/>
+  		 	</attack>
+	<attack name="speed" interval="2000" chance="20" range="7" target="1" speedchange="-850" duration="30000">
+			<attribute key="shootEffect" value="poison"/>
+			<attribute key="areaEffect" value="greenspark"/>
+		</attack>
+		<attack name="earth" interval="2000" chance="20" radius="3" target="0" min="-550" max="-850">
+			<attribute key="areaEffect" value="plantattack"/>
+		</attack>
+  </attacks>
+  <defenses armor="100" defense="300">
+    <defense name="healing" interval="2100" chance="50" min="200" max="500">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+  <elements>
+  <element firePercent="-30"/>
+    <element physicalPercent="-15"/>
+	<element holyPercent="50"/>
+	  <element deathPercent="30"/>
+	    <element earthPercent="100"/>
+		  <element energyPercent="-25"/>
+		    <element icePercent="30"/>
+			</elements>
+  <immunities>
+    <immunity paralyze="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <summons maxSummons="5">
+    <summon name="tiquandas revenge" interval="1000" chance="3" max="2"/>
+	<summon name="giant spider" interval="1000" chance="5" max="3"/>
+	<summon name="the old widow" interval="7000" chance="5" max="1"/>
+  </summons>
+  <voices interval="5000" chance="10">
+    <voice sentence="I harness the power of these woods"/>
+    <voice sentence="Feel the wrath of Mother Earth"/>
+    <voice sentence="Bears are pretty powerful, you know?"/>
+    <voice sentence="Being in synch with nature is the path to power"/>
+  </voices>
+  <loot>
+    <item id="2152" countmax="3" chance="44950" /><!-- platinum coin -->
+    <item id="8305" chance="100500" /><!-- mother soil -->
+    <item id="2148" countmax="74" chance="35700" /><!-- gold coin -->
+	<item id="2536" chance="72250" /><!-- medusa shield -->
+    <item id="2475" chance="42350" /><!-- warrior helmet -->
+    <item id="1987" chance="100000"><!-- bag -->
+        <inside>
+            <item id="7884" chance="44250" /><!-- terra mantle -->
+			<item id="8880" chance="20050" /><!-- swamplair armor -->
+			<item id="8882" chance="14500" /><!-- earthborn titan armor -->
+			<item id="8884" chance="14500" /><!-- oceanborn leviathan armor -->
+			<item id="2197" chance="14450" /><!-- stone skin amulet -->
+            <item id="2498" chance="14445" /><!-- royal helmet -->
+            <item id="2195" chance="14440" /><!-- boots of haste -->
+        </inside>
+    </item>
+  </loot>
+    <script>
+  <event name="crunor"/>
+  </script>
+</monster>

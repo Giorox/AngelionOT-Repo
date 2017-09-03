@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Irmana" script="data/npc/scripts/Irmana.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="140" head="78" body="90" legs="13" feet="15" addons="3"/>
+<voices>
+<voice text="Welcome to the house of fashion, Iron Sparrow!" interval2="100" margin="1" yell="no"/>
+</voices>
+<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="fashion;fabricate;" />
+        <parameter key="keyword_reply1" value="If you'd like to take a look at what I buy from you, ask me for a {trade}. I can also {fabricate} cloth." />
+		<parameter key="keyword_reply2" value="I can fabricate green cloth from green tunics, red cloth from red robes and blue cloth from mystic turbans." />
+		<parameter key="shop_sellable" value="minotaur leather,5878,80;green dragon leather,5877,100;lizard leather,5876,150;red dragon leather,5948,200;blue piece of cloth,5912,200;brown piece of cloth,5913,100;green piece of cloth,5910,200;red piece of cloth,5911,300;white piece of cloth,5909,100;yellow piece of cloth,5914,150;spider silk yarn,5886,1000;velvet tapestry,9837,800;royal tapestry,9958,1000;i,11190,15;i,5883,120;i,11210,15;i,10574,160;i,10607,60;i,11203,35;i,11204,50;i,11218,150;i,11229,30;i,11228,380;i,11206,20;i,11230,15;i,10600,120;i,10606,90;i,11318,25;i,11185,50;i,10610,400;i,9958,1000;i,10605,30" />
+        <parameter key="message_greet" value="Welcome to the house of {fashion}, |PLAYERNAME|!"/>
+        <parameter key="message_farewell" value="Good bye, |PLAYERNAME|."/>
+		<parameter key="message_walkaway" value="Good bye, |PLAYERNAME|." />
+		<parameter key="message_sendtrade" value="I'm currently interested in these materials." />
+    </parameters>
+</npc>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Baltim" script="data/npc/scripts/Baltim.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="129" head="114" body="97" legs="39" feet="20" addons="1"/>
+<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_sellable" value="i,2380,4;i,2386,7;i,2378,80;i,2381,400;i,2398,30;i,2417,120;i,2394,90;i,2379,2;i,2384,5;i,2406,10;i,2385,12;i,2376,25;i,2377,450;i,2389,3;i,2461,4;i,2458,17;i,2457,190;i,2467,12;i,2464,70;i,2465,150;i,2463,400;i,2648,25;i,2512,5;i,2509,80;i,2513,95;i,10574,135;i,11232,100;i,10566,30;i,11218,120;" />
+        <parameter key="message_greet" value="Welcome to my hut |PLAYERNAME|!"/>
+        <parameter key="message_farewell" value="Good bye, |PLAYERNAME|."/>
+		<parameter key="message_walkaway" value="Good bye, |PLAYERNAME|." />
+		<parameter key="message_sendtrade" value="Sure." />
+    </parameters>
+</npc>

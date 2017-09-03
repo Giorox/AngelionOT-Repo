@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Demon Parrot" nameDescription="a demon parrot" race="blood" experience="225" speed="240" manacost="250">
+  <health now="360" max="360"/>
+  <look type="217" head="20" body="30" legs="40" feet="50" corpse="6056"/>
+  <targetchange interval="5000" chance="20"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="0"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="25"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" min="0" max="75"/>
+  </attacks>
+  <defenses armor="2" defense="6"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="ISHH THAT THE BESHHT YOU HAVE TO OFFERRR, TIBIANSHH?"/>    
+    <voice sentence="YOU ARRRRRE DOOMED!"/>
+  </voices>
+  <loot>
+    <item id="2148" countmax="69" chance1="50000" chancemax="0"/>   
+  </loot>
+</monster>

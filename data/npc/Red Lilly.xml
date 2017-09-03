@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Red Lilly" script="data/npc/scripts/Red Lilly.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="136" head="77" body="21" legs="27" feet="30" addons="0"/>
+<voices>
+<voice text="Come visit my little pawnshop! General equipment and such. Don't miss it!" interval2="120" margin="1" yell="no"/>
+</voices>
+<parameters>
+<parameter key="module_shop" value="1" />
+<parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="equipment;" />
+        <parameter key="keyword_reply1" value="I have shovels, picks, scythes, bags, ropes, backpacks, plates, scrolls, watches, some lightsources, and other stuff. Just ask me for a {trade}." />
+		<parameter key="shop_buyable" value="beach backpack,5949,20;beach bag,5950,4;fishing rod,2580,150;rope,2120,50;scythe,2550,50;shovel,2554,50;pick,2553,50;worm,3976,1;document,1952,12;parchment,1948,8;sroll,1949,5;candelabrum,2041,8;torch,2050,2;bottle,2007,3,1;bucket,2005,4,1;cup,2013,2,1;plate,2035,6;present box,1990,10;watch,2036,20;waterskin of water,2031,20,1;crowbar,10223,1000;rust remover,9930,100" />
+		<parameter key="shop_sellable" value="rope,2120,8;" />
+        <parameter key="message_greet" value="Hello sweetie. If you need general {equipment}, stuff like that, let me know."/>
+        <parameter key="message_farewell" value="Good bye sweetie."/>
+		<parameter key="message_walkaway" value="Good bye sweetie." />
+		<parameter key="message_sendtrade" value="Of course, just browse through my wares. Remember that if you buy vials of oil, there's a deposit of 5 gold on the empty one." />
+</parameters>
+</npc>

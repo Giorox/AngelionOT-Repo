@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Eremo" script="data/npc/scripts/Eremo.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="130" head="0" body="109" legs="128" feet="95" addons="0"/>
+<voices>
+<voice text="Passages to Kazordoon! Gotta try the beer there." interval2="120" margin="1" yell="no"/>
+</voices>
+<parameters>
+<parameter key="module_shop" value="1" />
+<parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="amulet of loss;help;offer;" />
+		<parameter key="shop_buyable" value="amulet of loss,2173,50000;protection amulet,2200,700;"/>
+		<parameter key="shop_sellable" value="amulet of loss,2173,45000;broken amulet amulet,2196,50000;"/>
+        <parameter key="keyword_reply1" value="I've collected quite a few protection amulets, and some amulets of loss as well. Also, I'm interested in buying broken amulets."/>
+		<parameter key="keyword_reply2" value="I can bless you with The {Wisdom} {of} {Solitude}" />
+		<parameter key="keyword_reply3" value="I can bless you with The {Wisdom} {of} {Solitude}" />
+        <parameter key="message_greet" value="Welcome to my little garden, adventurer |PLAYERNAME|!"/>
+        <parameter key="message_farewell" value="Shouldn't I teleport you back to Pemaret?"/>
+		<parameter key="message_walkaway" value="Shouldn't I teleport you back to Pemaret?" />
+</parameters>
+</npc>

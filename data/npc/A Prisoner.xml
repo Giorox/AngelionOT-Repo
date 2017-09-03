@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="A Prisoner" script="data/npc/scripts/A Prisoner.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="130" head="81" body="40" legs="55" feet="94" addons="0"/>
+</npc>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Captain Fearless" script="data/npc/scripts/Captain Fearless.lua" walkinterval="2000" floorchange="0">
+    <health now="100" max="100"/>
+<look type="129" head="19" body="113" legs="95" feet="115" addons="0"/>
+    <parameters>
+        <parameter key="message_greet" value="Welcome on board, |PLAYERNAME|. Do you want to {travel}?"/>
+        <parameter key="message_farewell" value="Good bye. Recommend us if you were satisfied with our service."/>
+ 
+        <parameter key="module_travel" value="1"/>
+        <parameter key="travel_destinations" value="ab'dendriel,32734,31668,6,0;ankrahmun,33092,32883,6,0;carlin,32387,31820,6,0;edron,33173,31764,6,0;kick,32954,32034,6,0;thais,32310,32210,6,0;liberty bay,32285,32891,6,0;port hope,32529,32784,6,0;svargrond,32431,31162,6,0;yalahar,614,679,5,0;"/>
+        <parameter key="keywords" value="captain;travel;" />
+        <parameter key="keyword_reply1" value="I\'m the captain of this ship." />
+        <parameter key="keyword_reply2" value="I can take you to Ab\'dendriel, Ankrahmun, Carlin, Darashia, Edron, Thais, Liberty Bay, Port Hope, Svargrond and Yalahar." />
+    </parameters>
+</npc>

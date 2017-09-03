@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Odemara" script="data/npc/scripts/Odemara.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="138" head="22" body="99" legs="5" feet="76" addons="0"/>
+<voices>
+<voice text="This is a good day for buying gems! Come and see how they sparkle!" interval2="100" margin="1" yell="no"/>
+</voices>
+<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_sellable" value="gold ingot,9971,5000;small diamond,2145,300;small sapphire,2146,250;small ruby,2147,250;small emerald,2149,250;small amethyst,2150,200;small topaz,9970,200;black pearl,2144,280;white pearl,2143,160;giant green pearl,7632,3000;giant brown pearl,7633,3000;wedding ring,2121,100;" />
+		<parameter key="shop_buyable" value="black pearl,2144,560;white pearl,2143,320;small amethyst,2150,400;small diamond,2145,600;small emerald,2149,500;small ruby,2147,500;small sapphire,2146,500;wedding ring,2121,990;bronze goblet,5807,2000;golden goblet,5805,5000;silver goblet,5806,3000;" />
+        <parameter key="message_greet" value="Be greeted, dear |PLAYERNAME|. Have a look at our gems."/>
+        <parameter key="message_farewell" value="Farewell, |PLAYERNAME|."/>
+		<parameter key="message_walkaway" value="Farewell." />
+		<parameter key="message_sendtrade" value="Here, take a look." />
+    </parameters>
+</npc>

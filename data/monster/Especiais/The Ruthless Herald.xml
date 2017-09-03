@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="The Ruthless Herald" nameDescription="The Ruthless Herald" race="blood" experience="0" speed="150" manacost="0">
+	<health now="2" max="2"/>
+  <look type="237" corpse="6364"/>
+	<targetchange interval="2000" chance="95"/>
+	<strategy attack="0" defense="999999"/>
+	<flags>
+	<flag summonable="0"/>
+	<flag attackable="1"/>
+	<flag hostile="1"/>
+	<flag illusionable="0"/>
+	<flag convinceable="0"/>
+	<flag pushable="1"/>
+	<flag canpushitems="1"/>
+	<flag canpushcreatures="0"/>
+	<flag targetdistance="4"/>
+	<flag staticattack="10"/>
+	<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="0" attack="0"/>
+		<attack name="outfit" interval="2000" radius="3" chance="6" monster="green frog" duration="6000">
+			<attribute key="areaEffect" value="yellowspark"/>
+		</attack>
+		<attack name="outfit" interval="2000" radius="3" chance="6" monster="pig" duration="6000">
+			<attribute key="areaEffect" value="yellowspark"/>
+		</attack>
+		<attack name="outfit" interval="2000" radius="3" chance="6" monster="skunk" duration="6000">
+			<attribute key="areaEffect" value="yellowspark"/>
+		</attack>
+		<attack name="outfit" interval="2000" radius="3" chance="6" item="2109" duration="6000">
+			<attribute key="areaEffect" value="yellowspark"/>
+		</attack>
+	</attacks>
+	<defenses armor="999999999" defense="999999999">
+		<defense name="healing" interval="1000" chance="50" min="1" max="2">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<immunities>
+		<immunity name="physical"/>
+		<immunity name="holy"/>
+		<immunity name="death"/>
+		<immunity name="fire"/>
+		<immunity name="energy"/>
+		<immunity name="ice"/>
+		<immunity name="ice"/>
+		<immunity name="earth"/>
+		<immunity name="drown"/>
+		<immunity name="lifedrain"/>
+		<immunity name="paralyze"/>
+	</immunities>
+   <voices interval="5000" chance="10">
+    <voice sentence="I am so proud of my son Orshabaal"/>
+    <voice sentence="Have you heard, the imperor is marrying an imp named April? What a fool."/>
+    <voice sentence="The Ruthless Seven are going to make the waster bunny an honorary member!"/>
+    <voice sentence="They are coming... perhaps for YOU!"/>
+    <voice sentence="Beware! The Ruthless Seven are coming!"/>
+    <voice sentence="Killing me is imp-ossible, because I am imp-roved! I am immune to any imp-act!"/>
+    <voice sentence="The one who kills me gets an imp-outfit"/>
+    <voice sentence="Hey you! I've heard that You're first to die when the masters come."/>
+    <voice sentence="Nice to meet you. I am Harold, the ruthless herald."/>
+    <voice sentence="Have you seen my friend Harvey? I could swear he's somewhere around."/>
+    <voice sentence="My masters are on their way!"/>
+  </voices>
+</monster>

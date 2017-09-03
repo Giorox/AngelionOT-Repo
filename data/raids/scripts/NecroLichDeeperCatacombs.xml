@@ -1,0 +1,14 @@
+<raid>
+  <!--Announcements-->
+  <announce delay="1000" type="Event" message="A necromancer prepares to wake the dead in a crypt below Darashia!" />
+  <announce delay="30000" type="Event" message="How terrible! Liches have risen from their graves in the Darashian crypts!" />
+  <!--Single Spawns-->
+  <singlespawn delay="300000" name="Lich" x="33250" y="32486" z="11" />
+  <singlespawn delay="300000" name="Lich" x="33295" y="32473" z="11" />
+  <singlespawn delay="300000" name="Lich" x="33271" y="32440" z="11" />
+  <singlespawn delay="300000" name="Lich" x="33249" y="32460" z="11" />
+  <!--Area Spawns-->
+  <areaspawn delay="1000" fromx="33270" fromy="32453" fromz="10" tox="33272" toy="32494" toz="10">
+    <monster name="Necromancer" amount="6" />
+  </areaspawn>
+</raid>

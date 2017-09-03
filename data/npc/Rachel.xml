@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Rachel" script="data/npc/scripts/Rachel.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="136" head="58" body="84" legs="86" feet="114" addons="0"/>
+<voices>
+<voice text="These impatient young brats!" interval2="110" margin="1" yell="no"/>
+</voices>
+<parameters>
+ <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="magic;" />
+        <parameter key="keyword_reply1" value="Okay, then just browse through all of my wares." />
+        <parameter key="message_greet" value="Welcome |PLAYERNAME|! Whats your need?"/>
+        <parameter key="message_farewell" value="Good bye, |PLAYERNAME|."/>
+		<parameter key="message_walkaway" value="Good bye, |PLAYERNAME|." />
+		<parameter key="message_sendtrade" value="Of course, just browse through my wares. Or do you want to look only at {potions}, {wands} or {runes}?" />
+</parameters>
+</npc>

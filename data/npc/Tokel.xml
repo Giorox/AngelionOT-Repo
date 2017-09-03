@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Tokel" script="data/npc/scripts/Tokel.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="128" head="78" body="96" legs="30" feet="114" addons="0"/>
+<parameters>
+<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="carrot,2689,3;carrot,2696,5;carrot,2671,8;carrot,2666,5;" />
+        <parameter key="message_greet" value="Hi there |PLAYERNAME|."/>
+        <parameter key="message_farewell" value="Good bye."/>
+		<parameter key="message_walkaway" value="Good bye." />
+		<parameter key="message_sendtrade" value="Of course, take a look at my tasty offers." />
+</parameters>
+</npc>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="The Dream Master" script="data/npc/scripts/dream.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="130" head="19" body="21" legs="1" feet="39" addons="0"/>
+	<parameters>
+		<parameter key="message_greet" value="Be greeted, visitor." />
+		<parameter key="message_farewell" value="Good bye. May the gods watch over your path."/>
+	</parameters>
+</npc>

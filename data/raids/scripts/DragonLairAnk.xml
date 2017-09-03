@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+  <!--Single Spawns-->
+  <singlespawn delay="1000" name="Dragon" x="33074" y="32693" z="7" />
+  
+  <singlespawn delay="1000" name="Dragon Hatchling" x="33061" y="32674" z="7" />
+  <singlespawn delay="1000" name="Dragon Hatchling" x="33062" y="32674" z="7" />
+  <singlespawn delay="1000" name="Dragon Lord" x="33063" y="32674" z="7" />
+  
+  <singlespawn delay="1000" name="Dragon" x="33068" y="32680" z="6" />
+  <singlespawn delay="1000" name="Dragon" x="33069" y="32680" z="6" />
+  <singlespawn delay="1000" name="Dragon Hatchling" x="33068" y="32681" z="6" />
+  <singlespawn delay="1000" name="Dragon Hatchling" x="33069" y="32681" z="6" />
+  
+  <singlespawn delay="1000" name="Dragon Lord" x="33056" y="32672" z="5" />
+  <singlespawn delay="1000" name="Dragon" x="33071" y="32675" z="5" />
+  <singlespawn delay="1000" name="Dragon Hatchling" x="33058" y="32680" z="5" />
+  <singlespawn delay="1000" name="Dragon Hatchling" x="33058" y="32681" z="5" />
+
+  <singlespawn delay="1000" name="Dragon Lord Hatchling" x="33047" y="32691" z="4" />
+  <singlespawn delay="1000" name="Dragon Lord" x="33048" y="32691" z="4" /> 
+</raid>

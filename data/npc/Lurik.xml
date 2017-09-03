@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Lurik" script="data/npc/scripts/Lurik.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="133" head="19" body="96" legs="78" feet="39" addons="0"/>
+<parameters>
+<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="orichalcum pearl,5022,80;" />
+        <parameter key="message_greet" value="Greetings, what can I do for you? If you're interested in the {explorer society}, just ask me."/>
+        <parameter key="message_farewell" value="Good bye."/>
+		<parameter key="message_walkaway" value="How rude!" />
+		<parameter key="message_sendtrade" value="Of course." />
+</parameters>
+</npc>

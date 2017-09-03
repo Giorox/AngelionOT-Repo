@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Golgordan" nameDescription="Golgordan" race="fire" experience="10000" speed="350" manacost="0">
+<health now="40000" max="40000"/>
+<look type="12" head="108" body="100" legs="105" feet="114" corpse="6068"/> 
+<targetchange interval="7000" chance="10"/>
+<strategy attack="90" defense="10"/>
+
+<flags>
+	<flag summonable="0"/>
+	<flag attackable="1"/>
+	<flag hostile="1"/>
+	<flag illusionable="0"/>
+	<flag convinceable="0"/>
+	<flag pushable="0"/>
+	<flag canpushitems="1"/>
+	<flag canpushcreatures="1"/>
+	<flag targetdistance="1"/>
+	<flag staticattack="85"/>
+	<flag runonhealth="0"/>
+</flags>
+
+<attacks>
+	<attack name="melee" interval="2000" skill="105" attack="100"/>
+	<attack name="death" interval="3000" chance="15" length="8" spread="0" min="-250" max="-850">
+		<attribute key="areaEffect" value="mortarea"/>
+	</attack>
+	<attack name="poisoncondition" interval="1000" chance="11" length="5" spread="3" min="-300" max="-350">
+		<attribute key="areaEffect" value="poison"/>
+	</attack>
+	<attack name="physical" interval="1000" chance="8" radius="6" target="0" min="-50" max="-955">
+		<attribute key="areaEffect" value="groundshaker"/>
+	</attack>
+	<attack name="fire" interval="2000" chance="15" radius="7" target="1" min="-50" max="-200">
+		<attribute key="areaEffect" value="firearea"/>
+	</attack>
+</attacks>
+
+<defenses armor="48" defense="54"/>
+
+<elements>
+	<element icePercent="+1"/>
+	<element holyPercent="-1"/>
+	<element physicalPercent="-1"/>
+	<element firePercent="+1"/>
+</elements>
+
+<immunities>
+	<immunity death="1"/>
+</immunities>
+
+<voices interval="5000" chance="10">
+	<voice sentence="Latrivan your fool" yell="1"/>
+	<voice sentence="We are the right hand and the left hand of the seven!"/>
+</voices>
+
+<loot>
+      <item id="2148" countmax="234" chance1="80000" chancemax="0"/>
+      <item id="2144" countmax="5" chance1="50000" chancemax="0"/>
+      <item id="2143" countmax="11" chance1="40000" chancemax="0"/>
+      <item id="2149" countmax="8" chance1="40000" chancemax="0"/>
+      <item id="2145" countmax="4" chance1="40000" chancemax="0"/>
+      <item id="7365" countmax="6" chance1="40000" chancemax="0"/>
+      <item id="2179" chance="30000"/>
+      <item id="6300" chance="30000"/>
+      <item id="6500" countmax="1" chance1="80000" chancemax="0"/>
+      <item id="2182" chance="40000"/>
+      <item id="2185" chance="40000"/>
+      <item id="2165" chance="30000"/>
+      <item id="2214" chance="30000"/>
+      <item id="2402" chance="70000"/>
+      <item id="2396" chance="20000"/>
+      <item id="7591" chance="30000"/>
+      <item id="2432" chance="30000"/>
+      <item id="2436" chance="40000"/>
+      <item id="2393" chance="40000"/>
+      <item id="2462" chance="50000"/>
+      <item id="2523" chance="100"/>
+</loot>
+</monster>

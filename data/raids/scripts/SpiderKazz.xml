@@ -1,0 +1,20 @@
+<raid>
+  <!--Area Spawns-->
+  <areaspawn delay="1000" fromx="32626" fromy="31922" fromz="8" tox="32643" toy="31916" toz="8">
+    <monster name="Spider" amount="10" />
+  </areaspawn>
+  
+  <areaspawn delay="1000" fromx="32596" fromy="31928" fromz="5" tox="32628" toy="31931" toz="5">
+    <monster name="Spider" amount="10" />
+  </areaspawn>
+  
+   <areaspawn delay="1000" fromx="32588" fromy="31928" fromz="4" tox="32620" toy="31931" toz="4">
+    <monster name="Spider" amount="10" />
+  </areaspawn>
+  
+  <areaspawn delay="1000" fromx="32609" fromy="31905" fromz="2" tox="32597" toy="31896" toz="2">
+    <monster name="Spider" amount="10" />
+  </areaspawn>
+ 
+ 
+</raid>

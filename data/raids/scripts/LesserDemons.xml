@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+  <!--Announcements-->
+  <announce delay="1000" type="Event" message="The sorcerers from the Edron Academy have detected a black portal opening above Thais." />
+  <announce delay="30000" type="Event" message="Red and Black energy from demons are spiking up over Thais. Be Careful." />
+  <announce delay="60000" type="Event" message="The demons of the First Cabal and their leader are pouring into Thais!" />
+  <!--Single Spawns-->
+  <singlespawn delay="65000" name="Demon" x="32369" y="32215" z="7" />
+  <!--Area Spawns-->
+  <areaspawn delay="60000" fromx="32331" fromy="32182" fromz="7" tox="32426" toy="32261" toz="7">
+    <monster name="Gozzler" amount="80" />
+  </areaspawn>
+  <areaspawn delay="60000" fromx="32331" fromy="32182" fromz="7" tox="32426" toy="32261" toz="7">
+    <monster name="Fire Devil" amount="80" />
+  </areaspawn>
+  <areaspawn delay="60000" fromx="32331" fromy="32182" fromz="7" tox="32426" toy="32261" toz="7">
+    <monster name="Fire Elemental" amount="80" />
+  </areaspawn>
+</raid>

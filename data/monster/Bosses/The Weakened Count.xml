@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="The Weakened Count" nameDescription="The Weakened Count" race="undead" experience="450" speed="255" manacost="100">
+  <health now="740" max="740"/>
+  <look type="68" head="20" body="30" legs="40" feet="50" corpse="6006"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" min="-0" max="-189"/>
+    <attack name="lifedrain" interval="2000" chance="19" range="1" min="-25" max="-125">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </attack>
+    <attack name="speed" interval="1000" chance="8" radius="6" target="0" speedchange="-600" duration="60000">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </attack>
+  </attacks>
+
+  <defenses armor="17" defense="23">
+     <defense name="speed" interval="1500" chance="120" range="7" speedchange="300" duration="30000">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </defense>
+  </defenses>
+  <elements>
+  <element physicalPercent="-1"/>
+  <element firePercent="+1"/>
+  <element holyPercent="+1"/>
+  </elements>
+  <immunities>
+    <immunity earth="1"/>
+    <immunity death="1"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="5000" chance="100"> 
+    <voice sentence="1... 2... 2... Uh, can't concentrate."/>
+  </voices>
+ <loot>
+    <item id="2148" countmax="98" chance="40000"/>	-- gold coin
+    <item id="8752" chance="100000"/>	-- The ring of the count
+    <item id="2534" chance="1000"/> -- vamp shield
+    <item id="2229" chance="50000"/>
+</loot>
+</monster>

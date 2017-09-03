@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Gravelord Oshuran" nameDescription="the gravelord oshuran" race="UNDEAD" experience="2400" speed="280" manacost="0">
+    <health now="3100" max="3100"/>
+    <look type="99" head="95" body="116" legs="119" feet="115" corpse="6028"/>
+    <targetchange interval="5000" chance="8"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="0"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="0"/>
+        <flag convinceable="0"/>
+        <flag pushable="0"/>
+        <flag canpushitems="1"/>
+        <flag canpushcreatures="1"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="90"/>
+        <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+        <attack name="melee" interval="2000" skill="70" attack="60"/>
+        <attack name="lifedrain" interval="3000" chance="9" range="8" min="-180" max="-3000">
+            <attribute key="areaEffect" value="blueshimmer"/>
+        </attack>
+        <attack name="speed" interval="1000" chance="15" range="7" speedchange="-700" duration="30000">
+            <attribute key="areaEffect" value="redshimmer"/>
+        </attack>
+        <attack name="lifedrain" interval="2000" chance="9" length="8" spread="0" min="-100" max="-200">
+            <attribute key="areaEffect" value="redshimmer"/>
+        </attack>
+        <attack name="earth" interval="3000" chance="9" length="8" spread="0" min="-300" max="-400">
+            <attribute key="areaEffect" value="greenspark"/>
+        </attack>
+    </attacks>
+    <defenses armor="20" defense="20">
+        <defense name="healing" interval="1000" chance="17" min="50" max="150">
+            <attribute key="areaEffect" value="redshimmer"/>
+        </defense>
+    </defenses>
+    <elements>
+        <element energyPercent="80"/>
+        <element holyPercent="-20"/>
+    </elements>
+    <immunities>
+        <immunity death="1"/>
+        <immunity earth="1"/>
+        <immunity paralyze="1"/>
+        <immunity invisible="1"/>
+    </immunities>
+    <summons maxSummons="4">
+        <summon name="bonebeast" interval="1000" chance="17" max="4"/>
+    </summons>
+    <voices interval="5000" chance="10">
+        <voice sentence="Your mortality is disgusting" yell="1"/>
+    </voices>
+    <loot>
+        <item id="2175" chance="35000"/> -- spellbook :: Def 14
+        <item id="2214" chance="2500"/> -- ring of healing
+        <item id="2144" chance="6000"/> -- black pearl
+        <item id="2148" chance="100000" countmax="70"/> -- gold coin
+		<item id="2148" chance="100000" countmax="45"/> -- gold coin
+        <item id="2656" chance="5000"/> -- blue robe :: Arm 11
+        <item id="1987" chance="100000"> -- bag
+            <inside>
+                <item id="7589" chance="2000"/> -- strong mana potion
+                <item id="8904" chance="13000"/> -- spellscroll of prophecies :: Def 12
+            </inside>
+        </item>
+    </loot>
+</monster>

@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Elane Queen of the Paladins" nameDescription="Elane Queen of the Paladins" race="blood" experience="7500" speed="450" manacost="0">
+  <health now="25000" max="25000"/>
+  <look type="137" head="99" body="6" legs="119" feet="101" addons="3" corpse="6081"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="4"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="physical" interval="1000" chance="70" range="7" min="-200" max="-400">
+      <attribute key="shootEffect" value="spear"/>
+    </attack>
+    <attack name="physical" interval="1000" chance="70" range="7" min="-150" max="-350">
+      <attribute key="shootEffect" value="arrow"/>
+    </attack>
+	<attack name="physical" interval="1000" chance="70" range="7" min="-350" max="-800">
+		<attribute key="shootEffect" value="bolt"/>
+	</attack>
+	<attack name="drunk" interval="1000" chance="15" range="7" radius="1" target="1">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </attack>
+	<attack name="fire" interval="2000" chance="15" range="7" radius="3" target="1" min="-200" max="-350">
+      <attribute key="shootEffect" value="burstarrow"/>
+      <attribute key="areaEffect" value="firearea"/>
+    </attack>
+	<attack name="energy" interval="2000" chance="20" range="7" target="1" min="-100" max="-200">
+	  <attribute key="shootEffect" value="energyball"/>
+	  <attribute key="areaEffect" value="energy"/>
+	</attack>
+	<attack name="death" interval="2000" chance="40" range="3" min="-200" max="-650">
+		<attribute key="shootEffect" value="death"/>
+		<attribute key="areaEffect" value="mortarea"/>
+	</attack>
+  </attacks>
+     <defenses armor="100" defense="200">
+	 <defense name="healing" interval="1000" chance="5" min="350" max="600">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+	</defenses>
+    <elements>
+  <element firePercent="0"/>
+	  <element energyPercent="0"/>
+	    <element deathPercent="0"/>
+		  <element physicalPercent="-25"/>
+		    <element holyPercent="-10"/>
+	</elements>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  	<summons maxSummons="12">
+		<summon name="Hunter" interval="2000" chance="10" max="6"/>
+		<summon name="Elf Scout" interval="2000" chance="10" max="6"/>
+	</summons>
+<elements>
+<element physicalPercent="-20"/>
+<element holyPercent="8"/>
+<element firePercent="-95"/>
+<element energyPercent="-80"/>
+<element deathPercent="-20"/>
+</elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="My eye is as precise as a Hawk" yell="1"/>
+    <voice sentence="I won´t miss!" yell="1"/>
+    <voice sentence="My expertise is unmatched" yell="1"/>
+    <voice sentence="You're no match for me!"/>
+  </voices>
+  <loot>
+    <item id="2491" chance="1200"/>
+    <item id="2148" countmax="100" chance1="10000" chancemax="0"/>
+    <item id="2120" chance="20000"/>
+    <item id="1949" chance="10000"/>
+    <item id="2456" chance="10000"/>
+    <item id="2661" chance="12000"/>
+    <item id="2681" chance="10000"/>
+    <item id="2121" chance="6666"/>
+    <item id="2666" countmax="3" chance1="20000" chancemax="0"/>
+    <item id="5911" countmax="1" chance1="5000" chancemax="0"/>
+    <item id="1987" chance="100000">
+      <inside>
+        <item id="2377" chance="1500"/>
+        <item id="2487" chance="600"/> 
+        <item id="12406" chance="1575" />
+        <item id="2392" chance="700"/>
+		<item id="2498" chance="25000"/> --Royal Helmet
+		<item id="2492" chance="35000"/> --DSM
+        <item id="2519" chance="900"/>
+        <item id="12466" chance="5950" />
+        <item id="2488" chance="800"/>
+        <item id="2071" chance="10000"/>
+        <item id="2544" countmax="13" chance1="20000" chancemax="0"/>
+        <item id="2652" chance="10000"/>
+        <item id="2164" chance="1000"/>
+        <item id="7364" countmax="8" chance="2000"/>
+        <item id="2391" chance="1333"/>
+        <item id="2744" chance="20000"/>
+		<item id="6500" chance="1818" countmax="1" /> -- demonic essence
+				<item id="5944" chance="1538" countmax="1" /> -- soul orb
+				<item id="2547" chance="4000" countmax="15" /> -- power bolt
+				<item id="2466" chance="15588"/> --Golden armor
+				<item id="2454" chance="12400"/> --War Axe
+				<item id="2476" chance="15400"/> --Knight armor
+				<item id="8910" chance="14444"/> --Underworld rod
+                <item id="7591" chance="4444"/> --
+      </inside>
+    </item>
+  </loot>
+  <script>
+  <event name="elane"/>
+  </script>
+</monster>

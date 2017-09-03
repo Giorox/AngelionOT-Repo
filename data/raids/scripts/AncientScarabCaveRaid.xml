@@ -1,0 +1,15 @@
+<raid>
+<announce delay="1000" type="event" message="Something is crawling deep in the Ankrahmun Scarab caves."/>
+  <!--Area Spawns-->
+<singlespawn delay="1000" name="Ancient Scarab" x="33228" y="32520" z="11" />
+<singlespawn delay="1000" name="Ancient Scarab" x="33236" y="32521" z="11" />
+<singlespawn delay="1000" name="Ancient Scarab" x="33211" y="32545" z="11" />
+<singlespawn delay="1000" name="Ancient Scarab" x="33214" y="32535" z="11" />
+<singlespawn delay="1000" name="Ancient Scarab" x="33228" y="32536" z="11" />
+<singlespawn delay="1000" name="Ancient Scarab" x="33263" y="32540" z="11" />
+<singlespawn delay="1000" name="Ancient Scarab" x="33246" y="32541" z="11" />
+<singlespawn delay="1000" name="Ancient Scarab" x="33221" y="32568" z="11" />
+<singlespawn delay="1000" name="Ancient Scarab" x="33230" y="32558" z="11" />
+<singlespawn delay="1000" name="Ancient Scarab" x="33225" y="32535" z="11" />
+
+</raid>

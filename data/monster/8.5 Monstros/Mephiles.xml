@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Mephiles" nameDescription="a Mephiles" race="blood" experience="415" speed="250" manacost="0">
+  <health now="415" max="415"/>
+  <look type="237" corpse="6364"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="4"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="70" attack="80"/>
+    <attack name="fire" interval="1000" chance="8" range="7" radius="4" target="1" min="-50" max="-350">
+      <attribute key="shootEffect" value="fire"/>
+      <attribute key="areaEffect" value="firearea"/>
+    </attack>
+    <attack name="fire" interval="2000" chance="16" range="7" radius="2" target="1" min="-90" max="-500">
+      <attribute key="shootEffect" value="fire"/>
+      <attribute key="areaEffect" value="firearea"/>
+    </attack>
+  </attacks>
+  <defenses armor="15" defense="15">
+    <defense name="healing" interval="2000" chance="22" min="175" max="245">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+    <defense name="speed" interval="2000" chance="18" speedchange="520" duration="4000">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </defense>
+    <defense name="invisible" interval="3000" chance="18" duration="4000"> --each 4 sec invi duration 4 sec
+      <attribute key="areaEffect" value="redshimmer"/>
+    </defense>
+  </defenses>
+	<elements>
+		<element earthPercent="50"/>
+		<element physicalPercent="-10"/>
+		<element holyPercent="-5"/>
+		<element icePercent="-10"/>
+	</elements>
+  <immunities>
+    <immunity fire="1"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="I have a contract here which you should sign!"/>
+    <voice sentence="I sence so much potenticla in you. It's almost a shame I have to kill you."/>
+    <voice sentence="Yes, slay me for the loot I might have. Give in to your greed."/>
+    <voice sentence="Wealth, Power, it is all at your fingertipd. All you have to do is a bit blackmailing and bullying."/>
+    <voice sentence="Come on. Being a bit evil won't hurt you."/>
+  </voices>
+  <loot>
+   <item id="2148" chance="8000"/>
+ </loot>
+</monster>

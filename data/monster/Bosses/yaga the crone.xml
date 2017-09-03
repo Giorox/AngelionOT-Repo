@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Yaga the Crone" nameDescription="a yaga the crone" race="blood" experience="375" speed="180" manacost="0">
+  <health now="620" max="620"/>
+  <look type="54" head="20" body="30" legs="40" feet="50" corpse="6081"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="4"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="30"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="18" attack="18"/>
+    <attack name="fire" interval="1000" chance="20" range="7" min="-30" max="-50">
+      <attribute key="shootEffect" value="fire"/>
+    </attack>
+    <attack name="firefield" interval="1000" chance="13" range="7" radius="1" target="1">
+      <attribute key="shootEffect" value="fire"/>
+    </attack>
+    <attack name="poisonfield" interval="1000" chance="13" range="7" radius="1" target="1">
+      <attribute key="shootEffect" value="poison"/>
+    </attack>
+  </attacks>
+  <defenses armor="8" defense="12">
+<defense name="outfit" interval="1500" chance="20" monster="green frog" duration="6000">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+    <defense name="outfit" interval="1500" chance="20" monster="witch" duration="6000">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>         
+  </defenses>
+  <elements>
+                 <element earthPercent="-1"/>
+                 <element deathPercent="+5"/>
+                 <element physicalPercent="+1"/>
+  </elements>
+  <immunities>
+    <immunity energy="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Where did I park my hut?"/>
+    <voice sentence="You will taste so sweet!"/>
+    <voice sentence="Hexipooh, bewitched are you!"/>
+  </voices>
+  <loot>
+    <item id="2687" countmax="6" chance1="10000" chancemax="0"/>
+    <item id="2129" chance="10000"/>
+    <item id="2800" chance="10000"/>	
+    <item id="2185" chance="833" /> -- necrotic rod
+    <item id="8902" chance="1300"/>	
+    <item id="2651" chance="5000"/>
+    <item id="1987" chance="100000">
+      <inside>       
+        <item id="2324" chance="10000"/>
+		<item id="2199" chance="10000"/> 
+		<item id="2654" chance="10000"/> 		
+      </inside>   
+   </item>
+  </loot>
+</monster>

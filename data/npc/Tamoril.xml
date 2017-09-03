@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Tamoril" script="data/npc/scripts/Tamoril.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="39" head="0" body="0" legs="0" feet="1" addons="0"/>
+<voices>
+<voice text="Grrrrr" interval2="100" margin="1" yell="no"/>
+</voices>
+<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_sellable" value="axe,2033,250;xe,2158,5000;xe,2155,5000;xe,2156,1000;xe,2153,10000;xe,2154,1000;" />
+        <parameter key="message_greet" value="I welcome thee, |PLAYERNAME|! I suppose you are looking for a trade in fine jewelery!"/>
+        <parameter key="message_farewell" value="Goodbye and please bring more gold next time. I mean, it would be nice to see you again."/>
+		<parameter key="message_walkaway" value="Goodbye and please bring more gold next time. I mean, it would be nice to see you again." />
+		<parameter key="message_sendtrade" value="Of course." />
+</parameters>
+</npc>

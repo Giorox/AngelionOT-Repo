@@ -1,0 +1,7 @@
+<raid>
+  <!--Area Spawns-->
+  <areaspawn delay="1000" fromx="33318" fromy="31728" fromz="7" tox="33278" toy="31742" toz="7">
+    <monster name="Ghoul" amount="40" />
+  </areaspawn>
+
+</raid>

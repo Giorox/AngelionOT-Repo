@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Kroox" script="data/npc/scripts/Kroox.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="160" head="0" body="100" legs="105" feet="76" addons="0"/>
+<voices>
+<voice text="By the sons of fire! Best weapons in town!" interval2="100" margin="1" yell="no"/>
+</voices>
+<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="a,2513,125;a,2509,240;a,2525,500;a,2458,52;a,2460,120;a,2459,390;a,2457,580;a,2464,200;a,2465,450;a,2463,1200;a,2648,80;a,2478,195;" />
+		<parameter key="shop_sellable" value="a,2512,3;a,2511,16;a,2510,45;a,2513,60;a,2525,100;a,2458,12;a,2460,30;a,2473,66;a,2459,145;a,2457,293;a,2462,450;a,2475,696;a,2464,40;a,2465,112;a,2463,240;a,2648,20;a,2478,49;a,2647,115;a,2477,375;" />
+        <parameter key="message_greet" value="Welcome to Kroox Quality Armor, |PLAYERNAME|! Wanna take a look, ask me for a {trade}."/>
+        <parameter key="message_farewell" value="Good bye. Come back soon."/>
+		<parameter key="message_walkaway" value="Good bye. Come back soon." />
+		<parameter key="message_sendtrade" value="You look, you like, you buy!" />
+</parameters>
+</npc>

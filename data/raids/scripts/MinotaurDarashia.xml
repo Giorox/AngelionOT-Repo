@@ -1,0 +1,14 @@
+<raid>
+<announce delay="1000" type="event" message="Minotaurs call to arms in the north of Darashia!" />
+<announce delay="120000" type="event" message="War cries echo from the Minotaurs' retreat in Darashia's north!" />
+<announce delay="240000" type="event" message="Wrathful Minotaurs swarm the northern desert of Darashia!" />
+<announce delay="300000" type="event" message="Merciless Minotaurs sally forth from their Darashian retreat!" />
+
+  <!--Area Spawns--> 
+  <areaspawn delay="300000" fromx="33156" fromy="32414" fromz="7" tox="33182" toy="32458" toz="7">
+    <monster name="Minotaur" amount="120" />
+    <monster name="Minotaur Archer" amount="80" />
+	<monster name="Minotaur Guard" amount="60" />
+  </areaspawn>
+
+</raid>

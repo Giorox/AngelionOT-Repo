@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Aldo" script="data/npc/scripts/Aldo.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="128" head="40" body="37" legs="116" feet="76" addons="0"/>
+<voices>
+<voice text="Grmbl." interval2="100" margin="1" yell="no"/>
+</voices>
+<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="leather helmet,2461,12;studded helmet,2482,63;leather legs,2649,10;studded legs,2468,60;sandals,2642,2;leather boots,2643,2;" />
+        <parameter key="message_greet" value="Just great, another ... 'customer'. Hello, |PLAYERNAME|. If you want to {trade}, let's get it over with."/>
+        <parameter key="message_farewell" value="That's music in my ears."/>
+		<parameter key="message_walkaway" value="That's music in my ears." />
+		<parameter key="message_sendtrade" value="Yeah, buy something." />
+</parameters>
+</npc>

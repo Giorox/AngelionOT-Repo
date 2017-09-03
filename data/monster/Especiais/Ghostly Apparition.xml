@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="ghostly apparition" nameDescription="a ghostly apparition" race="undead" experience="80" speed="140" manacost="100">
+  <health now="100" max="100"/>
+  <look type="319" head="20" body="30" legs="40" feet="50" corpse="2978"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="40" attack="35"/>
+    <attack name="lifedrain" interval="1000" chance="15" range="1" min="-0" max="-15"/>
+  </attacks>
+  <defenses armor="10" defense="10"/>
+  <immunities>
+    <immunity physical="1"/>
+    <immunity earth="1"/>
+    <immunity death="1"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Fresh life spirit"/>
+    <voice sentence="Aaahhh"/>
+    <voice sentence="Let me feeeed"/>
+    <voice sentence="Theeeese waaalls"/>
+    <voice sentence="Hold unholy secretsss"/>
+    <voice sentence="Saaaaave ussss"/>		
+  </voices>
+  <loot>    
+  </loot>
+</monster>

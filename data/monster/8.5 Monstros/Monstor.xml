@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Monstor" nameDescription="a Monstor" race="blood" experience="575" speed="380" manacost="0">
+  <health now="800" max="800"/>
+  <look type="244" corpse="6336"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="140" attack="160"/>
+    <attack name="physical" interval="2000" chance="18" range="7" min="0" max="-650">
+      <attribute key="shootEffect" value="largerock"/>
+    </attack>
+  </attacks>
+  <defenses armor="70" defense="70"/>
+  <elements>
+  <element physicalPercent="20"/>
+  <element firePercent="50"/>
+  <element icePercent="10"/>
+  <element earthPercent="30"/>
+  <element holyPercent="-3"/>
+  <element energyPercent="-7"/>
+</elements>
+  <loot>
+  <item id="2097" chance="8000"/>
+  <item id="2548" chance="3000"/>
+  <item id="1685" chance="6000"/>
+  </loot>
+</monster>

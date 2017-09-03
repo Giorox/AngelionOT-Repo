@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Madareth" nameDescription="Madareth" race="fire" experience="10000" speed="380" manacost="0">
+<health now="75000" max="75000"/>
+<look type="12" head="77" body="116" legs="82" feet="79" corpse="6068"/>
+<targetchange interval="5000" chance="8"/>
+<strategy attack="100" defense="0"/>
+
+<flags>
+	<flag summonable="0"/>
+	<flag attackable="1"/>
+	<flag hostile="1"/>
+	<flag illusionable="0"/>
+	<flag convinceable="0"/>
+	<flag pushable="0"/>
+	<flag canpushitems="1"/>
+	<flag canpushcreatures="1"/>
+	<flag targetdistance="1"/>
+	<flag staticattack="85"/>
+	<flag runonhealth="0"/>
+</flags>
+
+<attacks>
+	<attack name="melee" interval="2000" skill="130" attack="110"/>
+	<attack name="energy" interval="2000" chance="20" range="4" radius="4" min="-400" max="-600">
+		<attribute key="areaEffect" value="energy"/>
+		<attribute key="shootEffect" value="energyball"/>
+	</attack>
+	<attack name="lifedrain" interval="3000" chance="17" range="4" radius="2" min="-300" max="-500">
+		<attribute key="areaEffect" value="redshimmer"/>
+		<attribute key="shootEffect" value="explosion"/>
+	</attack>
+</attacks>
+
+<defenses armor="40" defense="46"/>
+
+<elements>
+	<element icePercent="-1"/>
+	<element deathPercent="-95"/>
+	<element firePercent="+1"/>
+</elements>
+
+<immunities>
+	<immunity energy="1"/>
+	<immunity fire="1"/>
+	<immunity invisible="1"/>
+</immunities>
+
+<voices interval="3000" chance="5">
+	<voice sentence="I AM GOING TO PLAY WITH YOURSELF!" yell="1"/>
+</voices>
+
+<loot>
+	<item id="2148" countmax="100" chance1="80000" chancemax="8"/>
+	<item id="2152" countmax="29" chance1="50000" chancemax="3"/>
+	<item id="6500" countmax="1" chance1="100000" chancemax="10"/>
+	<item id="2147" countmax="25" chance1="80000" chancemax="0"/>
+	<item id="2150" countmax="22" chance1="80000" chancemax="0"/>
+	<item id="2145" countmax="21" chance1="60000" chancemax="1"/>
+	<item id="2149" countmax="25" chance1="40000" chancemax="0"/>
+	<item id="2146" countmax="21" chance1="50000" chancemax="0"/>
+	<item id="2144" countmax="22" chance1="75000" chancemax="3"/>
+	<item id="2143" countmax="25" chance1="68000" chancemax="2"/>
+	<item id="8472" chance="40000"/>
+	<item id="7591" chance="40000"/>
+	<item id="7590" chance="40000"/>
+	<item id="8473" chance="50000"/>
+	<item id="8473" chance="50000"/>
+	<item id="5954" chance="30000"/>
+	<item id="2148" countmax="100" chance1="80000" chancemax="10"/>
+	<item id="2125" chance="70000"/>
+	<item id="2197" chance="50000"/>
+	<item id="2130" chance="45000"/>
+	<item id="2133" chance="30000"/>
+	<item id="3962" chance="40000"/>
+	<item id="7412" chance="30000"/>
+	<item id="8870" chance="40000"/>
+	<item id="8871" chance="25000"/>
+	<item id="2656" chance="35000"/>
+	<item id="2487" chance="35000"/>
+	<item id="2488" chance="40000"/>
+	<item id="2477" chance="20000"/>
+	<item id="7894" chance="50000"/>
+	<item id="2645" chance="30000"/>
+	<item id="8901" chance="30000"/>
+	<item id="8902" chance="20000"/>
+	<item id="8903" chance="1000"/>
+	<item id="2466" chance="20000"/>
+	<item id="2470" chance="22000"/>
+	<item id="2148" countmax="83" chance1="80000" chncemax="2"/>
+	<item id="7388" chance="1000"/>
+	<item id="8904" chance="300"/>
+	<item id="2136" chance="200"/>
+	<item id="8879" chance="200"/>
+	<item id="8918" chance="100"/>
+	<item id="2522" chance="80"/>
+</loot>
+
+</monster>

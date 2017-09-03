@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Thanita" script="data/npc/scripts/Thanita.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="139" head="78" body="52" legs="64" feet="52" addons="0"/>
+</npc>

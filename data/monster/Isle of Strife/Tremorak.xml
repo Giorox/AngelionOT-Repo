@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Tremorak" nameDescription="Tremorak" race="undead" experience="1300" species="earth" speed="290" manacost="0">
+    <health now="10000" max="10000"/>
+    <look type="285" corpse="8933"/>
+    <targetchange interval="20000" chance="50"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag staticattack="80"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+         	<attack name="melee" interval="2000" skill="100" attack="95"/>
+	<attack name="earth" interval="2000" chance="15" range="7" min="-25" max="-140">
+		<attribute key="shootEffect" value="earth"/>
+			</attack>
+	<attack name="earth" interval="1000" chance="10" length="6" spread="0" min="0" max="-260">
+		<attribute key="areaEffect" value="smallplants"/>
+			</attack>
+	<attack name="physical" interval="1000" chance="9" target="0" radius="4" min="0" max="-240">
+      		<attribute key="areaEffect" value="poff"/>
+  		 	</attack>
+    </attacks>
+    <defenses armor="30" defense="30">
+    <defense name="healing" interval="1000" chance="17" min="100" max="250">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+   </defenses>
+    <elements>
+     <element deathPercent="-35"/>
+     <element energyPercent="-85"/>     
+     <element firePercent="15"/>
+     <element icePercent="-20"/>
+     <element holyPercent="-50"/>
+     <element physicalPercent="-50"/>
+    </elements>
+    <immunities>
+      <immunity paralyze="1"/>
+      <immunity invisible="1"/>
+      <immunity earth="1"/>
+      <immunity energy="1"/>
+    </immunities>
+    <voices interval="5000" chance="10">
+    <voice sentence="*STOMP STOMP*" yell="1"/>
+  </voices>
+  </monster>

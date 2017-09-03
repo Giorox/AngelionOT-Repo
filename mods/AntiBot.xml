@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mod name="AntiBot System" version="5.0" author="EddyHavoc" contact="http://tibiaking.com/forum/user/24639-eddyhavoc/" enabled="yes">
+
+		<config name="check_system"><![CDATA[
+
+				config = {
+
+						code = 999,
+
+						ptime = 998,
+
+						ttime = 997,
+
+						nick = false,
+
+						afk = true,
+
+						afks = 38417,
+
+						lvl = 60,
+
+						nologout = true,
+
+						guild = true,
+
+						distance = 10
+
+						}
+
+				afk = {
+
+						time = 3, -- Seconds
+
+						say_events = {}
+
+						}
+
+
+				function randomCode()
+
+						return math.random(1000, 9999)
+
+				end
+
+
+				function SayText(cid)
+
+						if isPlayer(cid) == TRUE then
+
+								 if afk.say_events[getPlayerGUID(cid)] ~= nil then
+
+										 if isPlayer(cid) == TRUE then
+
+												 doSendAnimatedText(getPlayerPosition(cid),"AFK", math.random(01,255))
+
+										 end
+
+										 afk.say_events[getPlayerGUID(cid)] = addEvent(SayText, afk.time * 1000 / 2, cid)	
+
+								 end													
+
+						end
+
+						return TRUE
+
+				end
+
+				function czas(timeDiff)
+
+				local dateFormat = {
+
+						{"day", timeDiff / 60 / 60 / 24},
+
+						{"hour", timeDiff / 60 / 60 % 24},
+
+						{"minute", timeDiff / 60 % 60},
+
+						{"second", timeDiff % 60}
+
+				}
+
+
+				local out = {}
+
+				for k, t in ipairs(dateFormat) do
+
+						local v = math.floor(t[2])
+
+						if(v > 60) then
+
+								table.insert(out, (k < #dateFormat and (#out > 0 and ', ' or '') or ' and ') .. v .. ' ' .. t[1] .. (v ~= 1 and 's' or ''))
+
+						elseif(v > 0) then
+
+								table.insert(out, (k < #dateFormat and (#out > 0 and ', ' or '') or '') .. v .. ' ' .. t[1] .. (v ~= 1 and 's' or ''))
+
+						end
+
+				end  
+
+				return table.concat(out)
+
+		end
+
+
+		function check(cid, target)
+
+				local code = randomCode()
+
+				doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_ORANGE, "[AntiBot]: You check "..getCreatureName(target)..".")
+
+				doPlayerSendTextMessage(target, MESSAGE_STATUS_WARNING, "[AntiBot]: "..(config.nick == true and getCreatureName(cid) or "Someone").." check you. You must write /check "..code.." if you don't want be banished. You have only 15 minutes.")
+
+				setPlayerStorageValue(target, config.code, code)
+
+				setPlayerStorageValue(target, config.ttime, os.time() + (3 * 60 * 60))
+
+				setPlayerStorageValue(cid, config.ptime, os.time() + (6 * 60 * 60))
+
+				addEvent(function()
+
+						if(isPlayer(target) == false) then
+
+								return false
+
+						elseif(getPlayerStorageValue(target, config.code) == 0) then
+
+								return false
+
+						end
+
+						doPlayerSendTextMessage(target, MESSAGE_STATUS_WARNING, "[AntiBot]: You have only 1 minute. Please write /check "..getPlayerStorageValue(target, config.code)..".")
+
+						addEvent(function()
+
+								if(isPlayer(target) == false) then
+
+										return false
+
+								elseif(getPlayerStorageValue(target, config.code) == 0) then
+
+										return false
+
+								end
+
+								doAddAccountBanishment(getPlayerAccountId(target), target, os.time() + 48 * 3600, 12, 2, 'Banished by AntiBot System', 0)
+
+								doRemoveCreature(target)
+
+						end, 60 * 1000, {target = target, config = config})
+
+				end, 14 * 60 * 1000, {target = target, config = config, cid = cid})
+
+		end
+
+
+		function antibotGuildChange(cid, type)
+
+				if(type == "on") then
+
+						db.executeQuery("UPDATE guilds SET checkbot=1 WHERE id="..getPlayerGuildId(cid).." LIMIT 1;")
+
+						doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_ORANGE, "[AntiBot]: Now members of your guild can't check players from them.")
+
+				elseif(type == "off") then					
+
+						db.executeQuery("UPDATE guilds SET checkbot=0 WHERE id="..getPlayerGuildId(cid).." LIMIT 1;")
+
+						doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_ORANGE, "[AntiBot]: Now members of your guild can check players from them.")
+
+				end
+
+				return true
+
+		end
+
+
+		function antibotGuildCheck(cid, target)
+
+				if(getPlayerGuildId(cid) == 0) then
+
+						return true
+
+				elseif(getPlayerGuildId(target) == 0) then
+
+						return true
+
+				elseif(getPlayerGuildId(target) ~= getPlayerGuildId(cid)) then
+
+						return true
+
+				end
+
+				local result = db.getResult("SELECT * FROM guilds WHERE id="..getPlayerGuildId(cid).." LIMIT 1;")
+
+				if(result:getDataInt("checkbot") == 1) then
+
+						return false
+
+				else
+
+						return true
+
+				end
+
+		end
+
+
+		]]></config>
+
+		<talkaction words="/check" event="buffer"><![CDATA[
+
+				domodlib('check_system')
+
+						local t = string.explode(param, ",")
+
+						if(param == "") then
+
+								return doPlayerPopupFYI(cid, "Welcome in AntiBot Information.\nScript author: EddyHavoc\nScript Version: 1.1\n\nMini tutorial:\n/check nick - if you want check player with name nick\n/check code - if someone check you\n\nYou can check next player "..((getPlayerStorageValue(cid, config.ptime) - os.time()) > 0 and "after "..czas(getPlayerStorageValue(cid, config.ptime) - os.time()) or "now")..".\nYou can be check "..((getPlayerStorageValue(cid, config.ttime) - os.time()) > 0 and "after "..czas(getPlayerStorageValue(cid, config.ttime) - os.time()) or "now")..".")
+
+						elseif(t[1] == "guild") then
+
+								if(config.guild == false) then
+
+										return doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_ORANGE, "[AntiBot]: You can not use this function.")
+
+								elseif(not t[2]) then
+
+										return doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_ORANGE, "[AntiBot]: Use it /check guild, on/off.")
+
+								elseif(t[2] == "on" and getPlayerGuildLevel(cid) == GUILDLEVEL_LEADER) then
+
+										return antibotGuildChange(cid, "on")
+
+								elseif(t[2] == "off" and getPlayerGuildLevel(cid) == GUILDLEVEL_LEADER) then
+
+										return antibotGuildChange(cid, "off")
+
+								else
+
+										return doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_ORANGE, "[AntiBot]: Invalid param or you aren't leader.")
+
+								end
+
+						elseif(isNumber(param) == true) then
+
+								if(getPlayerStorageValue(cid, config.code) < 1) then
+
+										return doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_ORANGE, "[AntiBot]: If you want check code, you must be checked by other player.")
+
+								elseif(getPlayerStorageValue(cid, config.code) ~= tonumber(param)) then
+
+										return doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_ORANGE, "[AntiBot]: Invalid code.")
+
+								end
+
+								setPlayerStorageValue(cid, config.code, 0)
+
+								doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_ORANGE, "[AntiBot]: Code is correct.")
+
+								return true
+
+						else
+
+								if(getPlayerByNameWildcard(param) == nil) then
+
+										return doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_ORANGE, "[AntiBot]: Target not found.")
+
+								elseif(getPlayerByNameWildcard(param) == tonumber(cid)) then
+
+										return doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_ORANGE, "[AntiBot]: You can not check yourself.")
+
+								elseif(getTileInfo(getCreaturePosition(cid)).protection == true) then
+
+										return doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_ORANGE, "[AntiBot]: You can not check players if you are in protection zone.")
+
+								elseif(isNumber(config.lvl) and getPlayerLevel(cid) < config.lvl) then
+
+										return doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_ORANGE, "[AntiBot]: You can not use this system if your level is lover that "..config.lvl..".")
+
+								elseif(getTileInfo(getCreaturePosition(getPlayerByNameWildcard(param))).protection == true) then
+
+										return doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_ORANGE, "[AntiBot]: You can not check this players, because "..(getPlayerSex(getPlayerByNameWildcard(param)) == 0 and "she" or "he").." is in protection zone.")
+
+								elseif(config.afk and getPlayerStorageValue(cid, config.afks) > 0) then
+
+										return doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_ORANGE, "[AntiBot]: You can not check players if you are afk.")
+
+								elseif(config.afk and getPlayerStorageValue(getPlayerByNameWildcard(param), config.afks) > 0) then
+
+										return doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_ORANGE, "[AntiBot]: You can not check this players, because "..(getPlayerSex(getPlayerByNameWildcard(param)) == 0 and "she" or "he").." is afk.")
+
+								elseif(getPlayerStorageValue(cid, config.ptime) > os.time()) then
+
+										return doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_ORANGE, "[AntiBot]: You must rest if you want check next player.")
+
+								elseif(getPlayerStorageValue(getPlayerByNameWildcard(param), config.ttime) > os.time()) then
+
+										return doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_ORANGE, "[AntiBot]: You can not check this player.")
+
+								elseif((getTileInfo(getCreaturePosition(cid)).nologout or getTileInfo(getCreaturePosition(getPlayerByNameWildcard(param))).nologout) and config.nologout == true) then
+
+										return doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_ORANGE, "[AntiBot]: You can not check this player.")
+
+								elseif(antibotGuildCheck(cid, getPlayerByNameWildcard(param)) == false and config.guild) then
+
+										return doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_ORANGE, "[AntiBot]: You can not check this player.")
+
+								elseif(getDistanceBetween(getCreaturePosition(cid, getCreaturePosition(getPlayerByNameWildcard(param)) > config.distance or config.distance == 0) then
+
+										return doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_ORANGE, "[AntiBot]: You can not check this player.")
+
+								end
+
+								check(cid, getPlayerByNameWildcard(param))			
+
+						end
+
+						]]></talkaction>
+
+		<event type="combat" name="AFK_Protection" event="script"><![CDATA[
+
+				domodlib('check_system')
+
+				function onCombat(cid, target)
+
+				if(isPlayer(target) == true) then
+
+						if(getPlayerStorageValue(target, config.afks) == 1) then
+
+								return false
+
+						end
+
+				end
+
+				return true
+
+				end]]></event>
+
+		<event type="login" name="AFK_Login" event="script"><![CDATA[
+
+				domodlib('check_system')
+
+				function onLogin(cid)
+
+				if(getPlayerStorageValue(cid, config.afks) > 0) then
+
+						setPlayerStorageValue(cid, config.afks, 0)
+
+				end
+
+				registerCreatureEvent(cid, "AFK_Protection")
+
+				registerCreatureEvent(cid, "AFK_Login")
+
+				registerCreatureEvent(cid, "AFK_Logout")
+
+				return true
+
+				end]]></event>
+
+		<event type="logout" name="AFK_Logout" event="script"><![CDATA[
+
+				domodlib('check_system')	  
+
+				function onLogout(cid)
+
+				if(getPlayerStorageValue(cid, config.afks) == 1) then
+
+						return false
+
+				end
+
+				return true
+
+				end]]></event>
+
+
+		<talkaction words="!afk" event="buffer"><![CDATA[
+
+		domodlib('check_system')
+
+		afkCheck = getPlayerStorageValue(cid, config.afks)
+
+	 if (param == "on") then
+
+				if(getCreatureCondition(cid, CONDITION_INFIGHT) == true) then
+
+						return doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "You are infight.")
+
+				end
+
+		if (afkCheck == -1) then
+
+			if (isPlayer(cid) == TRUE) then
+
+				doSendAnimatedText(getPlayerPosition(cid),"AFK", math.random(01,255))
+
+			end
+
+			afk.say_events[getPlayerGUID(cid)] = addEvent(SayText, afk.time * 1000, cid)
+
+			doPlayerSendTextMessage(cid, MESSAGE_STATUS_WARNING, "Agora voce esta AFK.")
+
+			doCreatureSetNoMove(cid, true)
+
+			setPlayerStorageValue(cid, config.afks, 1)
+
+		else
+
+			doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "Voce ja esta AFK.")
+
+		end
+
+	 elseif (param == "off") then
+
+		stopEvent(afk.say_events[getPlayerGUID(cid)])
+
+		afk.say_events[getPlayerGUID(cid)] = nil
+
+		doPlayerSendTextMessage(cid, MESSAGE_STATUS_WARNING, "Bem Vindo de volta!")
+
+		doCreatureSetNoMove(cid, false)
+
+		setPlayerStorageValue(cid, config.afks, -1)
+
+		else
+
+				doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "Command param required.")
+
+	end
+
+		]]></talkaction>
+
+</mod> 

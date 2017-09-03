@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<monster name="Chizzoron the Distorter" nameDescription="a chizzoron the distorter" race="blood" experience="7500" speed="260" manacost="0"> 
+    <health now="8500" max="8500"/> 
+    <look type="340" corpse="11310"/> 
+    <targetchange interval="5000" chance="8"/> 
+    <strategy attack="100" defense="0"/> 
+    <flags> 
+        <flag summonable="0"/> 
+        <flag attackable="1"/> 
+        <flag hostile="1"/> 
+        <flag illusionable="0"/> 
+        <flag convinceable="0"/> 
+        <flag pushable="0"/> 
+        <flag canpushitems="1"/> 
+        <flag canpushcreatures="1"/> 
+        <flag targetdistance="1"/> 
+        <flag staticattack="90"/> 
+        <flag runonhealth="0"/> 
+     </flags> 
+<attacks> 
+<attack name="melee" interval="2000" skill="100" attack="90"/> 
+<attack name="fire" interval="2000" chance="20" range="7" radius="1" target="1" max="-500"> 
+<attribute key="shootEffect" value="fire"/> 
+<attribute key="areaEffect" value="firearea"/> 
+</attack> 
+<attack name="fire" interval="2000" chance="10" range="7" radius="4" target="1" max="-960"> 
+<attribute key="shootEffect" value="fire"/> 
+<attribute key="areaEffect" value="firearea"/> 
+</attack> 
+    <attack name="energy" interval="2000" chance="15" range="7" target="1" max="-800"> 
+      <attribute key="shootEffect" value="energyball"/> 
+      <attribute key="areaEffect" value="energy"/> 
+      </attack> 
+</attacks> 
+    <defenses armor="55" defense="85"> 
+<defense name="invisible" interval="1000" chance="10" duration="3000"> 
+<attribute key="areaEffect" value="redshimmer"/> 
+        </defense> 
+    </defenses> 
+<elements> 
+<element holyPercent="20"/> 
+<element energyPercent="25"/> 
+<element deathPercent="-10"/> 
+<element earthPercent="-10"/> 
+</elements> 
+<immunities> 
+<immunity fire="1"/> 
+<immunity invisible="1"/> 
+</immunities> 
+<summons maxSummons="2"> 
+<summon name="Lizard Dragon Priest" interval="2000" chance="20" max="2"/> 
+</summons> 
+<loot> 
+<item id="2148" countmax="59" chance="32250" /><!-- gold coin -->
+<item id="2149" countmax="2" chance="25000"/><!-- small emerald --> 
+<item id="5881" chance="22500"/><!-- lizard scale --> 
+<item id="9971" countmax="2" chance="10000"/><!-- gold ingot --> 
+    <item id="1987" chance="100000"><!-- bag --> 
+        <inside> 
+        <item id="11117" chance="600"/><!-- Crystal Boots --> 
+        <item id="2155" chance="1000"/><!-- green gem --> 
+        <item id="2492" chance="1500"/><!-- dsm  --> 
+        </inside> 
+    </item> 
+</loot> 
+</monster>

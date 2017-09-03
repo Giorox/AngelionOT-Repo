@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Rukor Zad" nameDescription="rukor zad" race="blood" experience="380" speed="250" manacost="450">
+  <health now="380" max="380"/>
+  <look type="152" head="114" body="114" legs="114" feet="114" addons="3" corpse="6080"/>
+  <targetchange interval="2000" chance="5"/>
+  <strategy attack="70" defense="20"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="45" attack="45"/>
+    <attack name="physical" interval="1000" chance="13" range="7" min="-0" max="-100">
+      <attribute key="shootEffect" value="throwingstar"/>
+    </attack>
+	<attack name="physical" interval="1000" chance="13" range="7" min="-0" max="-100">
+      <attribute key="shootEffect" value="poisonarrow"/>
+    </attack>
+    <attack name="drunk" interval="1000" chance="10" range="6">
+      <attribute key="shootEffect" value="throwingstar"/>
+      <attribute key="areaEffect" value="stun"/>
+    </attack>
+  </attacks>
+  <defenses armor="25" defense="20">
+    <defense name="speed" interval="1000" chance="9" speedchange="1201" duration="3000">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </defense>
+	<defense name="healing" interval="1000" chance="6" min="40" max="100">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+    <defense name="invisible" interval="1000" chance="9" duration="2000">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+  <elements>
+	<element physicalPercent="-1"/>
+	<element deathPercent="-5"/>
+  </elements>
+  <immunities>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="I can kill a man in a thousand ways. And thats only with a spoon!"/>
+    <voice sentence="You shouldn't have come here"/>
+    <voice sentence="Haiiii!"/>
+	<voice sentence="You are no match for a master assassin"/>
+  </voices>
+  <loot>
+    <item id="2148" countmax="76" chance1="80000"/>
+	<item id="2509" chance="100000"/>
+	<item id="7366" countmax="7" chance1="30000"/>
+	<item id="2399" countmax="9" chance1="60000"/>
+  </loot>
+</monster>

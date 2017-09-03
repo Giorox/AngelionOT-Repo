@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Iskan" script="data/npc/scripts/Iskan.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="143" head="19" body="39" legs="40" feet="0" addons="0"/>
+<parameters>
+        <parameter key="message_greet" value="Hello |PLAYERNAME|, Do you want ride to {Nibelor}?"/>
+        <parameter key="message_farewell" value="Good bye."/>
+		<parameter key="message_walkaway" value="Good bye." />
+</parameters>
+</npc>

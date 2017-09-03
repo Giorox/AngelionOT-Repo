@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Blazing Fire Elemental" nameDescription="a blazing fire elemental" race="fire" experience="580" speed="220" manacost="0">
+	<health now="580" max="580"/>
+	<look type="49" corpse="1492"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="30" attack="50"/>
+		<attack name="fire" interval="2000" chance="13" radius="5" target="0" min="-100" max="-150">
+			<attribute key="areaEffect" value="firearea"/>
+		</attack>
+		<attack name="fire" interval="2000" chance="10" range="7" radius="3" target="1" min="-65" max="-200">
+			<attribute key="shootEffect" value="fire"/>
+			<attribute key="areaEffect" value="firearea"/>
+		</attack>
+	</attacks>
+	<defenses armor="20" defense="20"/>
+	<immunities>
+		<immunity fire="1"/>
+		<immunity holy="1"/>
+	</immunities>
+	<elements>
+		<element icePercent="-25"/>
+		<element eartPercent="50"/>
+		<element deatPercent="40"/>
+	</elements>
+	<loot>
+    <item id="2148" countmax="100" chance="26650" /><!-- gold coin -->
+    <item id="2148" countmax="23" chance="26650" /><!-- gold coin -->
+    <item id="7840" countmax="3" chance="2700" /><!-- flaming arrow -->
+    <item id="10552" chance="6550" /><!-- fiery heart -->
+    <item id="8299" chance="4475" /><!-- glimmering soil -->
+</loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</monster>

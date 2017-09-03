@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Paladin Narai" script="data/npc/scripts/iodpaladin.lua" walkinterval="20000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="137" head="114" body="63" legs="0" feet="112" addons="3"/>
+    	<parameters>
+		<parameter key="message_greet" value="Hi |PLAYERNAME|. are you interested in paladin vocation, {Ok}?."/>
+	</parameters>
+</npc>

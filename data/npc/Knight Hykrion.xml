@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Knight Hykrion" script="data/npc/scripts/iodknight.lua" walkinterval="20000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="131" head="95" body="78" legs="78" feet="95" addons="3"/>
+    	<parameters>
+		<parameter key="message_greet" value="Hi |PLAYERNAME|. are you interested in knight vocation, {Ok}?."/>
+	</parameters>
+</npc>

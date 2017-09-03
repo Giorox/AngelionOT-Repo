@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Sigurd" script="data/npc/scripts/Sigurd.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="69" head="0" body="0" legs="0" feet="0" addons="0"/>
+<voices>
+<voice text="Hiho adventurers, get your runes, potions, wands and rods here!" interval2="100" margin="1" yell="no"/>
+</voices>
+<parameters>
+        <parameter key="message_greet" value="Welcome to the magic store, |PLAYERNAME|! Ask me for a {trade} if you need something."/>
+        <parameter key="message_farewell" value="Good bye. Come back soon."/>
+		<parameter key="message_walkaway" value="Good bye. Come back soon." />
+		<parameter key="message_sendtrade" value="Of course, just browse through my wares. Or do you want to look only at {potions}, {wands} or {runes}?" />
+</parameters>
+</npc>

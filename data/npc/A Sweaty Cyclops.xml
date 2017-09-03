@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="A Sweaty Cyclops" script="data/npc/scripts/A Sweaty Cyclops.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="22" head="0" body="0" legs="0" feet="0" addons="0"/>
+<parameters>
+        <parameter key="message_greet" value="Hum Humm! Welcume lil' Player.."/>
+        <parameter key="message_farewell" value="Good bye lil' one."/>
+		<parameter key="keywords" value="job;smith;steel;Zatragil;Uth'Doon;Za'Kalortith;Mesh Kaha Rogh;Ab'Dendriel;lil' lil';tibia;Teshial;Cenath;name;god" />
+		<parameter key="keyword_reply1" value="I am smith." />
+		<parameter key="keyword_reply2" value="Working steel is my profession." />
+		<parameter key="keyword_reply1" value="I am smith." />
+		<parameter key="keyword_reply3" value="Manny kinds of. Like Mesh Kaha Rogh, Za'Kalortith, Uth'Byth, Uth'Morc, Uth'Amon, Uth'Maer, Uth'Doon, and Zatragil."/>
+		<parameter key="keyword_reply4" value="Most ancients use dream silver for different stuff. Now ancients most gone. Most not know about." />
+		<parameter key="keyword_reply5" value="It's high steel called. Only lil' lil' ones know how make." />
+		<parameter key="keyword_reply6" value="It's evil. Demon iron is. No good cyclops goes where you can find and need evil flame to melt." />
+		<parameter key="keyword_reply7" value="Steel that is singing when forged. No one knows where find today." />
+		<parameter key="keyword_reply8" value="Me parents live here before town was. Me not care about lil' ones." />
+		<parameter key="keyword_reply9" value="Lil' lil' ones are so fun. We often chat." />
+		<parameter key="keyword_reply10" value="One day I'll go and look." />
+		<parameter key="keyword_reply11" value="Is one of elven family or such thing. Me not understand lil' ones and their busisness." />
+		<parameter key="keyword_reply12" value="Is one of elven family or such thing. Me not understand lil' ones and their busisness." />
+		<parameter key="keyword_reply13" value="I called Bencthyclthrtrprr by me people. Lil' ones me call Big Ben." />
+		<parameter key="keyword_reply14" value="You shut up. Me not want to hear" />
+	</parameters>
+</npc>

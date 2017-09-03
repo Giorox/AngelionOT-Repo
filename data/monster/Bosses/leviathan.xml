@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Leviathan" nameDescription="leviathan" race="undead" experience="5000" speed="480" manacost="0">
+	<health now="6000" max="6000"/>
+	<look type="275" corpse="8307"/>
+	<targetchange interval="5000" chance="6"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="250"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="90" attack="100"/>
+		<attack name="earth" interval="2000" chance="30" length="7" spread="3" min="-130" max="-460">
+			<attribute key="areaEffect" value="carniphila"/>
+		</attack>
+				<attack name="ice" interval="2000" chance="25" length="7" spread="3" min="-365" max="-491">
+			<attribute key="areaEffect" value="icearea"/>
+		</attack>
+	</attacks>
+	<defenses armor="22" defense="35">
+		<defense name="healing" interval="2000" chance="25" min="0" max="200">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+		<defense name="speed" interval="2000" chance="15" speedchange="800" duration="2000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element firePercent="30"/>
+		<element physicalPercent="-20"/>
+		<element energyPercent="-10"/>
+		<element deathPercent="-10"/>
+	</elements>
+	<immunities>
+		<immunity ice="1"/>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="CHHHRRRR" yell="1"/>
+		<voice sentence="HISSSS!" yell="1"/>
+	</voices>
+	<loot>
+    <item id="10529" chance="100500" /><!-- sea serpent trophy -->
+    <item id="2152" countmax="5" chance="59875" /><!-- platinum coin -->
+    <item id="9811" chance="87800" /><!-- rusty legs -->
+    <item id="2146" countmax="5" chance="23675" /><!-- small sapphire -->
+    <item id="1987" chance="100000"><!-- bag -->
+        <inside>
+            <item id="9808" chance="81450" /><!-- rusty armor -->
+            <item id="10220" chance="100500" /><!-- leviathan's amulet -->
+            <item id="7428" chance="51300" /><!-- bonebreaker -->
+            <item id="7589" chance="60300" /><!-- strong mana potion -->
+            <item id="10521" chance="14800" /><!-- moon backpack -->
+        </inside>
+    </item>
+</loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</monster>

@@ -1,0 +1,9 @@
+<raid>
+<announce delay="1000" type="event" message="The hell have returned to protect the center of Yalahar." />
+
+  <!--Area Spawns-->
+  <areaspawn delay="60000" fromx="563" fromy="654" fromz="7" tox="648" toy="567" toz="7">
+    <monster name="Undead Jester" amount="100" />
+  </areaspawn>
+
+</raid>

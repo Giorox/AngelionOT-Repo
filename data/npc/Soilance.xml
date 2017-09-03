@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Soilance" script="data/npc/scripts/Soilance.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="128" head="79" body="48" legs="21" feet="0" addons="0"/>
+<voices>
+<voice text="Come have a drink in the Hard Rock Racing Track." interval2="120" margin="1" yell="no"/>
+</voices>
+<parameters>
+        <parameter key="message_greet" value="Hi, |PLAYERNAME|. I assume you are here for a good old trade."/>
+        <parameter key="message_farewell" value="You'll come back when you are hungry enough."/>
+		<parameter key="message_walkaway" value="You'll come back when you are hungry enough." />
+		<parameter key="message_sendtrade" value="Of course, take a look at the great food I sell." />
+</parameters>
+</npc>

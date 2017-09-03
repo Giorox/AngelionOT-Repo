@@ -1,0 +1,17 @@
+<raid>
+<announce delay="1000" type="event" message="There's something sizzling in the Ankrahmun Dipthrah tombs." />
+<announce delay="300000" type="event" message="Even more sizzling in the Ankrahmun Dipthrah tombs." />
+<announce delay="420000" type="event" message="Poison overflow in the Ankrahmun Dipthrah tombs!" />
+  <!--Area Spawns-->
+  
+  <!--1st Hunting Floor-->
+  <areaspawn delay="300000" fromx="32964" fromy="32568" fromz="11" tox="33072" toy="32630" toz="11">
+    <monster name="cobra" amount="50" />
+  </areaspawn>
+  
+   <!--2nd Hunting Floor-->
+  <areaspawn delay="420000" fromx="33107" fromy="32621" fromz="12" tox="33020" toy="32531" toz="12">
+    <monster name="cobra" amount="50" />
+  </areaspawn>
+
+</raid>

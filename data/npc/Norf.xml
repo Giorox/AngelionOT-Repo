@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Norf" script="data/npc/scripts/Norf.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="57" head="0" body="0" legs="0" feet="0" addons="0"/>
+<parameters>
+<parameter key="message_greet" value="Be greeted, noble |PLAYERNAME|."/>
+ <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="offer;help;" />
+        <parameter key="keyword_reply1" value="I can bless you with {Spiritual} {Shielding}" />
+		<parameter key="keyword_reply2" value="I can bless you with {Spiritual} {Shielding}" />
+        <parameter key="message_farewell" value="Good Bye, noble |PLAYERNAME|."/>
+		<parameter key="message_walkaway" value="Good Bye, noble |PLAYERNAME|." />
+		</parameters>
+</npc>

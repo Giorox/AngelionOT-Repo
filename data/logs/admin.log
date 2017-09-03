@@ -1,0 +1,10 @@
+[15/01/2012 11:44:46] (Notice - virtual void ProtocolGame::parsePacket(NetworkMessage&)) PLAYER: Malvado Soul sent unknown byte: 0x3caf164
+
+[15/01/2012 21:03:47] (Notice - virtual void ProtocolGame::parsePacket(NetworkMessage&)) PLAYER: Malvado Soul sent unknown byte: 0x3c7f164
+
+[15/01/2012 21:39:36] (Notice - virtual void ProtocolGame::parsePacket(NetworkMessage&)) PLAYER:   sent unknown byte: 0x3c7f164
+
+[12/05/2014 22:41:08] (Notice - virtual void ProtocolGame::parsePacket(NetworkMessage&)) PLAYER: Jamaum Walker sent unknown byte: 0x3b4f164
+
+[17/07/2017 22:53:54] (Notice - virtual void ProtocolGame::parsePacket(NetworkMessage&)) PLAYER: Assassino de memes sent unknown byte: 0x4c9f158
+

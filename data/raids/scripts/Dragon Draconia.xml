@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+  <!--Announcements-->
+  <announce delay="1000" type="Event" message="There are dragons rising in Draconia!" />
+  <!--Single Spawns-->
+  <singlespawn delay="65000" name="Dragon" x="32778" y="31588" z="7" />
+  <singlespawn delay="65000" name="Dragon" x="32779" y="31588" z="7" />
+  <singlespawn delay="65000" name="Dragon Hatchling" x="32778" y="31589" z="7" />
+  <singlespawn delay="65000" name="Dragon Hatchling" x="32779" y="31589" z="7" />
+  <singlespawn delay="65000" name="Dragon Hatchling" x="32777" y="31589" z="7" />
+  
+  <singlespawn delay="65000" name="Dragon" x="32799" y="31604" z="7" />
+  <singlespawn delay="65000" name="Dragon" x="32800" y="31604" z="7" />
+  <singlespawn delay="65000" name="Dragon Hatchling" x="32799" y="31605" z="7" />
+  <singlespawn delay="65000" name="Dragon Hatchling" x="32800" y="31605" z="7" />
+  <singlespawn delay="65000" name="Dragon Hatchling" x="32801" y="31605" z="7" />
+  
+  <singlespawn delay="65000" name="Dragon" x="32796" y="31557" z="7" />
+  <singlespawn delay="65000" name="Dragon" x="32797" y="31557" z="7" />
+  <singlespawn delay="65000" name="Dragon Hatchling" x="32796" y="31558" z="7" />
+  <singlespawn delay="65000" name="Dragon Hatchling" x="32797" y="31558" z="7" />
+  <singlespawn delay="65000" name="Dragon Hatchling" x="32798" y="31558" z="7" />
+  
+  <singlespawn delay="65000" name="Dragon" x="32820" y="31592" z="7" />
+  <singlespawn delay="65000" name="Dragon" x="32821" y="31592" z="7" />
+  <singlespawn delay="65000" name="Dragon Hatchling" x="32820" y="31593" z="7" />
+  <singlespawn delay="65000" name="Dragon Hatchling" x="32821" y="31593" z="7" />
+  <singlespawn delay="65000" name="Dragon Hatchling" x="32822" y="31593" z="7" />
+  <!--Area Spawns-->
+  <areaspawn delay="60000" fromx="32790" fromy="31572" fromz="7" tox="32817" toy="31580" toz="7">
+    <monster name="Dragon Lord" amount="2" />
+  </areaspawn>
+  <areaspawn delay="60000" fromx="32792" fromy="31574" fromz="6" tox="32815" toy="31587" toz="6">
+    <monster name="Dragon Lord" amount="2" />
+  </areaspawn>
+  <areaspawn delay="60000" fromx="32807" fromy="31578" fromz="5" tox="32813" toy="31592" toz="5">
+    <monster name="Dragon Lord" amount="2" />
+  </areaspawn>
+</raid>

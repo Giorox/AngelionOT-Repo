@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Servant Golem" nameDescription="a Servant Golem" race="undead" experience="0" speed="270" manacost="0">
+	<health now="260" max="260"/>
+	<look type="304" corpse="9801"/>
+	<targetchange interval="2000" chance="95"/>
+	<strategy attack="0" defense="999999"/>
+	<flags>
+	<flag summonable="0"/>
+	<flag attackable="1"/>
+	<flag hostile="1"/>
+	<flag illusionable="0"/>
+	<flag convinceable="0"/>
+	<flag pushable="1"/>
+	<flag canpushitems="1"/>
+	<flag canpushcreatures="0"/>
+	<flag targetdistance="2"/>
+	<flag staticattack="10"/>
+	<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+	<attack name="speed" interval="1000" chance="4" speedchange="+200" duration="1000">
+		<attribute key="areaEffect" value="blackspark"/>
+                                      </attack>
+		<attack name="outfit" interval="2000" radius="3" chance="6" monster="pig" duration="6000">
+			<attribute key="areaEffect" value="yellowspark"/>
+		</attack>
+	</attacks>
+	<defenses armor="999999" defense="999999">
+	<defense name="speed" interval="1000" chance="4" speedchange="+500" duration="7000">
+		<attribute key="areaEffect" value="blueshimmer"/>
+	</defense>
+	</defenses>
+	<immunities>
+		<immunity name="physical"/>
+		<immunity name="holy"/>
+		<immunity name="death"/>
+		<immunity name="fire"/>
+		<immunity name="energy"/>
+		<immunity name="ice"/>
+		<immunity name="ice"/>
+		<immunity name="earth"/>
+		<immunity name="drown"/>
+		<immunity name="lifedrain"/>
+		<immunity name="paralyze"/>
+	</immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Do you thing I might become a real boy one day?"/>
+    <voice sentence="How may I serve you Sir Ma'am?"/>
+    <voice sentence="Washing procedure initiated!"/>
+    <voice sentence="Can I help you?"/>
+    <voice sentence="Scan result: dusty human! Cleansing initiated!"/>
+    <voice sentence="I am listening!"/>
+    <voice sentence="Where are we going Sir or Ma'am?"/>
+    <voice sentence="Praise the Yalahari!"/>
+    <voice sentence="Is that love or do you have a magnet in your pocket?"/>
+    <voice sentence="Move on! There's nothing to see!"/>
+    <voice sentence="Do you want to taste a sample of the newest dish?"/>
+    <voice sentence="I hope I am not annoynt Sir or Ma'am?"/>
+    <voice sentence="WARNING: BAD HAIRCUT DETECTED!"/>
+    <voice sentence="Initializing haircut procedure!"/>
+    <voice sentence="Mommy?"/>
+    <voice sentence="Everything is working as intended!"/>
+    <voice sentence="Rrrtttarrrttarrrtta"/>
+  </voices>
+</monster>

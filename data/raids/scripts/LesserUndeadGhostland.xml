@@ -1,0 +1,35 @@
+<raid>
+  <!--Announcements-->
+  <announce delay="1000" type="Event" message="There is a slight uneven energy in the ghostlands west of Carlin. Something is going to happen soon." />
+  <announce delay="180000" type="Event" message="Skeletons appeared in the ghostlands. Something is wrong there!" />
+  <announce delay="300000" type="Event" message="Now the ghostlands are full of ghouls! Seems like there is a massive outburst of negative energy there!" />
+  <!--Area Spawns-->
+  <areaspawn delay="180000" fromx="32177" fromy="31780" fromz="7" tox="32217" toy="31850" toz="7">
+    <monster name="Skeleton" amount="70" />
+  </areaspawn>
+  
+  <areaspawn delay="300000" fromx="32177" fromy="31780" fromz="7" tox="32217" toy="31850" toz="7">
+    <monster name="Ghoul" amount="70" />
+  </areaspawn>
+  
+  <areaspawn delay="600000" fromx="32179" fromy="31818" fromz="7" tox="32186" toy="31826" toz="7">
+    <monster name="Ghost" amount="10" />
+  </areaspawn>
+  <areaspawn delay="600000" fromx="32201" fromy="31808" fromz="7" tox="32206" toy="31817" toz="7">
+    <monster name="Ghost" amount="10" />
+  </areaspawn>
+  <areaspawn delay="600000" fromx="32210" fromy="31832" fromz="7" tox="32218" toy="31842" toz="7">
+    <monster name="Ghost" amount="10" />
+  </areaspawn>
+  
+  <areaspawn delay="720000" fromx="32179" fromy="31818" fromz="7" tox="32186" toy="31826" toz="7">
+    <monster name="Demon Skeleton" amount="5" />
+  </areaspawn>
+  <areaspawn delay="720000" fromx="32201" fromy="31808" fromz="7" tox="32206" toy="31817" toz="7">
+    <monster name="Demon Skeleton" amount="5" />
+  </areaspawn>
+  <areaspawn delay="720000" fromx="32210" fromy="31832" fromz="7" tox="32218" toy="31842" toz="7">
+    <monster name="Demon Skeleton" amount="5" />
+  </areaspawn>
+ 
+</raid>

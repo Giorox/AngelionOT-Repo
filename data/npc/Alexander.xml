@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Alexander" script="data/npc/scripts/Alexander.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="130" head="96" body="63" legs="71" feet="97" addons="0"/>
+<voices>
+<voice text="Selling all sorts of magic equipment. Come and have a look." interval2="120" margin="1" yell="no"/>
+</voices>
+<parameters>
+<parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="magic;" />
+        <parameter key="keyword_reply1" value="I'm selling runes, life rings, wands, rods and crystal balls. I also buy powerful spellbooks. If you like to see my offers, ask me for a {trade}."/>
+        <parameter key="message_greet" value="Hi there |PLAYERNAME|, and welcome to the {magic} store."/>
+        <parameter key="message_farewell" value="See you, |PLAYERNAME|."/>
+		<parameter key="message_sendtrade" value="Of course, just browse through my wares. Or do you want to look only at {runes} or {wands}?" />
+		<parameter key="message_walkaway" value="See you, |PLAYERNAME|." />
+</parameters>
+</npc>

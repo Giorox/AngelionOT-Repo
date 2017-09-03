@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Yaman" script="data/npc/scripts/Haroun.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="103" head="0" body="0" legs="0" feet="0" addons="0"/>
+	<parameters>
+			<parameter key="message_greet" value="Be greeted, human |PLAYERNAME|. How can a humble djinn be of service?" />
+		<parameter key="message_farewell" value="Farewell, human." />		
+		<parameter key="message_buy" value="Do you want to purchase |ITEMCOUNT| |ITEMNAME| for |TOTALCOST| gold?" />
+		<parameter key="message_sell" value="Do you want to sell |ITEMCOUNT| |ITEMNAME| for |TOTALCOST| gold?" />
+		<parameter key="message_decline" value="Well, obviously not." />		
+		<parameter key="message_onbuy" value="It'll serve you well!" />
+		<parameter key="message_onsell" value="Thank you, human." />
+		<parameter key="message_walkaway" value="Farewell, human." />
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job" />
+		<parameter key="keyword_reply1" value="I'm an old djinn, I buy several items, and sell a few myself." />
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_buyable" value="Dwarven ring,2213,2000;Energy ring,2167,2000;Life ring,2168,900;Might ring,2164,5000;Ring of healing,2214,2000;Time ring,2169,2000;Dragon necklace,2201,1000;Protection amulet,2200,700;Strange talisman,2161,100;Silver amulet,2170,100"/>
+		<parameter key="shop_sellable" value="Dwarven ring,2213,100;Energy ring,2167,100;Life ring,2168,50;Might ring,2164,250;Ring of healing,2214,100;Time ring,2169,100;Dragon necklace,2201,100;Protection amulet,2200,100;Strange talisman,2161,30;Silver amulet,2170,50;Hailstorm rod,2183,3000;Moonlight rod,2186,200;Necrotic rod,2185,1000;Snakebite rod,2182,100;Terra rod,2181,2000;Springsprout Rod,8912,3600;Northwind Rod,8911,1500;Underworld Rod,8910,4400;Ankh,2327,100;Mysterious Fetish,2194,50"/>
+	</parameters>
+</npc>

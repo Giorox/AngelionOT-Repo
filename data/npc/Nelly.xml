@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Nelly" script="data/npc/scripts/Nelly.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="138" head="116" body="3" legs="2" feet="15" addons="0"/>
+<voices>
+<voice text="If you need help with letters or parcels, just ask me. I can explain everything." interval2="100" margin="1" yell="no"/>
+<voice text="Also selling runes, potions and magical equipment!" interval2="120" margin="1" yell="no"/>
+<voice text="Welcome to the post office!" interval2="90" margin="1" yell="no"/>
+</voices>
+<parameters>
+        <parameter key="message_greet" value="Hello |PLAYERNAME|, What can I do for you? I'm working for the post office, but I also {trade} with important potions, runes and other magical equipment."/>
+        <parameter key="message_farewell" value="It was a pleasure to help you, |PLAYERNAME|."/>
+		<parameter key="message_walkaway" value="Good bye." />
+		<parameter key="message_sendtrade" value="Of course, just browse through my wares. Or do you want to look only at {post} stuff, {potions}, {wands} or {runes}?" />
+    </parameters>
+</npc>

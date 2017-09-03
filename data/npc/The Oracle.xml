@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<npc name="The Oracle" script="data/npc/scripts/the oracle.lua" walkinterval="0">
+	<health now="100" max="100"/>
+	<look typeex="1448"/>
+</npc>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Draken Warmaster" nameDescription="a draken warmaster" race="blood" experience="2400" speed="220" manacost="0">
+<health now="4150" max="4150"/>
+<look type="334" corpse="11103"/>
+<targetchange interval="5000" chance="8"/>
+<strategy attack="100" defense="0"/>
+<flags>
+<flag summonable="0"/>
+<flag attackable="1"/>
+<flag hostile="1"/>
+<flag illusionable="1"/>
+<flag convinceable="0"/>
+<flag pushable="0"/>
+<flag canpushitems="1"/>
+<flag canpushcreatures="0"/>
+<flag targetdistance="1"/>
+<flag staticattack="90"/>
+<flag runonhealth="0"/>
+</flags>
+<attacks>
+<attack name="melee" interval="2000" skill="90" attack="50"/>
+<attack name="fire" interval="2000" chance="20" length="4" spread="3" max="-480">
+<attribute key="shootEffect" value="explosion"/>
+<attribute key="areaEffect" value="explosion"/>
+</attack>
+</attacks>
+<defenses armor="16" defense="19"/>
+<elements>
+<element physicalPercent="5"/>
+<element holyPercent="20"/>
+<element deathPercent="20"/>
+<element energyPercent="30"/>
+<element icePercent="15"/>
+<element earthPercent="20"/>
+</elements>
+<immunities>
+<immunity fire="1"/>
+<immunity invisibility="1"/>
+</immunities>
+<loot>
+    <item id="11317" chance="7600" /><!-- zaoan halberd -->
+    <item id="2152" countmax="2" chance="37925" /><!-- platinum coin -->
+    <item id="2148" countmax="100" chance="41750" /><!-- gold coin -->
+    <item id="2148" countmax="58" chance="41750" /><!-- gold coin -->
+    <item id="2666" chance="30750" /><!-- meat -->
+    <item id="11297" chance="1000" /><!-- zaoan shoes -->
+    <item id="2147" countmax="2" chance="1025" /><!-- small ruby -->
+    <item id="11298" chance="1125" /><!-- zaoan legs -->
+    <item id="1987" chance="100000"><!-- bag -->
+        <inside>
+            <item id="7591" chance="2300" /><!-- great health potion -->
+            <item id="11295" chance="900" /><!-- zaoan armor -->
+            <item id="11299" chance="1050" /><!-- drakinata -->
+        </inside>
+    </item>
+</loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</monster>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Ulala" script="ulala.lua" walkinterval="2000" floorchange="0">
+	<look type="158" head="0" body="41" legs="121" feet="116" addons="0"/>
+	<parameters>
+		<parameter key="message_greet" value="Spirits welcome you."/>
+		<parameter key="message_farewell" value="Spirits protect you."/>
+	</parameters>
+</npc>

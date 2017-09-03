@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="The Snapper" nameDescription="the snapper" race="blood" experience="40" speed="240">
+	<health now="300" max="300"/>
+	<look type="119" corpse="6046"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="30"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="20" attack="40"/>
+	</attacks>
+	<defenses armor="13" defense="5"/>
+	<elements>
+		<element earthPercent="15"/>
+		<element icePercent="10"/>
+		<element energyPercent="-5"/>
+		<element firePercent="-10"/>
+		<element physicalPercent="-5"/>
+	</elements>
+	<loot>
+    <item id="7618" chance="51000" /><!-- health potion -->
+	<item id="2647" chance="47225" /><!-- plate legs -->
+	<item id="7618" chance="51000" /><!-- health potion -->
+    <item id="2148" countmax="98" chance="51355" /><!-- gold coin -->
+	    <item id="1987" chance="100000"><!-- bag -->
+        <inside>
+				<item id="7618" chance="51000" /><!-- health potion -->
+				<item id="2148" countmax="96" chance="51355" /><!-- gold coin -->
+				<item id="2463" chance="34724" /><!-- plate armor -->
+				<item id="2168" chance="100000" /><!-- life ring -->
+				<item id="7618" chance="51000" /><!-- health potion -->
+				<item id="3982" chance="11111" /><!-- crocodile boots -->
+				<item id="2476" chance="4170" /><!-- knight armor -->
+				<item id="7618" chance="51000" /><!-- health potion -->
+		</inside>
+    </item>
+</loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</monster>

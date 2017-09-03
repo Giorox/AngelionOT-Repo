@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Wisp" nameDescription="a wisp" race="undead" experience="65" speed="200" manacost="0">
+    <health now="115" max="115"/>
+    <look type="294" corpse="8946"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="1"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag staticattack="15"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="115"/>
+    </flags>
+    <attacks>
+      <attack name="melee" interval="2000" min="0" max="60"/>
+      <attack name="lifedrain" interval="2000" min="20" max="40"/>
+    <attack name="drunk" interval="1000" chance="15" range="7" radius="3" target="1">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </attack>
+    <attack name="drunk" interval="1000" chance="15" range="7" radius="1" target="1">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </attack>
+    </attacks>
+    <defenses armor="10" defense="15">
+	    <defense name="healing" interval="1000" chance="25" min="30" max="50">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+    <defense name="speed" interval="1000" chance="5" speedchange="250" duration="4000">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </defense>
+    <defense name="invisible" interval="2000" chance="10" duration="4000">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+    </defenses>
+	<elements>
+		<element energyPercent="-30"/>
+		<element PhysicalPercent="-65"/>
+		<element earthPercent="-90"/>
+	</elements>
+    <immunities>
+      <immunity physical="0"/>
+      <immunity energy="0"/>
+      <immunity fire="0"/>
+      <immunity death="1"/>
+      <immunity poison=""/>
+      <immunity lifedrain="0"/>
+      <immunity paralyze="1"/>
+      <immunity outfit="0"/>
+      <immunity drunk="0"/>
+      <immunity invisible="0"/>
+    </immunities>
+    <voices interval="2000" chance="5">
+      <voice sentence="Crackle!"/>
+      <voice sentence="Tsshh"/>
+    </voices>
+  </monster>

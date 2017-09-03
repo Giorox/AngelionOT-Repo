@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Smuggler baron silvertoe" nameDescription="a smuggler baron silvertoe" race="blood" experience="170" speed="230" manacost="390">
+  <health now="280" max="280"/>
+  <look type="134" head="95" body="0" legs="113" feet="115" corpse="6080"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="28" attack="22"/>
+  </attacks>
+  <defenses armor="10" defense="13"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <summons maxSummons="3">
+	<summon name="Wild Warrior" interval="3000" chance="20"/>
+  </summons>
+  <voices interval="5000" chance="10">
+    <voice sentence="i will make your dead look like an accident!"/>
+    <voice sentence="you should not have interferred with my bussiness"/>
+    <voice sentence="Bribes are expensive, murder is cheap!"/>
+    <voice sentence="I see some profit in your death!"/>
+    <voice sentence="I expect you to die!"/>
+  </voices>
+  <loot>
+    <item id="2148" countmax="20" chance1="100000" chancemax="0"/>
+    <item id="2398" chance="10000"/> --Mace
+    <item id="2666" countmax="3" chance1="20000" chancemax="0"/> --Meat
+   <item id="2406"  chance="10000"/> --short sword
+  </loot>
+</monster>

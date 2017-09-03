@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Raffael" script="default.lua" walkinterval="2000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="128" head="120" body="39" legs="115" feet="119" addons="3"/>
+    	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="message_greet" value="Hi |PLAYERNAME|. I sell Basic equipments. Say {trade}."/>
+		<parameter key="shop_buyable" value="backpack,1988,20;pick,2553,10;shovel,2554,20;rope,2120,50;health,7618,45;mana,7620,50"/>
+	</parameters>
+</npc>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Gree Dee" script="data/npc/scripts/Gree Dee.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="129" head="97" body="77" legs="87" feet="0" addons="0"/>
+<voices>
+<voice text="Come and buy at a cheap rate!" interval2="100" margin="1" yell="no"/>
+<voice text="Feel FREE to buy my ITEMS!" interval2="120" margin="1" yell="yes"/>
+</voices>
+<parameters>
+		<parameter key="module_shop" value="1" />
+		 <parameter key="message_farewell" value="You really should have bought some extra stuff, just in case."/>
+		 <parameter key="message_walkaway" value="You really should have bought some extra stuff, just in case." />
+		<parameter key="message_sendtrade" value="You will not believe how cheap my items are." />
+		<parameter key="message_greet" value="Be greeted esteemed customer with a full purse!" />
+		<parameter key="shop_buyable" value="scyzoryk,10516,10000;scyzoryk,10511,10000;scyzoryk,10513,10000;blessed wooden stake,5942,10000;obsidian knife,5908,10000;shovel,2554,50;fishing rod,2580,150;rope,2120,50;machete,2420,40;golden backpack,9774,20;golden bag,9775,5;pick,2553,50;scythe,2550,50;machete,2420,40;torch,2050,2;bottle,2007,3,1;document,1952,12;book,1958,15;parchment,1948,8;scroll,1949,5;plate,2035,6;present box,1990,10;watch,2036,20;worm,3976,1;bucket,2005,1,4;candlestick,2047,2;crowbar,2416,260;crowbar,10223,1000;rust remover,9930,100" />
+		<parameter key="shop_sellable" value="rope,2120,8;" />
+	</parameters>
+</npc>

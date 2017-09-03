@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Guide Davina" script="data/npc/scripts/Guide Davina.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="157" head="94" body="96" legs="78" feet="114" addons="3"/>
+</npc>

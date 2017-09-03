@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="tha exp carrier" nameDescription="a tha exp carrier" race="blood" experience="2000" speed="340" manacost="600">
+  <health now="1000000" max="1000000"/>
+  <look type="57" head="20" body="30" legs="40" feet="50" corpse="6080"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="85" attack="47"/>
+	<attack name="physical" interval="4000" chance="25" radius="3" min="-130" max="-250">
+		<attribute key="areaEffect" value="blackspark"/>
+	</attack>	
+	<attack name="death" interval="2000" chance="25" target="1" min="-210" max="-290">
+		<attribute key="shootEffect" value="suddendeath"/>
+		<attribute key="areaEffect" value="mortarea"/>
+	</attack>
+  </attacks>
+  <defenses armor="0" defense="0">
+    <defense name="healing" interval="1000" chance="6" min="30" max="100">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+    <defense name="speed" interval="1000" chance="10" speedchange="300" duration="3000">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </defense>
+  </defenses>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="2000" chance="10">
+    <voice sentence="Come kill me and get exp ^^" yell="1"/>
+  </voices>
+  <loot>
+    <item id="2148" countmax="20" chance1="100000" chancemax="0"/>
+    <item id="1949" chance="10000"/>
+    <item id="2467" chance="10000"/>
+    <item id="2642" chance="6666"/>
+    <item id="1987" chance="100000">
+      <inside>
+        <item id="2044" chance="6666"/>
+        <item id="2689" countmax="3" chance1="20000" chancemax="0"/>
+        <item id="2401" chance="3333"/>
+        <item id="2166" chance="1428"/>
+      </inside>
+    </item>
+  </loot>
+</monster>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Fallen Mooh'tah Master Ghar" nameDescription="fallen mooh'tah master ghar" race="blood" experience="4400" speed="285">
+	<health now="8000" max="8000"/>
+	<look type="29" head="20" body="30" legs="40" feet="50" corpse="7349"/>
+	<targetchange interval="1000" chance="0"/>
+	<strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="1"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag staticattack="75"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="100" attack="120" poison="300"/>
+		<attack name="physical" interval="1000" chance="15" length="8" spread="3" min="0" max="-290">
+			<attribute key="areaEffect" value="firearea"/>
+		</attack>
+		<attack name="fire" interval="2000" chance="18" target="1" range="7" min="-80" max="-400"> 
+			<attribute key="shootEffect" value="fire"/>
+			<attribute key="areaEffect" value="fireattack"/>
+		</attack>
+		<attack name="death" interval="1000" chance="13" target="1" min="-80" max="-265"> 
+			<attribute key="shootEffect" value="suddendeath"/>
+			<attribute key="areaEffect" value="mortarea"/>
+		</attack>
+		<attack name="earth" interval="2000" chance="20" target="1" range="5" min="-50" max="-195"> 
+				<attribute key="areaEffect" value="greenshimmer"/>		
+				<attribute key="shootEffect" value="poison"/>
+		</attack>
+	</attacks>
+	<defenses armor="30" defense="40"/>
+	<voices interval="2000" chance="5">
+		<voice sentence="I will finish you!"/>
+		<voice sentence="You are no match for a master of the Mooh'Tha!"/>
+                                     <voice sentence="I might be fallen but you will fall before me!"/>                                   
+	</voices> 
+</monster>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Sandra" script="data/npc/scripts/Sandra.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="140" head="115" body="95" legs="127" feet="76" addons="1"/>
+<voices>
+<voice text="Great spirit potions as well as health and mana potions in different sizes!" interval2="100" margin="1" yell="no"/>
+<voice text="If you need alchemical fluids like slime and blood, get them here." interval2="120" margin="1" yell="no"/>
+</voices>
+<parameters>
+        <parameter key="message_greet" value="Hello |PLAYERNAME|, welcome to the fluid and potion shop of Edron."/>
+        <parameter key="message_farewell" value="Good bye, |PLAYERNAME|, please come back soon."/>
+		<parameter key="message_walkaway" value="Good bye, |PLAYERNAME|, please come back soon." />
+		<parameter key="message_sendtrade" value="Of course, just browse through my wares. By the way, if you'd like to join our bonus system for depositing flasks and vial, you have to tell me about that {deposit}." />
+</parameters>
+</npc>

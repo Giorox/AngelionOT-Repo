@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Chatterbone" script="data/npc/scripts/Chatterbone.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="18" head="0" body="0" legs="0" feet="0" addons="0"/>
+
+<voices>
+<voice text="Spelllsssssss..." interval2="100" margin="1" yell="no"/>
+</voices>
+</npc>

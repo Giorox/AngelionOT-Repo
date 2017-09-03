@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Hjaern" script="data/npc/scripts/Hjaern.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="154" head="19" body="94" legs="95" feet="79" addons="3"/>
+<parameters>
+<parameter key="module_shop" value="1" />
+<parameter key="shop_sellable" value="shard,7290,2000;" />
+        <parameter key="message_greet" value="Welcome, |PLAYERNAME|! What do you need?"/>
+        <parameter key="message_farewell" value="Good bye, |PLAYERNAME|."/>
+		<parameter key="message_walkaway" value="Good bye." />
+		<parameter key="message_sendtrade" value="Here is my offer." />
+    </parameters>
+</npc>

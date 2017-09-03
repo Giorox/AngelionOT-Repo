@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="killer rabbit" nameDescription="a killer rabbit" race="blood" experience="160" speed="180" manacost="220">
+  <health now="205" max="205"/>
+  <look type="74" head="20" body="30" legs="40" feet="50" corpse="6017"/>
+  <targetchange interval="5000" chance="20"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="0"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="15"/>
+  </flags>
+  <attacks>
+   <attack name="melee" interval="2000" min="0" max="64"/>
+  </attacks>
+  <defenses armor="1" defense="2">
+    <defense name="invisible" interval="1000" chance="25" duration="9000">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+    <defense name="haste" interval="1000" chance="20" speedchange="300" duration="2000">
+    <attribute key="areaEffect" value="energyattack"/>
+    </defense>
+    </defenses>
+ <summons maxSummons="2">
+    <summon name="killer rabbit" interval="1000" chance="12" max="2"/>
+  </summons>
+ <voices interval="5000" chance="10">
+    <voice sentence="Who is lunch NOW?"/>    
+  </voices>
+  <loot>
+    <item id="2148" countmax="43" chance1="50000" chancemax="0"/>   
+  </loot>
+</monster>

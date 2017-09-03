@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Eternal Guardian" nameDescription="a eternal guardian" race="blood" experience="1800" speed="420" manacost="0">
+<health now="2500" max="2500"/>
+<look type="345" corpse="11278"/>
+<targetchange interval="5000" chance="8"/>
+<strategy attack="100" defense="0"/>
+<flags>
+<flag summonable="0"/>
+<flag attackable="1"/>
+<flag hostile="1"/>
+<flag illusionable="1"/>
+<flag convinceable="0"/>
+<flag pushable="0"/>
+<flag canpushitems="1"/>
+<flag canpushcreatures="0"/>
+<flag targetdistance="1"/>
+<flag staticattack="90"/>
+<flag runonhealth="0"/>
+</flags>
+<attacks>
+<attack name="melee" interval="2000" skill="60" attack="100"/>
+</attacks>
+	<defenses armor="35" defense="35"/>
+<elements>
+<element physicalPercent="5"/>
+<element deathPercent="20"/>
+<element firePercent="70"/>
+<element holyPercent="20"/>
+<element energyPercent="10"/>
+<element icePercent="10"/>
+</elements>
+<immunities>
+<immunity earth="1"/>
+<immunity invisible="1"/>
+</immunities>
+<loot>
+    <item id="2148" countmax="59" chance="32250" /><!-- gold coin -->
+	<item id="1294" countmax="10" chance="15875" /><!-- small stone-->
+	<item id="11221" chance="750" /><!-- shiny stone -->
+    <item id="10548" chance="5250" /><!-- ancient stone -->
+<!--   <item id="???" chance="950" />  clay lump -->
+<!--  <item id="???" chance="370" /> piece of marble rock -->
+</loot>
+</monster>

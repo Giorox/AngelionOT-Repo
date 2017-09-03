@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="A Ghostly Knight" script="data/npc/scripts/A Ghostly Knight.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="134" head="9" body="85" legs="9" feet="85" addons="1"/>
+	<parameters>
+		<parameter key="message_greet" value="Failed. I have ... {failed}"/>
+        <parameter key="message_farewell" value="Loneliness again..."/>
+		<parameter key="message_walkaway" value="Loneliness again..." />
+    </parameters>
+</npc>
