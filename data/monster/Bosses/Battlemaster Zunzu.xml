@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Battlemaster Zunzu" nameDescription="Battlemaster Zunzu" race="blood" experience="2500" speed="420" manacost="0">
-<health now="5000" max="5000"/>
+<health now="4000" max="4000"/>
 <look type="343" corpse="11278"/>
 <targetchange interval="5000" chance="8"/>
 <strategy attack="100" defense="0"/>
@@ -19,17 +19,17 @@
 </flags>
 <attacks>
 <attack name="melee" interval="2000" skill="55" attack="88"/>
-<attack name="poison" interval="2000" chance="12" range="1" radius="1" target="1" min="-0" max="-350">
+<attack name="poison" interval="2000" chance="12" range="1" radius="1" target="1" min="-115" max="-350">
 <attribute key="areaEffect" value="poison"/>
 </attack>
+<attack name="poisoncondition" interval="2000" chance="20" range="7" min="-10" max="-20">
+			<attribute key="shooteffect" value="poison"/>
+		</attack>
 </attacks>
 	<defenses armor="35" defense="35">
-		<defense name="healing" interval="1000" chance="18" min="200" max="400">
+		<defense name="healing" interval="1000" chance="18" min="200" max="261">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
-<defense name="invisible" interval="5000" chance="20" duration="5000">
-<attribute key="areaEffect" value="redshimmer"/>
-</defense>
 	</defenses>
 <elements>
 <element physicalPercent="-15"/>
@@ -46,14 +46,13 @@
     <voice sentence="Hissss!"/>
   </voices>
 <loot>
-<item id="2148" countmax="136" chance="10000"/>
-<item id="11324" chance="1900"/>
-<item id="7591" chance="2200"/>
-<item id="11199" chance="1500"/>
-<item id="11323" chance="840"/>
-<item id="7588" chance="1900"/>
-<item id="5881" chance="1200"/>
-<item id="2149" chance="1100"/>
-<item id="11297" chance="710"/>
+<item id="2148" countmax="136" chance="10000"/> <!-- Gold coins -->
+<item id="11324" chance="1900"/> <!-- Zaoan flag -->
+<item id="11298" chance="1900"/> <!-- Zaoan legs -->
+<item id="2149" countmax="10" chance="1100"/> <!-- Small emerald -->
+<item id="11297" chance="710"/> <!-- Zaoan shoes -->
+<item id="11295" chance="710"/> <!-- Zaoan armor -->
+<item id="11200" chance="50000"/>	<!-- red lantern -->
+<item id="11325" chance="50000"/>	<!-- zaogun shoulderplates -->
 </loot>
 </monster>

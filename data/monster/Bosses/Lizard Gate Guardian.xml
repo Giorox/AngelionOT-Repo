@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Lizard Gate Guardian" nameDescription="Lizard Gate Guardian" race="blood" experience="2000" speed="420" manacost="0">
-<health now="3000" max="300"/>
+<monster name="Lizard Gate Guardian" nameDescription="Lizard Gate Guardian" race="blood" experience="2500" speed="420" manacost="0">
+<health now="5000" max="5000"/>
 <look type="343" corpse="11278"/>
 <targetchange interval="5000" chance="8"/>
 <strategy attack="100" defense="0"/>
@@ -18,18 +18,9 @@
 <flag runonhealth="0"/>
 </flags>
 <attacks>
-<attack name="melee" interval="2000" skill="71" attack="93"/>
-<attack name="poison" interval="2000" chance="12" range="1" radius="1" target="1" min="-0" max="-250">
-<attribute key="areaEffect" value="poison"/>
-</attack>
+<attack name="melee" interval="2000" skill="71" attack="112"/>
 </attacks>
 	<defenses armor="35" defense="35">
-		<defense name="healing" interval="1000" chance="18" min="200" max="400">
-			<attribute key="areaEffect" value="blueshimmer"/>
-		</defense>
-<defense name="invisible" interval="5000" chance="20" duration="5000">
-<attribute key="areaEffect" value="redshimmer"/>
-</defense>
 	</defenses>
 <elements>
 <element physicalPercent="5"/>
@@ -45,13 +36,12 @@
 <immunity invisible="1"/>
 </immunities>
 <loot>
-<item id="2148" countmax="48" chance="10000"/>
-<item id="11324" chance="1900"/>
-<item id="7591" chance="2200"/>
-<item id="11199" chance="1500"/>
-<item id="11323" chance="840"/>
-<item id="7588" chance="1900"/>
-<item id="5881" chance="1200"/>
-<item id="11297" chance="710"/>
+<item id="2148" countmax="49" chance="10000"/> <!-- Gold Coins -->
+<item id="2152" countmax="1" chance="10000"/> <!-- Platinum Coins -->
+<item id="8473" chance="2200"/> <!-- UHP -->
+<item id="5881" chance="1200"/> <!-- Lizard Scale -->
+<item id="11297" chance="710"/> <!-- Zaoan Shoes -->
+<item id="11296" chance="710"/> <!-- Zaoan Helmet -->
+<item id="11301" chance="710"/> <!-- Zaoan Sword -->
 </loot>
 </monster>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="The Voice of Ruin" nameDescription="The Voice of Ruin" race="blood" experience="2200" speed="240" manacost="0">
-<health now="3050" max="3050"/>
+<monster name="The Voice of Ruin" nameDescription="The Voice of Ruin" race="blood" experience="3500" speed="240" manacost="0">
+<health now="5500" max="5500"/>
 <look type="344" corpse="11279"/>
 <targetchange interval="5000" chance="8"/>
 <strategy attack="100" defense="0"/>
@@ -22,6 +22,10 @@
 <attack name="poison" interval="3000" chance="12" length="8" spread="3" min="-30" max="-120">
 <attribute key="areaEffect" value="poison"/>
 </attack>
+<attack name="poison" interval="3000" chance="12" length="8" spread="0" min="-30" max="-190">
+<attribute key="areaEffect" value="poison"/>
+</attack>
+
 </attacks>
 <defenses armor="16" defense="19"/>
 <elements>
@@ -37,16 +41,15 @@
 <summon name="Lizard Chosen" interval="2000" chance="18" max="2"/>
 </summons>
 <loot>
-<item id="2148" countmax="64" chance="10000"/>
-<item id="2152" countmax="4" chance="30000"/>
+<item id="2148" countmax="75" chance="10000"/> <!-- Gold Coin -->
+<item id="2152" countmax="4" chance="30000"/> <!-- Platinum Coin -->
 <item id="11319" chance="900"/>
-<item id="11318" chance="1100"/>
-<item id="11296" chance="500"/>
-<item id="5876" countmax="1" chance="1800"/>
+<item id="9971" chance="900"/>
+<item id="11321" chance="900"/>
 <item id="1987" chance="100000">
 <inside>
 <item id="11320" chance="400"/>
-<item id="11295" chance="633"/>
+<item id="11297" chance="633"/>
 </inside>
 </item>
 </loot>
