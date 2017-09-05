@@ -152,6 +152,7 @@
 	<monster name="Rahemos" file="Bosses/rahemos.xml"/>
 	<monster name="Ron the Ripper" file="Bosses/ron the ripper.xml"/>
 	<monster name="Rukor Zad" file="Bosses/Rukor Zad.xml"/>
+	<monster name="Teleskor" file="Bosses/Teleskor.xml"/>
 	<monster name="Thalas" file="Bosses/thalas.xml"/>
 	<monster name="The Count" file="Bosses/the count.xml"/>
 	<monster name="The Handmaiden" file="Bosses/the handmaiden.xml"/>

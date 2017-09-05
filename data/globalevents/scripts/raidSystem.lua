@@ -41,6 +41,15 @@ raidTable = {
 	{boss = "Tiquandas Revenge", pos = {x=32872,y=32665,z=7}},
 	{boss = "High Templar Cobrass", pos = {x=32957,y=32854,z=8}},
 	{boss = "Hatebreeder", pos = {x=33045,y=31093,z=14}},
+	{boss = "Flamecaller Zazrak", pos = {x=33184,y=31220,z=7}},
+	{boss = "Dreadmaw", pos = {x=33294,y=31159,z=7}},
+	{boss = "Battlemaster Zunzu", pos = {x=33204,y=31356,z=7}},
+	{boss = "The Voice of Ruin", pos = {x=33311,y=31130,z=9}},
+	{boss = "Munster", pos = {x=32100,y=32217,z=9}},
+	{boss = "Rottie the Rotworm", pos = {x=32059,y=32076,z=10}}, -- Poison Spider Cave
+	{boss = "Rottie the Rotworm", pos = {x=32174,y=32147,z=11}}, -- Katana Quest
+	{boss = "Teleskor", pos = {x=31976,y=32248,z=10}},
+	{boss = "Apprentice Sheng", pos = {x=32129,y=32060,z=12}},
 }
 
 local function checkArea(pos, monster)

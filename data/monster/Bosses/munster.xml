@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Munster" nameDescription="Munster" race="blood" experience="23" speed="200" manacost="250">
+<monster name="Munster" nameDescription="Munster" race="blood" experience="35" speed="200" manacost="250">
 	<health now="58" max="58"/>
 	<look type="56" head="20" body="30" legs="40" feet="50" corpse="2813"/>
 	<targetchange interval="60000" chance="0"/>
@@ -40,15 +40,14 @@
 		<summon name="Rat" interval="2000" chance="20" max="2"/>
 	</summons>
 	<loot>
-		<item id="2148" countmax="16" chance1="10000" chancemax="0"/> <!-- Gold Coins -->
-		<item id="2696" chance="50000"/> <!-- Cheese -->
-                                     <item id="2382" chance="50000"/> <!-- club -->
+		<item id="2148" countmax="24" chance1="10000" chancemax="0"/> <!-- Gold Coins -->
+		<item id="2696" countmax="4" chance="50000"/> <!-- Cheese -->
+		<item id="3976" countmax="4" chance="50000"/> <!-- Worm -->
 		<item id="1987" chance="100000">
 			<inside>
 				<item id="2687" countmax="1" chance1="5000" chancemax="0"/> <!-- Cookie -->
-				<item id="2650" chance="50000"/> <!-- Jacket -->
 				<item id="2449" chance="5000"/> <!-- Bone Club -->
-                                                                          <item id="5792" chance="5000"/> <!-- dice -->
+                <item id="5792" chance="600"/> <!-- dice -->
 			</inside>
 		</item>
 	</loot>

@@ -23,17 +23,18 @@
   <defenses armor="8" defense="11"/>
   <immunities/>
   <loot>
-    <item id="2148" countmax="27" chance1="100000" chancemax="0"/>
-    <item id="2480" chance="1500"/>
-    <item id="2530" chance="2857"/>
-    <item id="1987" chance="100000">
+    <item id="2148" countmax="27" chance1="100000" chancemax="0"/> <!-- Gold Coins -->
+    <item id="2480" chance="1500"/> <!-- Legion Helmet -->
+    <item id="2530" chance="2857"/> <!-- Copper Shield -->
+	<item id="10608" chance1="100000"/> <!-- Lump of Dirt -->
+    <item id="1987" chance="100000"> <!-- Bag -->
       <inside>
-        <item id="2666" countmax="1" chance="20000"/>
-		<item id="3976" countmax="5" chance1="50000" chancemax="0"/>
-        <item id="2398" chance="3333"/>
-        <item id="2671" countmax="2" chance1="20000" chancemax="0"/>
-        <item id="2376" chance="10000"/>
-        <item id="2412" chance="1000"/>
+        <item id="2666" countmax="2" chance="20000"/> <!-- Meat -->
+		<item id="3976" countmax="5" chance1="50000" chancemax="0"/> <!-- Worm -->
+        <item id="2398" chance="3333"/> <!-- Mace -->
+        <item id="2671" countmax="2" chance1="20000" chancemax="0"/> <!-- Ham -->
+        <item id="2376" chance="10000"/> <!-- Sword -->
+        <item id="2412" chance="1000"/> <!-- Katana -->
       </inside>
     </item>
   </loot>
