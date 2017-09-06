@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="dharalion" nameDescription="Dharalion" race="blood" experience="380" speed="240" manacost="0">
+<monster name="dharalion" nameDescription="Dharalion" race="blood" experience="570" speed="240" manacost="0">
   <health now="380" max="380"/>
   <look type="203" head="20" body="30" legs="40" feet="50" corpse="6011"/>
   <targetchange interval="5000" chance="8"/>
@@ -19,12 +19,12 @@
   </flags>
   <attacks>
     <attack name="melee" interval="2000" skill="30" attack="28"/>
-    <attack name="manadrain" interval="1000" chance="15" range="7" min="-30" max="-60"/>
-    <attack name="energy" interval="1000" chance="13" range="7" min="-70" max="-90">
+    <attack name="manadrain" interval="1000" chance="15" range="7" min="-30" max="-100"/>
+    <attack name="energy" interval="1000" chance="13" range="7" min="-80" max="-100">
       <attribute key="shootEffect" value="energy"/>
       <attribute key="areaEffect" value="energy"/>
     </attack>
-    <attack name="physical" interval="1000" chance="10" range="7" min="-130" max="-150">
+    <attack name="physical" interval="1000" chance="10" range="7" min="-80" max="-151">
       <attribute key="shootEffect" value="suddendeath"/>
     </attack>
     <attack name="strength" interval="1000" chance="13" range="7">
@@ -33,7 +33,7 @@
     </attack>
   </attacks>
   <defenses armor="15" defense="25">
-    <defense name="healing" interval="1000" chance="20" min="90" max="120">
+    <defense name="healing" interval="1000" chance="20" min="90" max="150">
       <attribute key="areaEffect" value="blueshimmer"/>
     </defense>
     <defense name="speed" interval="1000" chance="7" speedchange="300" duration="10000">
@@ -62,36 +62,31 @@
   </summons>
   <voices interval="5000" chance="10">
     <voice sentence="You desecrated this temple!"/>
-    <voice sentence="Noone will stop my ascension!"/>
+    <voice sentence="No one will stop my ascension!"/>
     <voice sentence="My powers are divine!"/>
     <voice sentence="Muahahaha!"/>
+	<voice sentence="Feel my wrath!"/>
   </voices>
   <loot>
-    <item id="2148" countmax="20" chance1="100000" chancemax="0"/>
-    <item id="1949" chance="10000"/>
-    <item id="2578" chance="5000"/>
-    <item id="2260" chance="4000"/>
-    <item id="2401" chance="3000"/>
-    <item id="2369" chance="3000"/>
-    <item id="2642" chance="20000"/>
-    <item id="2682" chance="6666"/>
-    <item id="2802" countmax="1" chance1="10000" chancemax="0"/>
-    <item id="2600" chance="33333"/>
-    <item id="2177" chance="2857"/>
-    <item id="2689" countmax="3" chance1="20000" chancemax="0"/>
-    <item id="3976" countmax="10" chance1="50000" chancemax="0"/>
-    <item id="1987" chance="100000">
+    <item id="2148" countmax="100" chance1="100000" chancemax="0"/> <!-- Gold Coins -->
+    <item id="2260" chance="4000"/> <!-- Blank runes -->
+    <item id="2369" chance="3000"/> <!-- Cornucopia -->
+    <item id="2682" chance="6666"/> <!-- Melon -->
+	<item id="10551" chance="5000"/> <!-- Elvish Talisman -->
+    <item id="2802" countmax="1" chance1="10000" chancemax="0"/> <!-- Slingherb -->
+    <item id="2177" chance="2857"/> <!-- Life Crystal -->
+    <item id="2689" countmax="3" chance1="20000" chancemax="0"/> <!-- Bread -->
+	<item id="2047" chance="4000"/> <!-- Candlestick -->
+	<item id="1948" chance="4000"/> <!-- Parchment -->
+    <item id="1987" chance="100000"> <!-- Bag -->
       <inside>
-        <item id="2652" chance="5000"/>
-        <item id="2544" countmax="10" chance1="20000" chancemax="0"/>
-        <item id="2456" chance="10000"/>
-        <item id="2032" chance="4000"/>
-        <item id="2189" chance="4000"/>
-        <item id="2062" chance="2857"/>
-        <item id="2125" chance="1818"/>
-        <item id="2154" chance="1333"/>
-       <item id="5922" chance="5000"/>
-       <item id="7590" chance="5000"/>
+        <item id="2652" chance="5000"/> <!-- Green Tunic -->
+        <item id="2032" chance="4000"/> <!-- Bowl -->
+		<item id="5805" chance="4000"/> <!-- Golden Goblet -->
+        <item id="2154" chance="1333"/> <!-- Yellow Gem -->
+       <item id="5922" chance="100000"/> <!-- Holy Orchid -->
+       <item id="7590" chance="5000"/> <!-- GMP -->
+	   <item id="2189" chance="5000"/> <!-- Elven Amulet -->
       </inside>
     </item>
   </loot>

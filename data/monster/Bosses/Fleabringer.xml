@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Fleabringer" nameDescription="Fleabringer" race="blood" experience="80" speed="206" manacost="0">
-<health now="65" max="265"/>
+<monster name="Fleabringer" nameDescription="Fleabringer" race="blood" experience="100" speed="206" manacost="0">
+<health now="265" max="265"/>
 <look type="341" corpse="11241"/>
 <targetchange interval="5000" chance="8"/>
 <strategy attack="100" defense="0"/>

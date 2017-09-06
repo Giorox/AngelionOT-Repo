@@ -128,6 +128,7 @@
 	<monster name="Fernfang" file="Bosses/fernfang.xml"/>
 	<monster name="Fire Overlord" file="Bosses/fire overlord.xml"/>
 	<monster name="Flamecaller Zazrak" file="Bosses/Flamecaller Zazrak.xml"/>
+	<monster name="Fleabringer" file="Bosses/Fleabringer.xml"/>
 	<monster name="Ghazbaran" file="Bosses/ghazbaran.xml"/>
 	<monster name="General Murius" file="Bosses/general murius.xml"/>
 	<monster name="Golgordan" file="Bosses/golgordan.xml"/>
@@ -155,6 +156,7 @@
 	<monster name="Teleskor" file="Bosses/Teleskor.xml"/>
 	<monster name="Thalas" file="Bosses/thalas.xml"/>
 	<monster name="The Count" file="Bosses/the count.xml"/>
+	<monster name="The Frog Prince" file="Bosses/the frog prince.xml"/>
 	<monster name="The Handmaiden" file="Bosses/the handmaiden.xml"/>
 	<monster name="The Horned Fox" file="Bosses/the horned fox.xml"/>
 	<monster name="The Imperor" file="Bosses/the imperor.xml"/>

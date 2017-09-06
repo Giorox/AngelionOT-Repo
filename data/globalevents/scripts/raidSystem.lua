@@ -50,6 +50,12 @@ raidTable = {
 	{boss = "Rottie the Rotworm", pos = {x=32174,y=32147,z=11}}, -- Katana Quest
 	{boss = "Teleskor", pos = {x=31976,y=32248,z=10}},
 	{boss = "Apprentice Sheng", pos = {x=32129,y=32060,z=12}},
+	{boss = "Dharalion", pos = {x=33039,y=32177,z=9}},
+	{boss = "Man In The Cave", pos = {x=32133,y=31147,z=2}},
+	{boss = "The Frog Prince", pos = {x=32382,y=32131,z=7}},
+	{boss = "Fleabringer", pos = {x=33089,y=31383,z=8}}, -- First Cave
+	{boss = "Fleabringer", pos = {x=33111,y=31458,z=8}}, -- Second Cave
+	{boss = "Fleabringer", pos = {x=33228,y=31415,z=7}}, -- Steppe
 }
 
 local function checkArea(pos, monster)
