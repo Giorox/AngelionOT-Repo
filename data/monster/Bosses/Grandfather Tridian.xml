@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<monster name="Grandfather Tridian" nameDescription="a Grandfather Tridian" race="blood" experience="1400" speed="220" manacost="0">
+<monster name="Grandfather Tridian" nameDescription="Grandfather Tridian" race="blood" experience="1400" speed="220" manacost="0">
   <health now="1800" max="1800"/>
   <look type="193" head="0" body="0" legs="0" feet="0" corpse="6080"/>
   <targetchange interval="5000" chance="8"/>
@@ -54,16 +54,15 @@
   <loot>
     <item id="2148" countmax="80" chance1="90000" chancemax="45000"/> --Gold
     <item id="2187" chance="5000" /> -- wand of Inferno
-    <item id="2656" chance="400"/>
     <item id="1987" chance="100000">
       <inside>
-        <item id="2114" chance="1333"/>
-        <item id="6087" chance="1428"/>
+        <item id="2114" chance="1333"/> <!-- Piggy Bank -->
+        <item id="6087" chance="1428"/> <!-- Music Sheet -->
         <item id="5810" chance="555"/>
         <item id="2789" countmax="8" chance1="4500" chancemax="0"/>
-        <item id="2436" chance="15000"/> --Skull Staff
-        <item id="5669" chance="4000"/> --Misteryous voodoo
-		<item id="8922" chance="13000"/> --Wand of voodoo
+        <item id="2436" chance="15000"/> <!-- Skull Staff -->
+        <item id="5669" chance="4000"/> <!-- Misteryous voodoo -->
+		<item id="8922" chance="13000"/> <!-- Wand of voodoo -->
       </inside>
     </item>
   </loot>

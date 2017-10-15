@@ -20,6 +20,9 @@
 		<attack name="melee" interval="2000" skill="35" attack="40"/>
 	</attacks>
 	<defenses armor="10" defense="12"/>
+	<summons maxSummons="5">
+		<summon name="Troll Champion" interval="1000" chance="40" max="5"/>
+	</summons>
 	<elements>
 		<element energyPercent="-1"/>
 		<element holyPercent="-1"/>
@@ -27,9 +30,11 @@
 		<element deathPercent="1"/>
 	</elements>
 	<loot capacity="200">
-		<item id="2148" countmax="57" chance="6000"/>
-		<item id="2666" countmax="3" chance="1500"/>
-		<item id="2389" countmax="2" chance="2000"/>
-		<item id="2448" countmax="1" chance="5000"/>
+		<item id="2148" countmax="64" chance="6000"/> <!-- Gold Coin -->
+		<item id="2666" countmax="3" chance="1500"/> <!-- Meat -->
+		<item id="2389" countmax="2" chance="2000"/> <!-- Spear -->
+		<item id="2448" countmax="1" chance="5000"/> <!-- Spiked Club -->
+		<item id="2643" countmax="1" chance="5000"/> <!-- Leather Boots -->
+		<item id="2170" countmax="1" chance="5000"/> <!-- Silver Amulet -->
 	</loot>
 </monster>

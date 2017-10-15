@@ -109,6 +109,7 @@
 
 	<!-- Bosses -->
 	<monster name="Annihilon" file="Bosses/annihilon.xml"/>
+	<monster name="Big Boss Trolliver" file="Bosses/big boss trolliver.xml"/>
 	<monster name="Captain Jones" file="Bosses/Captain Jones.xml"/>
 	<monster name="Munster" file="Bosses/munster.xml"/>
 	<monster name="Barbaria" file="Bosses/Barbaria.xml"/>
@@ -129,10 +130,13 @@
 	<monster name="Fire Overlord" file="Bosses/fire overlord.xml"/>
 	<monster name="Flamecaller Zazrak" file="Bosses/Flamecaller Zazrak.xml"/>
 	<monster name="Fleabringer" file="Bosses/Fleabringer.xml"/>
+	<monster name="Foreman Kneebiter" file="Bosses/foreman kneebiter.xml"/>
 	<monster name="Ghazbaran" file="Bosses/ghazbaran.xml"/>
 	<monster name="General Murius" file="Bosses/general murius.xml"/>
 	<monster name="Golgordan" file="Bosses/golgordan.xml"/>
+	<monster name="Grandfather Tridian" file="Bosses/Grandfather Tridian.xml"/>
 	<monster name="Grorlam" file="Bosses/grorlam.xml"/>
+	<monster name="Hairman The Huge" file="Bosses/hairman the huge.xml"/>
 	<monster name="Hatebreeder" file="Bosses/Hatebreeder.xml"/>
 	<monster name="Hellgorak" file="Bosses/hellgorak.xml"/>
 	<monster name="High Templar Cobrass" file="Bosses/High templar cobrass.xml"/>
@@ -153,13 +157,16 @@
 	<monster name="Rahemos" file="Bosses/rahemos.xml"/>
 	<monster name="Ron the Ripper" file="Bosses/ron the ripper.xml"/>
 	<monster name="Rukor Zad" file="Bosses/Rukor Zad.xml"/>
+	<monster name="Smuggler Baron Silvertoe" file="Bosses/Smuggler Baron Silvertoe.xml"/>
 	<monster name="Teleskor" file="Bosses/Teleskor.xml"/>
 	<monster name="Thalas" file="Bosses/thalas.xml"/>
+	<monster name="The Big Bad One" file="Bosses/The big bad one.xml"/>
 	<monster name="The Count" file="Bosses/the count.xml"/>
 	<monster name="The Frog Prince" file="Bosses/the frog prince.xml"/>
 	<monster name="The Handmaiden" file="Bosses/the handmaiden.xml"/>
 	<monster name="The Horned Fox" file="Bosses/the horned fox.xml"/>
 	<monster name="The Imperor" file="Bosses/the imperor.xml"/>
+	<monster name="The Old Whopper" file="Bosses/The Old Whopper.xml"/>
 	<monster name="The Old Widow" file="Bosses/the old widow.xml"/>
 	<monster name="The Plasmother" file="Bosses/the plasmother.xml"/>
 	<monster name="The Evil Eye" file="Bosses/the evil eye.xml"/>
@@ -177,6 +184,7 @@
 	<monster name="Rottie the rotworm" file="8.5 Monstros/Rottie the rotworm.xml"/>
 	<monster name="Glitterscale" file="8.6 Monstros/glitterscale.xml"/>
 	<monster name="Heoni" file="8.6 Monstros/heoni.xml"/>
+	<monster name="Xenia" file="Bosses/xenia.xml"/>
 	<monster name="Yeti" file="Bosses/yeti.xml"/>
 	
 	<!--Genesis Quest- -->

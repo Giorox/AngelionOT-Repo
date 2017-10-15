@@ -56,6 +56,16 @@ raidTable = {
 	{boss = "Fleabringer", pos = {x=33089,y=31383,z=8}}, -- First Cave
 	{boss = "Fleabringer", pos = {x=33111,y=31458,z=8}}, -- Second Cave
 	{boss = "Fleabringer", pos = {x=33228,y=31415,z=7}}, -- Steppe
+	{boss = "Big Boss Trolliver", pos = {x=33081,y=31742,z=10}},
+	{boss = "Smuggler Baron Silvertoe", pos = {x=32542,y=32647,z=10}},
+	{boss = "The Big Bad One", pos = {x=33170,y=31678,z=7}},
+	{boss = "Hairman The Huge", pos = {x=32841,y=32523,z=8}},
+	{boss = "Xenia", pos = {x=32843,y=31924,z=7}},
+	{boss = "Foreman Kneebiter", pos = {x=32555,y=31898,z=14}},
+	{boss = "The Old Whopper", pos = {x=33314,y=31666,z=11}},
+	{boss = "Grandfather Tridian", pos = {x=32400,y=32791,z=10}},
+	{boss = "Thul", pos = {x=32020,y=32743,z=12}},
+	{boss = "Stonecracker", pos = {x=33293,y=31704,z=11}},
 }
 
 local function checkArea(pos, monster)

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Xenia" nameDescription="Xenia" race="blood" experience="255" speed="220" manacost="450">
-	<health now="290" max="290"/>
+	<health now="200" max="200"/>
 	<look type="139" head="113" body="57" legs="95" feet="113" corpse="6081"/>
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="100" defense="0"/>
@@ -44,10 +44,9 @@
 		<voice sentence="Head off!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="42" chance1="40000" chancemax="0"/> --Gold
+		<item id="2148" countmax="45" chance1="40000" chancemax="0"/> --Gold
 		<item id="2420" chance="25000"/> --Sabre
-                                     <item id="2229" chance="25000"/> --skull
-		<item id="2463" chance="29000"/> --Plate Armor
-                                     <item id="2526" chance="20000"/> --studded shield
+        <item id="2229" chance="25000"/> --skull
+        <item id="2526" chance="20000"/> --studded shield
 	</loot>
 </monster>

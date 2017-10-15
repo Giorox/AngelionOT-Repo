@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-  <monster name="The Old Whopper" nameDescription="a the old whopper" species="hard" race="blood" experience="750" speed="190" manacost="490">
+  <monster name="The Old Whopper" nameDescription="The Old Whopper" species="hard" race="blood" experience="750" speed="190" manacost="490">
     <health now="785" max="785"/>
     <look type="277" head="20" body="30" legs="40" feet="50" corpse="7741"/>
     <targetchange interval="60000" chance="0"/>
@@ -47,8 +47,11 @@
       <voice sentence="Han oydar hot auden oydar"/>      
     </voices>
     <loot>
-      <item id="2148" countmax="106" chance1="40000" chancemax="0"/>      
-      <item id="2671" countmax="3" chance1="33333" chancemax="0"/>  
-      <item id="2666" countmax="3" chance1="33333" chancemax="0"/>       
+		<item id="2148" countmax="106" chance1="40000" chancemax="0"/>      
+		<item id="2671" countmax="3" chance1="33333" chancemax="0"/>  
+		<item id="2666" countmax="3" chance1="33333" chancemax="0"/>    
+		<item id="10573" chance="15000"/>
+		<item id="7452" chance="4800"/>
+		<item id="7398" chance="15000"/>	  
     </loot>
   </monster>

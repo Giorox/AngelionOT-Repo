@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<monster name="Hairman the huge" nameDescription="a hairman the huge" race="blood" experience="335" speed="230" manacost="0">
+<monster name="Hairman The Huge" nameDescription="Hairman The Huge" race="blood" experience="335" speed="230" manacost="0">
   <health now="600" max="600"/>
   <look type="116" head="20" body="30" legs="40" feet="50" corpse="6043"/>
   <targetchange interval="5000" chance="14"/>
@@ -41,6 +41,9 @@
     <voice sentence="Ungh! Ungh!"/>
     <voice sentence="Huaauaauaauaa!"/>
   </voices>
+  <summons maxSummons="1">
+    <summon name="Kongra" interval="5500" chance="30"/>
+  </summons>
 	<loot>
 		<item id="2148" chance="10000" countmax="60" /> -- gold coin
 		<item id="5883" chance="15000" countmax="1" /> -- ape fur
