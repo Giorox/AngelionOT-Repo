@@ -120,6 +120,7 @@
 	<monster name="Deadeye Devious" file="Bosses/deadeye devious.xml"/>
 	<monster name="Demodras" file="Bosses/demodras.xml"/>
 	<monster name="Dipthrah" file="Bosses/dipthrah.xml"/>
+	<monster name="Dharalion" file="Bosses/dharalion.xml"/>
 	<monster name="Dire Penguin" file="Bosses/dire penguin.xml"/>
 	<monster name="Dracola" file="Bosses/dracola.xml"/>
 	<monster name="Dreadmaw" file="Bosses/Dreadmaw.xml"/>
