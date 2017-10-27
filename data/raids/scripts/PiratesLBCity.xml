@@ -1,0 +1,15 @@
+<raid>
+<announce delay="1000" type="event" message="Unknown ships are sighted south of Liberty Bay." />
+<announce delay="240000" type="event" message="The ships that approach Liberty Bay from the south have raised the pirate flag! Hide or grab your weapons to fight." />
+<announce delay="480000" type="event" message="Pirates are launching and attack on Liberty Bay! Hide or fight." />
+
+  <!--Area Spawns-->
+  <areaspawn delay="480000" fromx="32261" fromy="32771" fromz="7" tox="32345" toy="32854" toz="7">
+    <monster name="Pirate Corsair" amount="105" />
+    <monster name="Pirate Buccaneer" amount="100" />
+    <monster name="Pirate Cutthroat" amount="105" />
+    <monster name="Pirate Marauder" amount="105" />
+    <monster name="Smuggler" amount="105" />
+  </areaspawn>
+
+  </raid>

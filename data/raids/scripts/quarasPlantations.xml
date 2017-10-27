@@ -1,0 +1,11 @@
+<raid>
+  <!--Area Spawns-->
+  <areaspawn delay="1000" fromx="32246" fromy="32858" fromz="7" tox="32183" toy="32722" toz="7">
+    <monster name="Quara Mantassin Scout" amount="100" />
+	<monster name="Quara Constrictor Scout" amount="100" />
+    <monster name="Quara Hydromancer Scout" amount="105" />
+    <monster name="Quara Pincher Scout" amount="120" />
+    <monster name="Quara Predator Scout" amount="80" />
+  </areaspawn>
+
+</raid>

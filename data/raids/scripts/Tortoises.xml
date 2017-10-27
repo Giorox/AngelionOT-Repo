@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+  <!--Announcements-->
+  <announce delay="1000" type="Event" message="Slowly but steadily, the population of tortoises grows on Treasure Island" />
+  <!--Area Spawns-->
+  <areaspawn delay="1000" fromx="32107" fromy="32915" fromz="7" tox="32199" toy="32977" toz="7">
+    <monster name="Tortoise" amount="200" />
+  </areaspawn>
+</raid>

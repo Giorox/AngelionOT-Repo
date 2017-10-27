@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+  <!--Announcements-->
+  <announce delay="1000" type="Event" message="There has been an unnatural rise in Flamingo population on the Laguna Islands." />
+  <announce delay="600000" type="Event" message="Flamingocalypse on the Laguna Islands!" />
+  <!--Area Spawns-->
+  <areaspawn delay="600000" fromx="32344" fromy="32904" fromz="7" tox="32426" toy="32979" toz="7">
+    <monster name="Flamingo" amount="200" />
+  </areaspawn>
+  
+  <areaspawn delay="600000" fromx="32463" fromy="32876" fromz="7" tox="32520" toy="32925" toz="7">
+    <monster name="Flamingo" amount="100" />
+  </areaspawn>
+  
+  <areaspawn delay="600000" fromx="32505" fromy="32955" fromz="7" tox="32534" toy="33002" toz="7">
+    <monster name="Flamingo" amount="50" />
+  </areaspawn>
+  
+  <areaspawn delay="600000" fromx="32292" fromy="32550" fromz="7" tox="32389" toy="32615" toz="7">
+    <monster name="Flamingo" amount="150" />
+  </areaspawn>
+</raid>

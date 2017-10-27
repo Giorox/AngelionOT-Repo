@@ -57,22 +57,31 @@
 <raid name="GoblinKazz" file="scripts/GoblinKazz.xml" interval2="30" margin="1000" enabled="yes"/>
 <raid name="MinotaurKazz" file="scripts/MinotaurKazz.xml" interval2="30" margin="1000" enabled="yes"/>
 
+<!-- Liberty Bay -->
+<raid name="PiratesLBCity" file="scripts/PiratesLBCity.xml" interval2="30" margin="1000" enabled="yes"/> 
+<raid name="PiratesBoss" file="scripts/PiratesBoss.xml" interval2="30" margin="1000" enabled="yes"/> 
+<raid name="PiratesLBPlantations" file="scripts/PiratesLBPlantations.xml" interval2="30" margin="1000" enabled="yes"/> 
+<raid name="Quaras" file="scripts/quaras.xml" interval2="30" margin="1000" enabled="yes"/>  
+<raid name="QuarasPlantation" file="scripts/quarasPlantation.xml" interval2="30" margin="1000" enabled="yes"/>  
+<raid name="TigerMeriana" file="scripts/TigerMeriana.xml" interval2="30" margin="1000" enabled="yes"/> 
+
 <!-- Wildlands -->
 <raid name="HunterFerngrims" file="scripts/HunterFerngrimsGate.xml" interval2="30" margin="1000" enabled="yes"/>
 <raid name="WitchGreenClawSwamp" file="scripts/WitchesGreenClawSwamp.xml" interval2="30" margin="1000" enabled="yes"/>
 <raid name="Old Widow" file="scripts/The Old Widow.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="TortoisesTreasureIsland" file="scripts/Tortoises.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="Flamingocalypse" file="scripts/Flamingocalypse.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="Morgaroth" file="scripts/Morgaroth.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="Ferumbras" file="scripts/Ferumbras.xml" interval2="30" margin="1000" enabled="yes"/>
 
-<raid name="Zulazza the Corruptor" file="scripts/Zulazza the Corruptor.xml" interval2="30" margin="1000" enabled="yes"/> 
-<raid name="Morgaroth" file="scripts/Morgaroth.xml" interval2="30" margin="1000" enabled="yes"/>  
+
+<raid name="Zulazza the Corruptor" file="scripts/Zulazza the Corruptor.xml" interval2="30" margin="1000" enabled="yes"/>   
 <raid name="RatsThais" file="scripts/Rats.xml" interval2="30" margin="1000" enabled="yes"/> 
 <raid name="OrcsThais" file="scripts/OrcsThais.xml" interval2="30" margin="1000" enabled="yes"/> 
 <raid name="Barbarian" file="scripts/Barbarian.xml" interval2="30" margin="1000" enabled="yes"/>
-<raid name="Elfs" file="scripts/Elfs.xml" interval2="30" margin="1000" enabled="yes"/> 
-<raid name="Ferumbras" file="scripts/Ferumbras.xml" interval2="30" margin="1000" enabled="yes"/> 
+<raid name="Elfs" file="scripts/Elfs.xml" interval2="30" margin="1000" enabled="yes"/>  
 <raid name="Ghazbaran" file="scripts/Ghazbaran.xml" interval2="30" margin="1000" enabled="yes"/> 
 <raid name="Halloween Hare" file="scripts/halloween.xml" interval2="30" margin="1000" enabled="yes"/> 
-<raid name="Pirates" file="scripts/Pirates.xml" interval2="30" margin="1000" enabled="yes"/> 
-<raid name="Quaras" file="scripts/quaras.xml" interval2="30" margin="1000" enabled="yes"/>  
 <raid name="Orc Thais" file="scripts/OrcsThais.xml" interval2="30" margin="1000" enabled="yes"/>
 <raid name="Undead Army" file="scripts/undead army.xml" interval2="30" margin="1000" enabled="yes"/>
 <raid name="Thais Demon" file="scripts/LesserDemons.xml" interval2="30" margin="1000" enabled="yes"/>

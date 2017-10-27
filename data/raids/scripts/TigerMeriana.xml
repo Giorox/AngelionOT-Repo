@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+  <!--Announcements-->
+  <announce delay="1000" type="Event" message="Majestic creatures with stripes roam the small desert at Meriana." />
+  <!--Area Spawns-->
+  <areaspawn delay="300000" fromx="32292" fromy="32550" fromz="7" tox="32389" toy="32615" toz="7">
+    <monster name="Tiger" amount="150" />
+  </areaspawn>
+</raid>
