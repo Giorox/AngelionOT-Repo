@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<movements>
 	<movevent type="AddItem" tileitem="1" actionid="6577" event="script" value="cassino.lua"/>
+	
+	<movevent type="StepIn" uniqueid="6708" event="script" value="ManInTheCaveMovement.lua" />
 
 	<movevent type="StepIn" actionid="60042" event="script" value="rook_leveltile.lua"/>
 	

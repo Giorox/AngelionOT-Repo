@@ -17640,6 +17640,12 @@
 	<item id="12343" name="scribbled sheet of paper">
 		<attribute key="weight" value="8000" />
 	</item>
+	<item id="12360" name="girlish hair decoration">
+		<attribute key="weight" value="50" />
+	</item>
+	<item id="12382" name="elven astral observer">
+		<attribute key="weight" value="112" />
+	</item>
 	<item id="12387" name="jewelled belt">
 		<attribute key="weight" value="124" />
 	</item>
