@@ -1,12 +1,12 @@
 <raid>
   <!--Announcements-->
-  <announce delay="1000" type="Event" message="Terror Birds have been sighted in Trapwood south-east of Port Hope!" />
-  <announce delay="540000" type="Event" message="Terror Birds have been sighted in Trapwood south-east of Port Hope!" />
-  <announce delay="780000" type="Event" message="Terror Birds have been sighted in Trapwood south-east of Port Hope!" />
+  <announce delay="1000" type="Event" message="Something bad is happening deep, deep down under Banuta." />
+  <announce delay="540000" type="Event" message="Something is sizzling deep under many sheets of soil in Banuta." />
+  <announce delay="780000" type="Event" message="Hordes of slippery spawn slither in Deeper Banuta!" />
   
   <!--Area Spawns-->
-  <areaspawn delay="780000" fromx="32645" fromy="32846" fromz="7" tox="32762" toy="32915" toz="7">
-    <monster name="Serpent Spawn" amount="50" />
+  <areaspawn delay="780000" fromx="32707" fromy="32558" fromz="15" tox="32813" toy="32643" toz="15">
+    <monster name="Serpent Spawn" amount="60" />
   </areaspawn>
 
 </raid>

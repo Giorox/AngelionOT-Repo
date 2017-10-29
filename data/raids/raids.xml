@@ -80,6 +80,7 @@
 <raid name="Ferumbras" file="scripts/Ferumbras.xml" interval2="30" margin="1000" enabled="yes"/>
 <raid name="KongraRaidBanuta" file="scripts/KongraRaidBanuta.xml" interval2="30" margin="1000" enabled="yes"/>
 <raid name="TerrorBirdTrapWood" file="scripts/TerrorBirdTrapWood.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="SerpentSpawnDeeperBanuta" file="scripts/SerpentSpawnDeeperBanuta.xml" interval2="30" margin="1000" enabled="yes"/>
 
 
 <raid name="Zulazza the Corruptor" file="scripts/Zulazza the Corruptor.xml" interval2="30" margin="1000" enabled="yes"/>   
