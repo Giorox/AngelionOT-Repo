@@ -1,0 +1,43 @@
+<raid>
+  <!--Announcements-->
+  <announce delay="1000" type="Event" message="The lizards of Chor are amassing an army to take over the southern Jungle!" />
+  <announce delay="300000" type="Event" message="The army of the lizardmen is growing!" />
+  <announce delay="600000" type="Event" message="The lizard army is on its march to Port Hope. The southern jungle is no longer safe!" />
+  <announce delay="900000" type="Event" message="The lizard army is marching closer and closer to Port Hope! Beware!" />
+  <announce delay="1200000" type="Event" message="The army of the lizards is dangerously close to Port Hope! Fight them back for the sake of humanity!" />
+  <announce delay="1320000" type="Event" message="The serpent god may send one of his children to show his wrath!" />
+  <announce delay="1500000" type="Event" message="Beware of the serpent god's wrath!" />
+  
+  <!--Area Spawns-->
+  <areaspawn delay="600000" fromx="32789" fromy="32765" fromz="7" tox="32719" toy="32809" toz="7">
+    <monster name="Lizard Sentinel" amount="60" />
+	<monster name="Lizard Templar" amount="60" />
+	<monster name="Lizard Snakecharmer" amount="60" />
+	<monster name="Hydra" amount="10" />
+  </areaspawn>
+  
+  <areaspawn delay="900000" fromx="32700" fromy="32764" fromz="7" tox="32719" toy="32809" toz="7">
+    <monster name="Lizard Sentinel" amount="60" />
+	<monster name="Lizard Templar" amount="60" />
+	<monster name="Lizard Snakecharmer" amount="60" />
+	<monster name="Hydra" amount="5" />
+  </areaspawn>
+  
+  <areaspawn delay="1200000" fromx="32686" fromy="32800" fromz="7" tox="32567" toy="32743" toz="7">
+    <monster name="Lizard Sentinel" amount="60" />
+	<monster name="Lizard Templar" amount="60" />
+	<monster name="Lizard Snakecharmer" amount="60" />
+	<monster name="Hydra" amount="15" />
+  </areaspawn>
+  
+  <areaspawn delay="1320000" fromx="32686" fromy="32800" fromz="7" tox="32567" toy="32743" toz="7">
+	<monster name="Lizard Sentinel" amount="20" />
+	<monster name="Lizard Templar" amount="10" />
+	<monster name="Lizard Snakecharmer" amount="20" />
+	<monster name="Hydra" amount="5" />
+  </areaspawn>
+  
+  <areaspawn delay="1500000" fromx="32608" fromy="32762" fromz="7" tox="32608" toy="32762" toz="7">
+    <monster name="Serpent Spawn" amount="1" />
+  </areaspawn>
+</raid>

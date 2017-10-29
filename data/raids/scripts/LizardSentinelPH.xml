@@ -1,0 +1,15 @@
+<raid>
+  <!--Announcements-->
+  <announce delay="1000" type="Event" message="Lizard Sentinels seem to attack Port Hope from Chor." />
+  <announce delay="300000" type="Event" message="Lizards are advancing to Port Hope from Chor." />
+  
+  <!--Area Spawns-->
+  <areaspawn delay="600000" fromx="32750" fromy="32763" fromz="7" tox="32688" toy="32804" toz="7">
+    <monster name="Lizard Sentinel" amount="50" />
+  </areaspawn>
+  
+  <areaspawn delay="900000" fromx="32750" fromy="32763" fromz="7" tox="32688" toy="32804" toz="7">
+    <monster name="Lizard Sentinel" amount="40" />
+  </areaspawn>
+
+</raid>

@@ -836,7 +836,7 @@
 	<movevent type="StepIn" actionid="12333" event="script" value="desert_escape.lua" />
 	<movevent type="StepIn" actionid="5630" event="script" value="whitepearl.lua" />
 	<movevent type="StepIn" actionid="5631" event="script" value="whitepearl_back.lua" />
-	<movevent type="StepIn" actionid="7449" event="script" value="poh.lua" />
+	<movevent type="StepIn" actionid="7449" event="script" value="DruidIslandTP.lua" />
 	
 	<!-- Pits of Inferno -->
 	<movevent type="StepIn" actionid="28810" event="script" value="pitsofinferno/teleports.lua" />

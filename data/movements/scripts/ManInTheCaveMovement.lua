@@ -18,6 +18,6 @@ function onStepIn(cid, item, pos)
 
 if item.uniqueid == 6708 and checkArea(pos,boss) == TRUE then
 	doTeleportThing(player.uid, newpos, FALSE)
+end
 
-return 1
 end

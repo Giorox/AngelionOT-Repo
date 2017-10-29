@@ -1,0 +1,10 @@
+<raid>
+  <!--Announcements-->
+  <announce delay="1000" type="Event" message="Terror Birds have been sighted in Trapwood south-east of Port Hope!" />
+  
+  <!--Area Spawns-->
+  <areaspawn delay="1000" fromx="32645" fromy="32846" fromz="7" tox="32762" toy="32915" toz="7">
+    <monster name="Terror Bird" amount="300" />
+  </areaspawn>
+
+</raid>

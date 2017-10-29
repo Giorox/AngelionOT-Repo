@@ -62,8 +62,13 @@
 <raid name="PiratesBoss" file="scripts/PiratesBoss.xml" interval2="30" margin="1000" enabled="yes"/> 
 <raid name="PiratesLBPlantations" file="scripts/PiratesLBPlantations.xml" interval2="30" margin="1000" enabled="yes"/> 
 <raid name="Quaras" file="scripts/quaras.xml" interval2="30" margin="1000" enabled="yes"/>  
-<raid name="QuarasPlantation" file="scripts/quarasPlantation.xml" interval2="30" margin="1000" enabled="yes"/>  
+<raid name="QuarasPlantation" file="scripts/quarasPlantations.xml" interval2="30" margin="1000" enabled="yes"/>  
 <raid name="TigerMeriana" file="scripts/TigerMeriana.xml" interval2="30" margin="1000" enabled="yes"/> 
+
+<!-- Port Hope -->
+<raid name="ApeRaidPortHope" file="scripts/ApeRaidPH.xml" interval2="30" margin="1000" enabled="yes"/> 
+<raid name="SnakeGodPH" file="scripts/SnakeGodPH.xml" interval2="30" margin="1000" enabled="yes"/> 
+<raid name="LizardSentinelPH" file="scripts/LizardSentinelPH.xml" interval2="30" margin="1000" enabled="yes"/>
 
 <!-- Wildlands -->
 <raid name="HunterFerngrims" file="scripts/HunterFerngrimsGate.xml" interval2="30" margin="1000" enabled="yes"/>
@@ -73,6 +78,8 @@
 <raid name="Flamingocalypse" file="scripts/Flamingocalypse.xml" interval2="30" margin="1000" enabled="yes"/>
 <raid name="Morgaroth" file="scripts/Morgaroth.xml" interval2="30" margin="1000" enabled="yes"/>
 <raid name="Ferumbras" file="scripts/Ferumbras.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="KongraRaidBanuta" file="scripts/KongraRaidBanuta.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="TerrorBirdTrapWood" file="scripts/TerrorBirdTrapWood.xml" interval2="30" margin="1000" enabled="yes"/>
 
 
 <raid name="Zulazza the Corruptor" file="scripts/Zulazza the Corruptor.xml" interval2="30" margin="1000" enabled="yes"/>   
