@@ -1,0 +1,10 @@
+<raid>
+  <!--Announcements--> 
+  <announce delay="1000" type="Event" message="Like a swarm of locusts the dreaded lancer beetles are pouring over the fertile parts of Zao." /> 
+  <!--Single Spawns--> 
+  <singlespawn delay="1000" name="The Blightfather" x="33227" y="31217" z="7" />
+  <!--Area Spawns-->
+  <areaspawn delay="1000" fromx="33201" fromy="31187" fromz="7" tox="33269" toy="31237" toz="7">
+    <monster name="Lancer Beetle" amount="400" />
+  </areaspawn>
+</raid>

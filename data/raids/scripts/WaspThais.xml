@@ -1,0 +1,14 @@
+<raid>
+  <!--Announcements-->
+  <announce delay="1000" type="Event" message="Buzzing and humming! Wasps south of Thais. Be careful there!" />
+  <announce delay="240000" type="Event" message="Even more wasps south of Thais. Be careful there!" />
+
+  <!--Area Spawns-->
+  <areaspawn delay="1000" fromx="32299" fromy="32289" fromz="7" tox="32379" toy="32329" toz="7">
+    <monster name="Wasp" amount="70" />
+  </areaspawn>
+  
+  <areaspawn delay="240000" fromx="32299" fromy="32289" fromz="7" tox="32379" toy="32329" toz="7">
+    <monster name="Wasp" amount="80" />
+  </areaspawn>
+</raid>

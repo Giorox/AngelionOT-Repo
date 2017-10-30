@@ -1,0 +1,14 @@
+<raid>
+  <!--Single Spawns-->
+  <singlespawn delay="1000" name="Orc Warlord" x="32224" y="32276" z="2" />
+  <singlespawn delay="1000" name="Orc Leader" x="32225" y="32276" z="3" />
+  <singlespawn delay="1000" name="Orc Leader" x="32225" y="32276" z="4" />
+  <singlespawn delay="1000" name="Orc Berserker" x="32225" y="32276" z="5" />
+  <singlespawn delay="1000" name="Orc Berserker" x="32225" y="32276" z="6" />
+  <!--Area Spawns-->
+  <areaspawn delay="1000" fromx="32224" fromy="32274" fromz="7" tox="32246" toy="32292" toz="7">
+    <monster name="Orc Shaman" amount="15" />
+    <monster name="Orc" amount="30" />
+    <monster name="Orc Berserker" amount="1" />
+  </areaspawn>
+</raid>

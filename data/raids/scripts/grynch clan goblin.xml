@@ -3,7 +3,7 @@
 
   <!--Area Spawns-->
   <areaspawn delay="60000" fromx="563" fromy="654" fromz="7" tox="648" toy="567" toz="7">
-    <monster name="grynch clan goblin" amount="100" />
+    <monster name="Grynch Clan Goblin" amount="100" />
   </areaspawn>
 
 </raid>

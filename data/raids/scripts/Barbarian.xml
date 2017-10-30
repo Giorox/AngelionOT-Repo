@@ -1,14 +1,41 @@
 <raid>
 <announce delay="1000" type="event" message="Scouts report a barbarian army gathering near Svargrond" />
-<announce delay="4000" type="event" message="Some invaders might try to access Svargrond via the ice to the North." />
-<announce delay="8000" type="event" message="Raiders are attacking Svargrond!" />
+<announce delay="15000" type="event" message="Some invaders might try to access Svargrond via the ice to the North." />
+<announce delay="180000" type="event" message="Raiders are attacking Svargrond!" />
+<announce delay="240000" type="event" message="Raiders are attacking Svargrond!" />
+<announce delay="420000" type="event" message="The barbarians attacks on Svargrond are becoming more and more fierce!" />
+<announce delay="660000" type="event" message="The barbarians are preparing for a final assault on Svargrond. Hide or fight!" />
 
   <!--Area Spawns-->
-  <areaspawn delay="10000" fromx="32199" fromy="31063" fromz="5" tox="32251" toy="31084" toz="5">
+  <areaspawn delay="180000" fromx="32199" fromy="31063" fromz="5" tox="32251" toy="31084" toz="5">
     <monster name="Barbarian Bloodwalker" amount="35" />
     <monster name="Barbarian Brutetamer" amount="22" />
     <monster name="Barbarian Headsplitter" amount="22" />
     <monster name="Barbarian Skullhunter" amount="28" />
-  <monster name="Ice Witch" amount="15" />
+	<monster name="Ice Witch" amount="15" />
+  </areaspawn>
+  
+  <areaspawn delay="240000" fromx="32199" fromy="31063" fromz="5" tox="32251" toy="31084" toz="5">
+    <monster name="Barbarian Bloodwalker" amount="35" />
+    <monster name="Barbarian Brutetamer" amount="22" />
+    <monster name="Barbarian Headsplitter" amount="22" />
+    <monster name="Barbarian Skullhunter" amount="28" />
+	<monster name="Ice Witch" amount="15" />
+  </areaspawn>
+  
+  <areaspawn delay="420000" fromx="32199" fromy="31063" fromz="5" tox="32251" toy="31084" toz="5">
+    <monster name="Barbarian Bloodwalker" amount="45" />
+    <monster name="Barbarian Brutetamer" amount="32" />
+    <monster name="Barbarian Headsplitter" amount="32" />
+    <monster name="Barbarian Skullhunter" amount="38" />
+	<monster name="Ice Witch" amount="20" />
+  </areaspawn>
+  
+  <areaspawn delay="660000" fromx="32199" fromy="31063" fromz="5" tox="32251" toy="31084" toz="5">
+    <monster name="Barbarian Bloodwalker" amount="45" />
+    <monster name="Barbarian Brutetamer" amount="32" />
+    <monster name="Barbarian Headsplitter" amount="32" />
+    <monster name="Barbarian Skullhunter" amount="38" />
+	<monster name="Ice Witch" amount="20" />
   </areaspawn>
 </raid>

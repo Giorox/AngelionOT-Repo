@@ -1,0 +1,14 @@
+<raid>
+	<!--Announcements--> 
+  <announce delay="1000" type="Event" message="An orcish horde, ready for murder and plunder, is amassing to begin its travel through the steppes of Zao. Beware!" /> 
+  <announce delay="600000" type="Event" message="The great march of the orcish horde has begun!" /> 
+  <!--Area Spawns-->
+  <areaspawn delay="600000" fromx="33111" fromy="31379" fromz="7" tox="33214" toy="31470" toz="7">
+    <monster name="Orc Shaman" amount="100" />
+	<monster name="Orc Rider" amount="100" />
+	<monster name="Orc Marauder" amount="200" />
+  </areaspawn>
+  
+  <!--Single Spawns--> 
+  <singlespawn delay="600000" name="Cublarc the Plunderer" x="33153" y="31437" z="7" />
+</raid>

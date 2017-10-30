@@ -1,0 +1,18 @@
+<raid>
+	<!--Announcements--> 
+	<announce delay="1000" type="Event" message="Lancer beetles troop up in Farmine. Beware!" />
+	<announce delay="300000" type="Event" message="A pack of lancer beetles heads towards the coast!" /> 
+	<announce delay="840000" type="Event" message="The lancer beetles have reached the coast." />   
+  <!--Area Spawns-->
+	<areaspawn delay="1000" fromx="33092" fromy="31364" fromz="7" tox="33113" toy="31379" toz="7">
+		<monster name="Lancer Beetle" amount="30" />
+	</areaspawn>
+	
+	<areaspawn delay="300000" fromx="33090" fromy="31424" fromz="7" tox="33116" toy="31444" toz="7">
+		<monster name="Lancer Beetle" amount="30" />
+	</areaspawn>
+	
+	<areaspawn delay="840000" fromx="33099" fromy="31473" fromz="7" tox="33129" toy="31494" toz="7">
+		<monster name="Lancer Beetle" amount="30" />
+	</areaspawn>
+</raid>

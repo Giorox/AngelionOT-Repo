@@ -70,6 +70,35 @@
 <raid name="SnakeGodPH" file="scripts/SnakeGodPH.xml" interval2="30" margin="1000" enabled="yes"/> 
 <raid name="LizardSentinelPH" file="scripts/LizardSentinelPH.xml" interval2="30" margin="1000" enabled="yes"/>
 
+<!-- Rookgard -->
+<raid name="RatRookgard" file="scripts/RatRookgard.xml" interval2="30" margin="1000" enabled="yes"/> 
+
+<!-- Svargrond -->
+<raid name="BarbarianBittermor" file="scripts/BarbarianBittermor.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="Barbarian" file="scripts/Barbarian.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="IceGolemFormorgar" file="scripts/IceGolemFormorgar.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="WinterWolfKrimhorn" file="scripts/WinterWolfKrimhorn.xml" interval2="30" margin="1000" enabled="yes"/>
+
+<!-- Thais -->
+<raid name="RatsThais" file="scripts/Rats.xml" interval2="30" margin="1000" enabled="yes"/> 
+<raid name="OrcsThais" file="scripts/OrcsThais.xml" interval2="30" margin="1000" enabled="yes"/> 
+<raid name="SmallOrcNorth" file="scripts/SmallOrc.xml" interval2="30" margin="1000" enabled="yes"/> 
+<raid name="WaspThais" file="scripts/WaspThais.xml" interval2="30" margin="1000" enabled="yes"/> 
+<raid name="CyclopMountSternum" file="scripts/CyclopMountSternum.xml" interval2="30" margin="1000" enabled="yes"/> 
+<raid name="OrcsThaisLighthouse" file="scripts/OrcsThaisLighthouse5.xml" interval2="30" margin="1000" enabled="yes"/> 
+
+<!-- Venore -->
+<raid name="Elfs" file="scripts/Elfs.xml" interval2="30" margin="1000" enabled="yes"/>  
+
+<!-- Yalahar -->
+<raid name="Vampire" file="scripts/Vampire.xml" interval2="30" margin="1000" enabled="yes"/>
+
+<!-- Zao -->
+<raid name="LancerBettleSteppe" file="scripts/LancerBettleSteppe.xml" interval2="30" margin="1000" enabled="yes"/> 
+<raid name="OrcSteppe" file="scripts/OrcSteppe.xml" interval2="30" margin="1000" enabled="yes"/> 
+<raid name="GnarlhoundSteppe" file="scripts/GnarlhoundSteppe.xml" interval2="30" margin="1000" enabled="yes"/> 
+<raid name="LancerBettleMuggyPlains" file="scripts/LancerBettleMuggyPlains.xml" interval2="30" margin="1000" enabled="yes"/> 
+
 <!-- Wildlands -->
 <raid name="HunterFerngrims" file="scripts/HunterFerngrimsGate.xml" interval2="30" margin="1000" enabled="yes"/>
 <raid name="WitchGreenClawSwamp" file="scripts/WitchesGreenClawSwamp.xml" interval2="30" margin="1000" enabled="yes"/>
@@ -81,16 +110,10 @@
 <raid name="KongraRaidBanuta" file="scripts/KongraRaidBanuta.xml" interval2="30" margin="1000" enabled="yes"/>
 <raid name="TerrorBirdTrapWood" file="scripts/TerrorBirdTrapWood.xml" interval2="30" margin="1000" enabled="yes"/>
 <raid name="SerpentSpawnDeeperBanuta" file="scripts/SerpentSpawnDeeperBanuta.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="Ghazbaran" file="scripts/Ghazbaran.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="Undead Army" file="scripts/undead army.xml" interval2="30" margin="1000" enabled="yes"/> 
 
-
-<raid name="Zulazza the Corruptor" file="scripts/Zulazza the Corruptor.xml" interval2="30" margin="1000" enabled="yes"/>   
-<raid name="RatsThais" file="scripts/Rats.xml" interval2="30" margin="1000" enabled="yes"/> 
-<raid name="OrcsThais" file="scripts/OrcsThais.xml" interval2="30" margin="1000" enabled="yes"/> 
-<raid name="Barbarian" file="scripts/Barbarian.xml" interval2="30" margin="1000" enabled="yes"/>
-<raid name="Elfs" file="scripts/Elfs.xml" interval2="30" margin="1000" enabled="yes"/>  
-<raid name="Ghazbaran" file="scripts/Ghazbaran.xml" interval2="30" margin="1000" enabled="yes"/> 
-<raid name="Halloween Hare" file="scripts/halloween.xml" interval2="30" margin="1000" enabled="yes"/> 
-<raid name="Orc Thais" file="scripts/OrcsThais.xml" interval2="30" margin="1000" enabled="yes"/>
-<raid name="Undead Army" file="scripts/undead army.xml" interval2="30" margin="1000" enabled="yes"/>
+<!-- Custom -->
 <raid name="Thais Demon" file="scripts/LesserDemons.xml" interval2="30" margin="1000" enabled="yes"/>
+
 </raids>

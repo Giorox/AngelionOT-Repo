@@ -1,0 +1,11 @@
+<raid>
+<announce delay="1000" type="event" message="Barbarians are gathering at Bittermor. They seem to be up to something." />
+<announce delay="380000" type="event" message="The barbarian pack is roaming around in Bittermor." />
+
+  <!--Area Spawns-->
+  <areaspawn delay="380000" fromx="31983" fromy="31250" fromz="7" tox="32024" toy="31220" toz="7">
+    <monster name="Barbarian Bloodwalker" amount="35" />
+    <monster name="Barbarian Brutetamer" amount="22" />
+    <monster name="Barbarian Skullhunter" amount="28" />
+  </areaspawn>
+</raid>

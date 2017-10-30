@@ -1,0 +1,10 @@
+<raid>
+  <!--Announcements-->
+  <announce delay="1000" type="Event" message="Some Orcs are assembling north of Thais." />
+
+  <!--Area Spawns-->
+  <areaspawn delay="1000" fromx="32404" fromy="32092" fromz="7" tox="32364" toy="32065" toz="7">
+    <monster name="Orc" amount="30" />
+    <monster name="Orc Spearman" amount="20" />
+  </areaspawn>
+</raid>

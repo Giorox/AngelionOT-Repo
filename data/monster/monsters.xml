@@ -117,6 +117,7 @@
 	<monster name="Ashmunrah" file="Bosses/ashmunrah.xml"/>
 	<monster name="Brutus Bloodbeard" file="Bosses/brutus bloodbeard.xml"/>
 	<monster name="Countess Sorrow" file="Bosses/countess sorrow.xml"/>
+	<monster name="Cublarc The Plunderer" file="Bosses/Cublarc the plunderer.xml"/>
 	<monster name="Deadeye Devious" file="Bosses/deadeye devious.xml"/>
 	<monster name="Demodras" file="Bosses/demodras.xml"/>
 	<monster name="Dipthrah" file="Bosses/dipthrah.xml"/>
@@ -161,6 +162,7 @@
 	<monster name="Teleskor" file="Bosses/Teleskor.xml"/>
 	<monster name="Thalas" file="Bosses/thalas.xml"/>
 	<monster name="The Big Bad One" file="Bosses/The big bad one.xml"/>
+	<monster name="The Blightfather" file="Bosses/The Blightfather.xml"/>
 	<monster name="The Count" file="Bosses/the count.xml"/>
 	<monster name="The Frog Prince" file="Bosses/the frog prince.xml"/>
 	<monster name="The Handmaiden" file="Bosses/the handmaiden.xml"/>

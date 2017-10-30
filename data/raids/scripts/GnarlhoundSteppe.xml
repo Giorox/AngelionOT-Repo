@@ -1,0 +1,15 @@
+<raid>
+	<!--Announcements--> 
+  <announce delay="1000" type="Event" message="There seems to be a big gnarlhound gang in Zao Steppe." /> 
+  <announce delay="300000" type="Event" message="The gnarlhounds seem to multiply by the minute." /> 
+  <announce delay="660000" type="Event" message="The gnarlhounds roam free in the Zao Steppe. Watch out!" /> 
+
+  <!--Area Spawns-->
+  <areaspawn delay="300000" fromx="33131" fromy="31379" fromz="7" tox="33046" toy="31488" toz="7">
+    <monster name="Gnarlhound" amount="200" />
+  </areaspawn>
+  
+  <areaspawn delay="660000" fromx="33131" fromy="31379" fromz="7" tox="33046" toy="31488" toz="7">
+    <monster name="Gnarlhound" amount="300" />
+  </areaspawn>
+</raid>

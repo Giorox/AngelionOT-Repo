@@ -1,0 +1,9 @@
+<raid>
+<announce delay="1000" type="event" message="Packs of winter wolves have been sighted roaming the area near the barbarian camps in Svargrond!" />
+<announce delay="300000" type="event" message="The barbarian camp in Svargrond is being attacked by winter wolves!" />
+
+  <!--Area Spawns-->
+  <areaspawn delay="300000" fromx="32023" fromy="31300" fromz="7" tox="32054" toy="31359" toz="7">
+    <monster name="Winter Wolf" amount="100" />
+  </areaspawn>
+</raid>
