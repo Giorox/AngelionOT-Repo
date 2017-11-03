@@ -6,7 +6,8 @@
 	<!-- <globalevent name="timer_example" time="21:35:11" event="script" value="my_script.lua"/> -->
 	<globalevent name="information" interval="900000" event="script" value="autobroadcast.lua"/>
 	<globalevent name="napis" interval="1" script="napis.lua"/>
-	<globalevent name="raidSystem" interval="120" event="script" value="raidSystem.lua"/>
+	<globalevent name="raidSystem" interval="1200" event="script" value="raidSystem.lua"/>
+	<globalevent name="ZzaionRaid" interval="14400" event="script" value="ZzaionRaid.lua"/>
 	
 	<!-- Demon Oak Quest -->
 	<globalevent name="DemonOakVoices" interval="15000" script="demon oak quest/voices.lua" />

@@ -85,7 +85,7 @@
 <raid name="SmallOrcNorth" file="scripts/SmallOrc.xml" interval2="30" margin="1000" enabled="yes"/> 
 <raid name="WaspThais" file="scripts/WaspThais.xml" interval2="30" margin="1000" enabled="yes"/> 
 <raid name="CyclopMountSternum" file="scripts/CyclopMountSternum.xml" interval2="30" margin="1000" enabled="yes"/> 
-<raid name="OrcsThaisLighthouse" file="scripts/OrcsThaisLighthouse5.xml" interval2="30" margin="1000" enabled="yes"/> 
+<raid name="OrcsThaisLighthouse" file="scripts/OrcsThaisLighthouse.xml" interval2="30" margin="1000" enabled="yes"/> 
 
 <!-- Venore -->
 <raid name="Elfs" file="scripts/Elfs.xml" interval2="30" margin="1000" enabled="yes"/>  
@@ -98,6 +98,8 @@
 <raid name="OrcSteppe" file="scripts/OrcSteppe.xml" interval2="30" margin="1000" enabled="yes"/> 
 <raid name="GnarlhoundSteppe" file="scripts/GnarlhoundSteppe.xml" interval2="30" margin="1000" enabled="yes"/> 
 <raid name="LancerBettleMuggyPlains" file="scripts/LancerBettleMuggyPlains.xml" interval2="30" margin="1000" enabled="yes"/> 
+<raid name="ZzaionGate" file="scripts/ZzaionGate.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="ZzaionBosses" file="scripts/ZzaionBosses.xml" interval2="30" margin="1000" enabled="yes"/>
 
 <!-- Wildlands -->
 <raid name="HunterFerngrims" file="scripts/HunterFerngrimsGate.xml" interval2="30" margin="1000" enabled="yes"/>

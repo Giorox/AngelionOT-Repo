@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+  <!--Announcements-->
+  <announce delay="1000" type="Event" message="A massive orc force is gathering at the gates of Zzaion." />
+  <announce delay="180000" type="Event" message="Orc reinforcements have arrived at the gates of Zzaion! The gates are under heavy attack!" />
+  <announce delay="600000" type="Event" message="More orc reinforcements have arrived at the gates of Zzaion! The gates are under heavy attack!" />
+  <announce delay="1200000" type="Event" message="The gates to Zzaion have been breached! Orcs are invading the city!" />
+
+  <!--Area Spawns-->
+  <areaspawn delay="1000" fromx="33277" fromy="31468" fromz="7" tox="33334" toy="31482" toz="7">
+    <monster name="Orc" amount="100" />
+	<monster name="Orc Spearman" amount="70" />
+	<monster name="Orc Warrior" amount="70" />
+	<monster name="Orc Shaman" amount="40" />
+	<monster name="Orc Leader" amount="10" />
+	<monster name="Orc Berserker" amount="5" />
+	<monster name="Orc Marauder" amount="10" />
+	<monster name="Orc Warlord" amount="1" />
+  </areaspawn>
+  
+   <areaspawn delay="180000" fromx="33283" fromy="31476" fromz="7" tox="33331" toy="31489" toz="7">
+    <monster name="Orc" amount="100" />
+	<monster name="Orc Spearman" amount="70" />
+	<monster name="Orc Warrior" amount="70" />
+	<monster name="Orc Shaman" amount="40" />
+	<monster name="Orc Leader" amount="10" />
+	<monster name="Orc Berserker" amount="5" />
+	<monster name="Orc Marauder" amount="10" />
+	<monster name="Orc Warlord" amount="5" />
+  </areaspawn>
+  
+   <areaspawn delay="600000" fromx="33283" fromy="31476" fromz="7" tox="33331" toy="31489" toz="7">
+    <monster name="Orc" amount="100" />
+	<monster name="Orc Spearman" amount="70" />
+	<monster name="Orc Warrior" amount="70" />
+	<monster name="Orc Shaman" amount="40" />
+	<monster name="Orc Leader" amount="10" />
+	<monster name="Orc Berserker" amount="5" />
+	<monster name="Orc Marauder" amount="10" />
+	<monster name="Orc Warlord" amount="5" />
+  </areaspawn>
+  
+   <areaspawn delay="1200000" fromx="33284" fromy="31503" fromz="7" tox="33356" toy="31614" toz="5">
+    <monster name="Orc" amount="110" />
+	<monster name="Orc Spearman" amount="80" />
+	<monster name="Orc Warrior" amount="90" />
+	<monster name="Orc Shaman" amount="50" />
+	<monster name="Orc Leader" amount="35" />
+	<monster name="Orc Berserker" amount="25" />
+	<monster name="Orc Marauder" amount="30" />
+	<monster name="Orc Warlord" amount="20" />
+  </areaspawn>
+</raid>

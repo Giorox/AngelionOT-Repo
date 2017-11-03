@@ -17,10 +17,11 @@
 			<attribute key="shootEffect" value="bolt"/>
 		</attack>
 	</attacks>
-	<defenses armor="15" defense="22"/>
-	<defense name="healing" interval="2000" chance="30" min="23" max="53">
+	<defenses armor="15" defense="22">
+		<defense name="healing" interval="2000" chance="30" min="23" max="53">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
+	</defenses>
 	<elements>
 		<element earthPercent="90"/>
 		<element physicalPercent="20"/>
