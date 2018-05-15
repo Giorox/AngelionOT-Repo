@@ -2,4 +2,9 @@
 <npc name="Ghost Of A Priest" script="data/npc/scripts/Ghost Of A Priest.lua" walkinterval="0" floorchange="0">
 <health now="100" max="100"/>
 <look type="355" head="0" body="0" legs="0" feet="0" />
+	<parameters>
+		<parameter key="message_greet" value="Greetings mortal."/>
+        <parameter key="message_farewell" value="Farewell."/>
+		<parameter key="message_walkaway" value="Farewell." />
+    </parameters>
 </npc>

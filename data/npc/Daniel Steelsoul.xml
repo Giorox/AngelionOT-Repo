@@ -7,8 +7,14 @@
         <parameter key="message_farewell" value="PRAISE TO BANOR!"/>
 		<parameter key="message_walkaway" value="PRAISE TO BANOR!" />
         <parameter key="module_keywords" value="1" />
-        <parameter key="keywords" value="job;king;" />
+        <parameter key="keywords" value="job;king;excalibug;weapon;ferumbras;forbidden ruins;ancient taboo;kaine;agaltha;" />
         <parameter key="keyword_reply1" value="I am the governor of this isle, Edron, and grandmaster of the Knights of Banor's Blood." />
-		 <parameter key="keyword_reply2" value="LONG LIVE THE KING!" />
-    </parameters>
+		<parameter key="keyword_reply2" value="With this weapon in my hand, I would teach the servants of darkness the true meaning of the word fear." />
+		<parameter key="keyword_reply3" value="Look for Willard, our local blacksmith." />
+		<parameter key="keyword_reply4" value="He searched something in the north of the isle years ago. Probably he needed something from the forbidden ruins. He was chased and fought by the troops of General Benjamin." />
+		<parameter key="keyword_reply5" value="An ancient taboo forbids to enter the northern ruins." />
+		<parameter key="keyword_reply6" value="We thought it was only superstition and no one bothered that Kaine and his friends went there to hunt servants of evil that might have hidden there. So we did not notice the dark cult they started." />
+		<parameter key="keyword_reply7" value="He was my second in command. After learning about the forbidden ruins, he, the priestess Agaltha, and their followers freed the criminals we brought here as workers and headed to the north." />
+		<parameter key="keyword_reply8" value="She was beautiful but seemed cold hearted. She spoke little to me, preferred the company of Kaine." />
+	</parameters>
 </npc>

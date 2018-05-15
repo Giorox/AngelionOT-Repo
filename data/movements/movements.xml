@@ -113,6 +113,7 @@
 <movevent type="StepIn" actionid="8113" event="script" value="mapmarks.lua"/>
 	<!-- Citizen teleport -->
 
+	<movevent type="StepIn" uniqueid="23005" event="script" value="TerraAmuletReset.lua"/>
 
 <!-- Yalahar 10th --> 
     <movevent type="StepIn" itemid="9738" event="script" value="azerusdeath.lua"/> 

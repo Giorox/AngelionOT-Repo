@@ -203,6 +203,8 @@
 	<action uniqueid="4010" event="script" value="other/KosheiParchment.lua"/>
 	<action uniqueid="4005" event="script" value="other/KosheiSunWatch.lua"/>
 	
+	<action itemid="7585" event="script" value="quests/TerraAmuletCocoons.lua"/>
+	
 	<action itemid="8293" script="demonOak.lua" />
 	<action fromuid="9008" touid="9011" script="demonOakChests.lua" />
 	<action uniqueid="9007" script="demonOakGravestone.lua" />
