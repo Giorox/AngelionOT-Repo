@@ -7,7 +7,7 @@
         <parameter key="message_farewell" value="PRAISE TO BANOR!"/>
 		<parameter key="message_walkaway" value="PRAISE TO BANOR!" />
         <parameter key="module_keywords" value="1" />
-        <parameter key="keywords" value="job;king;excalibug;weapon;ferumbras;forbidden ruins;ancient taboo;kaine;agaltha;" />
+        <parameter key="keywords" value="job;excalibug;weapon;ferumbras;forbidden ruins;ancient taboo;kaine;agaltha;" />
         <parameter key="keyword_reply1" value="I am the governor of this isle, Edron, and grandmaster of the Knights of Banor's Blood." />
 		<parameter key="keyword_reply2" value="With this weapon in my hand, I would teach the servants of darkness the true meaning of the word fear." />
 		<parameter key="keyword_reply3" value="Look for Willard, our local blacksmith." />

@@ -25,9 +25,9 @@ function creatureSayCallback(cid, type, msg)
 		 setPlayerStorageValue(cid, 23000, 1)
 	 end
   
-     if msgcontains(msg, "mission") and getPlayerStorageValue (cid, 23000) <= 4 then
+     if msgcontains(msg, "mission") and getPlayerStorageValue (cid, 23000) <= 4 and getPlayerStorageValue(cid, 23000) ~= -1 then
         selfSay("My sources say that you have not yet done it.", cid)
-	 elseif msgcontains(msg, "mission") and getPlayerStorageValue (cid, 23000) >= 5 then
+	 elseif msgcontains(msg, "mission") and getPlayerStorageValue (cid, 23000) >= 5 and getPlayerStorageValue(cid, 23000) ~= 15 then
 			selfSay("What? YOU DID IT?!?! That is....that is.....er....<drops a piece of paper. You see the headline DEATH CERTIFICATE> like I expected!! Here is your reward.", cid)
 			setPlayerStorageValue(cid, 23000, 15)
 			doPlayerAddItem(cid, 7887, 1)
