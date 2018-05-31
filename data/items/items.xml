@@ -16930,6 +16930,9 @@
 		<attribute key="description" value="The special carrying device Spetulus gave you now contains a mirror crystal." />
 		<attribute key="weight" value="3500" />
 	</item>
+	<item fromid="10616" toid="10635" name="dry mud" />
+	<item id="10727" article="a" name="dragonbone tree" />
+	<item id="10728" article="a" name="sunholder tree" />
 	<item fromid="10734" toid="10735" name="pepper root grass" />
 	<item fromid="10736" toid="10739" name="dried grass" />
 	<item fromid="10743" toid="10754" article="a" name="hedge" />
@@ -16990,13 +16993,17 @@
 	<item id="10791" article="a" name="open door">
 		<attribute key="type" value="door" />
 	</item>
+	<item id="10792" article ="a" name="tainted plant" />
+	<item id="10805" article ="a" name="pestilent fern" />
 	<item fromid="10806" toid="10809" name="necrotic grass" />
 	<item fromid="10845" toid="10867" name="stone floor" />
-	<item id="10868" artricle ="a" name="throatsslitter" />
+	<item id="10868" article ="a" name="throatsslitter" />
 	<item fromid="10869" toid="10870" article="a" name="rattleleaf bush" />
-	<item id="10875" artricle ="a" name="throatsslitter" />
+	<item id="10875" article ="a" name="throatsslitter" />
 	<item fromid="10876" toid="10877" article="a" name="rattleleaf bush" />
+	<item id="10878" article="a" name="swarm of flies" />
 	<item fromid="10883" toid="10895" name="scale roof" />
+	<item id="10912" article="a" name="dry solstice tree" />
 	<item fromid="10913" toid="10915" name="high grass" />
 	<item id="11059" name="glowing switch">
 	</item>
@@ -17593,7 +17600,7 @@
 		<attribute key="slotType" value="necklace" />
 		<attribute key="showattributes" value="1" />
 	</item>
-	<!-- Robson Dias Edit Tibia 8.60 Items :D -->
+	<item fromid="11379" toid="11386" article="a" name="part of a giant stone dragon" />
 	<item id="11388" name="lucky clover amulet">
 		<attribute key="description" value="It is rumoured to bring you good luck! Luck sponsored by TibiaLottery." />
 		<attribute key="weight" value="150" />
@@ -17619,7 +17626,7 @@
 	</item>
 	<item fromid="11417" toid="11429" name="bog water" />
 	<item fromid="11445" toid="11470" name="earth" />
-	<item fromid="11471" toid="11500" name="purple soil" />
+	<item fromid="11472" toid="11500" name="dark frozen mud" />
 	<item fromid="11515" toid="11527" name="sulphur" />
 	<item fromid="11529" toid="11538" name="corrupted bamboo" />
 	<item fromid="11540" toid="11571" name="giant verminous" />
@@ -17634,6 +17641,7 @@
 	<item id="11659" article="a" name="giant dreadcoil" />
 	<item fromid="11661" toid="11662" name="giant verminous" />
 	<item id="11663" article="a" name="giant dreadcoil" />
+	<item fromid="11696" toid="11719" name="purple soil" />
 	<item id="12284" name="the tail of the keeper">
 		<attribute key="weight" value="450" />
 	</item>
@@ -17887,6 +17895,13 @@
 		<attribute key="armor" value="1" />
 		<attribute key="slotType" value="body" />
 	</item>
+	<item id="12619" name="brimstone fangs">
+		<attribute key="weight" value="112" />
+	</item>
+	<item id="12624" article="a" name="brimstone shell">
+		<attribute key="weight" value="112" />
+	</item>
+	<item id="12623" name="purple soil" />
 	<item id="20001" name="water" />
 	<item id="20002" name="blood" />
 	<item id="20003" name="beer" />

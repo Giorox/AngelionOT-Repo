@@ -4,55 +4,49 @@
     <look type="136" head="96" body="99" legs="76" feet="115" addons="0"/>
     <parameters>
         <parameter key="module_keywords" value="1" />
-        <parameter key="keywords" value="hi;trade;obi;offers;weapons;obi;equipment;armors;backpack;rope;shovel;shield;al dee;lee'delle;premium;rookgaard;mainland;profession;oracle;island of destiny;academy;seymour;destiny;king;merchant;cipfried;tom;willie;zirella;amber;paulie;bank;money;monsters;dungeons;equipment;weapons;armor;shield;trade;trade;rats;dead rat;sewer;name;job;help;hint;citizen" />
+        <parameter key="keywords" value="obi;offers;weapons;equipment;armors;backpack;rope;shovel;shield;al dee;lee'delle;premium;rookgaard;mainland;profession;oracle;island of destiny;academy;seymour;destiny;king;merchant;cipfried;tom;willie;zirella;amber;paulie;bank;money;monsters;dungeons;rats;dead rat;sewer;name;job;help;hint;citizen" />
         <parameter key="message_greet" value="Good day, Sir. How may I help you, |PLAYERNAME|? If you like to see my offers, simply ask me for a {trade}!" />
         <parameter key="message_sendtrade" value="Here, take a look and choose something nice for you!" />
-        <parameter key="keyword_reply3" value="Obi is my beloved grandfather. He sells {weapons}, most of them forged by himself!" />
-        <parameter key="keyword_reply4" value="Me and my grandfather {Obi} sell {equipment} of all kinds. Just ask him or me for a {trade} if you like to see our offers." />
-        <parameter key="keyword_reply5" value="Oh, I'm sorry, but my grandfather {Obi} doesn't like seeing me waving around with pointy things. He sells weapons himself, just go downstairs!" />
-        <parameter key="keyword_reply6" value="Obi is my beloved grandfather. He sells {weapons}, most of 
-them forged by himself!" />
-        <parameter key="keyword_reply7" value="As an adventurer, you should always have at least a {backpack}, a {rope}, a {shovel}, a {weapon}, an {armor} and a {shield}." />
-        <parameter key="keyword_reply8" value="Yes, I can sell that to you. Just ask me for a {trade} to see what I buy from you." />
-        <parameter key="keyword_reply9" value="You should never embark on an adventure without it. Ask {Al} {Dee} or {Lee'Delle} for it!" />
-        <parameter key="keyword_reply10" value="You should never embark on an adventure without it. Ask {Al} {Dee} or {Lee'Delle} for it!" />
-        <parameter key="keyword_reply11" value="You should never embark on an adventure without it. Ask {Al} {Dee} or {Lee'Delle} for it!" />
-        <parameter key="keyword_reply12" value="Yes, I can sell that to you. Just ask me for a {trade} to see what I buy from you." />
-        <parameter key="keyword_reply13" value="In Al Dee's shop you will find important general equipment such as {ropes}, {shovels} and torches." />
-        <parameter key="keyword_reply14" value="Lee'Delle's shop is on the {premium} side of the village. You should visit it!" />
-        <parameter key="keyword_reply15" value="As a premium adventurer you can visit different regions on this island, trade with {Lee'Delle} and much more." />
-        <parameter key="keyword_reply16" value="Our lovely village will provide shelter for you. Once you are level 8, you can travel to {mainland} and choose a {profession}." />
-        <parameter key="keyword_reply17" value="The main continent provides so many adventures! Once you've reached level 8, you should talk to the {oracle}. You can choose a {profession} and explore much more of Tibia." />
-        <parameter key="keyword_reply18" value="You will learn everything you need to know about professions once you reach the {Island} {of} {Destiny}." />
-        <parameter key="keyword_reply19" value="You can find the oracle on the top floor of the {academy}, just above {Seymour}. Go there when you are level 8 to find your {destiny}." />
-        <parameter key="keyword_reply20" value="The Island of Destiny can be reached via the {oracle} once you are level 8. This trip will help you choose your {profession}!" />
-        <parameter key="keyword_reply21" value="The big building in the centre of Rookgaard. They have a library, a training centre, a {bank} and the room of the {oracle}. {Seymour} is the teacher there." />
-        <parameter key="keyword_reply22" value="{Seymour} is a loyal follower of the {king} and a teacher in the {academy}." />
-        <parameter key="keyword_reply23" value="The Island of Destiny can be reached via the {oracle} once you are level 8. This trip will help you choose your {profession}!" />
-        <parameter key="keyword_reply24" value="King Tibianus is a wise and noble monarch. This island of {Rookgaard} belongs to his kingdom." />
-        <parameter key="keyword_reply25" value="To view the offers of a merchant, simply talk to him or her and ask for a {trade}." />
-        <parameter key="keyword_reply26" value="He can heal you if you're injured or poisoned." />
-        <parameter key="keyword_reply27" value="I wish he would talk to his mother {Zirella} again. I feel so sorry for her. Anyway, as Tom is a tanner, you can sell leather and fresh corpses to him." />
-        <parameter key="keyword_reply28" value="Uncle Willie and {Billy} are farmers, which means they are a good place to sell and buy {food}." />
-        <parameter key="keyword_reply29" value="Sometimes, I help Zirella collecting wood. Her old back aches all the time. It's a shame her son {Tom} doesn't help her." />
-        <parameter key="keyword_reply30" value="One day, I want to become a brave adventurer like her and leave this town!" />
-        <parameter key="keyword_reply31" value="He is the local {bank} clerk." />
-        <parameter key="keyword_reply32" value="You can deposit your {money} there to keep it safe. However, you still need cash to buy something here." />
-        <parameter key="keyword_reply33" value="I'm sorry honey, but I can't lend you gold. Earn it yourself by fighting {monsters} and picking up the things they carry. Sell it to {merchants} to make profit!" />
-        <parameter key="keyword_reply34" value="If you want to fight monsters in {dungeons}, you definitely need some good {equipment} such as a {weapon}, an {armor} and a {shield}." />
-        <parameter key="keyword_reply35" value="You need to make sure you have some basic {equipment} before you head into dungeons such as the {sewers}." />
-        <parameter key="keyword_reply36" value="As an adventurer, you should always have at least a {backpack}, a {rope}, a {shovel}, a {weapon}, an {armor} and a {shield}." />
-        <parameter key="keyword_reply37" value="Oh, I'm sorry, but my grandfather {Obi} doesn't like seeing me waving around with pointy things. He sells weapons himself, just go downstairs!" />
-        <parameter key="keyword_reply38" value="Yes, I can sell that to you. Just ask me for a {trade} to see what I buy from you." />
-        <parameter key="keyword_reply39" value="Yes, I can sell that to you. Just ask me for a {trade} to see what I buy from you." />
-        <parameter key="keyword_reply42" value="Rats plague our {sewers}. You can sell fresh rat corpses to {Seymour} or {Tom} the tanner." />
-        <parameter key="keyword_reply43" value="Rats plague our {sewers}. You can sell fresh rat corpses to {Seymour} or {Tom} the tanner." />
-        <parameter key="keyword_reply44" value="There is a sewer grate which you can use to enter the sewers just left of this building. Eww, this smell!" />
-        <parameter key="keyword_reply45" value="I'm Dixi." />
-        <parameter key="keyword_reply46" value="I'm helping my grandfather {Obi} with this shop. If you like to see my offers, simply ask me for a {trade}!" />
-        <parameter key="keyword_reply47" value="How can I help you? I can give you general {hints}, information about {citizens} or talk about many other topics. Just ask me!" />
-        <parameter key="keyword_reply48" value="Send private messages to other players by right-clicking on the player or the player's name and select 'Message to ....'. You can also open a 'private message channel' and type in the name of the player." />
-        <parameter key="keyword_reply49" value="(giggles) I love gossiping - err, I mean providing valuable information of course, just tell me a name! (winks)" />
+        <parameter key="keyword_reply1" value="Obi is my beloved grandfather. He sells {weapons}, most of them forged by himself!" />
+        <parameter key="keyword_reply2" value="Me and my grandfather {Obi} sell {equipment} of all kinds. Just ask him or me for a {trade} if you like to see our offers." />
+        <parameter key="keyword_reply3" value="Oh, I'm sorry, but my grandfather {Obi} doesn't like seeing me waving around with pointy things. He sells weapons himself, just go downstairs!" />
+		<parameter key="keyword_reply4" value="As an adventurer, you should always have at least a {backpack}, a {rope}, a {shovel}, a {weapon}, an {armor} and a {shield}." />
+        <parameter key="keyword_reply5" value="Yes, I can sell that to you. Just ask me for a {trade} to see what I buy from you." />
+        <parameter key="keyword_reply6" value="You should never embark on an adventure without it. Ask {Al} {Dee} or {Lee'Delle} for it!" />
+        <parameter key="keyword_reply7" value="Yes, I can sell that to you. Just ask me for a {trade} to see what I buy from you." />
+        <parameter key="keyword_reply8" value="In Al Dee's shop you will find important general equipment such as {ropes}, {shovels} and torches." />
+        <parameter key="keyword_reply9" value="Lee'Delle's shop is on the {premium} side of the village. You should visit it!" />
+        <parameter key="keyword_reply10" value="As a premium adventurer you can visit different regions on this island, trade with {Lee'Delle} and much more." />
+        <parameter key="keyword_reply11" value="Our lovely village will provide shelter for you. Once you are level 8, you can travel to {mainland} and choose a {profession}." />
+        <parameter key="keyword_reply12" value="The main continent provides so many adventures! Once you've reached level 8, you should talk to the {oracle}. You can choose a {profession} and explore much more of Tibia." />
+        <parameter key="keyword_reply13" value="You will learn everything you need to know about professions once you reach the {Island} {of} {Destiny}." />
+        <parameter key="keyword_reply14" value="You can find the oracle on the top floor of the {academy}, just above {Seymour}. Go there when you are level 8 to find your {destiny}." />
+        <parameter key="keyword_reply15" value="The Island of Destiny can be reached via the {oracle} once you are level 8. This trip will help you choose your {profession}!" />
+        <parameter key="keyword_reply16" value="The big building in the centre of Rookgaard. They have a library, a training centre, a {bank} and the room of the {oracle}. {Seymour} is the teacher there." />
+        <parameter key="keyword_reply17" value="{Seymour} is a loyal follower of the {king} and a teacher in the {academy}." />
+        <parameter key="keyword_reply18" value="The Island of Destiny can be reached via the {oracle} once you are level 8. This trip will help you choose your {profession}!" />
+        <parameter key="keyword_reply19" value="King Tibianus is a wise and noble monarch. This island of {Rookgaard} belongs to his kingdom." />
+        <parameter key="keyword_reply20" value="He can heal you if you're injured or poisoned." />
+        <parameter key="keyword_reply21" value="I wish he would talk to his mother {Zirella} again. I feel so sorry for her. Anyway, as Tom is a tanner, you can sell leather and fresh corpses to him." />
+        <parameter key="keyword_reply22" value="Uncle Willie and {Billy} are farmers, which means they are a good place to sell and buy {food}." />
+        <parameter key="keyword_reply23" value="Sometimes, I help Zirella collecting wood. Her old back aches all the time. It's a shame her son {Tom} doesn't help her." />
+        <parameter key="keyword_reply24" value="One day, I want to become a brave adventurer like her and leave this town!" />
+        <parameter key="keyword_reply25" value="He is the local {bank} clerk." />
+        <parameter key="keyword_reply26" value="You can deposit your {money} there to keep it safe. However, you still need cash to buy something here." />
+        <parameter key="keyword_reply27" value="I'm sorry honey, but I can't lend you gold. Earn it yourself by fighting {monsters} and picking up the things they carry. Sell it to {merchants} to make profit!" />
+        <parameter key="keyword_reply28" value="If you want to fight monsters in {dungeons}, you definitely need some good {equipment} such as a {weapon}, an {armor} and a {shield}." />
+        <parameter key="keyword_reply29" value="You need to make sure you have some basic {equipment} before you head into dungeons such as the {sewers}." />
+        <parameter key="keyword_reply30" value="As an adventurer, you should always have at least a {backpack}, a {rope}, a {shovel}, a {weapon}, an {armor} and a {shield}." />
+        <parameter key="keyword_reply31" value="Oh, I'm sorry, but my grandfather {Obi} doesn't like seeing me waving around with pointy things. He sells weapons himself, just go downstairs!" />
+        <parameter key="keyword_reply32" value="Yes, I can sell that to you. Just ask me for a {trade} to see what I buy from you." />
+        <parameter key="keyword_reply33" value="Yes, I can sell that to you. Just ask me for a {trade} to see what I buy from you." />
+        <parameter key="keyword_reply34" value="Rats plague our {sewers}. You can sell fresh rat corpses to {Seymour} or {Tom} the tanner." />
+        <parameter key="keyword_reply35" value="There is a sewer grate which you can use to enter the sewers just left of this building. Eww, this smell!" />
+        <parameter key="keyword_reply36" value="I'm Dixi." />
+        <parameter key="keyword_reply37" value="I'm helping my grandfather {Obi} with this shop. If you like to see my offers, simply ask me for a {trade}!" />
+        <parameter key="keyword_reply38" value="How can I help you? I can give you general {hints}, information about {citizens} or talk about many other topics. Just ask me!" />
+        <parameter key="keyword_reply39" value="Send private messages to other players by right-clicking on the player or the player's name and select 'Message to ....'. You can also open a 'private message channel' and type in the name of the player." />
+        <parameter key="keyword_reply40" value="(giggles) I love gossiping - err, I mean providing valuable information of course, just tell me a name! (winks)" />
 
         <parameter key="module_shop" value="1"/>
 <parameter key="shop_buyable" value="chain helmet,2458,52;coat,2651,8;doublet,2485,16;jacket, 2650,10;leather armor,2467,25;leather helmet,2461,12;leather legs,2649,10;studded helmet,2482,63;studded shield,2526,50;wooden shield,2512,15;" />

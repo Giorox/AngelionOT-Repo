@@ -8,21 +8,21 @@
 		<flag summonable="0"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
-		<flag illusionable="1"/>
+		<flag illusionable="0"/>
 		<flag convinceable="0"/>
 		<flag pushable="0"/>
 		<flag canpushitems="1"/>
 		<flag canpushcreatures="1"/>
 		<flag targetdistance="1"/>
 		<flag staticattack="90"/>
-		<flag runonhealth="366"/>
+		<flag runonhealth="0"/>
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" skill="50" attack="40" poison="20"/>
 		<attack name="drunk" interval="2000" chance="10" range="7" radius="2" target="1">
 			<attribute key="areaEffect" value="rednote"/>
 		</attack>
-		<attack name="lifedrain" interval="2000" chance="15" radius="3" target="0" min="-40" max="-50">
+		<attack name="lifedrain" interval="2000" chance="15" radius="3" target="0" min="-40" max="-70">
 			<attribute key="areaEffect" value="redshimmer"/>
 		</attack>
 		<attack name="poison" interval="2000" chance="10" range="7" min="-60" max="-90">
@@ -48,13 +48,9 @@
 		<immunity death="1"/>
 		<immunity earth="1"/>
 	</immunities>
-	<voices interval="5000" chance="10">
-		<voice sentence="EMBRACE MY GIFTS!" yell="1"/>
-		<voice sentence="I WILL FEAST ON YOUR SOUL!" yell="1"/>
-	</voices>
 	<loot>
     <item id="2148" countmax="100" chance="24375" /><!-- gold coin -->
-    <item id="2148" countmax="39" chance="24375" /><!-- gold coin -->
+    <item id="2148" countmax="37" chance="24375" /><!-- gold coin -->
     <item id="7618" chance="4800" /><!-- health potion -->
     <item id="7620" chance="1925" /><!-- mana potion -->
     <item id="11322" chance="6850" /><!-- widow's mandibles -->
@@ -62,6 +58,7 @@
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
             <item id="2796" chance="1650" /><!-- green mushroom -->
+			<item id="2381" chance="1450" /><!-- halberd -->
             <item id="11317" chance="1450" /><!-- zaoan halberd -->
             <item id="11323" chance="1175" /><!-- wailing widow's necklace -->
         </inside>
