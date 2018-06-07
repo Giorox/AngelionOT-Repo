@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Toad" nameDescription="a toad" race="blood" experience="60" speed="210" manacost="400">
+<monster name="Toad" nameDescription="a toad" race="blood" experience="60" speed="105" manacost="400">
 	<health now="135" max="135"/>
 	<look type="222" corpse="6077"/>
 	<targetchange interval="5000" chance="8"/>
@@ -8,22 +8,26 @@
 		<flag summonable="1"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
-		<flag illusionable="0"/>
-		<flag convinceable="1"/>
-		<flag pushable="1"/>
-		<flag canpushitems="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="0"/>
 		<flag canpushcreatures="0"/>
 		<flag staticattack="90"/>
 		<flag targetdistance="1"/>
-		<flag runonhealth="20"/>
+		<flag runonhealth="10"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" skill="30" attack="15" poision="20"/>
+		<attack name="melee" interval="2000" skill="30" attack="15" poison="20"/>
 		<attack name="physical" interval="2000" chance="10" range="7" min="-8" max="-17">
 			<attribute key="shootEffect" value="poison"/>
 		</attack>
 	</attacks>
-	<defenses armor="12" defense="10"/>
+	<defenses armor="12" defense="10">
+		<defense name="speed" interval="2000" chance="15" speedchange="290" duration="6000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+	</defenses>
 	<elements>
 		<element earthPercent="20"/>
 		<element icePercent="20"/>

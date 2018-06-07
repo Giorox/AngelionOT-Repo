@@ -48,7 +48,7 @@
 		<vocation id="2"/>
 		<vocation id="6" showInDescription="0"/>
 	</rune>
-	<rune name="Paralyze" id="2278" allowfaruse="1" charges="1" lvl="54" maglv="18" exhaustion="500" mana="1400" needtarget="1" blocktype="solid" event="script" value="support/paralyze rune.lua">
+	<rune name="Paralyze" id="2278" allowfaruse="1" charges="1" lvl="54" maglv="18" exhaustion="500" needtarget="1" blocktype="solid" event="script" value="support/paralyze rune.lua">
 		<vocation id="2"/>
 		<vocation id="6" showInDescription="0"/>
 	<rune name="Drunk" id="2278" allowfaruse="1" charges="1" lvl="54" maglv="3" exhaustion="500" blocktype="solid" event="script" value="support/drunk.lua"/>
@@ -154,10 +154,6 @@
 		<vocation id="2"/>
 		<vocation id="6"/>
 	</instant>
-	<instant name="Mana Depleter" words="exeta mas punctis" lvl="55" maglv="70" mana="400" exhaustion="2000" prem="1" needlearn="0" blockwalls="0" aggressive="1" event="script" value="attack/manadepleter.lua">
-	<vocation id="5"/>
-	<vocation id="6"/>
-    </instant>
 
 	<!-- Healing Spells -->
 	<instant name="Light Healing" words="exura" lvl="9" mana="20" aggressive="0" selftarget="1" exhaustion="1000" needlearn="0" event="script" value="healing/light healing.lua">
@@ -334,26 +330,6 @@
 	<instant name="Blood Rage" words="utito tempo" lvl="60" mana="290" prem="1" aggressive="0" selftarget="1" exhaustion="1000" needlearn="0" event="script" value="support/blood rage.lua">
 		<vocation id="4"/>
 		<vocation id="8"/>
-	</instant>
-
-	<!-- Custom II Spells -->
-		<instant name="Strong Death Strike" words="exori gran mort" lvl="120" mana="200" prem="1" range="4" casterTargetOrDirection="1" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="attack/strong death strike.lua">
-		<vocation id="1"/>
-		<vocation id="2"/>
-		<vocation id="5"/>
-		<vocation id="6"/>
-	</instant>
-		<instant name="Strong Ice Strike" words="exori gran frigo" lvl="120" mana="200" prem="1" range="4" casterTargetOrDirection="1" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="attack/strong ice strike.lua">
-		<vocation id="1"/>
-		<vocation id="5"/>
-		<vocation id="2"/>
-		<vocation id="6"/>
-	</instant>
-		<instant name="Strong Energy Strike" words="exori gran vis" lvl="120" mana="200" prem="1" range="4" casterTargetOrDirection="1" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="attack/strong energy strike.lua">
-		<vocation id="1"/>
-		<vocation id="2"/>
-		<vocation id="5"/>
-		<vocation id="6"/>
 	</instant>
 	
 	<!-- Party Spells -->

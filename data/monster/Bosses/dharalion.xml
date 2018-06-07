@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="dharalion" nameDescription="Dharalion" race="blood" experience="570" speed="240" manacost="0">
+<monster name="Dharalion" nameDescription="Dharalion" race="blood" experience="570" speed="240" manacost="0">
   <health now="380" max="380"/>
   <look type="203" head="20" body="30" legs="40" feet="50" corpse="6011"/>
   <targetchange interval="5000" chance="8"/>
@@ -43,8 +43,8 @@
   <immunities>
     <immunity physical="0"/>
     <immunity energy="0"/>
-    <immunity fire="1"/>
-    <immunity poison="1"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
     <immunity lifedrain="1"/>
     <immunity paralyze="0"/>
     <immunity outfit="1"/>
@@ -52,13 +52,10 @@
     <immunity invisible="1"/>
   </immunities>
 <elements>
-<element deathPercent="1"/>
-<element energyPercent="-20"/>
-<element firePercent="-50"/>
 <element holyPercent="10"/>
 </elements>
   <summons maxSummons="2">
-    <summon name="demon skeleton" interval="1000" chance="6" max="2"/>
+    <summon name="demon skeleton" interval="1000" chance="30" max="2"/>
   </summons>
   <voices interval="5000" chance="10">
     <voice sentence="You desecrated this temple!"/>
@@ -78,6 +75,7 @@
     <item id="2689" countmax="3" chance1="20000" chancemax="0"/> <!-- Bread -->
 	<item id="2047" chance="4000"/> <!-- Candlestick -->
 	<item id="1948" chance="4000"/> <!-- Parchment -->
+	<item id="12382" chance="4000"/> <!-- Elven Astral Observer -->
     <item id="1987" chance="100000"> <!-- Bag -->
       <inside>
         <item id="2652" chance="5000"/> <!-- Green Tunic -->

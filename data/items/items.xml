@@ -2938,7 +2938,7 @@
 		<attribute key="weaponType" value="distance" />
 		<attribute key="shootType" value="spear" />
 		<attribute key="range" value="5" />
-		<attribute key="breakChance" value="0" />
+		<attribute key="breakChance" value="10" />
 		<attribute key="ammoAction" value="moveback" />
 	</item>
 	<item id="2390" article="a" name="magic longsword">
@@ -7555,15 +7555,15 @@
 	<item fromid="4394" toid="4402" article="a" name="red carpet" />
 	<item id="4403" article="a" name="mast" />
 	<item id="4404" article="a" name="wooden lamp" />
-	<item fromid="4405" toid="4421" name="rocks" />
-	<item fromid="4456" toid="4467" name="rocks" />
+	<item fromid="4405" toid="4421" name="rock" />
+	<item fromid="4456" toid="4467" name="rock" />
 	<item fromid="4468" toid="4513" article="a" name="mountain" />
-	<item fromid="4514" toid="4525" name="rocks" />
+	<item fromid="4514" toid="4525" name="rock" />
 	<item fromid="4526" toid="4553" name="grass" />
-	<item fromid="4554" toid="4566" name="rocks" />
-	<item fromid="4570" toid="4579" name="rocks" />
+	<item fromid="4554" toid="4566" name="gravel" />
+	<item fromid="4570" toid="4579" name="gravel" />
 	<item fromid="4580" toid="4594" name="grass" />
-	<item fromid="4595" toid="4607" name="rocks" />
+	<item fromid="4595" toid="4607" name="gravel" />
 	<item fromid="4608" toid="4613" name="shallow water">
 		<attribute key="description" value="You see the silvery movement of fish." />
 		<attribute key="type" value="trashholder" />
@@ -11816,7 +11816,7 @@
 		<attribute key="weaponType" value="distance" />
 		<attribute key="shootType" value="enchantedspear" />
 		<attribute key="range" value="5" />
-		<attribute key="breakChance" value="0" />
+		<attribute key="breakChance" value="5" />
 		<attribute key="ammoAction" value="moveback" />
 	</item>
 	<item id="7368" article="an" name="assassin star" plural="assassin stars">
@@ -11846,7 +11846,7 @@
 		<attribute key="weaponType" value="distance" />
 		<attribute key="shootType" value="royalspear" />
 		<attribute key="range" value="5" />
-		<attribute key="breakChance" value="0" />
+		<attribute key="breakChance" value="8" />
 		<attribute key="ammoAction" value="moveback" />
 	</item>
 	<item id="7379" name="brutetamer's staff">
@@ -14043,7 +14043,10 @@
 		<attribute key="description" value="It is a kit for a telescope." />
 		<attribute key="weight" value="2500" />
 	</item>
-	<item id="7963" article="a" name="shark fish" />
+	<item id="7963" article="a" name="marlin" >
+		<attribute key="description" value="This rare fish is almost too precious to simply be eaten. Maybe you can find a collector." />
+		<attribute key="weight" value="1800" />
+	</item>
 	<item id="7966" article="a" name="birthday cake" />
 	<item id="7969" article="a" name="dead frost dragon hatchling">
 		<attribute key="containerSize" value="10" />
@@ -14070,7 +14073,8 @@
 	<item fromid="8009" toid="8010" article="a" name="bone" />
 	<item fromid="8011" toid="8014" article="a" name="flowery wall" />
 	<item id="8015" name="earth" />
-	<item fromid="8017" toid="8020" name="earth" />
+	<item fromid="8017" toid="8019" name="earth" />
+	<item id="8020" name="jagged stones" />
 	<item fromid="8021" toid="8028" name="rifty earth" />
 	<item fromid="8030" toid="8032" name="rifty earth" />
 	<item fromid="8033" toid="8045" name="sand" />
@@ -17004,12 +17008,15 @@
 	<item fromid="10845" toid="10867" name="stone floor" />
 	<item id="10868" article ="a" name="throatsslitter" />
 	<item fromid="10869" toid="10870" article="a" name="rattleleaf bush" />
+	<item fromid="10871" toid="10874" article="a" name="radical root" />
 	<item id="10875" article ="a" name="throatsslitter" />
 	<item fromid="10876" toid="10877" article="a" name="rattleleaf bush" />
 	<item id="10878" article="a" name="swarm of flies" />
 	<item fromid="10883" toid="10895" name="scale roof" />
-	<item id="10912" article="a" name="dry solstice tree" />
+	<item fromid="10911" toid="10912" article="a" name="dry solstice tree" />
 	<item fromid="10913" toid="10915" name="high grass" />
+	<item id="10916" article="a" name="screaming cherry tree" />
+	<item fromid="11013" toid="11024" name="dry earth" />
 	<item fromid="11040" toid="11047" name="rice" />
 	<item id="11059" name="glowing switch">
 	</item>
@@ -17020,6 +17027,7 @@
 		<attribute key="description" value="It once belonged to an ancestor of Lazaran. Obviously he had really bad teeth." />
 		<attribute key="weight" value="2180" />
 	</item>
+	<item fromid="11074" toid="11085" name="dry earth" />
 	<item id="11095" article="a" name="magic wall">
 		<attribute key="type" value="magicfield" />
 		<attribute key="decayTo" value="0" />
@@ -17121,6 +17129,9 @@
 	<item id="11138" name="nightmare doll">
 		<attribute key="weight" value="1800" />
 	</item>
+	<item fromid="11139" toid="11146" name="muddy floor" />
+	<item id="11147" name="dry earth" />
+	<item fromid="11159" toid="11170" name="muddy floor" />
 	<item id="11183" name="crab pincers" plural="crab pincers">
 		<attribute key="weight" value="175" />
 	</item>
@@ -17656,6 +17667,21 @@
 	<item fromid="11664" toid="11667" article="a" name="blister tendril" />
 	<item fromid="11669" toid="11670" article="a" name="dreadcoil" />
 	<item fromid="11696" toid="11719" name="purple soil" />
+	<item id="12404" article="a" name="quara tentacle">
+		<attribute key="weight" value="107" />
+	</item>
+	<item id="12405" article="a" name="quara eye">
+		<attribute key="weight" value="80" />
+	</item>
+	<item id="12406" article="a" name="mantassin tail">
+		<attribute key="weight" value="115" />
+	</item>
+	<item id="12407" article="a" name="quara pincers">
+		<attribute key="weight" value="120" />
+	</item>
+	<item id="12408" article="a" name="quara bone">
+		<attribute key="weight" value="144" />
+	</item>
 	<item id="12284" name="the tail of the keeper">
 		<attribute key="weight" value="450" />
 	</item>

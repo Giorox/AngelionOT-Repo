@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Inky" nameDescription="an inky" race="undead" experience="250" speed="180" manacost="0">
-	<health now="600" max="600"/>
+<monster name="Inky" nameDescription="Inky" race="blood" experience="250" speed="180" manacost="0">
+	<health now="750" max="750"/>
 	<look type="46" head="0" body="0" legs="0" feet="0" corpse="6065"/>
 	<targetchange interval="2000" chance="5"/>
 	<strategy attack="100" defense="0"/>
@@ -19,30 +19,34 @@
 		<flag runonhealth="0"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" skill="80" attack="50" poison="30"/>
-	        <attack name="lifedrain" interval="1000" chance="11" radius="2" target="0" min="-150" max="-400">
+		<attack name="melee" interval="2000" skill="80" attack="50" poison="40"/>
+	        <attack name="lifedrain" interval="1000" chance="11" radius="3" target="0" min="-40" max="-87">
                 <attribute key="areaEffect" value="blackspark"/>
                 </attack>
-    <attack name="speed" interval="1000" chance="20" range="7" radius="2" target="0" speedchange="-850" duration="120000">
-      <attribute key="shootEffect" value="poison"/>
-      <attribute key="areaEffect" value="blackspark"/>
-    </attack>
+		<attack name="freezecondition" interval="1000" chance="11" radius="3" target="0" min="-160" max="-160">
+            <attribute key="areaEffect" value="poison"/>
+        </attack>
 		<attack name="ice" interval="1000" chance="12" target="0" radius="5" min="-56" max="-100">
 		<attribute key="areaEffect" value="icearea"/>
 		</attack>
-	        <attack name="energy" interval="1000" chance="11" radius="2" target="0" min="-25" max="-30">
+	        <attack name="energycondition" interval="1000" chance="11" radius="3" target="0" min="-500" max="-500">
                 <attribute key="areaEffect" value="energyarea"/>
                 </attack>
 	</attacks>
-	<defenses armor="35" defense="40"/>
+	<defenses armor="35" defense="40">
+		<defense name="healing" interval="1000" chance="25" min="65" max="85">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
 	<elements>
-	<element earthPercent="-80"/>
+	<element earthPercent="-90"/>
 	<element energyPercent="+5"/>
 	</elements>
 	<immunities>
 		<immunity ice="1"/>
 		<immunity fire="1"/>
 		<immunity drown="1"/>
+		<immunity invisible="1"/>
 	</immunities>
 	<voices interval="5000" chance="10">
 		<voice sentence="Tssss!"/>
@@ -51,7 +55,7 @@
 		<voice sentence="Boohaa!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="13" chance1="10000" chancemax="0"/> --Gold Coin
+		<item id="2148" countmax="13" chance1="10000" chancemax="8000"/> <!-- Gold Coin -->
 	</loot>
 </monster>
 

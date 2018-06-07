@@ -120,6 +120,7 @@
 	<monster name="Cublarc The Plunderer" file="Bosses/Cublarc the plunderer.xml"/>
 	<monster name="Deadeye Devious" file="Bosses/deadeye devious.xml"/>
 	<monster name="Demodras" file="Bosses/demodras.xml"/>
+	<monster name="Dharalion" file="Bosses/dharalion.xml"/>
 	<monster name="Dipthrah" file="Bosses/dipthrah.xml"/>
 	<monster name="Dire Penguin" file="Bosses/dire penguin.xml"/>
 	<monster name="Dracola" file="Bosses/dracola.xml"/>
@@ -142,6 +143,9 @@
 	<monster name="Hellgorak" file="Bosses/hellgorak.xml"/>
 	<monster name="High Templar Cobrass" file="Bosses/High templar cobrass.xml"/>
 	<monster name="Ice Overlord" file="Bosses/ice overlord.xml"/>
+	<monster name="Inky" file="Bosses/inky.xml"/>
+	<monster name="Splasher" file="Bosses/splasher.xml"/>
+	<monster name="Sharptooth" file="Bosses/sharptooth.xml"/>
 	<monster name="Latrivan" file="Bosses/latrivan.xml"/>
 	<monster name="Lethal Lissy" file="Bosses/lethal lissy.xml"/>
 	<monster name="Lord of the Elements" file="Bosses/lord of the elements.xml"/>
@@ -539,6 +543,7 @@
 	<monster name="Evil sheep lord" file="8.5 Monstros/evil sheep lord.xml"/>
 	<monster name="Fahim the Wise" file="8.5 Monstros/fahim the wise.xml"/>
 	<monster name="Hot dog" file="8.5 Monstros/hot dog.xml"/>
+	<monster name="Infernal Frog" file="8.5 Monstros/Infernal Frog.xml"/>
 	<monster name="Killer rabbit" file="8.5 Monstros/killer rabbit.xml"/>
 	<monster name="Mephiles" file="8.5 Monstros/mephiles.xml"/>
 	<monster name="Monstor" file="8.5 Monstros/Monstor.xml"/>

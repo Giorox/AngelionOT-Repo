@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<monster name="sharptooth" nameDescription="a sharptooth" race="blood" experience="1600" speed="310" manacost="0">
-  <health now="2500" max="2500"/>
+<monster name="Sharptooth" nameDescription="Sharptooth" race="blood" experience="1600" speed="310" manacost="0">
+  <health now="3100" max="3100"/>
   <look type="20" head="0" body="0" legs="0" feet="0" corpse="6067"/>
   <targetchange interval="5000" chance="8"/>
   <strategy attack="100" defense="0"/>
@@ -21,7 +21,7 @@
 		<attack name="melee" interval="2000" skill="90" attack="100"/>
 	</attacks>
   <defenses armor="40" defense="45">
-    <defense name="healing" interval="1000" chance="25" min="113" max="187">
+    <defense name="healing" interval="1000" chance="25" min="50" max="100">
       <attribute key="areaEffect" value="blueshimmer"/>
     </defense>
     <defense name="speed" interval="1000" chance="5" speedchange="250" duration="4000">
@@ -35,6 +35,9 @@
   <immunities>
     <immunity ice="1"/>
     <immunity drown="1"/>
+	<immunity fire="1"/>
+	<immunity invisible="1"/>
+	<immunity paralyze="1"/>
   </immunities>
   <voices interval="5000" chance="10">
     <voice sentence="Gnarrr!"/>
@@ -43,8 +46,6 @@
     <voice sentence="Rraaar!"/>
   </voices>
 <loot>
-
-	<item id="2148" chance="10000" countmax="13" /> -- gold coin
-	<item id="2226" chance="100000"/> -- fishbone
+	<item id="2148" chance="10000" countmax="13" /> <!-- gold coin -->
 </loot>
 </monster>

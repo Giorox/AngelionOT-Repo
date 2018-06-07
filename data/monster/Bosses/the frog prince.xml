@@ -15,7 +15,7 @@
     <flag canpushcreatures="0"/>
     <flag staticattack="90"/>
     <flag targetdistance="1"/>
-    <flag runonhealth="10"/>
+    <flag runonhealth="20"/>
   </flags>
 <attacks>
     <attack name="melee" interval="2000" skill="0" attack="0"/>
@@ -35,7 +35,7 @@
 <elements>
 <element firePercent="-10"/>
 <element energyPercent="-85"/>
-<element icePercent="-85"/>
+<element icePercent="-90"/>
 </elements>
   <voices interval="5000" chance="10">
     <voice sentence="Don't kill me!"/>
