@@ -8,24 +8,30 @@
 		<flag summonable="0"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
-		<flag illusionable="1"/>
+		<flag illusionable="0"/>
 		<flag convinceable="0"/>
 		<flag pushable="0"/>
 		<flag canpushitems="1"/>
 		<flag canpushcreatures="1"/>
 		<flag targetdistance="1"/>
 		<flag staticattack="90"/>
-		<flag runonhealth="0"/>
+		<flag runonhealth="350"/>
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" skill="90" attack="95"/>
-		<attack name="death" interval="2000" chance="15" range="7" target="1" min="-450" max="-510">
+		<attack name="death" interval="2000" chance="15" range="7" target="1" min="-248" max="-510">
 			<attribute key="shootEffect" value="death"/>
 			<attribute key="areaEffect" value="mortarea"/>
+		</attack>	
+		<attack name="manadrain" interval="2000" chance="15" target="0" radius="3" min="-5" max="-80">
+			<attribute key="areaEffect" value="blackspark"/>
 		</attack>	
 		<attack name="drunk" interval="2000" chance="13" range="7">
 			<attribute key="shootEffect" value="fire"/>
 			<attribute key="areaEffect" value="fireattack"/>
+		</attack>
+		<attack name="drowncondition" interval="2000" chance="13" length="6" spread="3" min="300" max="-600">
+			<attribute key="areaEffect" value="watersplash"/>
 		</attack>
 	</attacks>
 	<defenses armor="25" defense="20">
@@ -35,6 +41,9 @@
 		<defense name="healing" interval="2000" chance="25" min="345" max="445">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
+		<defense name="speed" interval="2000" chance="10" speedchange="200" duration="5000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>	
 	</defenses>
 	<elements>
 		<element deathPercent="100"/>
@@ -53,6 +62,7 @@
 		<voice sentence="Oh my, you forgot to put your pants on!"/>
 		<voice sentence="Weeheeheeheehee!"/>
 		<voice sentence="Its nothing but a dream!"/>
+		<voice sentence="Dream a little dream with me!"/>
 		<voice sentence="Give in!"/>
 	</voices>
 	<summons maxSummons="4">
@@ -61,20 +71,24 @@
 	<loot>
     <item id="2148" countmax="100" chance="46650" /><!-- gold coin -->
     <item id="2148" countmax="100" chance="46650" /><!-- gold coin -->
-    <item id="2148" countmax="46" chance="46650" /><!-- gold coin -->
-    <item id="2260" countmax="2" chance="19675" /><!-- blank rune -->
-    <item id="2804" chance="29100" /><!-- shadow herb -->
-    <item id="6500" chance="20750" /><!-- demonic essence -->
-    <item id="2149" countmax="3" chance="5475" /><!-- small emerald -->
-    <item id="9808" chance="8675" /><!-- rusty armor -->
-    <item id="5944" chance="11875" /><!-- soul orb -->
+    <item id="2148" countmax="38" chance="46650" /><!-- gold coin -->
+    <item id="2260" countmax="2" chance="21840" /><!-- blank rune -->
+    <item id="2804" chance="26440" /><!-- shadow herb -->
+    <item id="6500" chance="16540" /><!-- demonic essence -->
+    <item id="2149" countmax="3" chance="10830" /><!-- small emerald -->
+	<item id="2150" countmax="3" chance="14620" /><!-- small amethyst -->
+	<item id="9970" countmax="3" chance="13340" /><!-- small topaz -->
+	<item id="2147" countmax="3" chance="11650" /><!-- small ruby -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="7590" chance="4950" /><!-- great mana potion -->
-            <item id="2152" chance="1925" /><!-- platinum coin -->
-            <item id="2487" chance="1025" /><!-- crown armor -->
-            <item id="2165" chance="1400" /><!-- stealth ring -->
-            <item id="7414" chance="675" /><!-- abyss hammer -->
+            <item id="7590" countmax="2" chance="31330" /><!-- great mana potion -->
+            <item id="2152" countmax="4" chance="88700" /><!-- platinum coin -->
+            <item id="2487" chance="580" /><!-- crown armor -->
+            <item id="2165" chance="760" /><!-- stealth ring -->
+			<item id="6300" chance="290" /><!-- death ring -->
+            <item id="7414" chance="580" /><!-- abyss hammer -->
+			<item id="8473" chance="16480" /><!-- ultimate health potion -->
+			<item id="7451" chance="760" /><!-- Shadow sceptre -->
         </inside>
     </item>
 </loot>

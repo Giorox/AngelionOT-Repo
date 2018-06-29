@@ -9,20 +9,19 @@
 		<flag attackable="1"/>
 		<flag hostile="1"/>
 		<flag illusionable="0"/>
-		<flag convinceable="1"/>
+		<flag convinceable="0"/>
 		<flag pushable="0"/>
 		<flag canpushitems="1"/>
 		<flag canpushcreatures="0"/>
 		<flag staticattack="90"/>
 		<flag targetdistance="1"/>
-		<flag runonhealth="0"/>
+		<flag runonhealth="30"/>
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" skill="45" attack="40"/>
 	</attacks>
 	<defenses armor="15" defense="15"/>
 	<elements>
-	<element earthPercent="-10"/>
 	<element energyPercent="-10"/>
 	</elements>
 	<immunities>
@@ -37,15 +36,16 @@
 		<voice sentence="Shrrrr"/>
 	</voices>
 	<loot>
-    <item id="2148" countmax="30" chance="25675" /><!-- gold coin -->
-    <item id="2464" chance="5825" /><!-- chain armor -->
-    <item id="2229" chance="10700" /><!-- skull -->
-    <item id="2165" chance="825" /><!-- stealth ring -->
+    <item id="2148" countmax="30" chance="94000" /><!-- gold coin -->
+    <item id="2464" chance="4990" /><!-- chain armor -->
+    <item id="2229" chance="990" /><!-- skull -->
+	<item id="12406" chance="7860" /><!-- Mantassin Tail -->
+    <item id="2165" chance="710" /><!-- stealth ring -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="5895" chance="675" /><!-- fish fin -->
-            <item id="2377" chance="1600" /><!-- two handed sword -->
-            <item id="2146" chance="575" /><!-- small sapphire -->
+            <item id="5895" chance="360" /><!-- fish fin -->
+            <item id="2377" chance="810" /><!-- two handed sword -->
+            <item id="2146" chance="980" /><!-- small sapphire -->
         </inside>
     </item>
 </loot>

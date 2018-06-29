@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<monster name="Rift Phantom" nameDescription="a Rift Phantom" race="UNDEAD" experience="100000" speed="380" manacost="0">
-  <health now="60000" max="60000"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Rift Lord" nameDescription="a rift lord" race="fire" experience="100000" speed="380" manacost="0">
+<health now="60000" max="60000"/>
 <look type="12" head="19" body="104" legs="96" feet="96" corpse="6068"/>
 <targetchange interval="5000" chance="8"/>
 <strategy attack="100" defense="0"/>
@@ -50,20 +50,4 @@
 	<immunity lifedrain="1"/>
 	<immunity invisible="1"/>
 </immunities>
-<voices interval="5000" chance="10">
-	<voice sentence="Praise the Phantom!" yell="1"/>
-</voices>
-<loot>
-	<item id="2148" countmax="100" chance1="100000" chancemax="0"/>
-	<item id="2148" countmax="50" chance1="100000" chancemax="0"/>
-	<item id="2150" countmax="20" chance1="5515" chancemax="0"/> --Small amethyst
-	<item id="2520" chance="7000"/> --Fire AXe
-	<item id="1987" chance="100000">
-		<inside>
-			<item id="2158" chance="4300"/> --Blue gem
-			<item id="2520" chance="7600"/> --Demon shield
-			<item id="2165" chance="10000"/> --stealth ring
-		</inside>
-	</item>
-</loot>
 </monster>

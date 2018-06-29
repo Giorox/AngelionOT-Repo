@@ -8,7 +8,7 @@
 		<flag summonable="0"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
-		<flag illusionable="1"/>
+		<flag illusionable="0"/>
 		<flag convinceable="0"/>
 		<flag pushable="0"/>
 		<flag canpushitems="1"/>
@@ -37,7 +37,14 @@
 			<attribute key="areaEffect" value="poison"/>
 		</attack>
 	</attacks>
-	<defenses armor="25" defense="35"/>
+	<defenses armor="25" defense="35">
+		<defense name="speed" interval="2000" chance="10" speedchange="380" duration="5000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+		<defense name="healing" interval="2000" chance="10" min="250" max="450">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
 	<elements>
 		<element earthPercent="20"/>
 		<element energyPercent="10"/>
@@ -56,24 +63,47 @@
 		<voice sentence="GRRRRR!"/>
 	</voices>
 	<loot>
-    <item id="6558" countmax="2" chance="23225" /><!-- concentrated demonic blood -->
-    <item id="2152" countmax="5" chance="22950" /><!-- platinum coin -->
+    <item id="6558" countmax="2" chance="18620" /><!-- concentrated demonic blood -->
+    <item id="2152" countmax="7" chance="96782" /><!-- platinum coin -->
     <item id="2148" countmax="100" chance="39975" /><!-- gold coin -->
-    <item id="2671" chance="31500" /><!-- ham -->
-    <item id="6500" chance="20875" /><!-- demonic essence -->
-    <item id="2383" chance="6225" /><!-- spike sword -->
-    <item id="5944" chance="20675" /><!-- soul orb -->
+    <item id="2671" chance="30350" /><!-- ham -->
+    <item id="6500" chance="20410" /><!-- demonic essence -->
+    <item id="5944" chance="20110" /><!-- soul orb -->
     <item id="9808" chance="5800" /><!-- rusty armor -->
-    <item id="2430" chance="7300" /><!-- knight axe -->
+    <item id="2430" chance="7550" /><!-- knight axe -->
+	<item id="10552" chance="10100" /><!-- fiery heart -->
+	<item id="5914" chance="5920" /><!-- Yellow Piece of Cloth -->
+	<item id="5910" chance="5310" /><!-- Green Piece of Cloth -->
+	<item id="5911" chance="3370" /><!-- Red Piece of Cloth -->
+	<item id="7368" countmax="10" chance="25470" /><!-- assassin star -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="10553" chance="8350" /><!-- hellhound slobber -->
-            <item id="2144" countmax="4" chance="6400" /><!-- black pearl -->
-            <item id="2393" chance="1350" /><!-- giant sword -->
-            <item id="7590" chance="5500" /><!-- great mana potion -->
-            <item id="9971" chance="1150" /><!-- gold ingot -->
-            <item id="2231" chance="925" /><!-- big bone -->
-            <item id="4873" chance="700" /><!-- explorer brooch -->
+            <item id="10553" chance="18920" /><!-- hellhound slobber -->
+            <item id="2144" countmax="4" chance="9390" /><!-- black pearl -->
+			<item id="2149" countmax="3" chance="10680" /><!-- small emerald -->
+			<item id="9970" countmax="3" chance="10510" /><!-- small topaz -->
+			<item id="2147" countmax="3" chance="10000" /><!-- small ruby -->
+            <item id="2393" chance="920" /><!-- giant sword -->
+            <item id="7590" chance="30700" /><!-- great mana potion -->
+			<item id="8472" chance="20600" /><!-- great spirit potion -->
+            <item id="9971" chance="1840" /><!-- gold ingot -->
+			<item id="8473" chance="16210" /><!-- ultimate health potion -->
+            <item id="5925" chance="9510" /><!-- hardened bone -->
+            <item id="4873" chance="430" /><!-- explorer brooch -->
+			<item id="2187" chance="7100" /><!-- wand of inferno -->
+			<item id="2392" chance="6650" /><!-- fire sword -->
+			<item id="2156" chance="4720" /><!-- Red Gem -->
+			<item id="2154" chance="4350" /><!-- Yellow Gem -->
+			<item id="2155" chance="1160" /><!-- Green Gem -->
+			<item id="5925" chance="9510" /><!-- hardened bone -->
+			<item id="7890" chance="2630" /><!-- Magma Amulet -->
+			<item id="7891" chance="1310" /><!-- Magma Boots -->
+			<item id="7894" chance="1000" /><!-- Magma Legs -->
+			<item id="7899" chance="940" /><!-- Magma Coat -->
+			<item id="7900" chance="920" /><!-- Magma Monocle -->
+			<item id="7421" chance="1040" /><!-- Onyx Flail -->
+			<item id="6553" chance="980" /><!-- Ruthless Axe -->
+			<item id="7426" chance="2140" /><!-- Amber Staff -->
         </inside>
     </item>
 </loot>

@@ -16,12 +16,15 @@
 		<flag lightlevel="0"/>
 		<flag lightcolor="0"/>
 		<flag targetdistance="1"/>
-		<flag runonhealth="1"/>
+		<flag runonhealth="0"/>
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" skill="59" attack="60" poison="80"/>
 		<attack name="lifedrain" interval="2000" chance="11" min="-90" max="-140" range="7" target="1">
 			<attribute key="areaEffect" value="redshimmer"/>
+		</attack>
+		<attack name="physical" interval="2000" chance="11" radius="3" min="-100" max="-175" target="0">
+			<attribute key="areaEffect" value="bubbles"/>
 		</attack>
 		<attack name="physical" interval="2000" chance="10" radius="3" target="0" min="-100" max="-175">
 			<attribute key="shootEffect" value="smallearth"/>
@@ -42,9 +45,9 @@
 	</defenses>
 	<elements>
 		<element energyPercent="-10"/>
-		<element earthPercent="5"/>
+		<element earthPercent="30"/>
 		<element icePercent="-5"/>
-		<element physicalPercent="-5"/>
+		<element physicalPercent="-20"/>
 		<element holyPercent="-5"/>
 		<element deathPercent="5"/>
 		<element firePercent="85"/>
@@ -58,18 +61,18 @@
 		<voice sentence="Slurp!"/>
 	</voices>
 	<loot>
-    <item id="2148" countmax="100" chance="36275" /><!-- gold coin -->
-    <item id="2148" countmax="4" chance="36275" /><!-- gold coin -->
-    <item id="10583" chance="10425" /><!-- boggy dreads -->
-    <item id="7591" chance="1900" /><!-- great health potion -->
-    <item id="8912" chance="1700" /><!-- springsprout rod -->
-    <item id="8472" chance="2250" /><!-- great spirit potion -->
-    <item id="2647" chance="2375" /><!-- plate legs -->
+    <item id="2148" countmax="100" chance="86275" /><!-- gold coin -->
+    <item id="2148" countmax="4" chance="96275" /><!-- gold coin -->
+    <item id="10583" chance="9860" /><!-- boggy dreads -->
+    <item id="7591" chance="2020" /><!-- great health potion -->
+    <item id="8912" chance="1010" /><!-- springsprout rod -->
+    <item id="8472" chance="2010" /><!-- great spirit potion -->
+    <item id="2647" chance="2010" /><!-- plate legs -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
             <item id="8473" chance="775" /><!-- ultimate health potion -->
-            <item id="8872" chance="1100" /><!-- belted cape -->
-            <item id="8891" chance="600" /><!-- paladin armor -->
+            <item id="8872" chance="580" /><!-- belted cape -->
+            <item id="8891" chance="140" /><!-- paladin armor -->
         </inside>
     </item>
 </loot>

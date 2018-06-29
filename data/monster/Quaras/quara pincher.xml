@@ -27,6 +27,7 @@
 	<elements>
 		<element firePercent="100"/>
 		<element icePercent="100"/>
+		<element physicalPercent="10"/>
 		<element earthPercent="-10"/>
 		<element energyPercent="-25"/>
 	</elements>
@@ -41,20 +42,19 @@
 		<voice sentence="Crrrk! Crrrk!"/>
 	</voices>
 	<loot>
-    <item id="2148" countmax="100" chance="19600" /><!-- gold coin -->
-    <item id="2148" countmax="28" chance="19600" /><!-- gold coin -->
-    <item id="2398" chance="10500" /><!-- mace -->
-    <item id="2381" chance="20625" /><!-- halberd -->
-    <item id="2670" chance="5425" /><!-- shrimp -->
-    <item id="2394" chance="5425" /><!-- morning star -->
-    <item id="2475" chance="1550" /><!-- warrior helmet -->
-    <item id="2147" chance="5475" /><!-- small ruby -->
+    <item id="2148" countmax="100" chance="100000" /><!-- gold coin -->
+    <item id="2148" countmax="49" chance="100000" /><!-- gold coin -->
+    <item id="2381" chance="6870" /><!-- halberd -->
+    <item id="2670" countmax="5" chance="5425" /><!-- shrimp -->
+	<item id="12407" chance="14740" /><!-- Quara Pincers -->
+    <item id="2475" chance="1390" /><!-- warrior helmet -->
+    <item id="2147" countmax="2" chance="7680" /><!-- small ruby -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="7591" chance="950" /><!-- great health potion -->
-            <item id="5895" chance="2025" /><!-- fish fin -->
-            <item id="7897" chance="600" /><!-- glacier robe -->
-            <item id="2487" chance="825" /><!-- crown armor -->
+            <item id="7591" chance="10380" /><!-- great health potion -->
+            <item id="5895" chance="1700" /><!-- fish fin -->
+            <item id="7897" chance="120" /><!-- glacier robe -->
+            <item id="2487" chance="310" /><!-- crown armor -->
         </inside>
     </item>
 </loot>

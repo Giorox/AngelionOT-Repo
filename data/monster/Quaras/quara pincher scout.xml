@@ -27,7 +27,6 @@
 	<immunities>
 		<immunity ice="1"/>
 		<immunity fire="1"/>
-		<immunity poison="1"/>
 		<immunity lifedrain="1"/>
 		<immunity paralyze="1"/>
 		<immunity outfit="1"/>
@@ -43,16 +42,16 @@
 		<voice sentence="Clap!"/>
 	</voices>
 	<loot>
-    <item id="2148" countmax="50" chance="26025" /><!-- gold coin -->
-    <item id="2463" chance="7375" /><!-- plate armor -->
-    <item id="2394" chance="1350" /><!-- morning star -->
-    <item id="2147" chance="3075" /><!-- small ruby -->
+    <item id="2148" countmax="100" chance="89990" /><!-- gold coin -->
+	<item id="2148" countmax="43" chance="89990" /><!-- gold coin -->
+    <item id="2463" chance="4940" /><!-- plate armor -->
+	<item id="12407" chance="9950" /><!-- Quara Pincers -->
+    <item id="2147" countmax="2" chance="3880" /><!-- small ruby -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="2381" chance="4450" /><!-- halberd -->
-            <item id="2398" chance="9600" /><!-- mace -->
-            <item id="2177" chance="1025" /><!-- life crystal -->
-            <item id="5895" chance="1025" /><!-- fish fin -->
+            <item id="2381" chance="2070" /><!-- halberd -->
+            <item id="2177" chance="790" /><!-- life crystal -->
+            <item id="5895" chance="800" /><!-- fish fin -->
         </inside>
     </item>
 </loot>

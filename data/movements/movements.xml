@@ -896,10 +896,6 @@
 	<movevent type="StepIn" actionid="9884" event="script" value="pitsofinferno/firesorcererall.lua" />
 	<movevent type="StepIn" uniqueid="9900" event="script" value="pitsofinferno/PuminThronePortal.lua"/>
 	
-	
-	<movevent event="StepIn" uniqueid="9000" script="demonOakTree.lua" />
-	<movevent event="StepIn" itemid="8292" script="demonOakArea.lua" />
-	<movevent event="StepIn" fromuid="9001" touid="9005" script="demonOakSquares.lua" />
 	<!-- dcq -->
 	<movevent type="StepIn" actionid="9631" event="script" value="dcq/teleport_tower.lua" />
 	<movevent type="StepIn" actionid="9632" event="script" value="dcq/teleport_tower1.lua" />

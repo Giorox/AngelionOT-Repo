@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Hellgorak" nameDescription="a hellgorak" race="blood" experience="10000" speed="330" manacost="0">
-	<health now="30000" max="30000"/>
+	<health now="25850" max="25850"/>
 	<look type="12" head="19" body="96" legs="21" feet="81" corpse="6068"/>
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="100" defense="0"/>
@@ -32,16 +32,23 @@
 		<attack name="skills" interval="2000" chance="35" radius="6" target="10" distance="-60">
 			<attribute key="areaEffect" value="poff"/>
 		</attack>
+		<attack name="manadrain" interval="2000" chance="25" target="1" spread="1" min="-200" max="-400">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</attack>
 	</attacks>
-	<defenses armor="70" defense="65"/>
+	<defenses armor="70" defense="65">
+		<defense name="healing" interval="2000" chance="20" min="400" max="1700">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
 	<elements>
-		<element physicalPercent="97"/>
-		<element icePercent="95"/>
-		<element energyPercent="97"/>
-		<element earthPercent="97"/>
+		<element physicalPercent="98"/>
+		<element icePercent="98"/>
+		<element energyPercent="98"/>
+		<element earthPercent="98"/>
 		<element holyPercent="95"/>
-		<element deathPercent="97"/>
-		<element firePercent="97"/>
+		<element deathPercent="98"/>
+		<element firePercent="98"/>
 		<element drownPercent="-50"/>
 	</elements>
 	<immunities>
@@ -60,53 +67,55 @@
 	<loot>
     <item id="2148" countmax="100" chance="47350" /><!-- gold coin -->
     <item id="2148" countmax="100" chance="47350" /><!-- gold coin -->
-    <item id="2488" chance="10900" /><!-- crown legs -->
+	<item id="2148" countmax="83" chance="47350" /><!-- gold coin -->
+    <item id="2488" chance="10000" /><!-- crown legs -->
     <item id="6500" chance="100500" /><!-- demonic essence -->
-    <item id="5954" countmax="2" chance="8325" /><!-- demon horn -->
-    <item id="8871" chance="10800" /><!-- focus cape -->
-    <item id="7591" chance="19800" /><!-- great health potion -->
-    <item id="2149" countmax="25" chance="6700" /><!-- small emerald -->
-    <item id="3962" chance="30200" /><!-- beastslayer axe -->
-    <item id="8901" chance="30500" /><!-- spellbook of warding -->
-    <item id="1988" chance="100000"><!-- bag -->
+    <item id="5954" countmax="2" chance="9570" /><!-- demon horn -->
+    <item id="8871" chance="9460" /><!-- focus cape -->
+    <item id="7591" chance="18220" /><!-- great health potion -->
+    <item id="2149" countmax="25" chance="11780" /><!-- small emerald -->
+    <item id="3962" chance="29840" /><!-- beastslayer axe -->
+    <item id="8901" chance="30590" /><!-- spellbook of warding -->
+    <item id="1988" chance="100000"><!-- Backpack -->
         <inside>
-            <item id="2645" chance="10100" /><!-- steel boots -->
-            <item id="8870" chance="11300" /><!-- spirit cloak -->
-            <item id="8473" chance="34965" /><!-- ultimate health potion -->
-            <item id="8473" chance="17482" /><!-- ultimate health potion -->
-            <item id="2147" countmax="25" chance="7050" /><!-- small ruby -->
-            <item id="2487" chance="21400" /><!-- crown armor -->
-            <item id="2150" countmax="25" chance="7525" /><!-- small amethyst -->
-            <item id="9970" countmax="25" chance="7100" /><!-- small topaz -->
-            <item id="7412" chance="10700" /><!-- butcher's axe -->
-            <item id="2152" countmax="30" chance="10500" /><!-- platinum coin -->
-            <item id="2133" chance="10200" /><!-- ruby necklace -->
+            <item id="2645" chance="9460" /><!-- steel boots -->
+            <item id="8870" chance="10430" /><!-- spirit cloak -->
+            <item id="8473" countmax="2" chance="42590" /><!-- ultimate health potion -->
+            <item id="2147" countmax="25" chance="13240" /><!-- small ruby -->
+            <item id="2487" chance="18430" /><!-- crown armor -->
+            <item id="2150" countmax="22" chance="11890" /><!-- small amethyst -->
+            <item id="9970" countmax="25" chance="11240" /><!-- small topaz -->
+            <item id="7412" chance="2320" /><!-- butcher's axe -->
+            <item id="2152" countmax="29" chance="20540" /><!-- platinum coin -->
+            <item id="2133" chance="10050" /><!-- ruby necklace -->
             <item id="9811" chance="48975" /><!-- rusty legs -->
-            <item id="2656" chance="9400" /><!-- blue robe -->
-            <item id="2466" chance="4350" /><!-- golden armor -->
-            <item id="8472" chance="22525" /><!-- great spirit potion -->
-            <item id="2477" chance="10900" /><!-- knight legs -->
+            <item id="2656" chance="8050" /><!-- blue robe -->
+            <item id="2466" chance="2050" /><!-- golden armor -->
+            <item id="8472" chance="21190" /><!-- great spirit potion -->
+            <item id="2477" chance="8860" /><!-- knight legs -->
             <item id="9808" chance="27575" /><!-- rusty armor -->
-            <item id="7894" chance="10800" /><!-- magma legs -->
-            <item id="8903" chance="12825" /><!-- spellbook of lost souls -->
-            <item id="7590" chance="19075" /><!-- great mana potion -->
-            <item id="2143" countmax="25" chance="7425" /><!-- white pearl -->
-            <item id="2144" countmax="25" chance="7000" /><!-- black pearl -->
-            <item id="7456" chance="11400" /><!-- noble axe -->
-            <item id="2197" chance="13425" /><!-- stone skin amulet -->
-            <item id="2146" countmax="25" chance="6300" /><!-- small sapphire -->
-            <item id="2125" chance="15950" /><!-- crystal necklace -->
-            <item id="2145" countmax="25" chance="7625" /><!-- small diamond -->
-            <item id="7453" chance="5050" /><!-- executioner -->
-            <item id="7388" chance="5550" /><!-- vile axe -->
-            <item id="2470" chance="4350" /><!-- golden legs -->
-            <item id="2130" chance="10100" /><!-- golden amulet -->
-            <item id="8902" chance="10500" /><!-- spellbook of mind control -->
-            <item id="2136" chance="1200" /><!-- demonbone amulet -->
-            <item id="8904" chance="1200" /><!-- spellscroll of prophecies -->
-            <item id="8879" chance="800" /><!-- voltage armor -->
-            <item id="8926" chance="800" /><!-- demonwing axe -->
-            <item id="2415" chance="700" /><!-- great axe -->
+            <item id="7894" chance="11080" /><!-- magma legs -->
+            <item id="8903" chance="8810" /><!-- spellbook of lost souls -->
+            <item id="7590" chance="14380" /><!-- great mana potion -->
+            <item id="2143" countmax="25" chance="13190" /><!-- white pearl -->
+            <item id="2144" countmax="22" chance="14110" /><!-- black pearl -->
+            <item id="7456" chance="12220" /><!-- noble axe -->
+            <item id="2197" chance="9680" /><!-- stone skin amulet -->
+            <item id="2146" countmax="21" chance="11620" /><!-- small sapphire -->
+            <item id="2125" chance="14380" /><!-- crystal necklace -->
+            <item id="2145" countmax="21" chance="12860" /><!-- small diamond -->
+            <item id="7453" chance="810" /><!-- executioner -->
+            <item id="7388" chance="1190" /><!-- vile axe -->
+            <item id="2470" chance="650" /><!-- golden legs -->
+            <item id="2130" chance="9730" /><!-- golden amulet -->
+            <item id="8902" chance="9950" /><!-- spellbook of mind control -->
+            <item id="2136" chance="590" /><!-- demonbone amulet -->
+            <item id="8904" chance="1030" /><!-- spellscroll of prophecies -->
+            <item id="8879" chance="380" /><!-- voltage armor -->
+            <item id="8926" chance="320" /><!-- demonwing axe -->
+            <item id="2415" chance="270" /><!-- great axe -->
+			<item id="8918" chance="160" /><!-- spellbook of dark mysteries -->
+			<item id="2195" chance="26265" /><!-- boots of haste -->
         </inside>
     </item>
 </loot>

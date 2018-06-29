@@ -9,6 +9,4 @@
 	<globalevent name="raidSystem" interval="1200" event="script" value="raidSystem.lua"/>
 	<globalevent name="ZzaionRaid" interval="14400" event="script" value="ZzaionRaid.lua"/>
 	
-	<!-- Demon Oak Quest -->
-	<globalevent name="DemonOakVoices" interval="15000" script="demon oak quest/voices.lua" />
 </globalevents>

@@ -51,28 +51,28 @@
     <item id="2148" countmax="100" chance="37925" /><!-- gold coin -->
     <item id="2148" countmax="100" chance="37925" /><!-- gold coin -->
     <item id="2148" countmax="41" chance="37925" /><!-- gold coin -->
-    <item id="11209" chance="6700" /><!-- metal spike -->
-    <item id="2666" chance="55750" /><!-- meat -->
-    <item id="6500" chance="19075" /><!-- demonic essence -->
-    <item id="2150" countmax="2" chance="6125" /><!-- small amethyst -->
-    <item id="2416" chance="15425" /><!-- crowbar -->
-    <item id="2463" chance="5575" /><!-- plate armor -->
-    <item id="2553" chance="6650" /><!-- pick -->
-    <item id="2178" chance="1250" /><!-- mind stone -->
-    <item id="2489" chance="10800" /><!-- dark armor -->
-    <item id="2645" chance="1600" /><!-- steel boots -->
-    <item id="2546" countmax="12" chance="6600" /><!-- burst arrow -->
-    <item id="5944" chance="6900" /><!-- soul orb -->
+    <item id="11209" chance="6890" /><!-- metal spike -->
+    <item id="2666" countmax="6" chance="55750" /><!-- meat -->
+    <item id="6500" chance="18940" /><!-- demonic essence -->
+    <item id="2150" countmax="2" chance="7490" /><!-- small amethyst -->
+    <item id="2416" chance="14890" /><!-- crowbar -->
+    <item id="2463" chance="4910" /><!-- plate armor -->
+    <item id="2553" chance="6050" /><!-- pick -->
+    <item id="2178" chance="600" /><!-- mind stone -->
+    <item id="2489" chance="10170" /><!-- dark armor -->
+    <item id="2645" chance="840" /><!-- steel boots -->
+    <item id="2546" countmax="12" chance="11050" /><!-- burst arrow -->
+    <item id="5944" chance="6930" /><!-- soul orb -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="2152" countmax="3" chance="2950" /><!-- platinum coin -->
-            <item id="7591" chance="1050" /><!-- great health potion -->
-            <item id="7419" chance="1200" /><!-- dreaded cleaver -->
-            <item id="5741" chance="600" /><!-- skull helmet -->
-            <item id="2125" chance="1075" /><!-- crystal necklace -->
-            <item id="7427" chance="1450" /><!-- chaos mace -->
-            <item id="2393" chance="2050" /><!-- giant sword -->
-            <item id="6300" chance="575" /><!-- death ring -->
+            <item id="2152" countmax="3" chance="3890" /><!-- platinum coin -->
+            <item id="7591" chance="1060" /><!-- great health potion -->
+            <item id="7419" chance="790" /><!-- dreaded cleaver -->
+            <item id="5741" chance="130" /><!-- skull helmet -->
+            <item id="2125" chance="550" /><!-- crystal necklace -->
+            <item id="7427" chance="860" /><!-- chaos mace -->
+            <item id="2393" chance="1500" /><!-- giant sword -->
+            <item id="6300" chance="130" /><!-- death ring -->
         </inside>
     </item>
 </loot>

@@ -15,7 +15,7 @@
 		<flag canpushcreatures="0"/>
 		<flag targetdistance="1"/>
 		<flag staticattack="90"/>
-		<flag runonhealth="150"/>
+		<flag runonhealth="0"/>
 	</flags>
 	<attacks>
 		<attack name="poison" interval="2000" chance="8" range="7" min="-15" max="-40">
@@ -43,14 +43,15 @@
 		<immunity invisible="1"/>
 	</immunities>
 	<loot>
-    <item id="2802" countmax="2" chance="3925" /><!-- sling herb -->
-    <item id="2804" chance="10425" /><!-- shadow herb -->
-    <item id="2148" countmax="5" chance="5625" /><!-- gold coin -->
+    <item id="2802" countmax="2" chance="5850" /><!-- sling herb -->
+    <item id="2804" chance="11040" /><!-- shadow herb -->
+    <item id="2148" countmax="5" chance="10910" /><!-- gold coin -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="2747" chance="1375" /><!-- grave flower -->
-            <item id="7732" chance="950" /><!-- seeds -->
-            <item id="11225" chance="950" /><!-- nettle blossom -->
+            <item id="2747" chance="1060" /><!-- grave flower -->
+            <item id="7732" chance="400" /><!-- seeds -->
+            <item id="11225" chance="970" /><!-- nettle blossom -->
+			<item id="12393" chance="9760" /><!-- nettle spit -->
         </inside>
     </item>
 </loot>

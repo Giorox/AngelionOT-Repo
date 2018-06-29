@@ -8,7 +8,7 @@
     <flag summonable="0"/>
     <flag attackable="1"/>
     <flag hostile="1"/>
-    <flag illusionable="1"/>
+    <flag illusionable="0"/>
     <flag convinceable="0"/>
     <flag pushable="0"/>
     <flag canpushitems="1"/>
@@ -19,19 +19,12 @@
   </flags>
   <attacks>
     <attack name="melee" interval="2000" skill="70" attack="80"/>
-    <attack name="fire" interval="1000" chance="8" range="7" radius="4" target="1" min="-50" max="-350">
-      <attribute key="shootEffect" value="fire"/>
-      <attribute key="areaEffect" value="firearea"/>
-    </attack>
-    <attack name="fire" interval="2000" chance="16" range="7" radius="2" target="1" min="-90" max="-500">
+    <attack name="fire" interval="1000" chance="8" range="7" radius="4" target="1" min="-15" max="-45">
       <attribute key="shootEffect" value="fire"/>
       <attribute key="areaEffect" value="firearea"/>
     </attack>
   </attacks>
   <defenses armor="15" defense="15">
-    <defense name="healing" interval="2000" chance="22" min="175" max="245">
-      <attribute key="areaEffect" value="blueshimmer"/>
-    </defense>
     <defense name="speed" interval="2000" chance="18" speedchange="520" duration="4000">
       <attribute key="areaEffect" value="redshimmer"/>
     </defense>
@@ -39,6 +32,9 @@
       <attribute key="areaEffect" value="redshimmer"/>
     </defense>
   </defenses>
+  <summons maxSummons="2">
+		<summon name="fire devils" interval="2000" chance="10" max="2"/>
+	</summons>
 	<elements>
 		<element earthPercent="50"/>
 		<element physicalPercent="-10"/>
@@ -58,7 +54,4 @@
     <voice sentence="Wealth, Power, it is all at your fingertipd. All you have to do is a bit blackmailing and bullying."/>
     <voice sentence="Come on. Being a bit evil won't hurt you."/>
   </voices>
-  <loot>
-   <item id="2148" chance="8000"/>
- </loot>
 </monster>

@@ -24,7 +24,7 @@
 		</attack>
 	</attacks>
 	<defenses armor="20" defense="20">
-		<defense name="healing" interval="2000" chance="20" min="42" max="68">
+		<defense name="healing" interval="2000" chance="20" min="32" max="50">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 		<defense name="speed" interval="2000" chance="10" speedchange="320" duration="5000">
@@ -46,18 +46,18 @@
 		<voice sentence="I'll bite you! Nyehehehehe!"/>
 	</voices>
 	<loot>
-    <item id="2385" chance="8450" /><!-- sabre -->
-    <item id="2015" chance="9125" /><!-- brown flask -->
-    <item id="2148" countmax="70" chance="29750" /><!-- gold coin -->
-    <item id="2378" chance="3525" /><!-- battle axe -->
-    <item id="2394" chance="5575" /><!-- morning star -->
-    <item id="2510" chance="10525" /><!-- plate shield -->
+    <item id="2385" chance="8160" /><!-- sabre -->
+    <item id="2015" chance="9030" /><!-- brown flask -->
+    <item id="2148" countmax="70" chance="82180" /><!-- gold coin -->
+    <item id="2378" chance="3100" /><!-- battle axe -->
+    <item id="2394" chance="5130" /><!-- morning star -->
+    <item id="2510" chance="10030" /><!-- plate shield -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="2423" chance="1100" /><!-- clerical mace -->
-            <item id="2146" chance="900" /><!-- small sapphire -->
-            <item id="2213" chance="650" /><!-- dwarven ring -->
-            <item id="2409" chance="800" /><!-- serpent sword -->
+            <item id="2423" chance="780" /><!-- clerical mace -->
+            <item id="2146" chance="39-" /><!-- small sapphire -->
+            <item id="2213" chance="200" /><!-- dwarven ring -->
+            <item id="2409" chance="310" /><!-- serpent sword -->
         </inside>
     </item>
 </loot>

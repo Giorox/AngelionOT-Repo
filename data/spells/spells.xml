@@ -25,10 +25,7 @@
 	<rune name="Holy Missile" id="2295" allowfaruse="1" charges="5" lvl="27" maglv="4" exhaustion="500" needtarget="1" blocktype="solid" event="script" value="attack/holy missile.lua">
 		<vocation id="3"/>
 		<vocation id="7" showInDescription="0"/>
-	<rune name="Combustion" id="2304" allowfaruse="1" charges="5" lvl="80" maglv="3" exhaustion="500" blocktype="solid" event="script" value="attack/combustion.lua"/>
-	<rune name="Energy Wave" id="2315" allowfaruse="1" charges="10" lvl="40" maglv="2" exhaustion="500" blocktype="solid" event="script" value="attack/energywave.lua"/>
 	</rune>
-
 
 	<!-- Healing Runes -->
 	<rune name="Antidote Rune" id="2266" allowfaruse="1" charges="1" lvl="15" maglv="0" exhaustion="500" aggressive="0" needtarget="1" blocktype="solid" event="script" value="healing/antidote rune.lua"/>
@@ -48,11 +45,9 @@
 		<vocation id="2"/>
 		<vocation id="6" showInDescription="0"/>
 	</rune>
-	<rune name="Paralyze" id="2278" allowfaruse="1" charges="1" lvl="54" maglv="18" exhaustion="500" needtarget="1" blocktype="solid" event="script" value="support/paralyze rune.lua">
+	<rune name="Paralyze" id="2278" allowfaruse="1" charges="1" mana="1400" lvl="54" maglv="18" exhaustion="500" needtarget="1" blocktype="solid" event="script" value="support/paralyze rune.lua">
 		<vocation id="2"/>
 		<vocation id="6" showInDescription="0"/>
-	<rune name="Drunk" id="2278" allowfaruse="1" charges="1" lvl="54" maglv="3" exhaustion="500" blocktype="solid" event="script" value="support/drunk.lua"/>
-	<rune name="Magic Prison" id="2293" allowfaruse="1" charges="3" lvl="44" maglv="9" exhaustion="500" blocktype="solid" event="script" value="support/magic prison.lua"/>
 	</rune>
 
 <!-- Attack Spells -->

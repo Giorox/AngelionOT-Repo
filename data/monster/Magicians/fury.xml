@@ -8,7 +8,7 @@
 		<flag summonable="0"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
-		<flag illusionable="1"/>
+		<flag illusionable="0"/>
 		<flag convinceable="0"/>
 		<flag pushable="0"/>
 		<flag canpushitems="1"/>
@@ -65,30 +65,32 @@
 		<voice sentence="Ahhhhrrrr!"/>
 		<voice sentence="Waaaaah!"/>
 		<voice sentence="Carnage!"/>
+		<voice sentence="Dieee!"/>
 	</voices>
 	<loot>
-    <item id="5944" chance="19800" /><!-- soul orb -->
-    <item id="2148" countmax="100" chance="41900" /><!-- gold coin -->
-    <item id="2148" countmax="100" chance="41900" /><!-- gold coin -->
-    <item id="2148" countmax="54" chance="41900" /><!-- gold coin -->
-    <item id="6558" countmax="3" chance="22625" /><!-- concentrated demonic blood -->
-    <item id="2181" chance="17550" /><!-- terra rod -->
-    <item id="5911" chance="5000" /><!-- red piece of cloth -->
-    <item id="2152" countmax="4" chance="2350" /><!-- platinum coin -->
-    <item id="6500" chance="21500" /><!-- demonic essence -->
-    <item id="7591" chance="10225" /><!-- great health potion -->
+    <item id="5944" chance="20100" /><!-- soul orb -->
+    <item id="2148" countmax="100" chance="98780" /><!-- gold coin -->
+    <item id="2148" countmax="100" chance="98780" /><!-- gold coin -->
+    <item id="2148" countmax="69" chance="98780" /><!-- gold coin -->
+    <item id="6558" countmax="3" chance="34190" /><!-- concentrated demonic blood -->
+    <item id="2181" chance="20060" /><!-- terra rod -->
+    <item id="5911" chance="4090" /><!-- red piece of cloth -->
+    <item id="2152" countmax="4" chance="2540" /><!-- platinum coin -->
+    <item id="6500" chance="22520" /><!-- demonic essence -->
+    <item id="7591" chance="10100" /><!-- great health potion -->
     <item id="8844" countmax="4" chance="17825" /><!-- jalapeno pepper -->
-    <item id="2150" countmax="3" chance="5750" /><!-- small amethyst -->
-    <item id="7404" chance="1300" /><!-- assassin dagger -->
+    <item id="2150" countmax="3" chance="8150" /><!-- small amethyst -->
+    <item id="7404" chance="870" /><!-- assassin dagger -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="9811" chance="11400" /><!-- rusty legs -->
-            <item id="7456" chance="2275" /><!-- noble axe -->
-            <item id="2645" chance="1475" /><!-- steel boots -->
-            <item id="5022" countmax="4" chance="1350" /><!-- orichalcum pearl -->
-            <item id="6300" chance="625" /><!-- death ring -->
-            <item id="2124" chance="550" /><!-- crystal ring -->
-            <item id="7368" chance="675" /><!-- assassin star -->
+            <item id="9811" chance="1400" /><!-- rusty legs -->
+            <item id="7456" chance="2050" /><!-- noble axe -->
+			<item id="2470" chance="100" /><!-- golden legs -->
+            <item id="2645" chance="790" /><!-- steel boots -->
+            <item id="5022" countmax="4" chance="1380" /><!-- orichalcum pearl -->
+            <item id="6300" chance="70" /><!-- death ring -->
+            <item id="2124" chance="450" /><!-- crystal ring -->
+            <item id="7368" chance="90" /><!-- assassin star -->
         </inside>
     </item>
 </loot>

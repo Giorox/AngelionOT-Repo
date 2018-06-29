@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="The Obliverator" nameDescription="the obliverator" race="fire" experience="6000" speed="280" manacost="0">
-	<health now="9500" max="9500"/>
+	<health now="9020" max="9020"/>
 	<look type="35" corpse="7349"/>
 	<targetchange interval="2000" chance="5"/>
 	<strategy attack="100" defense="0"/>
@@ -20,7 +20,7 @@
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" skill="90" attack="140"/>
-		<attack name="manadrain" interval="3000" chance="15" range="7" min="-0" max="-120"/>
+		<attack name="manadrain" interval="3000" chance="15" range="7" min="-0" max="-80"/>
 		<attack name="firefield" interval="4000" chance="20" range="7" radius="1" target="1">
 			<attribute key="shootEffect" value="fire"/>
 		</attack>
@@ -35,11 +35,9 @@
 	<defenses armor="40" defense="45">
 	</defenses>
 	<elements>
-		<element earthPercent="40"/>
 		<element energyPercent="50"/>
-		<element deathPercent="20"/>
-		<element holyPercent="-10"/>
-		<element icePercent="-10"/>
+		<element deathPercent="1"/>
+		<element holyPercent="-1"/>
 	</elements>
 	<immunities>
 		<immunity invisible="1"/>

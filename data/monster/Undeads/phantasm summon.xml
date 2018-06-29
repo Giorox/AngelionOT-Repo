@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Phantasm" nameDescription="a phantasm" race="undead" experience="3300" speed="280" manacost="0">
-	<health now="50" max="50"/>
+<monster name="Phantasm" nameDescription="a phantasm" race="undead" experience="1" speed="280" manacost="0">
+	<health now="65" max="65"/>
 	<look type="241" head="20" corpse="6344"/>
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="100" defense="0"/>
@@ -8,7 +8,7 @@
 		<flag summonable="0"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
-		<flag illusionable="1"/>
+		<flag illusionable="0"/>
 		<flag convinceable="0"/>
 		<flag pushable="0"/>
 		<flag canpushitems="1"/>
@@ -19,7 +19,7 @@
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" skill="55" attack="80"/>
-		<attack name="death" interval="2000" chance="15" range="7" target="1" min="-400" max="-450">
+		<attack name="death" interval="2000" chance="15" range="7" target="1" min="-34" max="-59">
 			<attribute key="shootEffect" value="death"/>
 			<attribute key="areaEffect" value="mortarea"/>
 		</attack>	
@@ -39,11 +39,11 @@
 	<elements>
 		<element deathPercent="100"/>
 		<element physicalPercent="100"/>
-		<element earthPercent="20"/>
+		<element earthPercent="100"/>
 		<element icePercent="20"/>
 		<element holyPercent="-10"/>
 		<element firePercent="-10"/>
-		<element energyPercent="-10"/>
+		<element energyPercent="40"/>
 	</elements>
 	<immunities>
 		<immunity paralyze="1"/>

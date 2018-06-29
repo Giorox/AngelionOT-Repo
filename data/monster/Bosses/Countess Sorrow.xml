@@ -8,7 +8,7 @@
 		<flag summonable="0"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
-		<flag illusionable="1"/>
+		<flag illusionable="0"/>
 		<flag convinceable="0"/>
 		<flag pushable="0"/>
 		<flag canpushitems="1"/>
@@ -22,11 +22,8 @@
 		<attack name="lifedrain" interval="2000" chance="10" target="1" range="7" min="-100" max="-885">
 			<attribute key="areaEffect" value="redshimmer"/>
 		</attack>
-		<attack name="lifedrain" interval="2000" chance="10" target="1" range="7" radius="3" min="-100" max="-695">
-			<attribute key="areaEffect" value="redshimmer"/>
-		</attack>
-		<attack name="lifedrain" interval="2000" chance="10" radius="3" min="-100" max="-390">
-			<attribute key="areaEffect" value="redshimmer"/>
+		<attack name="drunk" interval="2000" chance="10" target="1" range="7" radius="4">
+			<attribute key="areaEffect" value="whitenote"/>
 		</attack>
 		<attack name="manadrain" interval="1000" chance="25" range="7" target="1" radius="3" min="-40" max="-65">
 			<attribute key="areaEffect" value="blueshimmer"/>
@@ -61,22 +58,23 @@
 	</immunities>
 	<voices interval="2000" chance="10">
 		<voice sentence="You won't rest in peace! Never ever!"/>
+		<voice sentence="I'm so sorry.... for youuuu!"/>
+		<voice sentence="Sleep ... for eternity!"/>
+		<voice sentence="Dreams can come true. As my dream of killing you."/>
 	</voices>
 	<loot>
-    <item id="2200" chance="50500" /><!-- protection amulet -->
-    <item id="2656" chance="25500" /><!-- blue robe -->
-    <item id="2424" chance="17175" /><!-- silver mace -->
-    <item id="7590" chance="16650" /><!-- great mana potion -->
-    <item id="2152" countmax="4" chance="25500" /><!-- platinum coin -->
-    <item id="5944" chance="100500" /><!-- soul orb -->
-	<item id="2393" chance="42175" /><!-- giant sword -->
+    <item id="2200" chance="26320" /><!-- protection amulet -->
+    <item id="2656" chance="31580" /><!-- blue robe -->
+    <item id="2424" chance="21050" /><!-- silver mace -->
+    <item id="2152" countmax="4" chance="60530" /><!-- platinum coin -->
+    <item id="5944" chance="86840" /><!-- soul orb -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="2165" chance="33825" /><!-- stealth ring -->
-            <item id="2238" chance="50500" /><!-- worn leather boots -->
+            <item id="2165" chance="5260" /><!-- stealth ring -->
+            <item id="2238" chance="44740" /><!-- worn leather boots -->
             <item id="6536" chance="100500" /><!-- countess sorrow's frozen tear -->
-            <item id="6500" chance="100500" /><!-- demonic essence -->
-            <item id="2647" chance="42175" /><!-- plate legs -->
+            <item id="6500" chance="28950" /><!-- demonic essence -->
+            <item id="2647" chance="7890" /><!-- plate legs -->
             <item id="2148" countmax="100" chance="57500" /><!-- gold coin -->
             <item id="2148" countmax="69" chance="57500" /><!-- gold coin -->
         </inside>

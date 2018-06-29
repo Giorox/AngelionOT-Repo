@@ -8,7 +8,7 @@
 		<flag summonable="0"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
-		<flag illusionable="1"/>
+		<flag illusionable="0"/>
 		<flag convinceable="0"/>
 		<flag pushable="0"/>
 		<flag canpushitems="1"/>
@@ -19,19 +19,15 @@
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" skill="64" attack="100"/>
+		<attack name="drowncondition" interval="2000" chance="25" length="3" spread="2" min="-0" max="-105">
+			<attribute key="areaEffect" value="rednote"/>
+		</attack>
 	</attacks>
 	<defenses armor="25" defense="35">
 		<defense name="healing" interval="2000" chance="50" min="100" max="150">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 	</defenses>
-	<elements>
-		<element earthPercent="90"/>
-		<element energyPercent="30"/>
-		<element deathPercent="10"/>
-		<element icePercent="-10"/>
-		<element holyPercent="-10"/>
-	</elements>
 	<immunities>
 		<immunity invisible="1"/>
 		<immunity fire="1"/>

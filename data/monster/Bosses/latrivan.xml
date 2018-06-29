@@ -28,67 +28,72 @@
 		<attack name="death" interval="2000" chance="40" range="3" min="-50" max="-600">
 			<attribute key="areaEffect" value="mortarea"/>
 		</attack>
-		<attack name="earth" interval="2000" chance="10" target="0" radius="1" min="-50" max="-165">
+		<attack name="fire" interval="2000" chance="10" target="0" radius="3" min="-50" max="-230">
 			<attribute key="areaEffect" value="firearea"/>
 		</attack>
 	</attacks>
 	<defenses armor="35" defense="45"/>
 	<elements>
-		<element icePercent="30"/>
-		<element energyPercent="30"/>
-		<element earthPercent="-5"/>
-		<element firePercent="-5"/>
+		<element icePercent="-1"/>
+		<element energyPercent="1"/>
 	</elements>
 	<immunities>
 		<immunity death="1"/>
+		<immunity fire="1"/>
 		<immunity invisible="1"/>
 		<immunity lifedrain="1"/>
 	</immunities>
 	<voices interval="5000" chance="10">
 		<voice sentence="I might reward you for killing my brother ~ with a swift dead!" yell="1"/>
+		<voice sentence="Colateral damage is fun!"/>
+		<voice sentence="Golgordan you fool!"/>
+		<voice sentence="We are the brothers of fear!"/>
 	</voices>
 	<loot>
-    <item id="2150" countmax="20" chance="9325" /><!-- small amethyst -->
+    <item id="2150" countmax="15" chance="16500" /><!-- small amethyst -->
     <item id="2148" countmax="100" chance="49400" /><!-- gold coin -->
-    <item id="2148" countmax="100" chance="49400" /><!-- gold coin -->
-    <item id="2148" countmax="82" chance="49400" /><!-- gold coin -->
-    <item id="2179" chance="18925" /><!-- gold ring -->
-    <item id="2432" chance="10150" /><!-- fire axe -->
-    <item id="7591" chance="30700" /><!-- great health potion -->
-    <item id="2197" chance="12775" /><!-- stone skin amulet -->
-    <item id="2214" chance="22425" /><!-- ring of healing -->
-    <item id="1988" chance="100000"><!-- bag -->
+    <item id="2148" countmax="50" chance="49400" /><!-- gold coin -->
+	<item id="2152" countmax="6" chance="36850" /><!-- platinum coin -->
+    <item id="2179" chance="6800" /><!-- gold ring -->
+    <item id="2432" chance="11170" /><!-- fire axe -->
+    <item id="7591" chance="37860" /><!-- great health potion -->
+    <item id="2197" chance="13110" /><!-- stone skin amulet -->
+    <item id="2214" chance="26700" /><!-- ring of healing -->
+	<item id="2171" chance="16560" /><!-- platinum amulet -->
+    <item id="1988" chance="100000"><!-- Backpack -->
         <inside>
-            <item id="2387" chance="21550" /><!-- double axe -->
-            <item id="2178" chance="3125" /><!-- mind stone -->
-            <item id="2162" chance="27700" /><!-- magic light wand -->
-            <item id="2143" countmax="12" chance="8975" /><!-- white pearl -->
-            <item id="9971" chance="11025" /><!-- gold ingot -->
-            <item id="2149" countmax="10" chance="10400" /><!-- small emerald -->
-            <item id="6300" chance="14550" /><!-- death ring -->
-            <item id="2144" countmax="15" chance="7050" /><!-- black pearl -->
-            <item id="2146" countmax="10" chance="8575" /><!-- small sapphire -->
-            <item id="2164" chance="5750" /><!-- might ring -->
-            <item id="2402" chance="13650" /><!-- silver dagger -->
-            <item id="2165" chance="19800" /><!-- stealth ring -->
-            <item id="6500" chance="10150" /><!-- demonic essence -->
-            <item id="2396" chance="5750" /><!-- ice rapier -->
-            <item id="2195" chance="7525" /><!-- boots of haste -->
-            <item id="2145" countmax="5" chance="4000" /><!-- small diamond -->
-            <item id="2393" chance="8400" /><!-- giant sword -->
-            <item id="2185" chance="4000" /><!-- necrotic rod -->
-            <item id="2170" chance="18050" /><!-- silver amulet -->
-            <item id="2167" chance="8400" /><!-- energy ring -->
-            <item id="7365" countmax="7" chance="2375" /><!-- onyx arrow -->
-            <item id="2520" chance="5750" /><!-- demon shield -->
-            <item id="2192" chance="4000" /><!-- crystal ball -->
-            <item id="7368" countmax="7" chance="2500" /><!-- assassin star -->
-            <item id="2462" chance="6650" /><!-- devil helmet -->
-            <item id="2436" chance="4900" /><!-- skull staff -->
-            <item id="2200" chance="4000" /><!-- protection amulet -->
-            <item id="2158" chance="1375" /><!-- blue gem -->
-            <item id="2186" chance="2250" /><!-- moonlight rod -->
-            <item id="2182" chance="1375" /><!-- snakebite rod -->
+            <item id="2387" chance="20390" /><!-- double axe -->
+			<item id="2188" chance="2430" /><!-- wand of decay -->
+            <item id="2162" chance="18450" /><!-- magic light wand -->
+            <item id="2143" countmax="13" chance="16020" /><!-- white pearl -->
+            <item id="9971" chance="10680" /><!-- gold ingot -->
+            <item id="2149" countmax="4" chance="13110" /><!-- small emerald -->
+            <item id="6300" chance="14080" /><!-- death ring -->
+            <item id="2144" countmax="28" chance="15530" /><!-- black pearl -->
+            <item id="2146" countmax="9" chance="12620" /><!-- small sapphire -->
+            <item id="2164" chance="5340" /><!-- might ring -->
+            <item id="2402" chance="14080" /><!-- silver dagger -->
+            <item id="2165" chance="18450" /><!-- stealth ring -->
+            <item id="6500" chance="10190" /><!-- demonic essence -->
+            <item id="2396" chance="7280" /><!-- ice rapier -->
+            <item id="2195" chance="2430" /><!-- boots of haste -->
+            <item id="2145" countmax="4" chance="8740" /><!-- small diamond -->
+            <item id="2393" chance="6310" /><!-- giant sword -->
+            <item id="2185" chance="1460" /><!-- necrotic rod -->
+            <item id="2170" chance="14560" /><!-- silver amulet -->
+            <item id="2167" chance="10190" /><!-- energy ring -->
+            <item id="7365" countmax="7" chance="4370" /><!-- onyx arrow -->
+            <item id="2520" chance="12140" /><!-- demon shield -->
+            <item id="2462" chance="5830" /><!-- devil helmet -->
+            <item id="2436" chance="3400" /><!-- skull staff -->
+            <item id="2200" chance="4370" /><!-- protection amulet -->
+            <item id="2158" chance="1460" /><!-- blue gem -->
+			<item id="2155" chance="2430" /><!-- green gem -->
+            <item id="2182" chance="4370" /><!-- snakebite rod -->
+			<item id="2151" countmax="13" chance="8765" /><!-- talon -->
+			<item id="2470" chance="970" /><!-- golden legs -->
+			<item id="2514" chance="970" /><!-- mastermind shield -->
+			<item id="7440" chance="3433" /><!-- mastermind potion -->
         </inside>
     </item>
 </loot>

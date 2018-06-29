@@ -20,7 +20,7 @@
 	<attacks>
 		<attack name="melee" interval="2000" skill="60" attack="100"/>
 		<attack name="soulfire" interval="2000" chance="15"/> 
-		<attack name="fire" interval="2000" chance="10" range="7" target="1" min="-150" max="-170">
+		<attack name="fire" interval="2000" chance="10" range="7" target="1" min="-150" max="-175">
 			<attribute key="shootEffect" value="fire"/>
 			<attribute key="areaEffect" value="fireattack"/>
 		</attack>	
@@ -51,28 +51,29 @@
 		<voice sentence="I'm taking you down with me!"/>
 	</voices>	 
 	<loot>
-            <item id="2148" countmax="100" chance="39600" /><!-- gold coin -->
-            <item id="2148" countmax="34" chance="39600" /><!-- gold coin -->
-    <item id="2475" chance="2575" /><!-- warrior helmet -->
-    <item id="2477" chance="3650" /><!-- knight legs -->
-    <item id="9808" countmax="2" chance="2200" /><!-- rusty armor -->
-    <item id="9948" chance="600" /><!-- dracoyle statue -->
-    <item id="7452" chance="1350" /><!-- spiked squelcher -->
-    <item id="7439" chance="975" /><!-- berserk potion -->
-    <item id="8473" chance="10000" /><!-- ultimate health potion -->
-    <item id="6500" chance="10925" /><!-- demonic essence -->
-    <item id="7368" countmax="2" chance="8175" /><!-- assassin star -->
-    <item id="2788" countmax="2" chance="6500" /><!-- red mushroom -->
+    <item id="2148" countmax="100" chance="69600" /><!-- gold coin -->
+    <item id="2148" countmax="36" chance="69600" /><!-- gold coin -->
+    <item id="2475" chance="1850" /><!-- warrior helmet -->
+    <item id="2477" chance="2950" /><!-- knight legs -->
+    <item id="9809" chance="3200" /><!-- rusty armor (semi-rare) -->
+	<item id="9810" chance="2200" /><!-- rusty armor (rare) -->
+    <item id="9948" chance="110" /><!-- dracoyle statue -->
+    <item id="7452" chance="870" /><!-- spiked squelcher -->
+    <item id="7439" chance="900" /><!-- berserk potion -->
+    <item id="8473" chance="9840" /><!-- ultimate health potion -->
+    <item id="6500" chance="9880" /><!-- demonic essence -->
+    <item id="7368" countmax="2" chance="9960" /><!-- assassin star -->
+    <item id="2788" countmax="2" chance="7920" /><!-- red mushroom -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="2394" chance="10175" /><!-- morning star -->
-            <item id="9970" countmax="3" chance="4550" /><!-- small topaz -->
-            <item id="11215" chance="20300" /><!-- hellspawn tail -->
-            <item id="7591" chance="40025" /><!-- great health potion -->
-            <item id="2513" chance="10725" /><!-- battle shield -->
+            <item id="2394" chance="9840" /><!-- morning star -->
+            <item id="9970" countmax="3" chance="6140" /><!-- small topaz -->
+            <item id="11215" chance="19940" /><!-- hellspawn tail -->
+            <item id="7591" chance="40070" /><!-- great health potion -->
+            <item id="2513" chance="10170" /><!-- battle shield -->
             <item id="2148" countmax="100" chance="39600" /><!-- gold coin -->
-            <item id="9969" chance="750" /><!-- black skull -->
-            <item id="7421" chance="600" /><!-- onyx flail -->
+            <item id="9969" chance="180" /><!-- black skull -->
+            <item id="7421" chance="100" /><!-- onyx flail -->
         </inside>
     </item>
 </loot>

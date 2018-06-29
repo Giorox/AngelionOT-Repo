@@ -8,7 +8,7 @@
 		<flag summonable="0"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
-		<flag illusionable="0"/>
+		<flag illusionable="1"/>
 		<flag convinceable="0"/>
 		<flag pushable="0"/>
 		<flag canpushitems="1"/>
@@ -24,7 +24,7 @@
 		<defense name="speed" interval="2000" chance="15" speedchange="210">
 			<attribute key="areaEffect" value="greenshimmer"/>
 		</defense>
-		<defense name="healing" interval="2000" chance="12" min="200" max="240">
+		<defense name="healing" interval="2000" chance="12" min="25" max="75">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 	</defenses>
@@ -42,24 +42,25 @@
 	<voices interval="5000" chance="10">
 		<voice sentence="Rrrah!"/>
 		<voice sentence="Rraaar!"/>
+		<voice sentence="Gnarrr!"/>
+		<voice sentence="Tcharrr!"/>
 	</voices>
 	<loot>
-    <item id="2148" countmax="100" chance="23325" /><!-- gold coin -->
-    <item id="2148" countmax="58" chance="23325" /><!-- gold coin -->
-    <item id="7378" countmax="7" chance="5975" /><!-- royal spear -->
-    <item id="2387" chance="30675" /><!-- double axe -->
-    <item id="7591" chance="950" /><!-- great health potion -->
-    <item id="7897" chance="1050" /><!-- glacier robe -->
-    <item id="7383" chance="1200" /><!-- relic sword -->
-    <item id="2226" chance="10725" /><!-- fishbone -->
-    <item id="2145" chance="5425" /><!-- small diamond -->
+    <item id="2148" countmax="100" chance="78325" /><!-- gold coin -->
+    <item id="2148" countmax="53" chance="78325" /><!-- gold coin -->
+    <item id="7378" countmax="7" chance="9070" /><!-- royal spear -->
+    <item id="2387" chance="3050" /><!-- double axe -->
+    <item id="7591" chance="1030" /><!-- great health potion -->
+    <item id="7897" chance="470" /><!-- glacier robe -->
+    <item id="7383" chance="670" /><!-- relic sword -->
+    <item id="12408" chance="9820" /><!-- Quara Bone -->
+    <item id="2145" countmax="2" chance="5425" /><!-- small diamond -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="5741" chance="975" /><!-- skull helmet -->
-            <item id="2670" chance="5400" /><!-- shrimp -->
-            <item id="5895" chance="2400" /><!-- fish fin -->
-            <item id="7368" chance="925" /><!-- assassin star -->
-            <item id="2473" chance="5475" /><!-- viking helmet -->
+            <item id="5741" chance="390" /><!-- skull helmet -->
+            <item id="2670" countmax="5" chance="5400" /><!-- shrimp -->
+            <item id="5895" chance="1950" /><!-- fish fin -->
+            <item id="7368" chance="530" /><!-- assassin star -->
         </inside>
     </item>
 </loot>

@@ -205,10 +205,6 @@
 	
 	<action itemid="7585" event="script" value="quests/TerraAmuletCocoons.lua"/>
 	
-	<action itemid="8293" script="demonOak.lua" />
-	<action fromuid="9008" touid="9011" script="demonOakChests.lua" />
-	<action uniqueid="9007" script="demonOakGravestone.lua" />
-	
 	<action uniqueid="7511" event="script" value="other/poba1.lua" />
 	<action uniqueid="7512" event="script" value="other/poba2.lua" />
 	<action uniqueid="7513" event="script" value="other/poba3.lua" />

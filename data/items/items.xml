@@ -12579,7 +12579,9 @@
 		<attribute key="duration" value="600" />
 		<attribute key="corpseType" value="blood" />
 	</item>
-	<item fromid="7632" toid="7633" />
+	<item fromid="7632" toid="7633" article="a" name="giant shimmering pearl">
+		<attribute key="weight" value="80" />
+	</item>
 	<item id="7634" article="an" name="empty potion flask">
 		<attribute key="weight" value="200" />
 		<attribute key="description" value="Return it to a magic store for deposit." />
@@ -16530,11 +16532,24 @@
 		<attribute key="armor" value="6" />
 		<attribute key="slotType" value="body" />
 	</item>
+	<item id="10297" article="a" name="shield of care">
+		<attribute key="description" value="This shield will surely care for anyone who can bear it." />
+		<attribute key="weight" value="1700" />
+		<attribute key="defense" value="8" />
+		<attribute key="weaponType" value="shield" />
+	</item>
 	<item id="10298" article="a" name="helmet of ultimate terror">
 		<attribute key="description" value="There is evil inside." />
 		<attribute key="weight" value="1250" />
 		<attribute key="armor" value="3" />
 		<attribute key="slotType" value="head" />
+	</item>
+	<item id="10303" article="a" name="farmer's avenger">
+		<attribute key="description" value="A weapon forged to fight opression of the poor underdogs" />
+		<attribute key="weight" value="2500" />
+		<attribute key="defense" value="7" />
+		<attribute key="attack" value="17" />
+		<attribute key="weaponType" value="axe" />
 	</item>
 	<item id="10309" article="a" name="claw of the noxious spawn">
         <attribute key="description" value="It's like a glove and you can't wear a ring on it. You are not sure if you should really put it on."/>
@@ -16554,6 +16569,13 @@
         <attribute key="duration" value="86400"/>
         <attribute key="showduration" value="1"/>
     </item> 
+	<item id="10313" article="an" name="incredible mumpiz slayer">
+		<attribute key="description" value="This magnificent weapon was forged to slay arch mumpiz demons with a single blow." />
+		<attribute key="weight" value="4200" />
+		<attribute key="defense" value="14" />
+		<attribute key="attack" value="17" />
+		<attribute key="weaponType" value="sword" />
+	</item>
 	<item id="10316" article="a" name="mighty helm of green sparks">
 		<attribute key="description" value="This helmet spawns green stars. Awesome." />
 		<attribute key="weight" value="4600" />
@@ -16887,6 +16909,9 @@
 	</item>
 	<item id="10584" article="a" name="mutated rat tail">
 		<attribute key="weight" value="143" />
+	</item>
+	<item id="10599" article="a" name="haunted piece of wood">
+		<attribute key="weight" value="226" />
 	</item>
 	<item id="10600" article="a" name="tattered piece of robe" plural="tattered pieces of robe">
 		<attribute key="weight" value="70" />
@@ -17696,6 +17721,10 @@
 	</item>
 	<item id="12387" name="jewelled belt">
 		<attribute key="weight" value="124" />
+	</item>
+	<item id="12393" name="nettle spit">
+		<attribute key="weight" value="90" />
+		<attribute key="description" value="Yuck. This might only be interesting to botanists."/>
 	</item>
 	<item id="12431" name="colourful feather">
 		<attribute key="weight" value="140" />

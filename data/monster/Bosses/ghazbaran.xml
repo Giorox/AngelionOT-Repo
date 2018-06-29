@@ -18,7 +18,7 @@
 		<flag runonhealth="3500"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" skill="170" attack="ee0"/>
+		<attack name="melee" interval="2000" skill="170" attack="350"/>
 		<attack name="manadrain" interval="2000" chance="15" target="1" min="-500" max="-1000">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</attack>
@@ -40,6 +40,11 @@
 			<attribute key="areaEffect" value="redshimmer"/>
 		</defense>
 	</defenses>
+	<elements>
+		<element physicalPercent="30"/>
+		<element holyPercent="-5"/>
+		<element deathPercent="1"/>
+	</elements>
 	<immunities>
 		<immunity fire="1"/>
 		<immunity ice="1"/>		
@@ -54,107 +59,88 @@
 		<summon name="Deathslicer" interval="2000" chance="100" max="4"/>
 	</summons>
 	<voices interval="5000" chance="30">
-		<voice sentence="COME HERE AND DIE!"/>
 		<voice sentence="COME AND GIVE ME SOME AMUSEMENT!" yell="1"/>
 		<voice sentence="IS THAT THE BEST YOU HAVE TO OFFER, TIBIANS?" yell="1"/>
 		<voice sentence="I AM GHAZBARAN OF THE TRIANGLE... AND I AM HERE TO CHALLENGE YOU ALL!" yell="1"/>
 		<voice sentence="FLAWLESS VICTORY!"/>
 	</voices>
 	<loot>
-    <item id="2143" countmax="15" chance="13250" /><!-- white pearl -->
-    <item id="2152" countmax="75" chance="45600" /><!-- platinum coin -->
-    <item id="6500" countmax="5" chance="23000" /><!-- demonic essence -->
-    <item id="8902" chance="16575" /><!-- spellbook of mind control -->
-    <item id="2164" chance="9425" /><!-- might ring -->
-    <item id="2192" chance="14800" /><!-- crystal ball -->
-    <item id="2145" countmax="5" chance="19425" /><!-- small diamond -->
-    <item id="7455" chance="4075" /><!-- mythril axe -->
-    <item id="2520" chance="9425" /><!-- demon shield -->
-    <item id="7591" chance="30350" /><!-- great health potion -->
-    <item id="2124" chance="13000" /><!-- crystal ring -->
-    <item id="2158" chance="11200" /><!-- blue gem -->
-    <item id="7896" chance="7650" /><!-- glacier kilt -->
-    <item id="7428" chance="13000" /><!-- bonebreaker -->
-    <item id="1988" chance="100000"><!-- bag -->
+    <item id="2143" countmax="15" chance="26090" /><!-- white pearl -->
+    <item id="2152" countmax="73" chance="95600" /><!-- platinum coin -->
+    <item id="6500" countmax="5" chance="96000" /><!-- demonic essence -->
+    <item id="8902" chance="10870" /><!-- spellbook of mind control -->
+    <item id="2164" chance="15220" /><!-- might ring -->
+    <item id="2192" chance="4350" /><!-- crystal ball -->
+    <item id="2145" countmax="5" chance="30430" /><!-- small diamond -->
+    <item id="7455" chance="6520" /><!-- mythril axe -->
+    <item id="2520" chance="13040" /><!-- demon shield -->
+    <item id="7591" chance="26090" /><!-- great health potion -->
+    <item id="2124" chance="10870" /><!-- crystal ring -->
+    <item id="2158" chance="15220" /><!-- blue gem -->
+    <item id="7896" chance="10870" /><!-- glacier kilt -->
+    <item id="7428" chance="6520" /><!-- bonebreaker -->
+    <item id="1988" chance="100000"><!-- Backpack -->
         <inside>
-            <item id="2033" chance="13000" /><!-- golden mug -->
-            <item id="8904" chance="16575" /><!-- spellscroll of prophecies -->
-            <item id="2470" chance="14800" /><!-- golden legs -->
-            <item id="7368" countmax="47" chance="3775" /><!-- assassin star -->
-            <item id="7433" chance="14800" /><!-- ravenwing -->
-            <item id="2174" chance="13000" /><!-- strange symbol -->
+            <item id="2033" chance="6520" /><!-- golden mug -->
+            <item id="8904" chance="26090" /><!-- spellscroll of prophecies -->
+            <item id="2470" chance="6520" /><!-- golden legs -->
+            <item id="7368" countmax="47" chance="15220" /><!-- assassin star -->
+            <item id="7433" chance="15220" /><!-- ravenwing -->
+            <item id="2174" chance="10870" /><!-- strange symbol -->
             <item id="2171" chance="4075" /><!-- platinum amulet -->
-            <item id="8472" chance="17850" /><!-- great spirit potion -->
-            <item id="2150" countmax="20" chance="7200" /><!-- small amethyst -->
-            <item id="8884" chance="11200" /><!-- oceanborn leviathan armor -->
-            <item id="7405" chance="14800" /><!-- havoc blade -->
-            <item id="8901" chance="21925" /><!-- spellbook of warding -->
-            <item id="2179" chance="9425" /><!-- gold ring -->
-            <item id="8473" chance="14275" /><!-- ultimate health potion -->
-            <item id="7454" chance="16575" /><!-- glorious axe -->
-            <item id="2177" chance="11200" /><!-- life crystal -->
-            <item id="2472" chance="4075" /><!-- magic plate armor -->
-            <item id="7443" chance="1775" /><!-- bullseye potion -->
+            <item id="8472" chance="26090" /><!-- great spirit potion -->
+            <item id="2150" countmax="15" chance="23910" /><!-- small amethyst -->
+            <item id="8884" chance="17390" /><!-- oceanborn leviathan armor -->
+            <item id="7405" chance="17390" /><!-- havoc blade -->
+            <item id="8901" chance="21740" /><!-- spellbook of warding -->
+            <item id="2179" chance="19570" /><!-- gold ring -->
+            <item id="8473" chance="26090" /><!-- ultimate health potion -->
+            <item id="7454" chance="6520" /><!-- glorious axe -->
+            <item id="2177" chance="13040" /><!-- life crystal -->
+            <item id="2472" chance="8700" /><!-- magic plate armor -->
             <item id="2148" countmax="100" chance="2275" /><!-- gold coin -->
             <item id="2148" countmax="56" chance="2275" /><!-- gold coin -->
             <item id="2387" chance="2300" /><!-- double axe -->
-            <item id="2146" countmax="10" chance="10675" /><!-- small sapphire -->
+            <item id="2146" countmax="4" chance="21740" /><!-- small sapphire -->
             <item id="2231" chance="2300" /><!-- big bone -->
             <item id="7588" chance="1775" /><!-- strong health potion -->
-            <item id="2151" countmax="6" chance="9125" /><!-- talon -->
-            <item id="2165" chance="13000" /><!-- stealth ring -->
-            <item id="2646" chance="11200" /><!-- golden boots -->
-            <item id="2112" chance="21925" /><!-- teddy bear -->
-            <item id="2144" countmax="15" chance="13125" /><!-- black pearl -->
-            <item id="2514" chance="14800" /><!-- mastermind shield -->
-            <item id="2167" chance="7650" /><!-- energy ring -->
-            <item id="2130" chance="4075" /><!-- golden amulet -->
-            <item id="2155" chance="25500" /><!-- green gem -->
-            <item id="2176" chance="7650" /><!-- orb -->
-            <item id="1950" chance="2300" /><!-- book -->
-            <item id="6553" chance="9425" /><!-- ruthless axe -->
-            <item id="2149" countmax="10" chance="16025" /><!-- small emerald -->
-            <item id="2162" chance="16575" /><!-- magic light wand -->
-            <item id="2214" chance="21925" /><!-- ring of healing -->
+            <item id="2151" countmax="4" chance="13040" /><!-- talon -->
+            <item id="2165" chance="13040" /><!-- stealth ring -->
+            <item id="2646" chance="8700" /><!-- golden boots -->
+            <item id="2112" chance="15220" /><!-- teddy bear -->
+            <item id="2144" countmax="15" chance="10870" /><!-- black pearl -->
+            <item id="2514" chance="4350" /><!-- mastermind shield -->
+            <item id="2167" chance="4350" /><!-- energy ring -->
+            <item id="2155" chance="21740" /><!-- green gem -->
+            <item id="2176" chance="21740" /><!-- orb -->
+            <item id="6553" chance="15220" /><!-- ruthless axe -->
+            <item id="2149" countmax="6" chance="23910" /><!-- small emerald -->
+            <item id="2162" chance="6520" /><!-- magic light wand -->
+            <item id="2214" chance="23910" /><!-- ring of healing -->
             <item id="2170" chance="4075" /><!-- silver amulet -->
-            <item id="8918" chance="20150" /><!-- spellbook of dark mysteries -->
-            <item id="2466" chance="9425" /><!-- golden armor -->
-            <item id="1984" chance="16575" /><!-- blue tome -->
-            <item id="9971" chance="9425" /><!-- gold ingot -->
-            <item id="7590" chance="33925" /><!-- great mana potion -->
-            <item id="8878" chance="13000" /><!-- crystalline armor -->
-            <item id="2447" chance="13000" /><!-- twin axe -->
-            <item id="2178" chance="11200" /><!-- mind stone -->
-            <item id="6300" chance="32650" /><!-- death ring -->
+            <item id="8918" chance="21740" /><!-- spellbook of dark mysteries -->
+            <item id="2466" chance="8700" /><!-- golden armor -->
+            <item id="1984" chance="21740" /><!-- blue tome -->
+            <item id="9971" chance="6520" /><!-- gold ingot -->
+            <item id="7590" chance="21740" /><!-- great mana potion -->
+            <item id="8878" chance="6520" /><!-- crystalline armor -->
+            <item id="2447" chance="10870" /><!-- twin axe -->
+            <item id="2178" chance="23910" /><!-- mind stone -->
+            <item id="6300" chance="28260" /><!-- death ring -->
             <item id="2200" chance="4075" /><!-- protection amulet -->
-            <item id="5954" countmax="2" chance="23725" /><!-- demon horn -->
-            <item id="8903" chance="18350" /><!-- spellbook of lost souls -->
-            <item id="2393" chance="4075" /><!-- giant sword -->
-            <item id="8887" chance="4075" /><!-- frozen plate -->
-            <item id="2123" chance="4075" /><!-- ring of the sky -->
-            <item id="7365" countmax="82" chance="2575" /><!-- onyx arrow -->
-            <item id="8866" chance="2300" /><!-- robe of the ice queen -->
+            <item id="5954" countmax="2" chance="32610" /><!-- demon horn -->
+            <item id="8903" chance="17390" /><!-- spellbook of lost souls -->
+            <item id="2393" chance="4350" /><!-- giant sword -->
+            <item id="8887" chance="8700" /><!-- frozen plate -->
+            <item id="2123" chance="4350" /><!-- ring of the sky -->
+            <item id="7365" countmax="82" chance="2170" /><!-- onyx arrow -->
+            <item id="8866" chance="8700" /><!-- robe of the ice queen -->
+			<item id="7431" chance="2300" /><!-- Demonbone -->
+			<item id="2436" chance="67830" /><!-- Skullstaff -->
+			<item id="7439" chance="23876" /><!-- Berserk Potion -->
+			<item id="2160" countmax="2" chance="38732" /><!-- Crystal Coin -->
+			<item id="2142" chance="91" /><!-- Ancient Amulet -->
         </inside>
     </item>
 </loot>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </monster>

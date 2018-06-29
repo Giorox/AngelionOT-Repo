@@ -8,7 +8,7 @@
 		<flag summonable="0"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
-		<flag illusionable="0"/>
+		<flag illusionable="1"/>
 		<flag convinceable="0"/>
 		<flag pushable="0"/>
 		<flag canpushitems="1"/>
@@ -23,7 +23,6 @@
 	<defenses armor="20" defense="29"/>
 	<elements>
 		<element energyPercent="-10"/>
-		<element earthPercent="-10"/>
 	</elements>
 	<immunities>
 		<immunity ice="1"/>
@@ -36,15 +35,18 @@
 		<voice sentence="Gnarrr!"/>
 	</voices>
 	<loot>
-    <item id="2148" countmax="42" chance="24250" /><!-- gold coin -->
-    <item id="2226" chance="10150" /><!-- fishbone -->
-    <item id="2387" chance="4300" /><!-- double axe -->
-    <item id="2473" chance="5800" /><!-- viking helmet -->
+    <item id="2148" countmax="100" chance="98950" /><!-- gold coin -->
+	<item id="2148" countmax="29" chance="98950" /><!-- gold coin -->
+    <item id="12408" chance="10100" /><!-- Quara bone -->
+	<item id="2670" countmax="5" chance="5030" /><!-- Shrimp -->
+    <item id="2387" chance="5710" /><!-- double axe -->
+    <item id="2377" chance="3000" /><!-- Two handed Sword -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
             <item id="2483" chance="5575" /><!-- scale armor -->
-            <item id="2145" chance="925" /><!-- small diamond -->
-            <item id="5895" chance="925" /><!-- fish fin -->
+            <item id="2145" countmax="2" chance="4990" /><!-- small diamond -->
+            <item id="5895" chance="1070" /><!-- fish fin -->
+			<item id="8911" chance="950" /><!-- Northwind Rod -->
         </inside>
     </item>
 </loot>

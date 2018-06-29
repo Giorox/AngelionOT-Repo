@@ -22,7 +22,7 @@
 		<attack name="speed" interval="3000" chance="15" range="7" target="1" duration="30000" speedchange="-100">
 			<attribute key="areaEffect" value="sleep"/>
 		</attack>
-		<attack name="holy" interval="2000" chance="10" range="7" radius="1" target="1" min="-60" max="-170">
+		<attack name="lifedrain" interval="2000" chance="10" range="7" radius="1" target="1" min="-60" max="-170">
 			<attribute key="shootEffect" value="smallholy"/>
 			<attribute key="areaEffect" value="holyarea"/>
 		</attack>
@@ -33,6 +33,9 @@
 		</defense>
 		<defense name="invisible" interval="2000" chance="20" duration="5000">
 			<attribute key="areaEffect" value="yellowbubble"/>
+		</defense>
+		<defense name="healing" interval="2000" chance="15" min="70" max="130">
+			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 		<defense name="outfit" interval="2000" chance="10" monster="werewolf" duration="5000">
 			<attribute key="areaEffect" value="bigclouds"/>
@@ -67,22 +70,23 @@
 		<voice sentence="I've been in the shadow under your bed last night." yell="1"/>
 		<voice sentence="You never know what hides in the night."/>
 		<voice sentence="I remember your face - and I know where you sleep"/>
+		<voice sentence="Only the sweetest and cruelest dreams for you, my love."/>
 	</voices>
 	<loot>
-    <item id="2148" countmax="100" chance="34875" /><!-- gold coin -->
-    <item id="2148" countmax="9" chance="34875" /><!-- gold coin -->
-    <item id="2804" chance="5100" /><!-- shadow herb -->
-    <item id="8870" chance="1000" /><!-- spirit cloak -->
-    <item id="7589" chance="1525" /><!-- strong mana potion -->
-    <item id="2200" chance="1475" /><!-- protection amulet -->
-    <item id="2195" chance="600" /><!-- boots of haste -->
-    <item id="2124" chance="1450" /><!-- crystal ring -->
+    <item id="2148" countmax="100" chance="84875" /><!-- gold coin -->
+    <item id="2148" countmax="10" chance="94875" /><!-- gold coin -->
+    <item id="2804" chance="4790" /><!-- shadow herb -->
+    <item id="8870" chance="520" /><!-- spirit cloak -->
+    <item id="7589" chance="1560" /><!-- strong mana potion -->
+    <item id="2200" chance="860" /><!-- protection amulet -->
+    <item id="2195" chance="120" /><!-- boots of haste -->
+    <item id="2124" chance="990" /><!-- crystal ring -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="9942" chance="700" /><!-- crystal of balance -->
-            <item id="7407" chance="875" /><!-- haunted blade -->
-            <item id="2171" chance="725" /><!-- platinum amulet -->
-            <item id="7427" chance="600" /><!-- chaos mace -->
+            <item id="9942" chance="140" /><!-- crystal of balance -->
+            <item id="7407" chance="300" /><!-- haunted blade -->
+            <item id="2171" chance="130" /><!-- platinum amulet -->
+            <item id="7427" chance="100" /><!-- chaos mace -->
         </inside>
     </item>
 </loot>

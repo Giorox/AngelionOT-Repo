@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Massacre" nameDescription="the massacre" race="blood" experience="20000" speed="430" manacost="0">
+<monster name="Massacre" nameDescription="massacre" race="blood" experience="20000" speed="430" manacost="0">
 	<health now="32000" max="32000"/>
 	<look type="244" corpse="6336"/>
 	<targetchange interval="60000" chance="0"/>
@@ -8,7 +8,7 @@
 		<flag summonable="0"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
-		<flag illusionable="1"/>
+		<flag illusionable="0"/>
 		<flag convinceable="0"/>
 		<flag pushable="0"/>
 		<flag canpushitems="1"/>
@@ -29,17 +29,17 @@
 		</defense>	
 	</defenses>	
 	<elements>
-		<element firePercent="50"/>
-		<element energyPercent="-7"/>
-		<element earthPercent="30"/>
+		<element energyPercent="-1"/>
+		<element earthPercent="1"/>
 		<element icePercent="10"/>
-		<element holyPercent="-3"/>
+		<element deathPercent="-10"/>
 	</elements>
 	<immunities>
 		<immunity lifedrain="1"/>
 		<immunity paralyze="1"/>
 		<immunity outfit="1"/>
 		<immunity drunk="1"/>
+		<immunity fire="1"/>
 		<immunity invisible="1"/>
 	</immunities>
 	<voices interval="2000" chance="10">
@@ -48,19 +48,18 @@
 		<voice sentence="GRRRR!" yell="1"/>
 	</voices>
 	<loot>
-    <item id="2221" chance="46200" /><!-- old twig -->
-    <item id="2231" chance="9075" /><!-- big bone -->
+    <item id="2221" chance="61110" /><!-- old twig -->
+    <item id="2231" chance="5560" /><!-- big bone -->
     <item id="6540" chance="100500" /><!-- piece of massacre's shell -->
-    <item id="2666" countmax="9" chance="91925" /><!-- meat -->
-    <item id="5022" countmax="6" chance="42950" /><!-- orichalcum pearl -->
+    <item id="2666" countmax="9" chance="83330" /><!-- meat -->
+    <item id="5022" countmax="6" chance="77780" /><!-- orichalcum pearl -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="2152" countmax="6" chance="31450" /><!-- platinum coin -->
-            <item id="5944" chance="89075" /><!-- soul orb -->
-            <item id="6500" chance="100500" /><!-- demonic essence -->
-            <item id="2148" countmax="100" chance="61925" /><!-- gold coin -->
-            <item id="2148" countmax="47" chance="61925" /><!-- gold coin -->
-			<item id="2148" countmax="60" chance="61925" /><!-- gold coin -->
+            <item id="2152" countmax="6" chance="55560" /><!-- platinum coin -->
+            <item id="5944" chance="94440" /><!-- soul orb -->
+            <item id="6500" chance="94440" /><!-- demonic essence -->
+            <item id="2148" countmax="100" chance="88890" /><!-- gold coin -->
+            <item id="2148" countmax="57" chance="88890" /><!-- gold coin -->
             <item id="7590" chance="5700" /><!-- great mana potion -->
 			<item id="7591" chance="5700" /><!-- great health potion -->
 			<item id="2466" chance="5700" /><!-- Golden Armor -->

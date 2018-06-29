@@ -35,21 +35,22 @@
 	<elements>
 		<element earthPercent="100"/>
 		<element energyPercent="10"/>
-		<element icePercent="20"/>
+		<element icePercent="35"/>
 		<element firePercent="-20"/>
 	</elements>
 	<immunities>
 		<immunity invisible="1"/>
 	</immunities>
 	<loot>
-    <item id="2148" countmax="39" chance="38525" /><!-- gold coin -->
-    <item id="2792" chance="7275" /><!-- dark mushroom -->
-    <item id="2804" chance="1725" /><!-- shadow herb -->
+    <item id="2148" countmax="39" chance="87940" /><!-- gold coin -->
+    <item id="2792" chance="7960" /><!-- dark mushroom -->
+    <item id="2804" chance="1000" /><!-- shadow herb -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="11211" chance="4300" /><!-- carniphila seeds -->
-            <item id="2686" chance="1725" /><!-- corncob -->
-            <item id="7732" chance="1050" /><!-- seeds -->
+            <item id="11211" chance="4020" /><!-- carniphila seeds -->
+            <item id="2686" chance="980" /><!-- corncob -->
+            <item id="7732" chance="500" /><!-- seeds -->
+			<item id="2802" countmax="2" chance="500" /><!-- sling herb -->
         </inside>
     </item>
 </loot>

@@ -122,6 +122,9 @@
 	<monster name="Demodras" file="Bosses/demodras.xml"/>
 	<monster name="Dharalion" file="Bosses/dharalion.xml"/>
 	<monster name="Dipthrah" file="Bosses/dipthrah.xml"/>
+	<monster name="Diseased Dan" file="Bosses/Diseased Dan.xml"/>
+	<monster name="Diseased Bill" file="Bosses/Diseased Bill.xml"/>
+	<monster name="Diseased Fred" file="Bosses/Diseased Fred.xml"/>
 	<monster name="Dire Penguin" file="Bosses/dire penguin.xml"/>
 	<monster name="Dracola" file="Bosses/dracola.xml"/>
 	<monster name="Dreadmaw" file="Bosses/Dreadmaw.xml"/>
@@ -285,6 +288,7 @@
 	<monster name="Nightmare Scion" file="Demons/nightmare scion.xml"/>
 	<monster name="Nightstalker" file="Demons/nightstalker.xml"/>
 	<monster name="Plaguesmith" file="Demons/plaguesmith.xml"/>
+	<monster name="Rift Lord" file="Demons/Rift Lord.xml"/>
 
 	<!-- Djinns -->
 	<monster name="Blue Djinn" file="Djinns/blue djinn.xml"/>
@@ -575,6 +579,7 @@
 	<monster name="Phantasm Summon" file="Undeads/phantasm summon.xml"/>
 	<monster name="Pirate Ghost" file="Undeads/pirate ghost.xml"/>
 	<monster name="Pirate Skeleton" file="Undeads/pirate skeleton.xml"/>
+	<monster name="Rift Phantom" file="Undeads/Rift Phantom.xml"/>
 	<monster name="Rift Scythe" file="Undeads/rift scythe.xml"/>
 	<monster name="Skeleton" file="Undeads/skeleton.xml"/>
 	<monster name="Skeleton Warrior" file="Undeads/skeleton warrior.xml"/>

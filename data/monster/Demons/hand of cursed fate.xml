@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Hand of Cursed Fate" nameDescription="a hand of cursed fate" race="blood" experience="5000" speed="320" manacost="0">
-	<health now="10500" max="10500"/>
+	<health now="7500" max="7500"/>
 	<look type="230" corpse="6312"/>
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="100" defense="0"/>
@@ -8,14 +8,14 @@
 		<flag summonable="0"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
-		<flag illusionable="1"/>
+		<flag illusionable="0"/>
 		<flag convinceable="0"/>
 		<flag pushable="0"/>
 		<flag canpushitems="1"/>
 		<flag canpushcreatures="1"/>
 		<flag targetdistance="1"/>
 		<flag staticattack="85"/>
-		<flag runonhealth="2000"/>
+		<flag runonhealth="3000"/>
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" skill="80" attack="120" poison="380"/>
@@ -23,8 +23,8 @@
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</attack>
 		<attack name="drunk" interval="2000" chance="10" range="3" target="1" duration="20000"/>
-		<attribute key="areaEffect" value="stun"/>
-		<attack name="lifedrain" interval="2000" chance="20" range="7" min="0" max="-885">
+		<attack name="death" interval="2000" chance="15" range="7" min="-0" max="-880">
+			<attribute key="areaEffect" value="mortarea"/>
 		</attack>
 	</attacks>
 	<defenses armor="25" defense="35">
@@ -51,29 +51,39 @@
 		<immunity energy="1"/>
 	</immunities>
 	<loot>
-    <item id="2152" countmax="5" chance="7675" /><!-- platinum coin -->
+    <item id="2152" countmax="7" chance="30630" /><!-- platinum coin -->
     <item id="2148" countmax="100" chance="42100" /><!-- gold coin -->
     <item id="2148" countmax="100" chance="42100" /><!-- gold coin -->
-    <item id="2148" countmax="32" chance="42100" /><!-- gold coin -->
-    <item id="6558" countmax="3" chance="25475" /><!-- concentrated demonic blood -->
-    <item id="5944" chance="6075" /><!-- soul orb -->
-    <item id="2178" chance="3700" /><!-- mind stone -->
-    <item id="6500" chance="6475" /><!-- demonic essence -->
-    <item id="2167" chance="1700" /><!-- energy ring -->
+    <item id="2148" countmax="67" chance="42100" /><!-- gold coin -->
+    <item id="6558" countmax="1" chance="29880" /><!-- concentrated demonic blood -->
+    <item id="5944" chance="30630" /><!-- soul orb -->
+	<item id="7590" countmax="2" chance="19450" /><!-- Great Mana potion -->
+	<item id="8473" chance="18790" /><!-- Ultimate Health potion -->
+    <item id="2178" chance="15700" /><!-- mind stone -->
+    <item id="6500" chance="11680" /><!-- demonic essence -->
+    <item id="2167" chance="2090" /><!-- energy ring -->
     <item id="7365" countmax="3" chance="11125" /><!-- onyx arrow -->
-    <item id="5669" chance="900" /><!-- mysterious voodoo skull -->
-    <item id="2187" chance="2500" /><!-- wand of inferno -->
-    <item id="2476" chance="2500" /><!-- knight armor -->
+	<item id="2268" countmax="8" chance="4210" /><!-- sudden death rune -->
+    <item id="5669" chance="110" /><!-- mysterious voodoo skull -->
+    <item id="2187" chance="4910" /><!-- wand of inferno -->
+    <item id="2476" chance="3740" /><!-- knight armor -->
+	<item id="1977" chance="840" /><!-- Book (orange) -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="2146" countmax="4" chance="2600" /><!-- small sapphire -->
-            <item id="2200" chance="3700" /><!-- protection amulet -->
-            <item id="2153" chance="1300" /><!-- violet gem -->
-            <item id="6300" chance="900" /><!-- death ring -->
-            <item id="2487" chance="1300" /><!-- crown armor -->
-            <item id="7368" chance="1300" /><!-- assassin star -->
-            <item id="2436" chance="900" /><!-- skull staff -->
-            <item id="2127" chance="2100" /><!-- emerald bangle -->
+            <item id="2146" countmax="4" chance="14180" /><!-- small sapphire -->
+            <item id="2200" chance="10070" /><!-- protection amulet -->
+			<item id="2171" chance="970" /><!-- platinum amulet -->
+            <item id="2153" chance="970" /><!-- violet gem -->
+			<item id="2154" chance="5660" /><!-- yellow gem -->
+			<item id="2158" chance="1760" /><!-- blue gem -->
+            <item id="6300" chance="1340" /><!-- death ring -->
+            <item id="2487" chance="970" /><!-- crown armor -->
+            <item id="7368" countmax="5" chance="15460" /><!-- assassin star -->
+            <item id="2436" chance="950" /><!-- skull staff -->
+            <item id="2127" chance="5270" /><!-- emerald bangle -->
+			<item id="9971" chance="510" /><!-- gold ingot -->
+			<item id="2195" chance="120" /><!-- boots of haste -->
+			<item id="7414" chance="50" /><!-- abyss hammer -->
         </inside>
     </item>
 </loot>

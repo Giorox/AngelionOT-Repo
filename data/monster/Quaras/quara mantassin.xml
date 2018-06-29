@@ -43,11 +43,11 @@
 		<voice sentence="Shrrrr"/>
 	</voices>
 	<loot>
-    <item id="2670" chance="5600" /><!-- shrimp -->
-    <item id="2148" countmax="100" chance="27100" /><!-- gold coin -->
-    <item id="2148" countmax="30" chance="27100" /><!-- gold coin -->
+    <item id="2670" countmax="5" chance="5600" /><!-- shrimp -->
+    <item id="2148" countmax="100" chance="80100" /><!-- gold coin -->
+    <item id="2148" countmax="29" chance="80100" /><!-- gold coin -->
     <item id="2377" chance="10200" /><!-- two handed sword -->
-    <item id="2229" chance="5575" /><!-- skull -->
+    <item id="12406" chance="12290" /><!-- Mantassin Tail -->
     <item id="2654" chance="10200" /><!-- cape -->
     <item id="2165" chance="1550" /><!-- stealth ring -->
     <item id="5895" chance="1050" /><!-- fish fin -->

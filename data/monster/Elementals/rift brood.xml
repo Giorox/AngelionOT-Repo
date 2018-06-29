@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Rift Brood" nameDescription="a rift brood" race="energy" experience="1600" speed="300" manacost="0">
-	<health now="3000" max="3000"/>
+	<health now="2950" max="2950"/>
 	<look type="290" corpse="1495"/>
 	<targetchange interval="20000" chance="15"/>
 	<strategy attack="100" defense="0"/>
@@ -25,20 +25,18 @@
 		</attack>
 	</attacks>
 	<defenses armor="30" defense="30">
-		<defense name="healing" interval="2000" chance="15" min="90" max="150">
+		<defense name="healing" interval="2000" chance="15" min="70" max="100">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 	</defenses>
 	<elements>
-		<element physicalPercent="40"/>
+		<element physicalPercent="1"/>
 		<element holyPercent="15"/>
-		<element deathPercent="-25"/>
-		<element earthPercent="-25"/>
+		<element deathPercent="-20"/>
 	</elements>
 	<immunities>
 		<immunity ice="1"/>
 		<immunity fire="1"/>
-		<immunity energy="1"/>
 		<immunity invisible="1"/>
 	</immunities>
 </monster>

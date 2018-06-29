@@ -2,16 +2,16 @@
 <stages>
 	<config enabled="1"/>
 	<world id="0" multiplier="1">
-		<stage minlevel="1" maxlevel="50" multiplier="250"/>
-		<stage minlevel="51" maxlevel="100" multiplier="150"/>
-		<stage minlevel="101" maxlevel="130" multiplier="80"/>
-		<stage minlevel="131" maxlevel="150" multiplier="65"/>
-		<stage minlevel="151" maxlevel="170" multiplier="40"/>
-		<stage minlevel="171" maxlevel="180" multiplier="15"/>
-		<stage minlevel="181" maxlevel="200" multiplier="10"/>
-		<stage minlevel="201" maxlevel="220" multiplier="7"/>
-		<stage minlevel="221" maxlevel="230" multiplier="5"/>
-		<stage minlevel="231" maxlevel="250" multiplier="4"/>
-		<stage minlevel="251" multiplier="3"/>
+		<stage minlevel="1" maxlevel="50" multiplier="1"/>
+		<stage minlevel="51" maxlevel="100" multiplier="1"/>
+		<stage minlevel="101" maxlevel="130" multiplier="1"/>
+		<stage minlevel="131" maxlevel="150" multiplier="1"/>
+		<stage minlevel="151" maxlevel="170" multiplier="1"/>
+		<stage minlevel="171" maxlevel="180" multiplier="1"/>
+		<stage minlevel="181" maxlevel="200" multiplier="1"/>
+		<stage minlevel="201" maxlevel="220" multiplier="1"/>
+		<stage minlevel="221" maxlevel="230" multiplier="1"/>
+		<stage minlevel="231" maxlevel="250" multiplier="1"/>
+		<stage minlevel="251" multiplier="1"/>
 	</world>
 </stages>

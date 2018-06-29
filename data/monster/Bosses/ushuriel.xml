@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Ushuriel" nameDescription="ushuriel" race="fire" experience="10000" speed="440" manacost="0">
-	<health now="40000" max="40000"/>
+	<health now="31500" max="31500"/>
 	<look type="12" head="0" body="95" legs="19" feet="112" corpse="6068"/>
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="100" defense="0"/>
@@ -15,17 +15,17 @@
 		<flag canpushcreatures="1"/>
 		<flag targetdistance="1"/>
 		<flag staticattack="85"/>
-		<flag runonhealth="0"/>
+		<flag runonhealth="600"/>
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" skill="120" attack="160"/>
-		<attack name="death" interval="2000" chance="9" length="8" spread="0" min="-0" max="-500">
+		<attack name="physical" interval="2000" chance="9" length="8" spread="0" min="-0" max="-500">
 			<attribute key="areaEffect" value="mortarea"/>
 		</attack>	
 		<attack name="ice" interval="2000" chance="11" target="0" length="8" spread="3" min="0" max="-430">
 			<attribute key="areaEffect" value="icetornado"/>
 		</attack>		
-		<attack name="death" interval="2000" chance="7" radius="4" target="1" min="-0" max="-760">
+		<attack name="death" interval="2000" chance="7" radius="4" target="1" min="-0" max="-800">
 			<attribute key="areaEffect" value="mortarea"/>
 			<attribute key="shootEffect" value="death"/>
 		</attack>	
@@ -35,7 +35,7 @@
 		<attack name="drunk" interval="2000" chance="12" radius="6" target="0">
 			<attribute key="areaEffect" value="purplenote"/>
 		</attack>		
-		<attack name="poison" interval="2000" chance="8" length="8" spread="0" min="-0" max="-585">
+		<attack name="poison" interval="2000" chance="8" length="8" spread="3" min="-0" max="-585">
 			<attribute key="areaEffect" value="poison"/>
 		</attack>
 	</attacks>
@@ -58,45 +58,51 @@
 		<immunity paralyze="1"/>
 		<immunity invisible="1"/>
 	</immunities>
+	<voices interval="5000" chance="30">
+		<voice sentence="You can't run or hide forever!" yell="1"/>
+		<voice sentence="I'm the executioner of the Seven" yell="1"/>
+		<voice sentence="The final punishment awaits you!" yell="1"/>
+		<voice sentence="The judgement is guilty! The sentence is death!" yell="1"/>
+	</voices>
 	<loot>
     <item id="2148" countmax="100" chance="52200" /><!-- gold coin -->
     <item id="2148" countmax="91" chance="52200" /><!-- gold coin -->
     <item id="6500" chance="100500" /><!-- demonic essence -->
-    <item id="2789" countmax="30" chance="55500" /><!-- brown mushroom -->
-    <item id="5880" chance="48250" /><!-- iron ore -->
-    <item id="7417" chance="11925" /><!-- runed sword -->
-    <item id="2498" chance="20925" /><!-- royal helmet -->
-    <item id="2178" chance="20925" /><!-- mind stone -->
-    <item id="1988" chance="100000"><!-- bag -->
+    <item id="2789" countmax="30" chance="96500" /><!-- brown mushroom -->
+    <item id="5880" chance="44510" /><!-- iron ore -->
+    <item id="7417" chance="8380" /><!-- runed sword -->
+    <item id="2498" chance="25150" /><!-- royal helmet -->
+    <item id="2178" chance="20560" /><!-- mind stone -->
+    <item id="1988" chance="100000"><!-- Backpack -->
         <inside>
-            <item id="2392" chance="18850" /><!-- fire sword -->
-            <item id="8473" chance="21800" /><!-- ultimate health potion -->
-            <item id="9808" chance="18150" /><!-- rusty armor -->
-            <item id="5741" chance="16075" /><!-- skull helmet -->
-            <item id="5954" countmax="2" chance="7250" /><!-- demon horn -->
-            <item id="7402" chance="10525" /><!-- dragon slayer -->
-            <item id="7591" chance="25250" /><!-- great health potion -->
-            <item id="2152" countmax="30" chance="9725" /><!-- platinum coin -->
-            <item id="2475" chance="21250" /><!-- warrior helmet -->
-            <item id="5669" chance="20225" /><!-- mysterious voodoo skull -->
-            <item id="9971" chance="20575" /><!-- gold ingot -->
-            <item id="2479" chance="9850" /><!-- strange helmet -->
-            <item id="7590" chance="24200" /><!-- great mana potion -->
-            <item id="7385" chance="9850" /><!-- crimson sword -->
-            <item id="2176" chance="21600" /><!-- orb -->
-            <item id="2383" chance="14350" /><!-- spike sword -->
-            <item id="8472" chance="28350" /><!-- great spirit potion -->
-            <item id="5891" chance="4650" /><!-- enchanted chicken wing -->
-            <item id="2491" chance="11575" /><!-- crown helmet -->
-            <item id="5925" countmax="20" chance="12050" /><!-- hardened bone -->
-            <item id="6103" chance="4300" /><!-- unholy book -->
-            <item id="5884" chance="8100" /><!-- spirit container -->
-            <item id="7391" chance="16750" /><!-- thaian sword -->
-            <item id="2419" chance="9850" /><!-- scimitar -->
-            <item id="2177" chance="19525" /><!-- life crystal -->
-            <item id="5892" chance="12600" /><!-- huge chunk of crude iron -->
-            <item id="2393" chance="11925" /><!-- giant sword -->
-            <item id="5885" chance="6375" /><!-- flask of warrior's sweat -->
+            <item id="2392" chance="19160" /><!-- fire sword -->
+            <item id="8473" chance="26550" /><!-- ultimate health potion -->
+            <item id="9808" chance="16570" /><!-- rusty armor -->
+            <item id="5741" chance="21160" /><!-- skull helmet -->
+            <item id="5954" countmax="2" chance="10780" /><!-- demon horn -->
+            <item id="7402" chance="9780" /><!-- dragon slayer -->
+            <item id="7591" chance="25550" /><!-- great health potion -->
+            <item id="2152" countmax="30" chance="20760" /><!-- platinum coin -->
+            <item id="2475" chance="18960" /><!-- warrior helmet -->
+            <item id="5669" chance="19960" /><!-- mysterious voodoo skull -->
+            <item id="9971" chance="20360" /><!-- gold ingot -->
+            <item id="2479" chance="9180" /><!-- strange helmet -->
+            <item id="7590" chance="20960" /><!-- great mana potion -->
+            <item id="7385" chance="8980" /><!-- crimson sword -->
+            <item id="2176" chance="17760" /><!-- orb -->
+            <item id="2383" chance="9980" /><!-- spike sword -->
+            <item id="8472" chance="23750" /><!-- great spirit potion -->
+            <item id="5891" chance="5590" /><!-- enchanted chicken wing -->
+            <item id="2491" chance="9180" /><!-- crown helmet -->
+            <item id="5925" countmax="20" chance="27940" /><!-- hardened bone -->
+            <item id="6103" chance="4190" /><!-- unholy book -->
+            <item id="5884" chance="5190" /><!-- spirit container -->
+            <item id="7391" chance="19560" /><!-- thaian sword -->
+            <item id="2419" chance="10980" /><!-- scimitar -->
+            <item id="2177" chance="20760" /><!-- life crystal -->
+            <item id="5892" chance="14170" /><!-- huge chunk of crude iron -->
+            <item id="2393" chance="11980" /><!-- giant sword -->
+            <item id="5885" chance="3790" /><!-- flask of warrior's sweat -->
         </inside>
     </item>
 </loot>

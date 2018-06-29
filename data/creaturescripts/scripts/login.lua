@@ -60,7 +60,6 @@ registerCreatureEvent(cid, "advance")
 registerCreatureEvent(cid, "FimVip")
 registerCreatureEvent(cid, "SkullCheck")
 registerCreatureEvent(cid, "ReportBug")
-registerCreatureEvent(cid, VipReceive)
 registerCreatureEvent(cid, "PlayerKill")
 registerCreatureEvent(cid, "KillingInTheNameOf")
 

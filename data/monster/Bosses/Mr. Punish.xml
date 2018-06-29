@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Mr. Punish" nameDescription="a mr. punish" race="undead" experience="9000" speed="400" manacost="0">
+<monster name="Mr. Punish" nameDescription="Mr. Punish" race="undead" experience="9000" speed="400" manacost="0">
 	<health now="22000" max="22000"/>
 	<look type="234" corpse="6331"/>
 	<targetchange interval="2000" chance="5"/>
@@ -8,7 +8,7 @@
 		<flag summonable="0"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
-		<flag illusionable="1"/>
+		<flag illusionable="0"/>
 		<flag convinceable="0"/>
 		<flag pushable="0"/>
 		<flag canpushitems="1"/>
@@ -51,21 +51,21 @@
 	<loot>
     <item id="2148" countmax="100" chance="48000" /><!-- gold coin -->
     <item id="2148" countmax="29" chance="48000" /><!-- gold coin -->
-    <item id="6500" chance="100500" /><!-- demonic essence -->
-    <item id="9971" chance="42175" /><!-- gold ingot -->
-    <item id="2387" chance="33825" /><!-- double axe -->
-    <item id="5944" chance="100500" /><!-- soul orb -->
+    <item id="6500" chance="92310" /><!-- demonic essence -->
+    <item id="9971" chance="15380" /><!-- gold ingot -->
+    <item id="2387" chance="23080" /><!-- double axe -->
+    <item id="5944" chance="92310" /><!-- soul orb -->
     <item id="6537" chance="100500" /><!-- mr. punish's handcuffs -->
-    <item id="2152" countmax="2" chance="14050" /><!-- platinum coin -->
+    <item id="2152" countmax="2" chance="15380" /><!-- platinum coin -->
     <item id="5801" chance="100000"><!-- jewelled backpack -->
         <inside>
-            <item id="7368" countmax="3" chance="6750" /><!-- assassin star -->
-            <item id="6492" chance="17175" /><!-- bat decoration -->
-			<item id="2443" chance="17175" /><!-- ravager's axe -->
-			<item id="2145" chance="17175" /><!-- small diamond -->
-            <item id="7590" chance="12500" /><!-- great mana potion -->
-            <item id="5480" chance="29675" /><!-- cat's paw -->
-            <item id="7591" chance="4150" /><!-- great health potion -->
+            <item id="7368" countmax="3" chance="15380" /><!-- assassin star -->
+            <item id="6492" chance="7690" /><!-- bat decoration -->
+			<item id="2443" chance="7690" /><!-- ravager's axe -->
+			<item id="2145" chance="177690175" /><!-- small diamond -->
+            <item id="7590" chance="7690" /><!-- great mana potion -->
+            <item id="5480" chance="7690" /><!-- cat's paw -->
+            <item id="7591" chance="15380" /><!-- great health potion -->
         </inside>
     </item>
 </loot>
