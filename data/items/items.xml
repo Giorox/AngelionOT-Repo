@@ -442,7 +442,9 @@
 	<item fromid="1364" toid="1367" article="a" name="water basin">
 		<attribute key="fluidSource" value="water" />
 	</item>
-	<item fromid="1368" toid="1369" article="a" name="draw well" />
+	<item fromid="1368" toid="1369" article="a" name="draw well">
+		<attribute key="fluidSource" value="water" />
+	</item>
 	<item fromid="1370" toid="1377" article="a" name="marble fountain" />
 	<item id="1378" article="a" name="small basin" />
 	<item fromid="1379" toid="1384" article="a" name="mill" />

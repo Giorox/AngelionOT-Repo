@@ -8,3 +8,5 @@
 
 [17/07/2017 22:53:54] (Notice - virtual void ProtocolGame::parsePacket(NetworkMessage&)) PLAYER: Assassino de memes sent unknown byte: 0x4c9f158
 
+[06/07/2018 00:37:46] (Notice - virtual void ProtocolGame::parsePacket(NetworkMessage&)) PLAYER: Jack sent unknown byte: 0x586f158
+

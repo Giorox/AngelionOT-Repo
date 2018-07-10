@@ -22,8 +22,11 @@
 	<movevent type="StepIn" actionid="9004" event="script" value="treinersxd.lua"/>
 	<movevent type="StepOut" actionid="9004" event="script" value="treinersxd.lua"/>
 
-	<movevent type="StepIn" uniqueid="8800" event="script" value="premium2.lua"/>
+	<movevent type="StepIn" uniqueid="8800" event="script" value="premium.lua"/>
 	<movevent type="StepIn" uniqueid="8801" event="script" value="premium.lua"/>
+	
+	<movevent type="StepIn" uniqueid="9500" event="script" value="SorcererGuildThaisTile.lua"/>
+	<movevent type="StepIn" uniqueid="9501" event="script" value="SorcererGuildThaisTile.lua"/>
 
 	<movevent type="AddItem" tileitem="0" itemid="2109" event="script" value="fut.lua"/>
 
