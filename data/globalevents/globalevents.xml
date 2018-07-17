@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <globalevents>
 	<!-- <globalevent name="record" type="record" event="script" value="record.lua"/> -->
-	<globalevent name="save" interval="1000" event="script" value="save.lua"/>
+	<globalevent name="save" interval="2000" event="script" value="save.lua"/>
 	<globalevent name="clean" interval="14400" event="script" value="clean.lua"/>
 	<!-- <globalevent name="timer_example" time="21:35:11" event="script" value="my_script.lua"/> -->
 	<globalevent name="information" interval="900000" event="script" value="autobroadcast.lua"/>
 	<globalevent name="napis" interval="1" script="napis.lua"/>
 	<globalevent name="raidSystem" interval="1200" event="script" value="raidSystem.lua"/>
-	<globalevent name="ZzaionRaid" interval="14400" event="script" value="ZzaionRaid.lua"/>
+	<globalevent name="ZzaionRaid" interval="28800" event="script" value="ZzaionRaid.lua"/>
 	
 </globalevents>

@@ -1612,7 +1612,7 @@
 	<item id="2045" article="a" name="lamp">
 		<attribute key="weight" value="3000" />
 		<attribute key="decayTo" value="2046" />
-		<attribute key="duration" value="180" />
+		<attribute key="duration" value="1980" />
 	</item>
 	<item id="2046" article="a" name="lamp">
 		<attribute key="weight" value="3000" />
@@ -1989,7 +1989,7 @@
 		<attribute key="weight" value="1500" />
 		<attribute key="decayTo" value="0" />
 		<attribute key="showduration" value="1" />
-		<attribute key="duration" value="3000" />
+		<attribute key="duration" value="300" />
 	</item>
 	<item id="2164" article="a" name="might ring">
 		<attribute key="weight" value="100" />
@@ -16609,6 +16609,7 @@
 		<attribute key="description" value="It's a symbol of peace handed out by Tibia ML." />
 		<attribute key="weight" value="500" />
 	</item>
+	<item fromid="10456" toid="10467" name="sand" />
 	<item id="10468" article="a" name="closed door">
 		<attribute key="type" value="door" />
 		<attribute key="blockprojectile" value="1" />

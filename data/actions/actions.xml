@@ -197,6 +197,7 @@
 	<!-- Quests -->
 	<action itemid="2361" event="script" value="quests/yakchal.lua" /> 
 	<action uniqueid="1555" event="script" value="other/ghostship.lua" />
+	
 	<action itemid="8266" event="script" value="quests/koshei.lua"/>
 	<action itemid="3698" event="script" value="other/KosheiTorchStatue.lua"/>
 	<action itemid="3697" event="script" value="other/KosheiTorchStatue.lua"/>

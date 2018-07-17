@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <spells>
 	<!-- Attack Runes -->
-	<rune name="Poison Field" id="2285" allowfaruse="1" charges="3" lvl="14" maglv="0" exhaustion="500" blocktype="solid" event="script" value="attack/poison field.lua"/>
-	<rune name="Poison Bomb" id="2286" allowfaruse="1" charges="2" lvl="25" maglv="4" exhaustion="500" blocktype="solid" event="script" value="attack/poison bomb.lua"/>
-	<rune name="Poison Wall" id="2289" allowfaruse="1" charges="4" lvl="29" maglv="5" exhaustion="500" blocktype="solid" event="script" value="attack/poison wall.lua"/>
-	<rune name="Fire Field" id="2301" allowfaruse="1" charges="3" lvl="15" maglv="1" exhaustion="500" blocktype="solid" event="script" value="attack/fire field.lua"/>
-	<rune name="Firebomb" id="2305" allowfaruse="1" charges="2" lvl="27" maglv="5" exhaustion="500" blocktype="solid" event="script" value="attack/fire bomb.lua"/>
-	<rune name="Fire Wall" id="2303" allowfaruse="1" charges="4" lvl="33" maglv="6" exhaustion="500" blocktype="solid" event="script" value="attack/fire wall.lua"/>
-	<rune name="Soulfire" id="2308" allowfaruse="1" charges="3" lvl="27" maglv="7" exhaustion="500" needtarget="1" blocktype="solid" event="script" value="attack/soul fire.lua"/>
-	<rune name="Fireball" id="2302" allowfaruse="1" charges="5" lvl="27" maglv="4" exhaustion="500" needtarget="1" blocktype="solid" event="script" value="attack/fireball.lua"/>
-	<rune name="Great Fireball" id="2304" allowfaruse="1" charges="4" lvl="30" maglv="4" exhaustion="500" blocktype="solid" event="script" value="attack/great fireball.lua"/>
-	<rune name="Energy Field" id="2277" allowfaruse="1" charges="3" lvl="18" maglv="3" exhaustion="500" blocktype="solid" event="script" value="attack/energy field.lua"/>
-	<rune name="Energybomb" id="2262" allowfaruse="1" charges="2" lvl="37" maglv="10" exhaustion="500" blocktype="solid" event="script" value="attack/energy bomb.lua"/>
-	<rune name="Energy Wall" id="2279" allowfaruse="1" charges="4" lvl="41" maglv="9" exhaustion="500" blocktype="solid" event="script" value="attack/energy wall.lua"/>
-	<rune name="Light Magic Missile" id="2287" allowfaruse="1" charges="10" lvl="15" exhaustion="500" maglv="0" needtarget="1" blocktype="solid" event="script" value="attack/light magic missile.lua"/>
-	<rune name="Heavy Magic Missile" id="2311" allowfaruse="1" charges="10" lvl="25" exhaustion="500" maglv="3" needtarget="1" blocktype="solid" event="script" value="attack/heavy magic missile.lua"/>
-	<rune name="Explosion" id="2313" allowfaruse="1" charges="6" lvl="31" maglv="6" exhaustion="500" blocktype="solid" event="script" value="attack/explosion.lua"/>
-	<rune name="Sudden Death" id="2268" allowfaruse="1" charges="3" lvl="45" maglv="15" exhaustion="500" needtarget="1" blocktype="solid" event="script" value="attack/sudden death.lua"/>
-	<rune name="Icicle" id="2271" allowfaruse="1" charges="5" lvl="28" maglv="4" exhaustion="500" needtarget="1" event="script" value="attack/icicle.lua"/>
-	<rune name="Avalanche" id="2274" allowfaruse="1" charges="4" lvl="30" maglv="4" exhaustion="500" event="script" value="attack/avalanche.lua"/>
-	<rune name="Stone Shower" id="2288" allowfaruse="1" charges="4" lvl="28" maglv="4" exhaustion="500" event="script" value="attack/stone shower.lua"/>
-	<rune name="Thunderstorm" id="2315" allowfaruse="1" charges="4" lvl="28" maglv="4" exhaustion="500" event="script" value="attack/thunderstorm.lua"/>
-	<rune name="Stalagmite" id="2292" allowfaruse="1" charges="10" lvl="24" maglv="3" exhaustion="500" needtarget="1" event="script" value="attack/stalagmite.lua"/>
-	<rune name="Holy Missile" id="2295" allowfaruse="1" charges="5" lvl="27" maglv="4" exhaustion="500" needtarget="1" blocktype="solid" event="script" value="attack/holy missile.lua">
+	<rune name="Poison Field" id="2285" allowfaruse="1" charges="3" lvl="14" maglv="0" exhaustion="1000" blocktype="solid" event="script" value="attack/poison field.lua"/>
+	<rune name="Poison Bomb" id="2286" allowfaruse="1" charges="2" lvl="25" maglv="4" exhaustion="1000" blocktype="solid" event="script" value="attack/poison bomb.lua"/>
+	<rune name="Poison Wall" id="2289" allowfaruse="1" charges="4" lvl="29" maglv="5" exhaustion="1000" blocktype="solid" event="script" value="attack/poison wall.lua"/>
+	<rune name="Fire Field" id="2301" allowfaruse="1" charges="3" lvl="15" maglv="1" exhaustion="1000" blocktype="solid" event="script" value="attack/fire field.lua"/>
+	<rune name="Firebomb" id="2305" allowfaruse="1" charges="2" lvl="27" maglv="5" exhaustion="1000" blocktype="solid" event="script" value="attack/fire bomb.lua"/>
+	<rune name="Fire Wall" id="2303" allowfaruse="1" charges="4" lvl="33" maglv="6" exhaustion="1000" blocktype="solid" event="script" value="attack/fire wall.lua"/>
+	<rune name="Soulfire" id="2308" allowfaruse="1" charges="3" lvl="27" maglv="7" exhaustion="1000" needtarget="1" blocktype="solid" event="script" value="attack/soul fire.lua"/>
+	<rune name="Fireball" id="2302" allowfaruse="1" charges="5" lvl="27" maglv="4" exhaustion="1000" needtarget="1" blocktype="solid" event="script" value="attack/fireball.lua"/>
+	<rune name="Great Fireball" id="2304" allowfaruse="1" charges="4" lvl="30" maglv="4" exhaustion="1000" blocktype="solid" event="script" value="attack/great fireball.lua"/>
+	<rune name="Energy Field" id="2277" allowfaruse="1" charges="3" lvl="18" maglv="3" exhaustion="1000" blocktype="solid" event="script" value="attack/energy field.lua"/>
+	<rune name="Energybomb" id="2262" allowfaruse="1" charges="2" lvl="37" maglv="10" exhaustion="1000" blocktype="solid" event="script" value="attack/energy bomb.lua"/>
+	<rune name="Energy Wall" id="2279" allowfaruse="1" charges="4" lvl="41" maglv="9" exhaustion="1000" blocktype="solid" event="script" value="attack/energy wall.lua"/>
+	<rune name="Light Magic Missile" id="2287" allowfaruse="1" charges="10" lvl="15" exhaustion="1000" maglv="0" needtarget="1" blocktype="solid" event="script" value="attack/light magic missile.lua"/>
+	<rune name="Heavy Magic Missile" id="2311" allowfaruse="1" charges="10" lvl="25" exhaustion="1000" maglv="3" needtarget="1" blocktype="solid" event="script" value="attack/heavy magic missile.lua"/>
+	<rune name="Explosion" id="2313" allowfaruse="1" charges="6" lvl="31" maglv="6" exhaustion="1000" blocktype="solid" event="script" value="attack/explosion.lua"/>
+	<rune name="Sudden Death" id="2268" allowfaruse="1" charges="3" lvl="45" maglv="15" exhaustion="1000" needtarget="1" blocktype="solid" event="script" value="attack/sudden death.lua"/>
+	<rune name="Icicle" id="2271" allowfaruse="1" charges="5" lvl="28" maglv="4" exhaustion="1000" needtarget="1" event="script" value="attack/icicle.lua"/>
+	<rune name="Avalanche" id="2274" allowfaruse="1" charges="4" lvl="30" maglv="4" exhaustion="1000" event="script" value="attack/avalanche.lua"/>
+	<rune name="Stone Shower" id="2288" allowfaruse="1" charges="4" lvl="28" maglv="4" exhaustion="1000" event="script" value="attack/stone shower.lua"/>
+	<rune name="Thunderstorm" id="2315" allowfaruse="1" charges="4" lvl="28" maglv="4" exhaustion="1000" event="script" value="attack/thunderstorm.lua"/>
+	<rune name="Stalagmite" id="2292" allowfaruse="1" charges="10" lvl="24" maglv="3" exhaustion="1000" needtarget="1" event="script" value="attack/stalagmite.lua"/>
+	<rune name="Holy Missile" id="2295" allowfaruse="1" charges="5" lvl="27" maglv="4" exhaustion="1000" needtarget="1" blocktype="solid" event="script" value="attack/holy missile.lua">
 		<vocation id="3"/>
 		<vocation id="7" showInDescription="0"/>
 	</rune>
 
 	<!-- Healing Runes -->
-	<rune name="Antidote Rune" id="2266" allowfaruse="1" charges="1" lvl="15" maglv="0" exhaustion="500" aggressive="0" needtarget="1" blocktype="solid" event="script" value="healing/antidote rune.lua"/>
-	<rune name="Intense Healing Rune" id="2265" allowfaruse="1" charges="1" lvl="15" maglv="1" exhaustion="500" aggressive="0" needtarget="1" blocktype="solid" event="script" value="healing/intense healing rune.lua"/>
-	<rune name="Ultimate Healing Rune" id="2273" allowfaruse="1" charges="1" lvl="24" maglv="4" exhaustion="500" aggressive="0" needtarget="1" blocktype="solid" event="script" value="healing/ultimate healing rune.lua"/>
+	<rune name="Antidote Rune" id="2266" allowfaruse="1" charges="1" lvl="15" maglv="0" exhaustion="1000" aggressive="0" needtarget="1" blocktype="solid" event="script" value="healing/antidote rune.lua"/>
+	<rune name="Intense Healing Rune" id="2265" allowfaruse="1" charges="1" lvl="15" maglv="1" exhaustion="1000" aggressive="0" needtarget="1" blocktype="solid" event="script" value="healing/intense healing rune.lua"/>
+	<rune name="Ultimate Healing Rune" id="2273" allowfaruse="1" charges="1" lvl="24" maglv="4" exhaustion="1000" aggressive="0" needtarget="1" blocktype="solid" event="script" value="healing/ultimate healing rune.lua"/>
 
 	<!-- Summon Runes -->
-	<rune name="Convince Creature" id="2290" allowfaruse="1" charges="1" lvl="16" maglv="5" exhaustion="500" needtarget="1" blocktype="solid" event="function" value="convince"/>
-	<rune name="Animate Dead" id="2316" allowfaruse="1" charges="1" lvl="27" maglv="4" exhaustion="500" blocktype="solid" event="script" value="summon/animate dead rune.lua"/>
+	<rune name="Convince Creature" id="2290" allowfaruse="1" charges="1" lvl="16" maglv="5" exhaustion="1000" needtarget="1" blocktype="solid" event="function" value="convince"/>
+	<rune name="Animate Dead" id="2316" allowfaruse="1" charges="1" lvl="27" maglv="4" exhaustion="1000" blocktype="solid" event="script" value="summon/animate dead rune.lua"/>
 
 	<!-- Support Runes -->
-	<rune name="Desintegrate" id="2310" allowfaruse="0" charges="3" lvl="21" maglv="4" exhaustion="500" range="1" event="script" value="support/desintegrate rune.lua"/>
-	<rune name="Destroy Field" id="2261" allowfaruse="1" charges="3" lvl="17" maglv="3" exhaustion="500" aggressive="0" range="5" event="script" value="support/destroy field rune.lua"/>
-	<rune name="Chameleon" id="2291" allowfaruse="1" charges="1" lvl="27" maglv="4" exhaustion="500" aggressive="0" selftarget="1" blocktype="solid" event="function" value="chameleon"/>
-	<rune name="Magic Wall" id="2293" allowfaruse="1" charges="3" lvl="32" maglv="9" exhaustion="500" blocktype="all" event="script" value="support/magic wall rune.lua"/>
-	<rune name="Wild Growth" id="2269" allowfaruse="1" charges="2" lvl="27" maglv="8" exhaustion="500" blocktype="all" event="script" value="support/wild growth rune.lua">
+	<rune name="Desintegrate" id="2310" allowfaruse="0" charges="3" lvl="21" maglv="4" exhaustion="1000" range="1" event="script" value="support/desintegrate rune.lua"/>
+	<rune name="Destroy Field" id="2261" allowfaruse="1" charges="3" lvl="17" maglv="3" exhaustion="1000" aggressive="0" range="5" event="script" value="support/destroy field rune.lua"/>
+	<rune name="Chameleon" id="2291" allowfaruse="1" charges="1" lvl="27" maglv="4" exhaustion="1000" aggressive="0" selftarget="1" blocktype="solid" event="function" value="chameleon"/>
+	<rune name="Magic Wall" id="2293" allowfaruse="1" charges="3" lvl="32" maglv="9" exhaustion="1000" blocktype="all" event="script" value="support/magic wall rune.lua"/>
+	<rune name="Wild Growth" id="2269" allowfaruse="1" charges="2" lvl="27" maglv="8" exhaustion="1000" blocktype="all" event="script" value="support/wild growth rune.lua">
 		<vocation id="2"/>
 		<vocation id="6" showInDescription="0"/>
 	</rune>
-	<rune name="Paralyze" id="2278" allowfaruse="1" charges="1" mana="1400" lvl="54" maglv="18" exhaustion="500" needtarget="1" blocktype="solid" event="script" value="support/paralyze rune.lua">
+	<rune name="Paralyze" id="2278" allowfaruse="1" charges="1" mana="1400" lvl="54" maglv="18" exhaustion="1000" needtarget="1" blocktype="solid" event="script" value="support/paralyze rune.lua">
 		<vocation id="2"/>
 		<vocation id="6" showInDescription="0"/>
 	</rune>
