@@ -3,9 +3,10 @@ function onUse(cid, item, fromPosition, itemEx, toPosition)
 		doPlayerAddOutfit(cid, 328, 0)
 		doPlayerAddOutfit(cid, 329, 0)
 		setPlayerStorageValue(cid, 8800, 1)
+		doPlayerRemoveItem(cid, 10503, 1)
 		doSendMagicEffect(getCreaturePosition(cid), CONST_ME_MAGIC_GREEN)
 	else
-		doPlayerSendCancel(cid,21,"You already have this outfit.")
+		doPlayerSendCancel(cid,"You already have this outfit.")
 	end
 	return true
 end

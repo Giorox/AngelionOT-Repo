@@ -7908,7 +7908,8 @@
 	<item id="5091" article="a" name="treasure map">
 		<attribute key="weight" value="830" />
 	</item>
-	<item fromid="5092" toid="5096" article="a" name="palm" />
+	<item fromid="5092" toid="5095" article="a" name="palm" />
+	<item id="5096" article="a" name="Bananapalm"/>
 	<item id="5097" article="a" name="mango" plural="mangos">
 		<attribute key="weight" value="180" />
 	</item>
@@ -8204,10 +8205,10 @@
 	<item fromid="5405" toid="5410" name="shallow water" />
 	<item fromid="5411" toid="5412" name="rocks" />
 	<item fromid="5413" toid="5416" article="a" name="coral reef" />
-	<item id="5417" article="a" name="sea star" />
-	<item id="5418" name="coral" />
+	<item id="5417" article="a" name="starfish" />
+	<item id="5418" article="a" name="sea anemone" />
 	<item fromid="5419" toid="5420" name="bubbles" />
-	<item id="5421" name="algae" />
+	<item id="5421" name="kelp" />
 	<item fromid="5422" toid="5423" article="a" name="coral reef" />
 	<item fromid="5424" toid="5425" article="a" name="water wheel" />
 	<item id="5426" article="a" name="stearing wheell" />
@@ -12469,6 +12470,16 @@
 		<attribute key="duration" value="240" />
 	</item>
 	<item fromid="7546" toid="7548" article="a" name="spider's web" />
+	<item fromid="7549" toid="7550" name="something crawling." />
+	<item id="7551" article="a" name="seashell"/>
+	<item id="7552" article="a" name="large seashell">
+		<attribute key="description" value="Maybe there's something inside of it." />
+	</item>
+	<item id="7553" article="a" name="large seashell">
+		<attribute key="description" value="It is empty." />
+		<attribute key="decayTo" value="7552" />
+		<attribute key="duration" value="7200" />
+	</item>
 	<item fromid="7554" toid="7557" article="a" name="human cocoon" />
 	<item fromid="7560" toid="7561" article="a" name="coffin" />
 	<item fromid="7564" toid="7565" article="a" name="empty coffin" />
@@ -16141,13 +16152,29 @@
 		<attribute key="description" value="It is said to to make your calmer and less afflicted by anger and anxiety." />
 		<attribute key="weight" value="850" />
 	</item>
-	<item fromid="9948" toid="9949" article="a" name="dracoyle statue">
+	<item id="9948" article="a" name="dracoyle statue">
 		<attribute key="description" value="This rare treasure is said to protect its owner from misery and curses." />
+		<attribute key="decayTo" value="9949" />
+		<attribute key="duration" value="43200" />
 		<attribute key="weight" value="1500" />
+		<attribute key="rotateTo" value="9953" />
 	</item>
-	<item fromid="9953" toid="9954" article="a" name="dracoyle statue">
-		<attribute key="description" value="This rare treasure is said to protect its owner from misery and curses." />
+	<item id="9949" article="a" name="dracoyle statue">
+		<attribute key="description" value="This rare treasure can be charged with an enchanted emerald." />
 		<attribute key="weight" value="1500" />
+		<attribute key="rotateTo" value="9954" />
+	</item>
+	<item id="9953" article="a" name="dracoyle statue">
+		<attribute key="description" value="This rare treasure is said to protect its owner from misery and curses." />
+		<attribute key="decayTo" value="9954" />
+		<attribute key="duration" value="43200" />
+		<attribute key="weight" value="1500" />
+		<attribute key="rotateTo" value="9948" />
+	</item>
+	<item id="9954" article="a" name="dracoyle statue">
+		<attribute key="description" value="This rare treasure can be charged with an enchanted emerald." />
+		<attribute key="weight" value="1500" />
+		<attribute key="rotateTo" value="9949" />
 	</item>
 	<item id="9955" article="a" name="vampiric crest">
 		<attribute key="description" value="This crest seems important. You shouldn't lose it." />

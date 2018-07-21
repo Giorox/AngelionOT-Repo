@@ -20,7 +20,7 @@ function onUse(cid, item, fromPosition, itemEx, toPosition)
 		doSendMagicEffect({x=32849, y=32230, z=9}, 5)
 		return true
 	else
-		doPlayerSendCancel(cid,21,"You already burned the sugar cane.")
+		doPlayerSendCancel(cid,"You already burned the sugar cane.")
 	end
 
 	return destroyItem(cid, itemEx, toPosition)

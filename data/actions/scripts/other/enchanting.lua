@@ -80,8 +80,15 @@ function onUse(cid, item, fromPosition, itemEx, toPosition)
  
 	if(isInArray(enchantedGems, item.itemid)) then
 		if(not isInArray(enchantableItems, itemEx.itemid)) then
-			doSendMagicEffect(fromPosition, CONST_ME_POFF)
-			return false
+			if((item.itemid == 7761) and ((itemEx.itemid == 9954) or (itemEx.itemid == 9949))) then
+				doTransformItem(itemEx.uid, itemEx.itemid-1)
+				doDecayItem(itemEx.uid)
+				doPlayerRemoveItem(cid, 7761, 1)
+				return true
+			else
+				doSendMagicEffect(fromPosition, CONST_ME_POFF)
+				return false
+			end
 		end
 
 		local b = table.find(enchantedGems, item.itemid)
@@ -101,6 +108,7 @@ function onUse(cid, item, fromPosition, itemEx, toPosition)
 		doRemoveItem(item.uid, 1)
 		return true
 	end
+	
 
 	return false
 end

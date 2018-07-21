@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<npc name="Willie" script="data/npc/scripts/Sell/food.lua" walkinterval="2000" floorchange="0">
+<npc name="Willie" script="data/npc/scripts/Willie.lua" walkinterval="2000" floorchange="0">
 <health now="100" max="100"/>
 <look type="153" head="77" body="63" legs="58" feet="115" addons="1"/>
    <parameters>
@@ -7,5 +7,9 @@
         <parameter key="message_sendtrade" value="Ya take a good look." />
 		<parameter key="message_farewell" value="Yeah, bye |PLAYERNAME|." />
 		<parameter key="message_walkaway" value="Yeah go away!" />
+		
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_sellable" value="bread,2454,1;carrot,2497,1;cheese,2454,2;cherry,2497,1;egg,2454,1;ham,2497,4;meat,2454,2;salmon,2497,2;"/>
+		<parameter key="shop_buyable" value="bread,2454,3;cheese,2454,5;ham,2497,8;meat,2454,5;" />
 		</parameters>
 </npc>

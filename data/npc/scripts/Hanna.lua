@@ -31,7 +31,7 @@ function creatureSayCallback(cid, type, msg)
 
 	local talkUser = NPCHANDLER_CONVBEHAVIOR == CONVERSATION_DEFAULT and 0 or cid
 	if(msgcontains(msg, 'addon') and getCreatureStorage(cid, addonStatus) <= 0) then
-		selfSay('Pretty, isn\'t it? My friend Amber taught me how to make it, but I could help you with one if you like. What do you say?', cid)
+		selfSay('Pretty, isn\'t it? My friend Norma taught me how to make it, but I could help you with one if you like. What do you say?', cid)
 		talkState[talkUser] = 1
 	elseif(msgcontains(msg, 'yes') and talkState[talkUser] == 1 and getCreatureStorage(cid, addonStatus) <= 0) then
 		selfSay('Okay, here we go, listen closely! I need a few things... a basic hat of course, maybe a legion helmet would do. Then about 100 chicken feathers... and 50 honeycombs as glue. That\'s it, come back to me once you gathered it!', cid)

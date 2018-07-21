@@ -279,6 +279,9 @@
 	<action actionid="2001" event="script" value="quests/system.lua"/>
 	<action uniqueid="30015" event="script" value="quests/annihilator.lua"/>
 	<action actionid="2002" event="script" value="quests/system.lua"/>
+	
+	<action uniqueid="64114" event="script" value="quests/BananaPalm.lua"/>
+	<action uniqueid="64115" event="script" value="quests/BananaPalm.lua"/>
 
 	<!-- Weapons enchanting (Gems) -->
 	<action itemid="2146" event="script" value="other/enchanting.lua"/>
@@ -632,6 +635,7 @@
 	
 	<!-- Others -->
 	<action itemid="5957" event="script" value="other/lotery.lua"/>
+	<action itemid="7552" event="script" value="other/LargeSeashell.lua"/>
 	
 	<!-- Lighthouse -->
 	<action actionid="12901" event="script" value="quests/lighthouse.lua" />
