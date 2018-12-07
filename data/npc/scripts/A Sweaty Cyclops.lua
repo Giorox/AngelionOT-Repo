@@ -18,6 +18,11 @@ function creatureSayCallback(cid, type, msg)
     local valuexorlosh = 1  -- Verify Value Xorlosh Mission
     local ironore = 5880 -- Iron Ore ID
     local gearwheel = 9690 -- Gear Wheel ID
+	local KosheiExhaust = {
+		KosheiAmuletStorage = 3212,
+		exhaust_timer24 = 24*60*60
+	}
+	
    
     -- no Quest
     if storage == -1 then
@@ -42,15 +47,15 @@ function creatureSayCallback(cid, type, msg)
                 end
             elseif talkState[talkUser] == 10 then
                 if getPlayerItemCount(cid,2152) >= 50 and getPlayerItemCount(cid,8262) >= 1 and getPlayerItemCount(cid,8263) >= 1 and getPlayerItemCount(cid,8264) >= 1 and  getPlayerItemCount(cid,8265) >= 1 then
-                    npcHandler:say("Ahh, lil' one wants amulet. Here! Have it! Mighty, mighty amulet lil' one has. Don't know what but mighty, mighty it is!!!", cid)
-                    doPlayerRemoveItem(cid,8262,1)
+                    npcHandler:say("Well, well, I do that! Big Ben makes lil' amulet unbroken with big hammer in big hands! No worry! Come back after sun hits the horizon 24 times and ask me for amulet.",cid)
+					doPlayerRemoveItem(cid,8262,1)
                     doPlayerRemoveItem(cid,8263,1)
                     doPlayerRemoveItem(cid,8264,1)
                     doPlayerRemoveItem(cid,8265,1)
                     doPlayerRemoveItem(cid,2152,50)
-                    doPlayerAddItem(cid,8266,1)
+					exhaustion.set(cid, KosheiExhaust.KosheiAmuletStorage, KosheiExhaust.exhaust_timer24)
                 else
-                    npcHandler:say("Come back when you got the neccessary items.", cid)
+                    npcHandler:say("Lil' one no have amulet.", cid)
                 end
             end
         elseif msgcontains(msg, "bast skirt")then
@@ -59,12 +64,20 @@ function creatureSayCallback(cid, type, msg)
                 talkState[talkUser] = 4
             end
         elseif msgcontains(msg, "broken") or msgcontains(msg, "amulet") then
-            npcHandler:say("Me can do unbroken but Big Ben want 5000 gold to make it unbroken. You accept??", cid)
-            talkState[talkUser] = 10
+			if getPlayerStorageValue(cid, KosheiExhaust.KosheiAmuletStorage) == -1 then
+				npcHandler:say("Me can do unbroken but Big Ben want gold 5000 and Big Ben need a lil' time to make it unbroken. Yes or no??", cid)
+				talkState[talkUser] = 10
+			elseif (not exhaustion.get(cid, KosheiExhaust.KosheiAmuletStorage)) then
+				npcHandler:say("Ahh, lil' one wants amulet. Here! Have it! Mighty, mighty amulet lil' one has. Don't know what but mighty, mighty it is!!!", cid)
+				doPlayerAddItem(cid,8266,1)
+				setPlayerStorageValue(cid, KosheiExhaust.KosheiAmuletStorage, -2)
+			elseif exhaustion.get(cid, KosheiExhaust.KosheiAmuletStorage) then
+				npcHandler:say("Big Ben no have time to make unbroken. Lil' one come back later.",cid)
+			else
+				npcHandler:say("Big Ben no has it more! When you also no have it, you have lost mighty, mighty amulet! Stupid li'l one!", cid)
+			end
         elseif msgcontains(msg, "no") then
-            npcHandler:say("What do you want here?", cid)
-        elseif msgcontains(msg, "help") then
-            npcHandler:say("I can forge Amulet, Huge Chunk of Crude Iron, Piece of Draconian Steel, Piece of Royal Steel, Piece of Hell Steal and Infernal Bolts!", cid)
+            npcHandler:say("What lil' one want?", cid)
         elseif msgcontains(msg, "uth'kean") or msgcontains(msg, "za'ralator") or msgcontains(msg, "uth'prta") or msgcontains(msg, "soul orb") then
             npcHandler:say("I need 3 bart skirt so I can help you.", cid)
         elseif(msgcontains(msg, "iron ore") or msgcontains(msg, "gear wheel") or msgcontains(msg, "gear wheels")) then
@@ -87,8 +100,19 @@ function creatureSayCallback(cid, type, msg)
                 npcHandler:say("Go to talk with Xorlosh", cid)
             end
         --Amulet
-        elseif msgcontains(msg, "broken") or msgcontains(msg, "amulet") then talkState[talkUser] = 10
-            npcHandler:say("Me can do unbroken but Big Ben want 5000 gold to make it unbroken. You accept??", cid)
+        elseif msgcontains(msg, "broken") or msgcontains(msg, "amulet") then 
+			if getPlayerStorageValue(cid, KosheiExhaust.KosheiAmuletStorage) == -1 then
+				npcHandler:say("Me can do unbroken but Big Ben want gold 5000 and Big Ben need a lil' time to make it unbroken. Yes or no??", cid)
+				talkState[talkUser] = 10
+			elseif (not exhaustion.get(cid, KosheiExhaust.KosheiAmuletStorage)) then
+				npcHandler:say("Ahh, lil' one wants amulet. Here! Have it! Mighty, mighty amulet lil' one has. Don't know what but mighty, mighty it is!!!", cid)
+				doPlayerAddItem(cid,8266,1)
+				setPlayerStorageValue(cid, KosheiExhaust.KosheiAmuletStorage, -2)
+			elseif exhaustion.get(cid, KosheiExhaust.KosheiAmuletStorage) then
+				npcHandler:say("Big Ben no have time to make unbroken. Lil' one come back later.",cid)
+			else
+				npcHandler:say("Big Ben no has it more! When you also no have it, you have lost mighty, mighty amulet! Stupid li'l one!", cid)
+			end
         --Piece of Royal Steel
         elseif msgcontains(msg, "uth'kean") then talkState[talkUser] = 20
             npcHandler:say("Very noble. Shiny. Me like. But breaks so fast. Me can make from shiny armour. Lil' one want to trade?", cid)
@@ -104,9 +128,6 @@ function creatureSayCallback(cid, type, msg)
         --Infernal Bolts
         elseif msgcontains(msg, "soul orb") then talkState[talkUser] = 60
             npcHandler:say("Uh. Me can make some nasty lil' bolt from soul orbs. Lil' one want to trade all?", cid)
-        --Help
-        elseif msgcontains(msg, "help") then
-            npcHandler:say("I can forge Amulet, Huge Chunk of Crude Iron, Piece of Draconian Steel, Piece of Royal Steel, Piece of Hell Steal and Infernal Bolts!", cid)
         --No
         elseif msgcontains(msg, "no") then
             npcHandler:say("What do you want here?", cid)
@@ -119,7 +140,7 @@ function creatureSayCallback(cid, type, msg)
                     doPlayerAddItem(cid,5887,1)
                     npcHandler:say("Cling clang!", cid)
                 else
-                    npcHandler:say("Come back when you got the neccessary items.", cid)
+                    npcHandler:say("Lil' one not have that.", cid)
                 end
             --Piece of Draconian Steel
             elseif talkState[talkUser] == 30 then
@@ -128,7 +149,7 @@ function creatureSayCallback(cid, type, msg)
                     doPlayerAddItem(cid,5889,1)
                     npcHandler:say("Cling clang!", cid)
                 else
-                    npcHandler:say("Come back when you got the neccessary items.", cid)
+                    npcHandler:say("Lil' one not have that.", cid)
                 end
             --Piece of Hell Steel
             elseif talkState[talkUser] == 40 then
@@ -137,7 +158,7 @@ function creatureSayCallback(cid, type, msg)
                     doPlayerAddItem(cid,5888,1)
                     npcHandler:say("Cling clang!", cid)
                 else
-                    npcHandler:say("Come back when you got the neccessary items.", cid)
+                    npcHandler:say("Lil' one not have that.", cid)
                 end
             --Huge Chunk of Crude Iron
             elseif talkState[talkUser] == 50 then
@@ -146,7 +167,7 @@ function creatureSayCallback(cid, type, msg)
                     doPlayerAddItem(cid,5892,1)
                     npcHandler:say("Cling clang!", cid)
                 else
-                    npcHandler:say("Come back when you got the neccessary items.", cid)
+                    npcHandler:say("Lil' one not have that.", cid)
                 end
             --Infernal Bolts
             elseif talkState[talkUser] == 60 then
@@ -155,20 +176,20 @@ function creatureSayCallback(cid, type, msg)
                     doPlayerAddItem(cid,6529,6)
                     npcHandler:say("Cling clang!", cid)
                 else
-                    npcHandler:say("Come back when you got the neccessary items.", cid)
+                    npcHandler:say("Lil' one not have that.", cid)
                 end
             --Amulet  
             elseif talkState[talkUser] == 10 then
                 if getPlayerItemCount(cid,2152) >= 50 and getPlayerItemCount(cid,8262) >= 1 and getPlayerItemCount(cid,8263) >= 1 and getPlayerItemCount(cid,8264) >= 1 and  getPlayerItemCount(cid,8265) >= 1 then
-                    npcHandler:say("Ahh, lil' one wants amulet. Here! Have it! Mighty, mighty amulet lil' one has. Don't know what but mighty, mighty it is!!!", cid)
-                    doPlayerRemoveItem(cid,8262,1)
+                    npcHandler:say("Well, well, I do that! Big Ben makes lil' amulet unbroken with big hammer in big hands! No worry! Come back after sun hits the horizon 24 times and ask me for amulet.",cid)
+					doPlayerRemoveItem(cid,8262,1)
                     doPlayerRemoveItem(cid,8263,1)
                     doPlayerRemoveItem(cid,8264,1)
                     doPlayerRemoveItem(cid,8265,1)
                     doPlayerRemoveItem(cid,2152,50)
-                    doPlayerAddItem(cid,8266,1)
+					exhaustion.set(cid, KosheiExhaust.KosheiAmuletStorage, KosheiExhaust.exhaust_timer24)
                 else
-                    npcHandler:say("Come back when you got the neccessary items.", cid)
+                    npcHandler:say("Lil' one no have amulet.", cid)
                 end
             --Gear Wheel
             elseif talkState[talkUser] == 90 then

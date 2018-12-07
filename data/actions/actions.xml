@@ -197,6 +197,7 @@
 	<!-- Quests -->
 	<action itemid="2361" event="script" value="quests/yakchal.lua" /> 
 	<action uniqueid="1555" event="script" value="other/ghostship.lua" />
+	
 	<action itemid="8266" event="script" value="quests/koshei.lua"/>
 	<action itemid="3698" event="script" value="other/KosheiTorchStatue.lua"/>
 	<action itemid="3697" event="script" value="other/KosheiTorchStatue.lua"/>
@@ -204,6 +205,8 @@
 	<action uniqueid="4005" event="script" value="other/KosheiSunWatch.lua"/>
 	
 	<action itemid="7585" event="script" value="quests/TerraAmuletCocoons.lua"/>
+	
+	<action itemid="10503" event="script" value="weddingOutfitBox.lua"/>
 	
 	<action uniqueid="7511" event="script" value="other/poba1.lua" />
 	<action uniqueid="7512" event="script" value="other/poba2.lua" />
@@ -226,7 +229,7 @@
 	<action uniqueid="41193" event="script" value="dcq/switch3.lua"/>
 	<action uniqueid="41194" event="script" value="dcq/switch4.lua"/>
 	<action actionid="51061" event="script" value="dcq/switch5.lua"/>
-	<action itemid="5468" event="script" value="dcq/tp.lua" />
+	<action itemid="5468" event="script" value="tools/firebug.lua" />
 	<action uniqueid="16440" event="script" value="quests/dcq_dead.lua"/>
 	<action uniqueid="10552" event="script" value="quests/poirewards.lua"/>
 	<action uniqueid="10544" event="script" value="quests/poirewards.lua"/>
@@ -276,6 +279,9 @@
 	<action actionid="2001" event="script" value="quests/system.lua"/>
 	<action uniqueid="30015" event="script" value="quests/annihilator.lua"/>
 	<action actionid="2002" event="script" value="quests/system.lua"/>
+	
+	<action uniqueid="64114" event="script" value="quests/BananaPalm.lua"/>
+	<action uniqueid="64115" event="script" value="quests/BananaPalm.lua"/>
 
 	<!-- Weapons enchanting (Gems) -->
 	<action itemid="2146" event="script" value="other/enchanting.lua"/>
@@ -577,7 +583,10 @@
 	<action itemid="2692" event="script" value="other/createbread.lua"/>
 	<action itemid="2693" event="script" value="other/createbread.lua"/>
 	<action itemid="2694" event="script" value="other/createbread.lua"/>
-
+	
+	<!-- Rum making -->
+	<action itemid="5467" event="script" value="other/makerum.lua"/>
+	
 	<!-- Windows -->
 	<action fromid="5303" toid="5305" event="script" value="other/windows.lua"/>
 	<action fromid="6436" toid="6473" event="script" value="other/windows.lua"/>
@@ -623,8 +632,10 @@
 	<action itemid="2036" event="script" value="other/watch.lua"/>
 	<action fromid="6091" toid="6092" event="script" value="other/watch.lua"/>
 	<action itemid="8187" event="script" value="other/watch.lua"/>
+	
 	<!-- Others -->
 	<action itemid="5957" event="script" value="other/lotery.lua"/>
+	<action itemid="7552" event="script" value="other/LargeSeashell.lua"/>
 	
 	<!-- Lighthouse -->
 	<action actionid="12901" event="script" value="quests/lighthouse.lua" />
@@ -665,7 +676,6 @@
 	<action itemid="8981" event="script" value="other/dolls.lua"/>
 	<action itemid="8982" event="script" value="other/dolls.lua"/>
 
-	<!-- Other -->
 	<!-- Other -->
 	<action itemid="7494" event="script" value="other/nexus.lua"/>
 	<action actionid="12968" event="script" value="other/inq4.lua"/>
