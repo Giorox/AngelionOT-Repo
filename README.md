@@ -5,10 +5,7 @@ Angelion OT is an 8.6 Full Global Open Tibia Server project which seeks to fulfi
 # Our Goal
 
 We seek to deliver a Full Global OT distribution which actually fulfills the gap that exists nowadays.
-We always see in EVERY distro that promises a Global Map things like "100% MAP and Quests" and when you download the distro
-and you decide to take a good look at it you realize it's actually pretty good but IT IS NOT 100%, after a few weeks you start
-noticing broken or even outright missing spawns, maps areas and quests. Broken NPCs and features, unrealistic NPCs that not
-pertain to a Global Map.
+We always see in EVERY distro that promises a Global Map things like "100% MAP and Quests" and when you download the distro and you take a good look at it you realize IT IS NOT 100%, after a few weeks you start noticing broken or even outright missing spawns, maps areas and quests. Broken NPCs and features, unrealistic NPCs that not pertain to a Global Map and in general features and data that is not consistent with the way 8.6 Tibia was.
 
 # What we are doing
 
