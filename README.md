@@ -22,4 +22,14 @@ quest that is completely lore-friendly, yet we strive to work on the distro as h
 is nearly done and we are satisfied with what we have accomplished we will outright remove it from the distro but still have it available
 elsewhere.
 
-Angelion OT is an 8.6 based OT distribution that looks to deliver an 100% Global Experience.
+# How You Can Help
+
+Currently we are in a very slow development pace due to not having many people available and not enough time to dedicate towards the project, as such, there are some things that you can do to help us in our development, such as:
+
+-If you have a completed feature that they would like to donate to our distro;
+-You have download the distro and have found bugs/errors and would like to report them;
+-Suggestions for implementation of missing things;
+
+You can also download the files from here and develop your own starting from where we currently are, for some help on that head to our wiki page right here on this Repository.
+
+This is a personal project that is aiming to fulfill a specific niche within our community, please support us in any way you'd like.
