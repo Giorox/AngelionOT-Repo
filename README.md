@@ -26,9 +26,9 @@ elsewhere.
 
 Currently we are in a very slow development pace due to not having many people available and not enough time to dedicate towards the project, as such, there are some things that you can do to help us in our development, such as:
 
--If you have a completed feature that they would like to donate to our distro;
--You have download the distro and have found bugs/errors and would like to report them;
--Suggestions for implementation of missing things;
+* If you have a completed feature that they would like to donate to our distro
+* You have download the distro and have found bugs/errors and would like to report them
+* Suggestions for implementation of missing things
 
 You can also download the files from here and develop your own starting from where we currently are, for some help on that head to our wiki page right here on this Repository.
 
