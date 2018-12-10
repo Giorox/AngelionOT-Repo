@@ -7,7 +7,9 @@
         <parameter key="message_sendtrade" value="Sure, take a look, honey." />
 		<parameter key="message_farewell" value="Bye, bye, |PLAYERNAME|." />
 		<parameter key="message_walkaway" value="Bye, bye." />
-		<parameter key="keywords" value="help;stuff;wares;offert;weapons;shield;armors;helmets;equipment;job;name;time;Tibia;sell;mission;quest;flowers;honey flowers;dungeon;monsters;Thais;Dallheim;" />
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="help;stuff;wares;offert;weapons;shield;armors;helmets;equipment;job;name;time;Tibia;sell;mission;quest;flowers;honey flowers;dungeon;monsters;Thais;Dallheim" />
 		<parameter key="keyword_reply1" value="I am already helping you by selling stuff." />
 		<parameter key="keyword_reply2" value="I sell equipment of all kinds. Just ask me about the type of wares you are interested in." />
 		<parameter key="keyword_reply3" value="I sell weapons, shields, armor, helmets and equipment. For what do you want to ask?" />
@@ -18,21 +20,21 @@
 		<parameter key="keyword_reply8" value="I sell leather helmets, studded helmets, and chain helmets. Just tell me what you want to buy." />
 		<parameter key="keyword_reply9" value="I sell torches, bags, scrolls, shovels, picks, backpacks, sickles, scythes, ropes, fishing rods and sixpack of worms. Just tell me what you want to buy." />
 		<parameter key="keyword_reply10" value="I am a merchant, so what can I do for you?" />
-		<parameter key="keyword_reply11" value="My name is            Do you want to buy something?" />
+		<parameter key="keyword_reply11" value="My name is.....Do you want to buy something?" />
 		<parameter key="keyword_reply12" value="It is about 10:12 am. I am so sorry, I have no watches to sell. Do you want to buy something else?" />
 		<parameter key="keyword_reply13" value="The continent is even more exciting that this isle!" />
 		<parameter key="keyword_reply14" value="I sell much. Have a look at the blackboards for my wares or just ask." />
-		<parameter key="keyword_reply15" value="I really love flowers. Sadly my favourites, honey flowers are very rare on this isle. If you can find me one, I`ll give you a little reward." />
-		<parameter key="keyword_reply16" value="I really love flowers. Sadly my favourites, honey flowers are very rare on this isle. If you can find me one, I`ll give you a little reward." />
-		<parameter key="keyword_reply17" value="I really love flowers. Sadly my favourites, honey flowers are very rare on this isle. If you can find me one, I`ll give you a little reward." />
-		<parameter key="keyword_reply18" value="Honey flowers are my favourites <sigh>." />
+		<parameter key="keyword_reply15" value="I really love flowers. Sadly my favourites, honey flowers are very rare on this isle. If you can find me one, I'll give you a little reward." />
+		<parameter key="keyword_reply16" value="I really love flowers. Sadly my favourites, honey flowers are very rare on this isle. If you can find me one, I'll give you a little reward." />
+		<parameter key="keyword_reply17" value="I really love flowers. Sadly my favourites, honey flowers are very rare on this isle. If you can find me one, I'll give you a little reward." />
+		<parameter key="keyword_reply18" value="Honey flowers are my favourites." />
 		<parameter key="keyword_reply19" value="Be carefull down there. Make sure you bought enough torches and a rope or you might get lost." />
 		<parameter key="keyword_reply20" value="There are plenty of them. Buy here the equipmente to kill them and sell their loot afterwards!" />
 		<parameter key="keyword_reply21" value="Thais is the capital of the thaian empire." />
 		<parameter key="keyword_reply22" value="He is a great warrior and our protector." />
 
 		<parameter key="module_shop" value="1"/>
-			<parameter key="shop_buyable" value="chain helmet,2458,49;coat,2651,7;doublet,2485,14;jacket, 2650,9;leather armor,2467,22;leather helmet,2461,11;leather legs,2649,9;studded helmet,2482,58;studded shield,2526,47;wooden shield,2512,13;axe,2386,18;dagger,2379,4;hand axe,2380,7;rapier,2384,13;sabre,2385,22;scythe,2550,10;short sword,2406,26;sickle,2405,7;spear,2389,9;rope,2120,45;worm,3976,1;fishing rod,2580,140;football,2109,111;waterball,7956,200;scroll,1949,5;bag,1987,4;backpack,1988,9;shovel,2554,9" />
-			<parameter key="shop_sellable" value="brass helmet,2460,22;brass shield,2511,25;chain armor,2464,40;chain helmet,2458,12;copper shield,2530,50;doublet,2485,3;leather armor,2467,5;leather boots,2643,2;leather helmet,2461,3;leather legs,2649,2;legion helmet,2480,22;plate shield,2510,40;studded armor,2484,10;studded helmet,2482,20;studded legs,2468,15;studded shield,2526,16;viking helmet,2473,25;wooden shield,2512,3;axe,2386,7;bone club,2449,5;dagger,2379,2;hand axe,2380,4;hatchet,2388,25;katana,2412,35;mace,2398,30;machete,2420,6;rapier,2384,5;sabre,2385,12;scythe,2550,3;short sword,2406,10;sickle,2405,2;spear,2389,3;sword,2376,25;rope,2120,8;scythe,2550,3;sickle,2405,2;shovel,2554,2;fishing rod,2580,30" />
+		<parameter key="shop_buyable" value="chain helmet,2458,49;coat,2651,7;doublet,2485,14;jacket, 2650,9;leather armor,2467,22;leather helmet,2461,11;leather legs,2649,9;studded helmet,2482,58;studded shield,2526,47;wooden shield,2512,13;axe,2386,18;dagger,2379,4;hand axe,2380,7;rapier,2384,13;sabre,2385,22;scythe,2550,10;short sword,2406,26;sickle,2405,7;spear,2389,9;rope,2120,45;worm,3976,1;fishing rod,2580,140;football,2109,111;waterball,7956,200;scroll,1949,5;bag,1987,4;backpack,1988,9;shovel,2554,9" />
+		<parameter key="shop_sellable" value="brass helmet,2460,22;brass shield,2511,25;chain armor,2464,40;chain helmet,2458,12;copper shield,2530,50;doublet,2485,3;leather armor,2467,5;leather boots,2643,2;leather helmet,2461,3;leather legs,2649,2;legion helmet,2480,22;plate shield,2510,40;studded armor,2484,10;studded helmet,2482,20;studded legs,2468,15;studded shield,2526,16;viking helmet,2473,25;wooden shield,2512,3;axe,2386,7;bone club,2449,5;dagger,2379,2;hand axe,2380,4;hatchet,2388,25;katana,2412,35;mace,2398,30;machete,2420,6;rapier,2384,5;sabre,2385,12;scythe,2550,3;short sword,2406,10;sickle,2405,2;spear,2389,3;sword,2376,25;rope,2120,8;scythe,2550,3;sickle,2405,2;shovel,2554,2;fishing rod,2580,30" />
 	</parameters>
 </npc>

@@ -64,6 +64,7 @@
 	<action uniqueid="4506" event="script" value="quests/doublet.lua"/>
 	<action uniqueid="4507" event="script" value="bearroom.lua"/>
 	<action uniqueid="4508" event="script" value="rats.lua"/>
+	<action uniqueid="60048" event="script" value="katanaquestdoor.lua"/>
 
 	<action itemid="7131" event="script" value="railbymock.lua" />
 	<action itemid="7132" event="script" value="railbymock.lua" />
