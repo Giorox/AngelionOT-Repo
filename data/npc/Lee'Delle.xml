@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<npc name="Lee'Delle" script="data/npc/scripts/default.lua" walkinterval="2000" floorchange="0">
+<npc name="Lee'Delle" script="data/npc/scripts/Lee'Delle.lua" walkinterval="2000" floorchange="0">
 <health now="100" max="100"/>
 <look type="140" head="78" body="76" legs="72" feet="96" addons="0"/>
    <parameters>
@@ -7,6 +7,29 @@
         <parameter key="message_sendtrade" value="Sure, take a look, honey." />
 		<parameter key="message_farewell" value="Bye, bye, |PLAYERNAME|." />
 		<parameter key="message_walkaway" value="Bye, bye." />
+		<parameter key="keywords" value="help;stuff;wares;offert;weapons;shield;armors;helmets;equipment;job;name;time;Tibia;sell;mission;quest;flowers;honey flowers;dungeon;monsters;Thais;Dallheim;" />
+		<parameter key="keyword_reply1" value="I am already helping you by selling stuff." />
+		<parameter key="keyword_reply2" value="I sell equipment of all kinds. Just ask me about the type of wares you are interested in." />
+		<parameter key="keyword_reply3" value="I sell weapons, shields, armor, helmets and equipment. For what do you want to ask?" />
+		<parameter key="keyword_reply4" value="I sell weapons, shields, armor, helmets and equipment. For what do you want to ask?" />
+		<parameter key="keyword_reply5" value="I sell spears, rapiers, sabres, daggers, hand axes, axes and short sword. Just tell me what you want to buy." />
+		<parameter key="keyword_reply6" value="I sell wooden shields and studded shields. Just tell me what you want to buy." />
+		<parameter key="keyword_reply7" value="I sell jackets, coats, doublets, leather armor, and leather legs. Just tell me what you want to buy." />
+		<parameter key="keyword_reply8" value="I sell leather helmets, studded helmets, and chain helmets. Just tell me what you want to buy." />
+		<parameter key="keyword_reply9" value="I sell torches, bags, scrolls, shovels, picks, backpacks, sickles, scythes, ropes, fishing rods and sixpack of worms. Just tell me what you want to buy." />
+		<parameter key="keyword_reply10" value="I am a merchant, so what can I do for you?" />
+		<parameter key="keyword_reply11" value="My name is            Do you want to buy something?" />
+		<parameter key="keyword_reply12" value="It is about 10:12 am. I am so sorry, I have no watches to sell. Do you want to buy something else?" />
+		<parameter key="keyword_reply13" value="The continent is even more exciting that this isle!" />
+		<parameter key="keyword_reply14" value="I sell much. Have a look at the blackboards for my wares or just ask." />
+		<parameter key="keyword_reply15" value="I really love flowers. Sadly my favourites, honey flowers are very rare on this isle. If you can find me one, I`ll give you a little reward." />
+		<parameter key="keyword_reply16" value="I really love flowers. Sadly my favourites, honey flowers are very rare on this isle. If you can find me one, I`ll give you a little reward." />
+		<parameter key="keyword_reply17" value="I really love flowers. Sadly my favourites, honey flowers are very rare on this isle. If you can find me one, I`ll give you a little reward." />
+		<parameter key="keyword_reply18" value="Honey flowers are my favourites <sigh>." />
+		<parameter key="keyword_reply19" value="Be carefull down there. Make sure you bought enough torches and a rope or you might get lost." />
+		<parameter key="keyword_reply20" value="There are plenty of them. Buy here the equipmente to kill them and sell their loot afterwards!" />
+		<parameter key="keyword_reply21" value="Thais is the capital of the thaian empire." />
+		<parameter key="keyword_reply22" value="He is a great warrior and our protector." />
 
 		<parameter key="module_shop" value="1"/>
 			<parameter key="shop_buyable" value="chain helmet,2458,49;coat,2651,7;doublet,2485,14;jacket, 2650,9;leather armor,2467,22;leather helmet,2461,11;leather legs,2649,9;studded helmet,2482,58;studded shield,2526,47;wooden shield,2512,13;axe,2386,18;dagger,2379,4;hand axe,2380,7;rapier,2384,13;sabre,2385,22;scythe,2550,10;short sword,2406,26;sickle,2405,7;spear,2389,9;rope,2120,45;worm,3976,1;fishing rod,2580,140;football,2109,111;waterball,7956,200;scroll,1949,5;bag,1987,4;backpack,1988,9;shovel,2554,9" />

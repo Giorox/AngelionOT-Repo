@@ -280,6 +280,7 @@
 	<action uniqueid="30015" event="script" value="quests/annihilator.lua"/>
 	<action actionid="2002" event="script" value="quests/system.lua"/>
 	
+	<action actionid="1800" event="script" value="quests/HoneyFlower.lua"/>
 	<action uniqueid="64114" event="script" value="quests/BananaPalm.lua"/>
 	<action uniqueid="64115" event="script" value="quests/BananaPalm.lua"/>
 

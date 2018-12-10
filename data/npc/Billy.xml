@@ -1,10 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<npc name="Billy" script="data/npc/scripts/Sell/food.lua" walkinterval="2000" floorchange="0">
+<npc name="Billy" script="data/npc/scripts/Billy.lua" walkinterval="2000" floorchange="0">
 <health now="100" max="100"/>
 <look type="153" head="78" body="63" legs="58" feet="115" addons="1"/>
    <parameters>
         <parameter key="message_greet" value="Howdy |PLAYERNAME|. I'm a farmer and cook, maybe I can interest you in a trade with food? You can also ask me for generalhints about the game." />
         <parameter key="message_farewell" value="Bye." />
 		<parameter key="message_walkaway" value="HOW RUDE!" />
+		<parameter key="keywords" value="job;god;help;time;king;magic;spell;sell;buy;food;weapon;dungeon;monsters;Amber;Cipfried;Dallheim;Obi;Seymour;Willie;cook;" />
+		<parameter key="keyword_reply1" value="I'm a farmer and a cook. I'd love to make pancakes, but I'm lacking a good pan." />
+		<parameter key="keyword_reply2" value="I am the god of cooking, indeed!" />
+		<parameter key="keyword_reply3" value="Can't help you, sorry. I'm a cook, not a priest." />
+		<parameter key="keyword_reply4" value="I came here to have some peace and leisure so leave me alone with 'time'." />
+		<parameter key="keyword_reply5" value="The king and his tax collectors are far away. You'll meet them soon enough." />
+		<parameter key="keyword_reply6" value="I can spell but know no spell." />
+		<parameter key="keyword_reply7" value="I can spell but know no spell." />
+		<parameter key="keyword_reply8" value="I sell various kinds of food." />
+		<parameter key="keyword_reply9" value="I buy food of most kind. Since I am a great cook I need much of it." />
+		<parameter key="keyword_reply10" value="Are you looking for food? I have bread, cheese, ham, and meat." />
+		<parameter key="keyword_reply11" value="Ask one of the shopkeepers. They make a fortune here with all those wannabe heroes." />
+		<parameter key="keyword_reply12" value="You'll find a lot of dungeons if you look around." />
+		<parameter key="keyword_reply13" value="Don't be afraid, in the town you should be safe." />
+		<parameter key="keyword_reply14" value="She's pretty indeed! I wonder if she likes bearded men." />
+		<parameter key="keyword_reply15" value="He never leaves his temple and only has time to cara about those new arrivals." />
+		<parameter key="keyword_reply16" value="One of the kings best men, here to protect us." />
+		<parameter key="keyword_reply17" value="I like him, we usually have a drink or two once a week and share stories about Willie." />
+		<parameter key="keyword_reply18" value="I don't like his headmaster behaviou. Then again, he IS a headmaster after all." />
+		<parameter key="keyword_reply19" value="Don't listen to that old wannabe, I'm the best cook around." />
+		<parameter key="keyword_reply20" value="I am the best cook around. You can sell me most types of food." />
     </parameters>
+	
+	<parameter key="module_shop" value="1"/>
+			<parameter key="shop_buyable" value="bread,2689,3;cheese,2696,5;ham,2671,8;meat,2666,5;" />
+			<parameter key="shop_sellable" value="bread,2689,1;cheese,2696,2;ham,2671,4;meat,2666,2;carrot,2684,1;cherry,2679,1;dead rat,2813,2;egg,2695,1;salmon,2668,2;" />
+	</parameters>
 </npc>
