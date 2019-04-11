@@ -8,7 +8,7 @@
 		<flag summonable="0"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
-		<flag illusionable="0"/>
+		<flag illusionable="1"/>
 		<flag convinceable="1"/>
 		<flag pushable="0"/>
 		<flag canpushitems="1"/>
@@ -31,15 +31,17 @@
 		<element firePercent="-10"/>
 	</elements>
 	<loot>
-    <item id="2148" countmax="26" chance="30475" /><!-- gold coin -->
-    <item id="2667" chance="12100" /><!-- fish -->
-    <item id="10559" chance="5475" /><!-- thorn -->
-    <item id="2787" chance="1600" /><!-- white mushroom -->
+    <item id="2148" countmax="48" chance="87720" /><!-- gold coin -->
+    <item id="2667" countmax="2" chance="10390" /><!-- fish -->
+    <item id="10559" chance="15640" /><!-- thorn -->
+    <item id="2787" chance="1170" /><!-- white mushroom -->
+	<item id="2789" chance="770" /><!-- brown mushroom -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="5678" countmax="3" chance="1050" /><!-- tortoise egg -->
-            <item id="7618" chance="2200" /><!-- health potion -->
-            <item id="2391" chance="1050" /><!-- war hammer -->
+            <item id="5678" countmax="3" chance="1010" /><!-- tortoise egg -->
+			<item id="5899" chance="1090" /><!-- turtle shell -->
+            <item id="2391" chance="350" /><!-- war hammer -->
+			<item id="2144" chance="710" /><!-- black pearl -->
         </inside>
     </item>
 </loot>

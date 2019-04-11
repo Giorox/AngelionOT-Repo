@@ -8,10 +8,10 @@
 		<flag summonable="0"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
-		<flag illusionable="0"/>
+		<flag illusionable="1"/>
 		<flag convinceable="1"/>
-		<flag pushable="1"/>
-		<flag canpushitems="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="0"/>
 		<flag canpushcreatures="0"/>
 		<flag staticattack="90"/>
 		<flag targetdistance="1"/>
@@ -28,15 +28,15 @@
 		<element firePercent="-10"/>
 	</elements>
 	<loot>
-    <item id="2148" countmax="30" chance="30925" /><!-- gold coin -->
-    <item id="6131" chance="725" /><!-- tortoise shield -->
+    <item id="2148" countmax="30" chance="60210" /><!-- gold coin -->
+    <item id="6131" chance="170" /><!-- tortoise shield -->
     <item id="5678" countmax="2" chance="1125" /><!-- tortoise egg -->
-    <item id="2667" chance="5600" /><!-- fish -->
+    <item id="2667" chance="5010" /><!-- fish -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="2510" chance="3625" /><!-- plate shield -->
-            <item id="2417" chance="1375" /><!-- battle hammer -->
-            <item id="5899" chance="1475" /><!-- turtle shell -->
+            <item id="2510" chance="2930" /><!-- plate shield -->
+            <item id="2417" chance="900" /><!-- battle hammer -->
+            <item id="5899" chance="800" /><!-- turtle shell -->
         </inside>
     </item>
 </loot>

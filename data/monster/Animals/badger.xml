@@ -19,15 +19,12 @@
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" skill="10" attack="12"/>
-		<attack name="poison" interval="2000" chance="3" range="1" min="-1" max="-3">
-			<attribute key="shooteffect" value="poison"/>
-		</attack>
 	</attacks>
 	<defenses armor="1" defense="3"/>
 	<loot>
-    <item id="8845" chance="39900" /><!-- beetroot -->
-    <item id="11210" chance="9600" /><!-- badger fur -->
-    <item id="11207" chance="5050" /><!-- acorn -->
+    <item id="8845" chance="40480" /><!-- beetroot -->
+    <item id="11210" chance="10240" /><!-- badger fur -->
+    <item id="11207" chance="4970" /><!-- acorn -->
 </loot>
 
 

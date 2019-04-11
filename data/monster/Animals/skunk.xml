@@ -25,7 +25,8 @@
 	</attacks>
 	<defenses armor="1" defense="5"/>
 	<loot>
-    <item id="11185" chance="1300" /><!-- skunk tail -->
+	<item id="" chance="4290" /><!-- bulb of garlic -->
+    <item id="11185" chance="820" /><!-- skunk tail -->
 </loot>
 
 
