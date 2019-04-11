@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Wyrm" nameDescription="a wyrm" race="blood" experience="1450" speed="300" manacost="0">
+<monster name="Wyrm" nameDescription="a wyrm" race="blood" experience="1550" speed="300" manacost="0">
 	<health now="1825" max="1825"/>
 	<look type="291" corpse="8941"/>
 	<targetchange interval="60000" chance="0"/>
@@ -8,7 +8,7 @@
 		<flag summonable="0"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
-		<flag illusionable="0"/>
+		<flag illusionable="1"/>
 		<flag convinceable="0"/>
 		<flag pushable="0"/>
 		<flag canpushitems="1"/>
@@ -38,7 +38,7 @@
 		</attack>
 	</attacks>
 	<defenses armor="30" defense="31">
-		<defense name="healing" interval="2000" chance="10" min="160" max="200">
+		<defense name="healing" interval="2000" chance="10" min="100" max="150">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 	</defenses>
@@ -59,26 +59,26 @@
 		<voice sentence="GROOOOAAAAAAAAR!"/>
 	</voices>
 	<loot>
+    <item id="2148" countmax="100" chance="80700" /><!-- gold coin -->
     <item id="2148" countmax="100" chance="30700" /><!-- gold coin -->
-    <item id="2148" countmax="100" chance="30700" /><!-- gold coin -->
-    <item id="2148" countmax="32" chance="30700" /><!-- gold coin -->
-    <item id="2672" chance="35700" /><!-- dragon ham -->
-    <item id="7588" chance="20350" /><!-- strong health potion -->
-    <item id="10581" chance="15125" /><!-- wyrm scale -->
-    <item id="2546" countmax="10" chance="4975" /><!-- burst arrow -->
-    <item id="7589" chance="15300" /><!-- strong mana potion -->
-    <item id="2455" chance="6350" /><!-- crossbow -->
-    <item id="8873" chance="775" /><!-- hibiscus dress -->
-    <item id="8871" chance="1675" /><!-- focus cape -->
-    <item id="8921" chance="1425" /><!-- wand of draconia -->
+    <item id="2148" countmax="32" chance="60700" /><!-- gold coin -->
+    <item id="2672" countmax="3" chance="34800" /><!-- dragon ham -->
+    <item id="7588" chance="20180" /><!-- strong health potion -->
+    <item id="10581" chance="14910" /><!-- wyrm scale -->
+    <item id="2546" countmax="10" chance="7990" /><!-- burst arrow -->
+    <item id="7589" chance="15250" /><!-- strong mana potion -->
+    <item id="2455" chance="6090" /><!-- crossbow -->
+    <item id="8873" chance="310" /><!-- hibiscus dress -->
+    <item id="8871" chance="1220" /><!-- focus cape -->
+    <item id="8921" chance="1020" /><!-- wand of draconia -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="8920" chance="925" /><!-- wand of starstorm -->
-            <item id="7889" chance="1300" /><!-- lightning pendant -->
-            <item id="2145" countmax="3" chance="1025" /><!-- small diamond -->
-            <item id="7430" chance="600" /><!-- dragonbone staff -->
-            <item id="10221" chance="625" /><!-- shockwave amulet -->
-            <item id="8855" chance="550" /><!-- composite hornbow -->
+            <item id="8920" chance="480" /><!-- wand of starstorm -->
+            <item id="7889" chance="750" /><!-- lightning pendant -->
+            <item id="2145" countmax="3" chance="930" /><!-- small diamond -->
+            <item id="7430" chance="90" /><!-- dragonbone staff -->
+            <item id="10221" chance="90" /><!-- shockwave amulet -->
+            <item id="8855" chance="100" /><!-- composite hornbow -->
         </inside>
     </item>
 </loot>

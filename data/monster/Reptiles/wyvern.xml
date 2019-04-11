@@ -27,7 +27,7 @@
 		</attack>
 	</attacks>
 	<defenses armor="25" defense="18">
-		<defense name="healing" interval="2000" chance="11" min="76" max="84">
+		<defense name="healing" interval="2000" chance="11" min="45" max="65">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 		<defense name="speed" interval="2000" chance="10" speedchange="290" duration="5000">
@@ -46,17 +46,17 @@
 		<voice sentence="Shriiiek" yell="1"/>
 	</voices>
 	<loot>
-    <item id="2672" chance="60950" /><!-- dragon ham -->
-    <item id="2148" countmax="62" chance="21625" /><!-- gold coin -->
-    <item id="2187" chance="1550" /><!-- wand of inferno -->
-    <item id="2547" chance="3500" /><!-- power bolt -->
-    <item id="10560" chance="4825" /><!-- wyvern talisman -->
+    <item id="2672" countmax="3" chance="60200" /><!-- dragon ham -->
+    <item id="2148" countmax="90" chance="99980" /><!-- gold coin -->
+    <item id="2187" chance="800" /><!-- wand of inferno -->
+    <item id="2547" chance="3390" /><!-- power bolt -->
+    <item id="10560" chance="11970" /><!-- wyvern talisman -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="2127" chance="1050" /><!-- emerald bangle -->
-            <item id="2146" chance="1550" /><!-- small sapphire -->
-            <item id="7588" chance="650" /><!-- strong health potion -->
-            <item id="7408" chance="600" /><!-- wyvern fang -->
+            <item id="2127" chance="590" /><!-- emerald bangle -->
+            <item id="2146" chance="4920" /><!-- small sapphire -->
+            <item id="7588" chance="2460" /><!-- strong health potion -->
+            <item id="7408" chance="460" /><!-- wyvern fang -->
         </inside>
     </item>
 </loot>
