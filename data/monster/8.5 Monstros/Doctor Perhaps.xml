@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<monster name="Dirtbeard" nameDescription="Dirtbeard" race="blood" experience="375" speed="230" manacost="775">
-  <health now="630" max="630"/>
-  <look type="98" head="0" body="0" legs="0" feet="0" corpse="6080"/>
+<monster name="Doctor Perhaps" nameDescription="Doctor Perhaps" race="blood" experience="315" speed="230" manacost="775">
+  <health now="475" max="475"/>
+  <look type="133" head="95" body="0" legs="93" feet="95" addons="1"/>
   <targetchange interval="5000" chance="8"/>
   <strategy attack="100" defense="0"/>
   <flags>
@@ -15,7 +15,7 @@
     <flag canpushcreatures="1"/>
     <flag staticattack="90"/>
     <flag targetdistance="1"/>
-    <flag runonhealth="100"/>
+    <flag runonhealth="0"/>
   </flags>
     <attacks>
     <attack name="melee" interval="2000" skill="70" attack="65"/>
@@ -28,15 +28,18 @@
 </attacks>
   <defenses armor="25" defense="20"/>
   <elements>
-  <element holyPercent="10"/>
+  <element holyPercent="20"/>
+  <element physicalPercent="-5"/>
   <element earthPercent="20"/>
-  <element firePercent="-10"/>
-  <element icePercent="-5"/>
+  <element firePercent="10"/>
+  <element icePercent="20"/>
+  <element energyPercent="20"/>
   </elements>
   <voices interval="1000" chance="10">
-  <voice sentence="You are no match fot the scourge of the seas!"/>
-  <voice sentence="You move like a seasick whale!"/>
-  <voice sentence="Yarr, death to all landlubbers!"/>
+  <voice sentence="I might use some parts of you in my next creation!"/>
+  <voice sentence="You're only a test subject to me!"/>
+  <voice sentence="My creations will kill you!"/>
+  <voice sentence="You can't beat what you can't comprehend!"/>
   </voices>
   <immunities>
     <immunity invisible="1"/>

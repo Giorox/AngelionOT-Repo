@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Boogey" nameDescription="a boogey" race="undead" experience="475" speed="370" manacost="0">
+<monster name="Boogey" nameDescription="Boogey" race="undead" experience="475" speed="370" manacost="0">
   <health now="930" max="930"/>
   <look type="300" corpse="8955"/>
   <targetchange interval="5000" chance="10"/>
@@ -62,10 +62,4 @@
     <voice sentence="Come a little closer!" yell="1"/>
     <voice sentence="The end is near!" yell="1"/>
   </voices>
-  
-	<loot>
-		<item id="5616" chance="10000"/>
-		<item id="2570" chance="4000"/>
-		<item id="2372" chance="6000"/>
-	</loot>
 </monster>

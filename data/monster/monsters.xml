@@ -540,6 +540,7 @@
 	<monster name="Berserker Chicken" file="8.5 Monstros/berserker chicken.xml"/>
 	<monster name="Boogey" file="8.5 Monstros/boogey.xml"/>
 	<monster name="Dirtbeard" file="8.5 Monstros/dirtbeard.xml"/>
+	<monster name="Doctor Perhaps" file="8.5 Monstros/Doctor Perhaps.xml"/>
 	<monster name="Demon Parrot" file="8.5 Monstros/demon parrot.xml"/>
 	<monster name="Doom Deer" file="8.5 Monstros/doom deer.xml"/>
 	<monster name="Evil Mastermind" file="8.5 Monstros/evil mastermind.xml"/>
