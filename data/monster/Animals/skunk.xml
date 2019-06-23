@@ -23,26 +23,13 @@
 			<attribute key="areaEffect" value="greenbubble"/>
 		</attack>
 	</attacks>
-	<defenses armor="1" defense="5"/>
+	<defenses armor="1" defense="5">
+		<defense name="healing" interval="2000" chance="5" min="8" max="50">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
 	<loot>
-	<item id="" chance="4290" /><!-- bulb of garlic -->
-    <item id="11185" chance="820" /><!-- skunk tail -->
-</loot>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+		<item id="9114" chance="4290" /><!-- bulb of garlic -->
+		<item id="11185" chance="820" /><!-- skunk tail -->
+	</loot>
 </monster>

@@ -15534,6 +15534,10 @@
 		<attribute key="corpseType" value="blood" />
 		<attribute key="fluidSource" value="blood" />
 	</item>
+	<item id="9114" article="a" name="bulb of garlic">
+		<attribute key="weight" value="140" />
+		<attribute key="showcount" value="0" />
+	</item>
 	<item fromid="9118" toid="9133" article="a" name="stone wall" />
 	<item fromid="9135" toid="9139" article="a" name="stone wall" />
 	<item fromid="9142" toid="9143" article="a" name="stone wall" />
