@@ -22,7 +22,7 @@
 		<attack name="lifedrain" interval="2000" chance="15" range="7" min="-40" max="-85">
 			<attribute key="areaEffect" value="redshimmer"/>
 		</attack>
-		<attack name="manadrain" interval="2000" chance="15" range="7" min="-15" max="-30">
+		<attack name="manadrain" interval="2000" chance="15" range="7" min="-15" max="-40">
 			<attribute key="areaEffect" value="redshimmer"/>
 		</attack>
 		<attack name="speed" interval="2000" chance="20" range="7" speedchange="-600" duration="20000">
@@ -31,14 +31,14 @@
 		<attack name="fire" interval="2000" chance="20" range="7" min="-40" max="-80">
 			<attribute key="shootEffect" value="fire"/>
 		</attack>
-		<attack name="energy" interval="2000" chance="20" range="7" min="-20" max="-50">
+		<attack name="energy" interval="2000" chance="20" range="7" min="-20" max="-60">
 			<attribute key="shootEffect" value="energy"/>
 		</attack>
-		<attack name="physical" interval="2000" chance="10" range="7" min="-30" max="-50">
+		<attack name="physical" interval="2000" chance="10" range="7" min="-30" max="-90">
 			<attribute key="shootEffect" value="suddendeath"/>
 			<attribute key="areaEffect" value="mortarea"/>
 		</attack>
-		<attack name="poison" interval="2000" chance="20" range="7" min="-10" max="-30">
+		<attack name="poison" interval="2000" chance="20" range="7" min="-10" max="-70">
 			<attribute key="shootEffect" value="poison"/>
 		</attack>
 	</attacks>
@@ -61,20 +61,24 @@
 	<voices interval="5000" chance="10">
 		<voice sentence="Let me take a look at you!"/>
 		<voice sentence="Inferior creatures, bow before my power!"/>
+		<voice sentence="659978 54764!"/>
+		<voice sentence="652768764!"/>
 	</voices>
 		<loot>
-    <item id="2148" countmax="89" chance="42625" /><!-- gold coin -->
-    <item id="2509" chance="7025" /><!-- steel shield -->
-    <item id="7364" countmax="4" chance="5600" /><!-- sniper arrow -->
-    <item id="11187" chance="20500" /><!-- elder beholder tentacle -->
-    <item id="2175" chance="1400" /><!-- spellbook -->
-    <item id="2377" chance="6600" /><!-- two handed sword -->
+    <item id="2148" countmax="90" chance="99290" /><!-- gold coin -->
+    <item id="2509" chance="2040" /><!-- steel shield -->
+    <item id="7364" countmax="4" chance="8780" /><!-- sniper arrow -->
+    <item id="11187" chance="20050" /><!-- elder beholder tentacle -->
+	<item id="12429" chance="9720" /><!-- small flask of eyedrops -->
+    <item id="2175" chance="1030" /><!-- spellbook -->
+    <item id="2377" chance="2980" /><!-- two handed sword -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="11191" chance="1200" /><!-- giant eye -->
-            <item id="7589" chance="750" /><!-- strong mana potion -->
-            <item id="3972" chance="575" /><!-- beholder helmet -->
-            <item id="2518" chance="575" /><!-- beholder shield -->
+            <item id="11191" chance="460" /><!-- giant eye -->
+			<item id="5898" chance="1930" /><!-- beholder eye -->
+            <item id="7589" chance="830" /><!-- strong mana potion -->
+            <item id="3972" chance="90" /><!-- beholder helmet -->
+            <item id="2518" chance="90" /><!-- beholder shield -->
         </inside>
     </item>
 </loot>

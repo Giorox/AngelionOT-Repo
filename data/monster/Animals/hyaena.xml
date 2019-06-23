@@ -21,26 +21,12 @@
 		<attack name="melee" interval="2000" skill="10" attack="20"/>
 	</attacks>
 	<defenses armor="1" defense="3"/>
+	<voices interval="5000" chance="10">
+		<voice sentence="Hou hou hou!"/>
+		<voice sentence="Grrrrrr"/>
+	</voices>
 	<loot>
-    <item id="3976" countmax="3" chance="33675" /><!-- worm -->
-    <item id="2666" chance="42600" /><!-- meat -->
-</loot>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+		<item id="3976" countmax="3" chance="50250" /><!-- worm -->
+		<item id="2666" countmax="2" chance="30940" /><!-- meat -->
+	</loot>
 </monster>

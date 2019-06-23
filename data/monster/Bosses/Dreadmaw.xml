@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Dreadmaw" nameDescription="Dreadmaw" race="blood" experience="2700" speed="240" manacost="350">
-	<health now="3500" max="3500"/>
-	<look type="358" corpse="11132"/>
+	<health now="2000" max="2000"/>
+	<look type="358" corpse="6046"/>
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
 		<flag summonable="0"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
-		<flag illusionable="1"/>
-		<flag convinceable="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
 		<flag pushable="0"/>
 		<flag canpushitems="1"/>
 		<flag canpushcreatures="1"/>
@@ -22,20 +22,15 @@
 	</attacks>
 	<defenses armor="25" defense="25"/>
 	<elements>
-		<element earthPercent="20"/>
-		<element icePercent="10"/>
-		<element energyPercent="-5"/>
-		<element physicalPercent="5"/>
 	</elements>
-		<immunities>
+	<immunities>
 		<immunity invisible="1"/>
 		<immunity paralyze="1"/>
 	</immunities>
 	<loot>
-		<item id="2148" countmax="90" chance="17500"/><!-- gold coin -->
-		<item id="2148" countmax="28" chance="17500"/><!-- gold coin -->
-		<item id="2671" countmax="2" chance="15000"/><!-- ham -->		
-		<item id="11190" chance="50000"/>	<!-- piece of crocodile leather -->	
-		<item id="9971" chance="5000"/>	<!-- gold ingot -->	
+		<item id="2148" countmax="80" chance="100000"/><!-- gold coin -->
+		<item id="11239" countmax="1" chance="50000"/><!-- bunch of ripe rice -->		
+		<item id="11190" chance="100000"/>	<!-- piece of crocodile leather -->	
+		<item id="9971" chance="50000"/>	<!-- gold ingot -->	
 	</loot>
 </monster>

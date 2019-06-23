@@ -32,25 +32,8 @@
 		<voice sentence="Groar"/>
 	</voices>
 	<loot>
-    <item id="2671" chance="39850" /><!-- ham -->
-    <item id="2666" chance="74275" /><!-- meat -->
-</loot>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+		<item id="2671" countmax="2" chance="35960" /><!-- ham -->
+		<item id="2666" countmax="4" chance="68300" /><!-- meat -->
+		<item id="12362" chance="8580" /><!-- bamboo stick -->
+	</loot>
 </monster>

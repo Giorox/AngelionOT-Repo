@@ -1,48 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Gnarlhound" nameDescription="a gnarlhound" race="blood" experience="60" speed="410" manacost="465">
-<health now="198" max="198"/>
-<look type="341" corpse="11241"/>
-<targetchange interval="5000" chance="8"/>
-<strategy attack="100" defense="0"/>
-<flags>
-<flag summonable="1"/>
-<flag attackable="1"/>
-<flag hostile="1"/>
-<flag illusionable="1"/>
-<flag convinceable="1"/>
-<flag pushable="0"/>
-<flag canpushitems="1"/>
-<flag canpushcreatures="0"/>
-<flag targetdistance="1"/>
-<flag staticattack="90"/>
-<flag runonhealth="0"/>
-</flags>
+	<health now="198" max="198"/>
+	<look type="341" corpse="11241"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="30"/>
+	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" skill="20" attack="24"/>
 	</attacks>
-	<defenses armor="1" defense="3"/>
-<voices interval="5000" chance="10">
-<voice sentence="Gnarlll!"/>
-<voice sentence="Grrrrrr!"/>
-</voices>
+	<defenses armor="10" defense="3"/>
+	<voices interval="5000" chance="10">
+		<voice sentence="Gnarlll!"/>
+		<voice sentence="Grrrrrr!"/>
+	</voices>
 	<loot>
-    <item id="2666" chance="39050" /><!-- meat -->
-    <item id="3976" countmax="3" chance="34125" /><!-- worm -->
-    <item id="11318" chance="20775" /><!-- shaggy tail -->
-</loot>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+		<item id="2666" countmax="3" chance="39960" /><!-- meat -->
+		<item id="3976" countmax="3" chance="49530" /><!-- worm -->
+		<item id="11318" chance="24880" /><!-- shaggy tail -->
+		<item id="2148" countmax="30" chance="49120"/><!-- gold coin -->
+	</loot>
 </monster>

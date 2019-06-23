@@ -32,9 +32,9 @@
 		<voice sentence="GROARRR!" yell="1"/>
 	</voices>
 	<loot>
-    <item id="2671" chance="51875" /><!-- ham -->
-    <item id="2666" chance="50675" /><!-- meat -->
-    <item id="10566" chance="1625" /><!-- polar bear paw -->
+    <item id="2671" countmax="2" chance="50310" /><!-- ham -->
+    <item id="2666" countmax="4" chance="50500" /><!-- meat -->
+    <item id="10566" chance="980" /><!-- polar bear paw -->
 </loot>
 
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="The Snapper" nameDescription="the snapper" race="blood" experience="40" speed="240">
+<monster name="The Snapper" nameDescription="The Snapper" race="blood" experience="150" speed="240">
 	<health now="300" max="300"/>
 	<look type="119" corpse="6046"/>
 	<targetchange interval="5000" chance="8"/>
@@ -28,21 +28,21 @@
 		<element firePercent="-10"/>
 		<element physicalPercent="-5"/>
 	</elements>
+	<immunities>
+		<immunity invisible="1"/>
+	</immunities>
 	<loot>
-    <item id="7618" chance="51000" /><!-- health potion -->
-	<item id="2647" chance="47225" /><!-- plate legs -->
-	<item id="7618" chance="51000" /><!-- health potion -->
+    <item id="7618" countmax="5" chance="81880" /><!-- health potion -->
+	<item id="2647" chance="45640" /><!-- plate legs -->
     <item id="2148" countmax="98" chance="51355" /><!-- gold coin -->
+	<item id="2149" countmax="4" chance="78990" /><!-- small emerald -->
 	    <item id="1987" chance="100000"><!-- bag -->
         <inside>
-				<item id="7618" chance="51000" /><!-- health potion -->
 				<item id="2148" countmax="96" chance="51355" /><!-- gold coin -->
-				<item id="2463" chance="34724" /><!-- plate armor -->
-				<item id="2168" chance="100000" /><!-- life ring -->
-				<item id="7618" chance="51000" /><!-- health potion -->
-				<item id="3982" chance="11111" /><!-- crocodile boots -->
-				<item id="2476" chance="4170" /><!-- knight armor -->
-				<item id="7618" chance="51000" /><!-- health potion -->
+				<item id="2463" chance="42030" /><!-- plate armor -->
+				<item id="2168" chance="99280" /><!-- life ring -->
+				<item id="3982" chance="9420" /><!-- crocodile boots -->
+				<item id="2476" chance="4350" /><!-- knight armor -->
 		</inside>
     </item>
 </loot>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Crocodile" nameDescription="a crocodile" race="blood" experience="40" speed="240" manacost="350">
+<monster name="Crocodile" nameDescription="a crocodile" race="blood" experience="40" speed="156" manacost="350">
 	<health now="105" max="105"/>
 	<look type="119" corpse="6046"/>
 	<targetchange interval="5000" chance="8"/>
@@ -26,13 +26,13 @@
 		<element icePercent="10"/>
 		<element energyPercent="-5"/>
 		<element firePercent="-10"/>
-		<element physicalPercent="-5"/>
+		<element physicalPercent="-10"/>
 	</elements>
 	<loot>
-    <item id="2671" chance="39325" /><!-- ham -->
-    <item id="2148" countmax="10" chance="28775" /><!-- gold coin -->
-    <item id="11190" chance="19125" /><!-- piece of crocodile leather -->
-    <item id="3982" chance="625" /><!-- crocodile boots -->
+    <item id="2671" chance="39770" /><!-- ham -->
+    <item id="2148" countmax="10" chance="49820" /><!-- gold coin -->
+    <item id="11190" chance="20030" /><!-- piece of crocodile leather -->
+    <item id="3982" chance="90" /><!-- crocodile boots -->
 </loot>
 
 

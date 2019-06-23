@@ -17726,6 +17726,9 @@
 	<item fromid="11664" toid="11667" article="a" name="blister tendril" />
 	<item fromid="11669" toid="11670" article="a" name="dreadcoil" />
 	<item fromid="11696" toid="11719" name="purple soil" />
+	<item id="12362" article="a" name="bamboo stick">
+		<attribute key="weight" value="112" />
+	</item>
 	<item id="12404" article="a" name="quara tentacle">
 		<attribute key="weight" value="107" />
 	</item>
@@ -17740,6 +17743,9 @@
 	</item>
 	<item id="12408" article="a" name="quara bone">
 		<attribute key="weight" value="144" />
+	</item>
+	<item id="12429" article="a" name="small flask of eyedrops">
+		<attribute key="weight" value="50" />
 	</item>
 	<item id="12284" name="the tail of the keeper">
 		<attribute key="weight" value="450" />

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Hydra" nameDescription="a hydra" race="blood" experience="2100" speed="260" manacost="0">
+<monster name="Hydra" nameDescription="a hydra" race="blood" experience="2100" speed="206" manacost="0">
 	<health now="2350" max="2350"/>
 	<look type="121" corpse="6048"/>
 	<targetchange interval="5000" chance="8"/>
@@ -34,13 +34,12 @@
 			<attribute key="areaEffect" value="iceattack"/>
 		</attack> 	
 	</attacks>
-	<defenses armor="25" defense="35">
-		<defense name="healing" interval="2000" chance="25" min="200" max="270">
+	<defenses armor="27" defense="35">
+		<defense name="healing" interval="2000" chance="25" min="260" max="407">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 	</defenses>
 	<elements>
-		<element earthPercent="100"/>
 		<element icePercent="50"/>
 		<element holyPercent="30"/>
 		<element physicalPercent="-5"/>
@@ -50,31 +49,33 @@
 		<immunity lifedrain="1"/>
 		<immunity paralyze="1"/>
 		<immunity invisible="1"/>
+		<immunity earth="1"/>
 	</immunities>
 	<voices interval="5000" chance="10">
 		<voice sentence="FCHHHHH"/>
 		<voice sentence="HISSSS"/>
 	</voices>
 	<loot>
-    <item id="2148" countmax="100" chance="27350" /><!-- gold coin -->
-    <item id="2148" countmax="100" chance="27350" /><!-- gold coin -->
-    <item id="2148" countmax="44" chance="27350" /><!-- gold coin -->
-    <item id="2671" chance="60725" /><!-- ham -->
-    <item id="2146" chance="5300" /><!-- small sapphire -->
-    <item id="11193" chance="10775" /><!-- hydra head -->
-    <item id="8842" chance="5425" /><!-- cucumber -->
-    <item id="2476" chance="1500" /><!-- knight armor -->
-    <item id="2214" chance="1675" /><!-- ring of healing -->
-    <item id="2536" chance="750" /><!-- medusa shield -->
-    <item id="2475" chance="1350" /><!-- warrior helmet -->
+    <item id="2148" countmax="100" chance="29240" /><!-- gold coin -->
+    <item id="2148" countmax="100" chance="29240" /><!-- gold coin -->
+    <item id="2148" countmax="46" chance="29240" /><!-- gold coin -->
+    <item id="2671" countmax="4" chance="60210" /><!-- ham -->
+	<item id="2152" countmax="3" chance="49310" /><!-- platinum coin -->
+    <item id="2146" chance="5000" /><!-- small sapphire -->
+    <item id="11193" chance="10180" /><!-- hydra head -->
+    <item id="8842" chance="4870" /><!-- cucumber -->
+    <item id="2476" chance="1080" /><!-- knight armor -->
+    <item id="2214" chance="1230" /><!-- ring of healing -->
+    <item id="2536" chance="220" /><!-- medusa shield -->
+    <item id="2475" chance="830" /><!-- warrior helmet -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="2177" chance="1150" /><!-- life crystal -->
-            <item id="4850" chance="1425" /><!-- hydra egg -->
-            <item id="2197" chance="1350" /><!-- stone skin amulet -->
-            <item id="7589" chance="500" /><!-- strong mana potion -->
-            <item id="2498" chance="775" /><!-- royal helmet -->
-            <item id="2195" chance="600" /><!-- boots of haste -->
+            <item id="2177" chance="520" /><!-- life crystal -->
+            <item id="4850" chance="930" /><!-- hydra egg -->
+            <item id="2197" chance="880" /><!-- stone skin amulet -->
+            <item id="7589" chance="460" /><!-- strong mana potion -->
+            <item id="2498" chance="220" /><!-- royal helmet -->
+            <item id="2195" chance="90" /><!-- boots of haste -->
         </inside>
     </item>
 </loot>

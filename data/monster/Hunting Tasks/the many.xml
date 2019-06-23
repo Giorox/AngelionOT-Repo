@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="The Many" nameDescription="the many" race="blood" experience="4000" speed="260" manacost="0">
-	<health now="4600" max="4600"/>
+<monster name="The Many" nameDescription="The Many" race="blood" experience="4000" speed="260" manacost="0">
+	<health now="5000" max="5000"/>
 	<look type="121" corpse="6048"/>
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="100" defense="0"/>
@@ -8,7 +8,7 @@
 		<flag summonable="0"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
-		<flag illusionable="1"/>
+		<flag illusionable="0"/>
 		<flag convinceable="0"/>
 		<flag pushable="0"/>
 		<flag canpushitems="1"/>
@@ -35,7 +35,7 @@
 		</attack> 	
 	</attacks>
 	<defenses armor="25" defense="35">
-		<defense name="healing" interval="2000" chance="30" min="420" max="500">
+		<defense name="healing" interval="1300" chance="30" min="420" max="500">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 	</defenses>
@@ -43,7 +43,6 @@
 		<element earthPercent="100"/>
 		<element icePercent="50"/>
 		<element holyPercent="30"/>
-		<element physicalPercent="-5"/>
 		<element energyPercent="-10"/>
 	</elements>
 	<immunities>
@@ -56,15 +55,16 @@
 		<voice sentence="HISSSS"/>
 	</voices>
 	<loot>
-	<item id="7589" countmax="2" chance="40000" /><!-- strong mana potion -->
-	<item id="2146" countmax="5" chance="55835" /><!-- small sapphire -->
-	<item id="9971" countmax="3" chance="47250" /><!-- gold ingot -->
-	<item id="2197" chance="100000" /><!-- stone skin amulet -->
-			<item id="10523" chance="100000" /><!-- egg of the many -->
-			<item id="10219" chance="75000" /><!-- sacred tree amulet -->
-		    <item id="2536" chance="75000" /><!-- medusa shield -->	
-			<item id="2498" chance="25000" /><!-- royal helmet -->
-			<item id="2475" chance="75000" /><!-- warrior helmet -->	
+	<item id="7589" countmax="5" chance="82540" /><!-- strong mana potion -->
+	<item id="2146" countmax="5" chance="77310" /><!-- small sapphire -->
+	<item id="9971" countmax="3" chance="61350" /><!-- gold ingot -->
+	<item id="2197" chance="89780" /><!-- stone skin amulet -->
+	<item id="10523" chance="36160" /><!-- egg of the many -->
+	<item id="10219" chance="80300" /><!-- sacred tree amulet -->
+	<item id="2536" chance="53370" /><!-- medusa shield -->	
+	<item id="2498" chance="20700" /><!-- royal helmet -->
+	<item id="2475" chance="79300" /><!-- warrior helmet -->	
+	<item id="2476" chance="10220" /><!-- knight armor -->
 </loot>
 
 

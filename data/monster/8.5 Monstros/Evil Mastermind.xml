@@ -8,34 +8,31 @@
 		<flag summonable="0"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
-		<flag illusionable="1"/>
+		<flag illusionable="0"/>
 		<flag convinceable="0"/>
 		<flag pushable="0"/>
 		<flag canpushitems="1"/>
-		<flag canpushcreatures="0"/>
+		<flag canpushcreatures="1"/>
 		<flag targetdistance="5"/>
 		<flag staticattack="90"/>
 		<flag runonhealth="0"/>
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" skill="60" attack="55"/>
-		<attack name="energy" interval="2000" chance="25" range="7" min="-45" max="-250">
+		<attack name="energy" interval="2000" chance="25" range="7" min="-36" max="-57">
 			<attribute key="shootEffect" value="energy"/>
 		</attack>
-		<attack name="fire" interval="2000" chance="20" range="7" min="-60" max="-80">
+		<attack name="fire" interval="2000" chance="20" range="7" min="-66" max="-72">
 			<attribute key="shootEffect" value="fire"/>
 		</attack>
-		<attack name="physical" interval="2000" chance="20" range="7" min="-70" max="-290">
+		<attack name="physical" interval="2000" chance="20" range="7" min="-50" max="-78">
 			<attribute key="shootEffect" value="suddendeath"/>
 			<attribute key="areaEffect" value="mortarea"/>
 		</attack>
-		<attack name="poison" interval="2000" chance="25" range="7" min="-30" max="-70">
-			<attribute key="shootEffect" value="poison"/>
-		</attack>
-		<attack name="lifedrain" interval="2000" chance="15" range="7" min="-75" max="-85">
+		<attack name="lifedrain" interval="2000" chance="15" range="7" min="-70" max="-73">
 			<attribute key="areaEffect" value="redshimmer"/>
 		</attack>
-		<attack name="manadrain" interval="2000" chance="30" range="7" min="-20" max="-340">
+		<attack name="manadrain" interval="2000" chance="30" range="7" min="-59" max="-80">
 			<attribute key="areaEffect" value="redshimmer"/>
 		</attack>
 		<attack name="speed" interval="2000" chance="10" range="7" speedchange="-600" duration="20000">
@@ -43,24 +40,29 @@
 		</attack>
 	</attacks>
 	<defenses armor="13" defense="26">
-		<defense name="healing" interval="2000" chance="30" min="0" max="1">
+		<defense name="healing" interval="2000" chance="30" min="0" max="230">
 			<attribute key="areaEffect" value="energy"/>
 		</defense>
+		<defense name="speed" interval="2000" chance="15" speedchange="140" duration="6000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
 	</defenses>
-	  <elements>
-  <element icePercent="20"/>
-  <element energyPercent="10"/>
-  <element holyPercent="-5"/>
-  </elements>
+	<elements>
+		<element icePercent="20"/>
+		<element physicalPercent="5"/>
+		<element energyPercent="90"/>
+		<element holyPercent="-5"/>
+	</elements>
 	<immunities>
 		<immunity earth="1"/>
+		<immunity death="1"/>
 		<immunity invisible="1"/>
 	</immunities>
-	<summons maxSummons="3">
+	<summons maxSummons="1">
 		<summon name="Vampire" interval="2000" chance="8"/>
 	</summons>
 	<voices interval="5000" chance="10">
-		<voice sentence="You won        t stop me masterplan do flood the world market with fake beholder language dictionaries!"/>
+		<voice sentence="You won't stop my masterplan to flood the world market with fake Beholder language dictionaries!"/>
 		<voice sentence="My calculations tell me you'll die!"/>
 		<voice sentence="You can't stop me!"/>
 		<voice sentence="Beware! My evil monolog is coming!"/>
