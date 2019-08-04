@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Necromancer" nameDescription="a necromancer" race="blood" experience="580" speed="200" manacost="0">
+<monster name="Necromancer" nameDescription="a necromancer" race="blood" experience="580" speed="188" manacost="0">
 	<health now="580" max="580"/>
 	<look type="9" corpse="6080"/>
 	<targetchange interval="5000" chance="8"/>
@@ -23,13 +23,13 @@
 			<attribute key="shootEffect" value="death"/>
 			<attribute key="areaEffect" value="mortarea"/>
 		</attack>	
-		<attack name="poison" interval="2000" chance="13" range="7" min="-35" max="-95">
+		<attack name="poison" interval="2000" chance="13" range="7" min="-20" max="-120">
 			<attribute key="shootEffect" value="poison"/>
 			<attribute key="areaEffect" value="poison"/>
 		</attack>		
 	</attacks>
-	<defenses armor="20" defense="20">
-		<defense name="healing" interval="2000" chance="20" min="48" max="68">
+	<defenses armor="50" defense="20">
+		<defense name="healing" interval="2000" chance="20" min="50" max="80">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 	</defenses>
@@ -55,44 +55,21 @@
 		<voice sentence="Taste the sweetness of death!"/>
 	</voices>
 	<loot>
-    <item id="2423" chance="1650" /><!-- clerical mace -->
-    <item id="2545" countmax="5" chance="9275" /><!-- poison arrow -->
-    <item id="11231" chance="10575" /><!-- book of necromantic rituals -->
-    <item id="2148" countmax="90" chance="15300" /><!-- gold coin -->
-    <item id="2796" chance="2050" /><!-- green mushroom -->
-    <item id="2195" chance="725" /><!-- boots of haste -->
-    <item id="1987" chance="100000"><!-- bag -->
-        <inside>
-            <item id="2663" chance="925" /><!-- mystic turban -->
-            <item id="7589" chance="450" /><!-- strong mana potion -->
-            <item id="8901" chance="600" /><!-- spellbook of warding -->
-            <item id="2436" chance="550" /><!-- skull staff -->
-            <item id="7456" chance="500" /><!-- noble axe -->
-        </inside>
-    </item>
-</loot>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+		<item id="2423" chance="380" /><!-- clerical mace -->
+		<item id="2545" countmax="5" chance="14960" /><!-- poison arrow -->
+		<item id="11231" chance="10050" /><!-- book of necromantic rituals -->
+		<item id="2148" countmax="90" chance="30080" /><!-- gold coin -->
+		<item id="2796" chance="1440" /><!-- green mushroom -->
+		<item id="2195" chance="200" /><!-- boots of haste -->
+		<item id="1987" chance="100000"><!-- bag -->
+			<inside>
+				<item id="2663" chance="500" /><!-- mystic turban -->
+				<item id="7589" chance="330" /><!-- strong mana potion -->
+				<item id="8901" chance="110" /><!-- spellbook of warding -->
+				<item id="2436" chance="100" /><!-- skull staff -->
+				<item id="7456" chance="10" /><!-- noble axe -->
+				<item id="12392" chance="1050" /><!-- necromantic robe -->
+			</inside>
+		</item>
+	</loot>
 </monster>

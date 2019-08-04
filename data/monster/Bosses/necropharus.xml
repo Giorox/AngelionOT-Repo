@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Necropharus" nameDescription="necropharus" race="blood" experience="1050" speed="240" manacost="0">
+<monster name="Necropharus" nameDescription="Necropharus" race="blood" experience="1050" speed="240" manacost="0">
 	<health now="750" max="750"/>
 	<look type="209" corpse="6080"/>
 	<targetchange interval="5000" chance="8"/>
@@ -19,7 +19,7 @@
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" skill="30" attack="40"/>
-				<attack name="physical" interval="2000" chance="20" range="7" target="1" min="-0" max="-220">
+		<attack name="physical" interval="2000" chance="20" range="7" target="1" min="-0" max="-220">
 			<attribute key="shootEffect" value="arrow"/>
 		</attack>
 		<attack name="lifedrain" interval="2000" chance="20" range="7" target="1" min="-80" max="-120">
@@ -29,7 +29,7 @@
 			<attribute key="shootEffect" value="fire"/>
 			<attribute key="areaEffect" value="fireattack"/>
 		</attack>
-				<attack name="energy" interval="2000" chance="10" range="3" min="-50" max="-140">
+		<attack name="energy" interval="2000" chance="10" range="3" min="-50" max="-140">
 			<attribute key="shootEffect" value="energyball"/>
 			<attribute key="areaEffect" value="energyarea"/>
 		</attack>
@@ -57,9 +57,10 @@
 	</voices>
 	<loot>
 		<item id="2148" countmax="99" chance="100000"/><!-- gold coin -->
-		<item id="5809" chance="100000"/><!-- soul stone -->
+		<item id="5809" chance="100500"/><!-- soul stone -->
+		<item id="12392" chance="100500"/><!-- necromantic robe -->
 		<item id="2186" chance="500"/><!-- moonlight rod -->
-		<item id="11231" chance="500"/><!-- book of necromantic rituals -->
+		<item id="11231" chance="100500"/><!-- book of necromantic rituals -->
 		<item id="1987" chance="100000"><!-- bag -->
 			<inside>
 				<item id="2796" countmax="1" chance="22500"/><!-- green mushroom -->
@@ -70,7 +71,7 @@
 				<item id="2436" chance="833"/><!-- skull staff -->
 				<item id="2663" chance="909"/><!-- mystic turban -->
 				<item id="2195" chance="666"/><!-- boots of haste -->
-				<item id="2423" chance="5000"/><!-- clerical mace -->
+				<item id="2423" chance="55560"/><!-- clerical mace -->
 			</inside>
 		</item>
 	</loot>

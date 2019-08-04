@@ -367,6 +367,7 @@
 	<monster name="Stone Golem" file="Golems/stone golem.xml"/>
 	<monster name="War Golem" file="Golems/war golem.xml"/>
 	<monster name="Worker Golem" file="Golems/worker golem.xml"/>
+	<monster name="Servant Golem" file="Golems/servant golem.xml"/>
 
 	<!-- Hunting Tasks -->
 	<monster name="Esmeralda" file="Hunting Tasks/esmeralda.xml"/>
@@ -517,6 +518,7 @@
 	
 		<!-- Traps -->
 	<monster name="Deathslicer" file="Traps/deathslicer.xml"/>
+	<monster name="Mechanical Fighter" file="Traps/mechanical fighter.xml"/>
 	<monster name="Deaththrower" file="Traps/deaththrower.xml"/>
 	<monster name="Eye of the Seven" file="Traps/eye of the seven.xml"/>
 	<monster name="Flamethrower" file="Traps/flamethrower.xml"/>

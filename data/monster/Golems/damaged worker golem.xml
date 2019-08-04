@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Damaged Worker Golem" nameDescription="a damaged worker golem" race="energy" experience="95" speed="270" manacost="0">
+<monster name="Damaged Worker Golem" nameDescription="a damaged worker golem" race="energy" experience="95" speed="150" manacost="0">
 	<health now="260" max="260"/>
 	<look type="304" corpse="9801"/>
 	<targetchange interval="5000" chance="8"/>
@@ -23,8 +23,8 @@
 			<attribute key="shootEffect" value="smallstone"/>
 		</attack>		
 	</attacks>
-	<defenses armor="40" defense="45">
-		<defense name="healing" interval="2000" chance="15" min="11" max="41">
+	<defenses armor="16" defense="45">
+		<defense name="healing" interval="2000" chance="15" min="5" max="11">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 	</defenses>
@@ -32,7 +32,7 @@
 		<element earthPercent="50"/>
 		<element holyPercent="50"/>
 		<element energyPercent="-5"/>
-		<element physicalPercent="10"/>
+		<element physicalPercent="5"/>
 		<element icePercent="10"/>
 		<element deathPercent="10"/>
 	</elements>
@@ -45,38 +45,21 @@
 		<voice sentence="Failure! Failire!"/>
 		<voice sentence="Good morning citizen. How may I serve you?"/>
 		<voice sentence="Target identified: Rat! Termination initiated!"/>
+		<voice sentence="Rrrtttarrrttarrrtta"/>
+		<voice sentence="Danger will...chrrr! Danger!"/>
+		<voice sentence="Self-diagnosis failed."/>
+		<voice sentence="Aw... chhhrrr orders."/>
 	</voices>
 	<loot>
-    <item id="9808" chance="9950" /><!-- rusty armor -->
-    <item id="2148" countmax="88" chance="18075" /><!-- gold coin -->
-    <item id="8309" chance="1450" /><!-- nail -->
+    <item id="9808" chance="9870" /><!-- rusty armor -->
+    <item id="2148" countmax="88" chance="68320" /><!-- gold coin -->
+    <item id="8309" chance="1300" /><!-- nail -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="5880" chance="975" /><!-- iron ore -->
-            <item id="10571" chance="700" /><!-- gear crystal -->
-            <item id="2207" chance="850" /><!-- sword ring -->
+            <item id="5880" chance="430" /><!-- iron ore -->
+            <item id="10571" chance="230" /><!-- gear crystal -->
+            <item id="2207" chance="460" /><!-- sword ring -->
         </inside>
     </item>
 </loot>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </monster>

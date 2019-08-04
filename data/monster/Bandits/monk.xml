@@ -20,7 +20,7 @@
 	<attacks>
 		<attack name="melee" interval="2000" skill="30" attack="70"/>
 	</attacks>
-	<defenses armor="20" defense="22">
+	<defenses armor="25" defense="22">
 		<defense name="healing" interval="2000" chance="30" min="30" max="50">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
@@ -42,40 +42,22 @@
 		<voice sentence="I will punish the sinners!"/>
 	</voices>
 	<loot>
-    <item id="2689" chance="19650" /><!-- bread -->
-    <item id="2148" countmax="18" chance="9450" /><!-- gold coin -->
-    <item id="2015" chance="11050" /><!-- brown flask -->
-    <item id="2642" chance="9725" /><!-- sandals -->
-    <item id="2044" chance="9875" /><!-- lamp -->
-    <item id="1949" chance="19850" /><!-- scroll -->
-    <item id="1987" chance="100000"><!-- bag -->
-        <inside>
-            <item id="10562" chance="5250" /><!-- book of prayers -->
-            <item id="2401" chance="2225" /><!-- staff -->
-            <item id="2193" chance="1800" /><!-- ankh -->
-            <item id="2177" chance="1600" /><!-- life crystal -->
-            <item id="2166" chance="575" /><!-- power ring -->
-        </inside>
-    </item>
-</loot>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+		<item id="2689" chance="19920" /><!-- bread -->
+		<item id="2148" countmax="18" chance="15310" /><!-- gold coin -->
+		<item id="2015" chance="880" /><!-- brown flask -->
+		<item id="2642" chance="660" /><!-- sandals -->
+		<item id="2044" chance="850" /><!-- lamp -->
+		<item id="1949" chance="1810" /><!-- scroll -->
+		<item id="12410" chance="1040" /><!-- safety pin -->
+		<item id="1987" chance="100000"><!-- bag -->
+			<inside>
+				<item id="10562" chance="4820" /><!-- book of prayers -->
+				<item id="2401" chance="430" /><!-- staff -->
+				<item id="2193" chance="2360" /><!-- ankh -->
+				<item id="2177" chance="1040" /><!-- life crystal -->
+				<item id="2166" chance="80" /><!-- power ring -->
+				<item id="12409" chance="3150" /><!-- rope belt -->
+			</inside>
+		</item>
+	</loot>
 </monster>

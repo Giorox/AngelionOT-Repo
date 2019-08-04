@@ -17736,6 +17736,10 @@
 	<item id="12374" article="a" name="dragon's tail">
 		<attribute key="weight" value="250" />
 	</item>
+	<item id="12392" article="a" name="necromantic robe">
+		<attribute key="weight" value="220" />
+		<attribute key="description" value="A dark curse prevents you from wearing it." />
+	</item>
 	<item id="12404" article="a" name="quara tentacle">
 		<attribute key="weight" value="107" />
 	</item>
@@ -17750,6 +17754,12 @@
 	</item>
 	<item id="12408" article="a" name="quara bone">
 		<attribute key="weight" value="144" />
+	</item>
+	<item id="12409" article="a" name="rope belt">
+		<attribute key="weight" value="97" />
+	</item>
+	<item id="12410" article="a" name="safety pin">
+		<attribute key="weight" value="50" />
 	</item>
 	<item id="12429" article="a" name="small flask of eyedrops">
 		<attribute key="weight" value="50" />
