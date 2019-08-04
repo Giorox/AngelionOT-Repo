@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Leviathan" nameDescription="leviathan" race="blood" experience="5000" speed="300" manacost="390">
+<monster name="Leviathan" nameDescription="Leviathan" race="blood" experience="5000" speed="300" manacost="0">
 	<health now="6000" max="6000"/>
 	<look type="275" corpse="8307"/>
 	<targetchange interval="2000" chance="50"/>
@@ -46,26 +46,23 @@
 	<elements>
 		<element firePercent="30"/>
 		<element energyPercent="-10"/>
-		<element physicalPercent="-20"/>
+		<element physicalPercent="-15"/>
 		<element deathPercent="-10"/>
 	</elements>
-	<immunities>
-	<immunity ice="1"/>
-	<immunity invisible="1"/>
-	<immunity paralyze="1"/>
-	</immunities>
 	<loot>
-	<item id="10529" chance="100000" /><!-- sea serpent trophy -->
-	<item id="2152" countmax="5" chance="59365" /><!-- platinum coin coin -->
-	<item id="9813" chance="87300" /><!-- rusty legs -->
-	<item id="2146" countmax="5" chance="23175" /><!-- small sapphire -->
+	<item id="10529" chance="100500" /><!-- sea serpent trophy -->
+	<item id="2152" countmax="7" chance="83200" /><!-- platinum coin coin -->
+	<item id="9813" chance="82400" /><!-- rusty legs -->
+	<item id="2146" countmax="5" chance="52000" /><!-- small sapphire -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-			<item id="9810" chance="80950" /><!-- rusty armor -->
-            <item id="10220" chance="100000" /><!-- leviathan's amulet -->
-			<item id="7428" chance="60325" /><!-- bonebreaker -->
-			<item id="7589" chance="60325" /><!-- strong mana potion -->
-			<item id="10521" chance="60325" /><!-- moon backpack -->
+			<item id="9810" chance="83200" /><!-- rusty armor -->
+            <item id="10220" chance="100500" /><!-- leviathan's amulet -->
+			<item id="7428" chance="54400" /><!-- bonebreaker -->
+			<item id="8887" chance="800" /><!-- frozen plate -->
+			<item id="8878" chance="100" /><!-- crystalline armor -->
+			<item id="7589" chance="48000" /><!-- strong mana potion -->
+			<item id="10521" chance="16000" /><!-- moon backpack -->
         </inside>
     </item>
 </loot>

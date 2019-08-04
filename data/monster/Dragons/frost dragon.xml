@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Frost Dragon" nameDescription="a frost dragon" race="undead" experience="2300" speed="260" manacost="0">
+<monster name="Frost Dragon" nameDescription="a frost dragon" race="blood" experience="2100" speed="212" manacost="0">
 	<health now="1800" max="1800"/>
 	<look type="248" corpse="7091"/>
 	<targetchange interval="5000" chance="6"/>
@@ -8,7 +8,7 @@
 		<flag summonable="0"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
-		<flag illusionable="1"/>
+		<flag illusionable="0"/>
 		<flag convinceable="0"/>
 		<flag pushable="0"/>
 		<flag canpushitems="1"/>
@@ -46,14 +46,14 @@
 			<attribute key="areaEffect" value="redshimmer"/>
 		</defense>	
 	</attacks>
-	<defenses armor="22" defense="35">
+	<defenses armor="38" defense="35">
 		<defense name="healing" interval="2000" chance="5" min="175" max="225">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 	</defenses>
 	<elements>
-		<element earthPercent="100"/>
-		<element physicalPercent="15"/>
+		<element deathPercent="10"/>
+		<element physicalPercent="10"/>
 	</elements>
 	<immunities>
 		<immunity fire="1"/>
@@ -66,31 +66,31 @@
 	<voices interval="5000" chance="10">
 		<voice sentence="YOU WILL FREEZE!" yell="1"/>
 		<voice sentence="ZCHHHHH!" yell="1"/>
-		<voice sentence="I am so cool" yell="1"/>
+		<voice sentence="I am so cool." yell="1"/>
 		<voice sentence="Chill out!." yell="1"/>
 	</voices>
 	<loot>
     <item id="2148" countmax="100" chance="33950" /><!-- gold coin -->
     <item id="2148" countmax="100" chance="33950" /><!-- gold coin -->
-    <item id="2148" countmax="43" chance="33950" /><!-- gold coin -->
-    <item id="2672" chance="71700" /><!-- dragon ham -->
-    <item id="2547" countmax="6" chance="4000" /><!-- power bolt -->
-    <item id="2033" chance="3450" /><!-- golden mug -->
-    <item id="2167" chance="5675" /><!-- energy ring -->
-    <item id="2146" chance="5700" /><!-- small sapphire -->
-    <item id="2796" chance="12475" /><!-- green mushroom -->
-    <item id="7441" chance="4575" /><!-- ice cube -->
-    <item id="1950" chance="9375" /><!-- book -->
-    <item id="2177" chance="1075" /><!-- life crystal -->
-    <item id="2492" chance="625" /><!-- dragon scale mail -->
+    <item id="2148" countmax="42" chance="33950" /><!-- gold coin -->
+    <item id="2672" countmax="3" chance="79880" /><!-- dragon ham -->
+    <item id="2547" countmax="6" chance="5920" /><!-- power bolt -->
+    <item id="2033" chance="3090" /><!-- golden mug -->
+    <item id="2167" chance="4980" /><!-- energy ring -->
+    <item id="2146" chance="5090" /><!-- small sapphire -->
+    <item id="2796" chance="12130" /><!-- green mushroom -->
+    <item id="7441" chance="4020" /><!-- ice cube -->
+    <item id="1976" chance="8780" /><!-- gemmed book -->
+    <item id="2177" chance="600" /><!-- life crystal -->
+    <item id="2492" chance="110" /><!-- dragon scale mail -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="7290" chance="975" /><!-- shard -->
-            <item id="2528" chance="800" /><!-- tower shield -->
-            <item id="2396" chance="800" /><!-- ice rapier -->
-            <item id="2479" chance="950" /><!-- strange helmet -->
-            <item id="7402" chance="600" /><!-- dragon slayer -->
-            <item id="2498" chance="700" /><!-- royal helmet -->
+            <item id="7290" chance="520" /><!-- shard -->
+            <item id="2528" chance="300" /><!-- tower shield -->
+            <item id="2396" chance="340" /><!-- ice rapier -->
+            <item id="2479" chance="440" /><!-- strange helmet -->
+            <item id="7402" chance="100" /><!-- dragon slayer -->
+            <item id="2498" chance="200" /><!-- royal helmet -->
         </inside>
     </item>
 </loot>

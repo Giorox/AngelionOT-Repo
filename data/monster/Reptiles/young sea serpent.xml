@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Young Sea Serpent" nameDescription="a young sea serpent" race="blood" experience="1000" speed="350" manacost="390">
+<monster name="Young Sea Serpent" nameDescription="a young sea serpent" race="blood" experience="1000" speed="240" manacost="0">
 	<health now="1050" max="1050"/>
 	<look type="317" head="0" body="0" legs="0" feet="0" corpse="8307"/>
 	<targetchange interval="2000" chance="50"/>
@@ -15,7 +15,7 @@
 		<flag staticattack="85"/>
 		<flag canpushcreatures="1"/>
 		<flag targetdistance="0"/>
-		<flag runonhealth="300"/>
+		<flag runonhealth="400"/>
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" skill="25" attack="80"/>
@@ -29,16 +29,17 @@
 			<attribute key="areaEffect" value="bluebubble"/>
 		</attack>
 	</attacks>
-	<defenses armor="16" defense="20">
+	<defenses armor="20" defense="20">
 		<defense name="healing" interval="2000" chance="25" min="90" max="120">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
-				<defense name="speed" interval="2000" chance="10" speedchange="700" duration="5000">
+		<defense name="speed" interval="2000" chance="10" speedchange="700" duration="5000">
 			<attribute key="areaEffect" value="redshimmer"/>
 		</defense>
 	</defenses>
 	<immunities>
 		<immunity ice="1"/>
+		<immunity earth="1"/>
 		<immunity paralyze="1"/>
 		<immunity invisible="1"/>
 		<immunity drown="1"/>
@@ -53,10 +54,6 @@
 		<element physicalPercent="-20"/>
 		<element deathPercent="-15"/>
 	</elements>
-	<immunities>
-	<immunity ice="1"/>
-	<immunity earth="1"/>
-	</immunities>
 	<loot>
     <item id="2417" chance="5600" /><!-- battle hammer -->
     <item id="7588" chance="5050" /><!-- strong health potion -->

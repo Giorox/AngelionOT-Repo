@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Wrath of the Emperor" nameDescription="a wrath of the emperor" race="undead" experience="4600" speed="410" manacost="0">
-<health now="7800" max="7800"/>
+<monster name="Wrath of the Emperor" nameDescription="a wrath of the emperor" race="undead" experience="600" speed="410" manacost="0">
+<health now="55000" max="55000"/>
 <look type="351" corpse="7349"/>
 <targetchange interval="5000" chance="8"/>
 <strategy attack="100" defense="0"/>
@@ -8,26 +8,26 @@
 <flag summonable="0"/>
 <flag attackable="1"/>
 <flag hostile="1"/>
-<flag illusionable="1"/>
+<flag illusionable="0"/>
 <flag convinceable="0"/>
 <flag pushable="0"/>
 <flag canpushitems="1"/>
 <flag canpushcreatures="1"/>
 <flag targetdistance="1"/>
 <flag staticattack="90"/>
-<flag runonhealth="366"/>
+<flag runonhealth="0"/>
 </flags>
 <attacks>
 <attack name="melee" interval="2000" skill="55" attack="115"/>
-<attack name="physical" interval="3000" chance="17" length="8" spread="3" min="-150" max="-250">
-<attribute key="areaEffect" value="bluebubble"/>
-</attack>
-<attack name="physical" interval="3000" chance="10" range="7" min="-0" max="-500">
-<attribute key="shootEffect" value="suddendeath"/>
-<attribute key="areaEffect" value="mortarea"/>
-</attack>
-		<attack name="speed" interval="1000" chance="10" range="7" speedchange="-600" duration="20000">
-			<attribute key="areaEffect" value="redshimmer"/>
+		<attack name="energy" interval="3000" chance="17" length="8" spread="3" min="-150" max="-700">
+			<attribute key="areaEffect" value="purpleenergy"/>
+		</attack>
+		<attack name="fire" interval="3000" chance="10" length="7" spread="0" min="-0" max="-500">
+			<attribute key="shootEffect" value="fire"/>
+			<attribute key="areaEffect" value="firearea"/>
+		</attack>
+		<attack name="manadrain" interval="2000" chance="21" radius="6" range="7" target="1" min="-200" max="-350">
+			<attribute key="areaEffect" value="poff"/>
 		</attack>
 <attack name="lifedrain" interval="2000" chance="21" radius="6" target="0" min="-200" max="-450">
 <attribute key="areaEffect" value="poff"/>
@@ -35,9 +35,8 @@
 </attacks>
 <defenses armor="45" defense="35"/>
 <elements>
-<element firePercent="-10"/>
-<element physicalPercent="10"/>
-<element icePercent="-50"/>
+<element firePercent="-60"/>
+<element physicalPercent="5"/>
 <element holyPercent="15"/>
 <element energyPercent="10"/>
 </elements>
@@ -47,5 +46,7 @@
 <immunities>
 <immunity death="1"/>
 <immunity earth="1"/>
+<immunity invisible="1"/>
+<immunity paralyze="1"/>
 </immunities>
 </monster>

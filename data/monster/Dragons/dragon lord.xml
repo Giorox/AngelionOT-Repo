@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Dragon Lord" nameDescription="a dragon lord" race="blood" experience="2100" speed="240" manacost="0">
+<monster name="Dragon Lord" nameDescription="a dragon lord" race="blood" experience="2100" speed="200" manacost="0">
 	<health now="1900" max="1900"/>
 	<look type="39" corpse="5984"/>
 	<targetchange interval="5000" chance="8"/>
@@ -23,15 +23,15 @@
 			<attribute key="shootEffect" value="fire"/>
 			<attribute key="areaEffect" value="firearea"/>
 		</attack>
-		<attack name="fire" interval="2000" chance="9" length="8" spread="3" min="-150" max="-250">
+		<attack name="fire" interval="2000" chance="9" length="8" spread="3" min="-150" max="-230">
 			<attribute key="areaEffect" value="firearea"/>
 		</attack>
 		<attack name="firefield" interval="2000" chance="5" range="7" radius="4" target="1">
 			<attribute key="shootEffect" value="fire"/>
 		</attack>
 	</attacks>
-	<defenses armor="22" defense="35">
-		<defense name="healing" interval="2000" chance="15" min="60" max="100">
+	<defenses armor="34" defense="35">
+		<defense name="healing" interval="2000" chance="15" min="57" max="93">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 	</defenses>
@@ -46,54 +46,35 @@
 		<immunity invisible="1"/>
 	</immunities>
 	<voices interval="5000" chance="10">
-		<voice sentence="ZCHHHHH" yell="1"/>
+		<voice sentence="ZCHHHHHHHHHHH" yell="1"/>
 		<voice sentence="YOU WILL BURN!" yell="1"/>
 	</voices>
 	<loot>
     <item id="2148" countmax="100" chance="33525" /><!-- gold coin -->
     <item id="2148" countmax="100" chance="33525" /><!-- gold coin -->
     <item id="2148" countmax="45" chance="33525" /><!-- gold coin -->
-    <item id="2672" chance="74850" /><!-- dragon ham -->
-    <item id="2796" chance="12375" /><!-- green mushroom -->
-    <item id="2146" chance="5425" /><!-- small sapphire -->
-    <item id="5882" chance="2550" /><!-- red dragon scale -->
-    <item id="2547" countmax="7" chance="4275" /><!-- power bolt -->
-    <item id="2167" chance="5525" /><!-- energy ring -->
-    <item id="7402" chance="575" /><!-- dragon slayer -->
-    <item id="7378" countmax="3" chance="6525" /><!-- royal spear -->
-    <item id="1976" chance="21925" /><!-- gemmed book -->
-    <item id="2033" chance="3400" /><!-- golden mug -->
-    <item id="2177" chance="1050" /><!-- life crystal -->
+    <item id="2672" countmax="5" chance="79770" /><!-- dragon ham -->
+    <item id="2796" chance="12030" /><!-- green mushroom -->
+    <item id="2146" chance="5020" /><!-- small sapphire -->
+    <item id="5882" chance="1960" /><!-- red dragon scale -->
+    <item id="2547" countmax="7" chance="6600" /><!-- power bolt -->
+    <item id="2167" chance="5110" /><!-- energy ring -->
+    <item id="7402" chance="100" /><!-- dragon slayer -->
+    <item id="7378" countmax="3" chance="9020" /><!-- royal spear -->
+    <item id="1976" chance="9040" /><!-- gemmed book -->
+    <item id="2033" chance="3070" /><!-- golden mug -->
+    <item id="2177" chance="610" /><!-- life crystal -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="2498" chance="725" /><!-- royal helmet -->
-            <item id="2528" chance="800" /><!-- tower shield -->
-            <item id="7588" chance="850" /><!-- strong health potion -->
-            <item id="5948" chance="1525" /><!-- red dragon leather -->
-            <item id="2392" chance="875" /><!-- fire sword -->
-            <item id="2479" chance="950" /><!-- strange helmet -->
-            <item id="2492" chance="600" /><!-- dragon scale mail -->
-            <item id="7399" chance="400" /><!-- dragon lord trophy -->
+            <item id="2498" chance="250" /><!-- royal helmet -->
+            <item id="2528" chance="260" /><!-- tower shield -->
+            <item id="7588" chance="950" /><!-- strong health potion -->
+            <item id="5948" chance="1000" /><!-- red dragon leather -->
+            <item id="2392" chance="280" /><!-- fire sword -->
+            <item id="2479" chance="390" /><!-- strange helmet -->
+            <item id="2492" chance="140" /><!-- dragon scale mail -->
+            <item id="7399" chance="90" /><!-- dragon lord trophy -->
         </inside>
     </item>
 </loot>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </monster>

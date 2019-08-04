@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Goblin Leader" nameDescription="a goblin leader" race="blood" experience="50" speed="200" manacost="290">
-	<health now="75" max="75"/>
+<monster name="Goblin Leader" nameDescription="a goblin leader" race="blood" experience="75" speed="120" manacost="290">
+	<health now="50" max="50"/>
 	<look type="61" corpse="6002"/>
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="100" defense="0"/>
@@ -23,13 +23,7 @@
 			<attribute key="shootEffect" value="smallstone"/>
 		</attack>
 	</attacks>
-	<defenses armor="10" defense="12"/>
-	<elements>
-		<element energyPercent="20"/>
-		<element holyPercent="20"/>
-		<element earthPercent="-10"/>
-		<element deathPercent="-10"/>
-	</elements>
+	<defenses armor="7" defense="12"/>
 	<voices interval="5000" chance="10">
 		<voice sentence="Go go, Gobo attack !!"/>
 		<voice sentence="Me the greenest and the meanest!"/>
@@ -37,17 +31,18 @@
 		<voice sentence="Goblinkiller! Catch him !!"/>
 	</voices>
 	<loot>
-    <item id="2148" countmax="9" chance="31850" /><!-- gold coin -->
-    <item id="2230" chance="16050" /><!-- bone -->
-    <item id="2379" chance="16050" /><!-- dagger -->
-    <item id="2467" chance="7175" /><!-- leather armor -->
-    <item id="2461" chance="11600" /><!-- leather helmet -->
+    <item id="2148" countmax="10" chance="49300" /><!-- gold coin -->
+    <item id="2230" chance="11570" /><!-- bone -->
+    <item id="2379" chance="17390" /><!-- dagger -->
+    <item id="2467" chance="7530" /><!-- leather armor -->
+    <item id="2461" chance="9800" /><!-- leather helmet -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="2559" chance="11600" /><!-- small axe -->
-            <item id="2667" chance="7175" /><!-- fish -->
-            <item id="2406" chance="4950" /><!-- short sword -->
-            <item id="2449" chance="2725" /><!-- bone club -->
+            <item id="2559" chance="10780" /><!-- small axe -->
+            <item id="2667" chance="13040" /><!-- fish -->
+            <item id="2406" chance="9980" /><!-- short sword -->
+            <item id="2449" chance="4840" /><!-- bone club -->
+			<item id="2235" chance="7160" /><!-- moldy cheese -->
         </inside>
     </item>
 </loot>

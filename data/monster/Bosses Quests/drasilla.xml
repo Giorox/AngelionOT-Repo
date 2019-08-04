@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Drasilla" nameDescription="drasilla" race="blood" experience="700" speed="170" manacost="0">
-	<health now="1320" max="1320"/>
+<monster name="Drasilla" nameDescription="Drasilla" race="blood" experience="700" speed="170" manacost="0">
+	<health now="1260" max="1260"/>
 	<look type="34" corpse="7349"/>
 	<targetchange interval="2000" chance="5"/>
 	<strategy attack="100" defense="0"/>
@@ -8,7 +8,7 @@
 		<flag summonable="0"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
-		<flag illusionable="1"/>
+		<flag illusionable="0"/>
 		<flag convinceable="0"/>
 		<flag pushable="0"/>
 		<flag canpushitems="1"/>
@@ -16,7 +16,7 @@
 		<flag lightlevel="0"/>
 		<flag lightcolor="0"/>
 		<flag targetdistance="1"/>
-		<flag runonhealth="100"/>
+		<flag runonhealth="0"/>
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" skill="30" attack="60"/>
@@ -35,7 +35,7 @@
 	<elements>
 		<element earthPercent="80"/>
 		<element energyPercent="20"/>
-		<element icePercent="-10"/>
+		<element icePercent="-1"/>
 	</elements>
 	<immunities>
 		<immunity invisible="1"/>

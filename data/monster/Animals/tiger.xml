@@ -26,11 +26,12 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element deathPercent="-5"/>
+		<element deathPercent="-10"/>
+		<element icePercent="-10"/>
 	</elements>
 	<loot>
-    <item id="2666" chance="37300" /><!-- meat -->
-    <item id="11204" chance="13250" /><!-- striped fur -->
+    <item id="2666" countmax="4" chance="34710" /><!-- meat -->
+    <item id="11204" chance="10190" /><!-- striped fur -->
 </loot>
 
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Witch" nameDescription="a witch" race="blood" experience="120" speed="180" manacost="0">
+<monster name="Witch" nameDescription="a witch" race="blood" experience="120" speed="204" manacost="0">
 	<health now="300" max="300"/>
 	<look type="54" corpse="6081"/>
 	<targetchange interval="5000" chance="8"/>
@@ -40,44 +40,28 @@
 		<immunity invisible="1"/>
 	</immunities>
 	<voices interval="5000" chance="10">
-		<voice sentence="Horax pokti! Hihihihi!"/>
+		<voice sentence="Horax pokti!"/>
 		<voice sentence="Herba budinia ex!"/>
+		<voice sentence="Hihihihi!"/>
 	</voices>
 	<loot>
-    <item id="10569" chance="700" /><!-- witch hat -->
-    <item id="2405" chance="39400" /><!-- sickle -->
-    <item id="2800" chance="9550" /><!-- star herb -->
-    <item id="2654" chance="49825" /><!-- cape -->
-    <item id="2687" countmax="8" chance="17525" /><!-- cookie -->
-    <item id="2643" chance="49975" /><!-- leather boots -->
-    <item id="2651" chance="21000" /><!-- coat -->
+    <item id="10569" chance="90" /><!-- witch hat -->
+    <item id="2405" chance="2910" /><!-- sickle -->
+    <item id="2800" chance="9020" /><!-- star herb -->
+    <item id="2654" chance="4970" /><!-- cape -->
+    <item id="2687" countmax="8" chance="29250" /><!-- cookie -->
+    <item id="2643" chance="4990" /><!-- leather boots -->
+    <item id="2651" chance="2010" /><!-- coat -->
+	<item id="2148" countmax="40" chance="63980" /><!-- gold coin -->
+	<item id="10568" chance="10000" /><!-- witch broom -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="2199" chance="2950" /><!-- garlic necklace -->
-            <item id="2129" chance="10200" /><!-- wolf tooth chain -->
-            <item id="10568" chance="5150" /><!-- witch broom -->
-            <item id="2148" countmax="10" chance="6275" /><!-- gold coin -->
-            <item id="2402" chance="1250" /><!-- silver dagger -->
-            <item id="2185" chance="1725" /><!-- necrotic rod -->
+            <item id="2199" chance="2530" /><!-- garlic necklace -->
+            <item id="2129" chance="10150" /><!-- wolf tooth chain -->
+            <item id="2402" chance="560" /><!-- silver dagger -->
+            <item id="2185" chance="1090" /><!-- necrotic rod -->
+			<item id="11205" chance="10" /><!-- stuffed toad -->
         </inside>
     </item>
 </loot>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </monster>

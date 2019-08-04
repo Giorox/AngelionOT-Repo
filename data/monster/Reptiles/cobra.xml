@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Cobra" namedescription="a cobra" race="blood" experience="30" speed="170" manacost="275">
+<monster name="Cobra" namedescription="a cobra" race="blood" experience="30" speed="120" manacost="275">
 	<health now="65" max="65"/>
 	<look type="81" corpse="3007"/>
 	<targetchange interval="5000" chance="8"/>
@@ -9,7 +9,7 @@
 		<flag attackable="1"/>
 		<flag hostile="1"/>
 		<flag illusionable="1"/>
-		<flag convinceable="1"/>
+		<flag convinceable="0"/>
 		<flag pushable="1"/>
 		<flag canpushitems="0"/>
 		<flag canpushcreatures="0"/>
@@ -36,7 +36,7 @@
 		<voice sentence="Fsssss"/>
 	</voices>
 	<loot>
-    <item id="10550" chance="5225" /><!-- cobra tongue -->
+    <item id="10550" chance="5020" /><!-- cobra tongue -->
 </loot>
 
 

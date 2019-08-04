@@ -140,6 +140,7 @@
 	<monster name="General Murius" file="Bosses/general murius.xml"/>
 	<monster name="Golgordan" file="Bosses/golgordan.xml"/>
 	<monster name="Grandfather Tridian" file="Bosses/Grandfather Tridian.xml"/>
+	<monster name="Grand Mother Foulscale" file="Bosses/Grand Mother Foulscale.xml"/>
 	<monster name="Grorlam" file="Bosses/grorlam.xml"/>
 	<monster name="Hairman The Huge" file="Bosses/hairman the huge.xml"/>
 	<monster name="Hatebreeder" file="Bosses/Hatebreeder.xml"/>
@@ -175,6 +176,7 @@
 	<monster name="The Handmaiden" file="Bosses/the handmaiden.xml"/>
 	<monster name="The Horned Fox" file="Bosses/the horned fox.xml"/>
 	<monster name="The Imperor" file="Bosses/the imperor.xml"/>
+	<monster name="The Keeper" file="Bosses/The Keeper.xml"/>
 	<monster name="The Old Whopper" file="Bosses/The Old Whopper.xml"/>
 	<monster name="The Old Widow" file="Bosses/the old widow.xml"/>
 	<monster name="The Plasmother" file="Bosses/the plasmother.xml"/>
@@ -228,6 +230,7 @@
 	<monster name="Grimgor Guteater" file="Bosses Quests/grimgor guteater.xml"/>
 	<monster name="Haunter" file="Bosses Quests/haunter.xml"/>
 	<monster name="Incineron" file="Bosses Quests/incineron.xml"/>
+	<monster name="Kitty" file="Bosses Quests/kitty.xml"/>
 	<monster name="Koshei The Deathless" file="Bosses Quests/koshei the deathless.xml"/>
 	<monster name="Kreebosh The Exile" file="Bosses Quests/kreebosh the exile.xml"/>
 	<monster name="Mad Technomancer" file="Bosses Quests/mad technomancer.xml"/>

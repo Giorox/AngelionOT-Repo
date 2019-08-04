@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Frost Dragon Hatchling" nameDescription="a frost dragon hatchling" race="blood" experience="745" speed="170" manacost="0">
+<monster name="Frost Dragon Hatchling" nameDescription="a frost dragon hatchling" race="blood" experience="745" speed="172" manacost="0">
 	<health now="800" max="800"/>
 	<look type="283" corpse="7969"/>
 	<targetchange interval="2000" chance="5"/>
@@ -15,7 +15,7 @@
 		<flag canpushcreatures="1"/>
 		<flag targetdistance="1"/>
 		<flag staticattack="90"/>
-		<flag runonhealth="80"/>
+		<flag runonhealth="30"/>
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" skill="70" attack="40"/>
@@ -30,7 +30,7 @@
 			<attribute key="areaEffect" value="redshimmer"/>
 		</attack>
 	</attacks>
-	<defenses armor="25" defense="35">
+	<defenses armor="32" defense="35">
 		<defense name="healing" interval="2000" chance="8" min="25" max="75">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
@@ -50,13 +50,13 @@
 		<voice sentence="Fchu?" yell="0"/>
 	</voices>
 	<loot>
-    <item id="8900" chance="1075" /><!-- spellbook of enlightenment -->
-    <item id="10577" chance="5625" /><!-- frosty heart -->
-    <item id="2672" chance="80600" /><!-- dragon ham -->
+    <item id="8900" chance="490" /><!-- spellbook of enlightenment -->
+    <item id="10577" chance="5110" /><!-- frosty heart -->
+    <item id="2672" chance="79930" /><!-- dragon ham -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="2148" countmax="55" chance="32000" /><!-- gold coin -->
-            <item id="7618" chance="475" /><!-- health potion -->
+            <item id="2148" countmax="55" chance="87310" /><!-- gold coin -->
+            <item id="7618" chance="580" /><!-- health potion -->
         </inside>
     </item>
 </loot>

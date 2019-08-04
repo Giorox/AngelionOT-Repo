@@ -9,7 +9,7 @@
 		<flag attackable="1"/>
 		<flag hostile="1"/>
 		<flag illusionable="1"/>
-		<flag convinceable="1"/>
+		<flag convinceable="0"/>
 		<flag pushable="1"/>
 		<flag canpushitems="0"/>
 		<flag canpushcreatures="0"/>
@@ -22,7 +22,7 @@
 	</attacks>
 	<defenses armor="0" defense="1"/>
 	<elements>
-		<element earthPercent="100"/>
+		<element earthPercent="40"/>
 		<element energyPercent="20"/>
 		<element firePercent="-10"/>
 		<element icePercent="-10"/>

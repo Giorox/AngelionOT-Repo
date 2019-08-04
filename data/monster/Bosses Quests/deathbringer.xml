@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Deathbringer" nameDescription="Deathbringer" race="undead" experience="5100" speed="300" manacost="0">
-	<health now="10000" max="10000"/>
+	<health now="8440" max="8440"/>
 	<look type="231" corpse="7349"/>
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="100" defense="0"/>
@@ -8,7 +8,7 @@
 		<flag summonable="0"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
-		<flag illusionable="1"/>
+		<flag illusionable="0"/>
 		<flag convinceable="0"/>
 		<flag pushable="0"/>
 		<flag canpushitems="1"/>
@@ -19,10 +19,6 @@
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" skill="50" attack="155" poison="200"/>
-		<attack name="fire" interval="1000" chance="0" range="7" radius="4" target="1" min="-80" max="-120">
-			<attribute key="shootEffect" value="fire"/>
-			<attribute key="areaEffect" value="redspark"/>
-		</attack>
 		<attack name="poison" interval="4000" chance="15" target="1" radius="4" min="-0" max="-200">
 			<attribute key="areaEffect" value="poison"/>
 		</attack>
@@ -45,9 +41,8 @@
 	</attacks>
 	<defenses armor="15" defense="15"/>
 	<elements>
-		<element holyPercent="-20"/>
-		<element energyPercent="-20"/>
-		<element physicalPercent="10"/>
+		<element holyPercent="-10"/>
+		<element energyPercent="-10"/>
 	</elements>
 	<immunities>
 		<immunity fire="1"/>

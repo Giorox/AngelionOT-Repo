@@ -14194,6 +14194,10 @@
 		<attribute key="absorbPercentHoly" value="-50" />
 		<attribute key="showattributes" value="1" />
 	</item>
+	<item id="8267" article="an" name="old parchment">
+		<attribute key="description" value="It is covered with foreign symbols." />
+		<attribute key="weight" value="200" />
+	</item>
 	<item id="8268" article="a" name="sun dial" />
 	<item id="8269" article="a" name="slain lich">
 		<attribute key="containerSize" value="10" />
@@ -17244,8 +17248,8 @@
 	<item id="11204" name="striped fur">
 		<attribute key="weight" value="120" />
 	</item>
-	<item id="11205" name="toad doll">
-		<attribute key="weight" value="116" />
+	<item id="11205" name="stuffed toad">
+		<attribute key="weight" value="450" />
 	</item>
 	<item id="11206" name="winter wolf fur">
 		<attribute key="weight" value="110" />
@@ -17729,6 +17733,9 @@
 	<item id="12362" article="a" name="bamboo stick">
 		<attribute key="weight" value="112" />
 	</item>
+	<item id="12374" article="a" name="dragon's tail">
+		<attribute key="weight" value="250" />
+	</item>
 	<item id="12404" article="a" name="quara tentacle">
 		<attribute key="weight" value="107" />
 	</item>
@@ -17756,6 +17763,9 @@
 	<item id="12360" name="girlish hair decoration">
 		<attribute key="weight" value="50" />
 	</item>
+	<item id="12361" name="protective charm">
+		<attribute key="weight" value="120" />
+	</item>
 	<item id="12382" name="elven astral observer">
 		<attribute key="weight" value="112" />
 	</item>
@@ -17771,6 +17781,9 @@
 	</item>
 	<item id="12432" name="trollroot">
 		<attribute key="weight" value="140" />
+	</item>
+	<item id="12456" article="a" name="goblin ear">
+		<attribute key="weight" value="75" />
 	</item>
 	<item id="12457" name="marked crate">
 		<attribute key="weight" value="8000" />

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="The Noxious Spawn" nameDescription="the noxious spawn" race="venom" experience="6000" speed="360" manacost="0">
+<monster name="The Noxious Spawn" nameDescription="The Noxious Spawn" race="venom" experience="6000" speed="360" manacost="0">
 	<health now="9500" max="9500"/>
 	<look type="220" corpse="4323"/>
 	<targetchange interval="5000" chance="8"/>
@@ -19,18 +19,13 @@
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" skill="40" attack="100"/>
-		<attack name="speed" interval="2000" chance="6" range="7" speedchange="-660" duration="5000">
-		</attack>			
+		<attack name="speed" interval="2000" chance="6" range="7" speedchange="-660" duration="5000"/>
 		<attack name="earth" interval="2000" chance="7" length="8" spread="3" min="-0" max="-550">
 			<attribute key="areaEffect" value="smallplants"/>
 		</attack>	
 		<attack name="lifedrain" interval="2000" chance="9" length="8" spread="0" min="-0" max="-550">
 			<attribute key="areaEffect" value="rednote"/>
 		</attack>	
-		<attack name="poison" interval="2000" chance="12" range="1" min="-0" max="-300">
-			<attribute key="shootEffect" value="poison"/>
-			<attribute key="areaEffect" value="poison"/>
-		</attack>
 		<attack name="outfit" interval="2000" chance="11" range="7" item="3976" duration="4000">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</attack>
@@ -41,33 +36,34 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element earthPercent="100"/>
-		<element icePercent="20"/>
 		<element firePercent="-10"/>
-		<element energyPercent="-10"/>
 	</elements>
 	<immunities>
 		<immunity paralyze="1"/>
 		<immunity invisible="1"/>
 	</immunities>
 	<voices interval="5000" chance="10">
-		<voice sentence="Sssssouls for the one"/>
-		<voice sentence="HISSSS" yell="1"/>
-		<voice sentence="Tsssse one will risssse again"/>
 		<voice sentence="I bring your deathhh, mortalssss"/>
 	</voices>
 	<loot>
-    <item id="2152" countmax="5" chance="51850" /><!-- platinum coin -->
-	<item id="7456" chance="37000" /><!-- noble axe -->
-	<item id="2152" countmax="95" chance="10750" /><!-- assassin star -->
+    <item id="2152" countmax="5" chance="81160" /><!-- platinum coin -->
+	<item id="2149" countmax="5" chance="72460" /><!-- small emerald -->
+	<item id="7456" chance="42030" /><!-- noble axe -->
+	<item id="11224" chance="100500" /><!-- winged tail -->
+	<item id="7590" countmax="4" chance="66670" /><!-- great mana potion -->
+	<item id="10610" chance="100500" /><!-- snake skin -->
+	<item id="2152" countmax="100" chance="28990" /><!-- assassin star -->
+	<item id="2796" chance="11111" /><!-- green mushroom -->
+	<item id="2033" chance="33330" /><!-- golden mug -->
+	<item id="2168" chance="11590" /><!-- life ring -->
     <item id="1987" chance="100000"><!-- bag -->
         <inside>
-            <item id="7365" chance="525" /><!-- onyx arrow -->
-			<item id="10309" chance="31500" /><!-- claw of the noxious spawn-->
-			<item id="2168" chance="35000" /><!-- life ring -->	
-			<item id="2547" countmax="29" chance="36250" /><!-- power bolt -->	
-			<item id="7386" chance="27750" /><!-- mercenary sword -->
-			<item id="2796" chance="11111" /><!-- green mushroom -->
+			<item id="10309" chance="43480" /><!-- claw of the noxious spawn-->	
+			<item id="7386" chance="37680" /><!-- mercenary sword -->
+			<item id="2528" chance="42030" /><!-- tower shield -->
+			<item id="2498" chance="2900" /><!-- royal helmet -->
+			<item id="8880" chance="2900" /><!-- swamplair armor -->
+			<item id="2536" chance="2900" /><!-- medusa shield -->
         </inside>
     </item>
 </loot>

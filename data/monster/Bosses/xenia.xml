@@ -8,8 +8,8 @@
 		<flag summonable="0"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
-		<flag illusionable="1"/>
-		<flag convinceable="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
 		<flag pushable="0"/>
 		<flag canpushitems="1"/>
 		<flag canpushcreatures="0"/>
@@ -23,14 +23,11 @@
 			<attribute key="areaEffect" value="greennote"/>
 		</attack>
 	</attacks>
-	<defenses armor="20" defense="20"/>
-	<elements>
-		<element icePercent="10"/>
-		<element firePercent="10"/>
-		<element holyPercent="7"/>
-		<element deathPercent="-7"/>
-		<element physicalPercent="-6"/>
-	</elements>
+	<defenses armor="20" defense="20">
+		<defense name="speed" interval="2000" chance="15" speedchange="290" duration="6000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+	</defenses>
 	<immunities>
 		<immunity lifedrain="0"/>
 		<immunity paralyze="0"/>
@@ -44,9 +41,9 @@
 		<voice sentence="Head off!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="45" chance1="40000" chancemax="0"/> --Gold
-		<item id="2420" chance="25000"/> --Sabre
-        <item id="2229" chance="25000"/> --skull
-        <item id="2526" chance="20000"/> --studded shield
+		<item id="2148" countmax="45" chance="66670"/> <!-- Gold -->
+		<item id="2420" chance="33330"/> <!-- Sabre -->
+        <item id="2229" countmax="2" chance="100500"/> <!-- skull -->
+        <item id="2526" chance="33330"/> <!-- studded shield -->
 	</loot>
 </monster>
