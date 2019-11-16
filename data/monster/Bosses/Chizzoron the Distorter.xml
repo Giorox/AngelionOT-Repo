@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Chizzoron the Distorter" nameDescription="Chizzoron the Distorter" race="blood" experience="?" speed="240" manacost="0">
-    <health now="?" max="?"/>
-    <look type="340" corpse="11310"/>
+<monster name="Chizzoron the Distorter" nameDescription="Chizzoron the Distorter" race="blood" experience="4000" speed="240" manacost="0">
+	<health now="16000" max="16000"/>
+	<look type="340" corpse="11310"/>
 	<targetchange interval="5000" chance="8"/>
-    <strategy attack="100" defense="0"/>
-    <flags>
+	<strategy attack="100" defense="0"/>
+	<flags>
 		<flag summonable="0"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
@@ -15,48 +15,59 @@
 		<flag canpushcreatures="1"/>
 		<flag targetdistance="1"/>
 		<flag staticattack="90"/>
-        <flag runonhealth="0"/>
-     </flags>
-<attacks>
-	<attack name="melee" interval="2000" skill="55" attack="50"/>
-<attack name="fire" interval="2000" chance="10" range="7" radius="1" target="1" min="-15" max="-245">
-<attribute key="shootEffect" value="fire"/>
-<attribute key="areaEffect" value="firearea"/>
-</attack>
-<attack name="fire" interval="2000" chance="15" range="7" radius="4" target="1" min="-0" max="-410">
-<attribute key="shootEffect" value="fire"/>
-<attribute key="areaEffect" value="firearea"/>
-</attack>
-	<attack name="energy" interval="1000" chance="24" range="7" target="1" min="-0" max="-310">
-	  <attribute key="shootEffect" value="energyball"/>
-	  <attribute key="areaEffect" value="energy"/>
-	  </attack>
-</attacks>
-	<defenses armor="25" defense="25">
-<defense name="invisible" interval="1000" chance="10" duration="3000">
-<attribute key="areaEffect" value="redshimmer"/>
-		</defense>
-	</defenses>
-<elements>
-<element holyPercent="-10"/>
-<element deathPercent="-30"/>
-<element energyPercent="-20"/>
-<element icePercent="-20"/>
-</elements>
-<immunities>
-<immunity earth="1"/>
-</immunities>
-<loot>
-<item id="2148" countmax="100" chance1="6090" chancemax="3400"/>
-<item id="2666" countmax="2" chance1="5000" chancemax="5300"/>
-<item id="11307" chance="2200"/>
-<item id="11296" chance="640"/>
-<item id="5881" chance="4000"/>
-<item id="2169" chance="6000"/>
-<item id="2492" chance="2500"/>
-<item id="2155" chance="10000"/>
-<item id="1987" chance="100000">
-<item id="11348" chance="700"/>
-</item>
-</loot>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="-0" max="-760"/>
+		<attack name="physical" interval="2000" chance="10" radius="5" target="0" min="-300" max="-686">
+			<attribute key="shootEffect" value="fire"/>
+			<attribute key="areaEffect" value="smoke"/>
+		</attack>
+		<attack name="fire" interval="2000" chance="10" lenght="7" spread="3" min="-0" max="-875">
+			<attribute key="shootEffect" value="fire"/>
+			<attribute key="areaEffect" value="firearea"/>
+		</attack>
+		<attack name="earth" interval="2000" chance="10" range="7" target="1" min="-0" max="-430">
+			<attribute key="shootEffect" value="earth"/>
+			<attribute key="areaEffect" value="stones"/>
+		</attack>
+		<attack name="lifedrain" interval="2000" chance="10" range="7" target="1" min="-150" max="-230">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</attack>
+	</attacks>
+	<defenses armor="25" defense="25"/>
+	<elements>
+		<element holyPercent="10"/>
+		<element deathPercent="30"/>
+		<element energyPercent="20"/>
+		<element icePercent="20"/>
+	</elements>
+	<immunities>
+		<immunity earth="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Humanzzz! Leave Zzaion at onzzzze!"/>
+		<voice sentence="I pray to my mazzterzz, the mighty dragonzzz!"/>
+		<voice sentence="You are not worzzy to touch zzizz zzacred ground!"/>
+	</voices>
+	<summons maxSummons="2">
+		<summon name="Lizard Dragon Priest" interval="2000" chance="10" max="2"/>
+	</summons>
+	<loot>
+		<item id="2148" countmax="100" chance="93750"/> <!-- gold coin -->
+		<item id="2148" countmax="10" chance="93750"/> <!-- gold coin -->
+		<item id="5881" chance="100100"/> <!-- Lizard scale -->
+		<item id="2169" chance="6000"/> <!-- time ring -->
+		<item id="2149" chance="28130"/> <!-- small emerald -->
+		<item id="7591" chance="21880"/> <!-- great health potion -->
+		<item id="9971" countmax="2" chance="100100"/> <!-- gold ingot -->
+		<item id="1987" chance="100000"> <!-- bag -->
+			<item id="2492" chance="15630"/> <!-- dragon scale mail -->
+			<item id="11113" chance="6250"/> <!-- crystal boots -->
+			<item id="2155" chance="12500"/> <!-- green gem -->
+			<item id="2158" chance="12500"/> <!-- blue gem -->
+			<item id="8880" chance="11200"/> <!-- swamplair armor -->
+			<item id="8869" chance="9800"/> <!-- greenwood coat -->
+		</item>
+	</loot>
 </monster>

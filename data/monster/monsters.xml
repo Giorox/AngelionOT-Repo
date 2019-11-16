@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monsters>
 	<monster name="Alvo" file="Traps/Alvo.xml"/>
-	<monster name="Lizard Gate Guardian" file="lizard gate guardian.xml"/>
-	<monster name="Eternal Guardian" file="eternal guardian.xml"/>
-	<monster name="Zulazza the Corruptor" file="Zulazza the Corruptor.xml"/>
-	<monster name="Chizzoron the Distorter" file="Chizzoron the Distorter.xml"/>
 
 	<monster name="Arachir the ancient one" file="Undeads/Arachir the ancient one.xml"/>
 	<monster name="Diblis The Fair" file="Undeads/Diblis The Fair.xml"/>
@@ -116,6 +112,7 @@
 	<monster name="Apprentice Sheng" file="Bosses/apprentice sheng.xml"/>
 	<monster name="Ashmunrah" file="Bosses/ashmunrah.xml"/>
 	<monster name="Brutus Bloodbeard" file="Bosses/brutus bloodbeard.xml"/>
+	<monster name="Chizzoron the Distorter" file="Bosses/Chizzoron the Distorter.xml"/>
 	<monster name="Countess Sorrow" file="Bosses/countess sorrow.xml"/>
 	<monster name="Cublarc The Plunderer" file="Bosses/Cublarc the plunderer.xml"/>
 	<monster name="Deadeye Devious" file="Bosses/deadeye devious.xml"/>
@@ -152,6 +149,7 @@
 	<monster name="Sharptooth" file="Bosses/sharptooth.xml"/>
 	<monster name="Latrivan" file="Bosses/latrivan.xml"/>
 	<monster name="Lethal Lissy" file="Bosses/lethal lissy.xml"/>
+	<monster name="Lizard Gate Guardian" file="Bosses/Lizard Gate Guardian.xml"/>
 	<monster name="Lord of the Elements" file="Bosses/lord of the elements.xml"/>
 	<monster name="Madareth" file="Bosses/madareth.xml"/>
 	<monster name="Mahrdis" file="Bosses/mahrdis.xml"/>
@@ -197,6 +195,7 @@
 	<monster name="Heoni" file="8.6 Monstros/heoni.xml"/>
 	<monster name="Xenia" file="Bosses/xenia.xml"/>
 	<monster name="Yeti" file="Bosses/yeti.xml"/>
+	<monster name="Zulazza the Corruptor" file="Bosses/Zulazza the Corruptor.xml"/>
 	
 	<!--Genesis Quest- -->
 	<monster name="Banor The Holy Warrior" file="Genesis Quest/Banor.xml"/>
@@ -404,6 +403,7 @@
 	<monster name="Draken Warmaster" file="Lizards/draken warmaster.xml"/>
 	<monster name="Draken Abomination" file="Lizards/draken abomination.xml"/>
 	<monster name="Draken Elite" file="Lizards/draken elite.xml"/>
+	<monster name="Eternal Guardian" file="Lizards/eternal guardian.xml"/>
 	<monster name="Lizard Chosen" file="Lizards/lizard chosen.xml"/>
 	<monster name="Lizard Abomination" file="8.6 monstros/lizard abomination.xml"/>
 	<monster name="Lizard Dragon Priest" file="Lizards/lizard dragon priest.xml"/>

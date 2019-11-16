@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Draken Spellweaver" nameDescription="a draken spellweaver" race="blood" experience="2600" speed="240" manacost="0">
-    <health now="5000" max="5000"/>
-    <look type="340" corpse="11310"/>
+<monster name="Draken Spellweaver" nameDescription="a draken spellweaver" race="blood" experience="`3100" speed="336" manacost="0">
+	<health now="5000" max="5000"/>
+	<look type="340" corpse="11310"/>
 	<targetchange interval="5000" chance="8"/>
-    <strategy attack="100" defense="0"/>
-    <flags>
+	<strategy attack="100" defense="0"/>
+	<flags>
 		<flag summonable="0"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
@@ -15,56 +15,81 @@
 		<flag canpushcreatures="1"/>
 		<flag targetdistance="1"/>
 		<flag staticattack="90"/>
-        <flag runonhealth="0"/>
-     </flags>
-<attacks>
-<attack name="melee" interval="2000" skill="70" attack="50"/>
-<attack name="fire" interval="2000" chance="15" range="7" radius="1" target="1" max="-250">
-<attribute key="shootEffect" value="fire"/>
-<attribute key="areaEffect" value="firearea"/>
-</attack>
-	<attack name="fire" interval="2000" chance="20" length="4" spread="3" max="-480">
-<attribute key="shootEffect" value="explosion"/>
-<attribute key="areaEffect" value="explosion"/>
-	  </attack>
-	<attack name="energy" interval="2000" chance="13" range="7" target="1" max="-300">
-	  <attribute key="shootEffect" value="energyball"/>
-	  <attribute key="areaEffect" value="energy"/>
-	  </attack>
-	  <attack name="earth" interval="2000" chance="6" target="0" radius="6" min="-200" max="-380">
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="-0" max="-250"/>
+		<attack name="fire" interval="2000" chance="15" range="7" radius="1" target="1" min="-100" max="-250">
+			<attribute key="shootEffect" value="fire"/>
+			<attribute key="areaEffect" value="firearea"/>
+		</attack>
+		<attack name="fire" interval="2000" chance="20" length="4" spread="3" min="-240" max="-480">
+			<attribute key="shootEffect" value="explosion"/>
+			<attribute key="areaEffect" value="explosion"/>
+		</attack>
+		<attack name="energy" interval="2000" chance="13" range="7" target="1" min="-150" max="-300">
+			<attribute key="shootEffect" value="energyball"/>
+			<attribute key="areaEffect" value="energy"/>
+		</attack>
+		<attack name="earth" interval="2000" chance="6" target="0" radius="6" min="-200" max="-380">
 			<attribute key="areaEffect" value="poff"/>
 		</attack>
-</attacks>
+		<attack name="firecondition" interval="2000" chance="11" min="-200" max="-360" range="1" target="1">
+			<attribute key="shootEffect" value="fire"/>
+		</attack>
+		<attack name="poisoncondition" interval="2000" chance="11" min="-200" max="-360" range="8" target="1">
+			<attribute key="shootEffect" value="poison"/>
+		</attack>
+	</attacks>
 	<defenses armor="25" defense="25">
-	<defense name="invisible" interval="2000" chance="10">
-	<attribute key="areaEffect" value="redshimmer"/>
+		<defense name="invisible" interval="2000" chance="10">
+			<attribute key="areaEffect" value="redshimmer"/>
 		</defense>
+		<defense name="healing" interval="2000" chance="15" min="370" max="520">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>	
 	</defenses>
-<elements>
-<element holyPercent="20"/>
-<element energyPercent="25"/>
-<element deathPercent="-10"/>
-<element earthPercent="-10"/>
-</elements>
-<immunities>
-<immunity fire="1"/>
-<immunity invisible="1"/>
-</immunities>
-<loot>
-    <item id="2666" chance="30575" /><!-- meat -->
-    <item id="2148" countmax="100" chance="42625" /><!-- gold coin -->
-    <item id="2148" countmax="70" chance="42625" /><!-- gold coin -->
-    <item id="2152" countmax="2" chance="59975" /><!-- platinum coin -->
-    <item id="7590" chance="2000" /><!-- great mana potion -->
-    <item id="11308" chance="14875" /><!-- weaver's wandtip -->
-    <item id="1987" chance="100000"><!-- bag -->
-        <inside>
-            <item id="2147" chance="2000" /><!-- small ruby -->
-            <item id="8871" chance="1250" /><!-- focus cape -->
-            <item id="11297" chance="1000" /><!-- zaoan shoes -->
-        </inside>
-    </item>
-</loot>
+	<elements>
+		<element physicalPercent="-10"/>
+		<element energyPercent="-10"/>
+		<element icePercent="-10"/>
+		<element holyPercent="-5"/>
+		<element deathPercent="80"/>
+	</elements>
+	<immunities>
+		<immunity fire="1"/>
+		<immunity earth="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Zzzzzooom!"/>
+		<voice sentence="Fissziss!"/>
+		<voice sentence="Kazzzzzzuuum!"/>
+	</voices>
+	<loot>
+		<item id="2666" chance="29920" /><!-- meat -->
+		<item id="2148" countmax="100" chance="42625" /><!-- gold coin -->
+		<item id="2148" countmax="100" chance="42625" /><!-- gold coin -->
+		<item id="2152" countmax="5" chance="25030" /><!-- platinum coin -->
+		<item id="7590" chance="5040" /><!-- great mana potion -->
+		<item id="11308" chance="20020" /><!-- weaver's wandtip -->
+		<item id="12575" chance="3940" /><!-- Draken Sulphur -->
+		<item id="12371" chance="2030" /><!-- Luminous Orb -->
+		<item id="2155" chance="1000" /><!-- Green Gem -->
+		<item id="11309" chance="10" /><!-- Draken Trophy -->
+		<item id="2147" countmax="5" chance="7010" /><!-- small ruby -->
+		<item id="1987" chance="100000"><!-- bag -->
+			<inside>
+				<item id="8871" chance="1480" /><!-- focus cape -->
+				<item id="11297" chance="1990" /><!-- zaoan shoes -->
+				<item id="2187" chance="1590" /><!-- Wand of inferno -->
+				<item id="11298" chance="900" /><!-- Zaoan Legs -->
+				<item id="11350" chance="810" /><!-- Zaoan Robe -->
+				<item id="11349" chance="660" /><!-- SpellWeaver's Robe -->
+				<item id="2123" chance="380" /><!-- Ring of The Sky -->
+			</inside>
+		</item>
+	</loot>
 
 
 

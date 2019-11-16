@@ -17579,6 +17579,15 @@
 	<item id="11308" name="weaver wandtip">
 		<attribute key="weight" value="170" />
 	</item>
+	<item id="11309" name="draken trophy">
+		<attribute key="weight" value="600" />
+	</item>
+	<item id="11315" article="a" name="bone shoulderplate">
+		<attribute key="weight" value="220" />
+	</item>
+	<item id="11316" name="warmaster's wristguard">
+		<attribute key="weight" value="120" />
+	</item>
 	<item id="11317" name="zaoan halberd">
 		<attribute key="defense" value="15" />
 		<attribute key="attack" value="37" />
@@ -17776,6 +17785,9 @@
 	<item id="12361" name="protective charm">
 		<attribute key="weight" value="120" />
 	</item>
+	<item id="12371" name="luminous orb">
+		<attribute key="weight" value="94" />
+	</item>
 	<item id="12382" name="elven astral observer">
 		<attribute key="weight" value="112" />
 	</item>
@@ -17896,6 +17908,9 @@
 		<attribute key="defense" value="30" />
 		<attribute key="attack" value="47" />
 		<attribute key="weaponType" value="axe" />
+	</item>
+	<item id="12575" name="draken sulphur">
+		<attribute key="weight" value="68" />
 	</item>
 	<item id="12576" name="draken wristbands">
 		<attribute key="weight" value="78" />
