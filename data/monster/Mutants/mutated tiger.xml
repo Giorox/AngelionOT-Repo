@@ -18,7 +18,7 @@
 		<flag runonhealth="100"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" skill="40" attack="60"/>
+		<attack name="melee" interval="2000" min="-0" max="-145"/>
 		<attack name="physical" interval="2000" chance="15" length="5" spread="3" min="-0" max="-200">
 			<attribute key="areaEffect" value="yellowspark"/>
 		</attack>
@@ -48,39 +48,20 @@
 		<voice sentence="CHHHHHHHHHHH"/>
 	</voices>
 	<loot>
-    <item id="2148" countmax="100" chance="45300" /><!-- gold coin -->
-    <item id="2148" countmax="3" chance="45300" /><!-- gold coin -->
-    <item id="2666" chance="31900" /><!-- meat -->
-    <item id="11204" chance="11875" /><!-- striped fur -->
-    <item id="2168" chance="6600" /><!-- life ring -->
-    <item id="7454" chance="1750" /><!-- glorious axe -->
-    <item id="11222" chance="4575" /><!-- sabretooth -->
-    <item id="7436" chance="875" /><!-- angelic axe -->
-    <item id="1987" chance="100000"><!-- bag -->
-        <inside>
-            <item id="2515" chance="825" /><!-- guardian shield -->
-            <item id="7588" chance="1125" /><!-- strong health potion -->
-            <item id="2509" chance="550" /><!-- steel shield -->
-        </inside>
-    </item>
-</loot>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+		<item id="2148" countmax="100" chance="45300" /><!-- gold coin -->
+		<item id="2148" countmax="5" chance="45300" /><!-- gold coin -->
+		<item id="2666" countmax="2" chance="29950" /><!-- meat -->
+		<item id="11204" chance="20690" /><!-- striped fur -->
+		<item id="2168" chance="6050" /><!-- life ring -->
+		<item id="7454" chance="970" /><!-- glorious axe -->
+		<item id="11222" chance="11370" /><!-- sabretooth -->
+		<item id="7436" chance="420" /><!-- angelic axe -->
+		<item id="1987" chance="100000"><!-- bag -->
+			<inside>
+				<item id="2515" chance="470" /><!-- guardian shield -->
+				<item id="7588" chance="5980" /><!-- strong health potion -->
+				<item id="9959" chance="920" /><!-- silky tapestry -->
+			</inside>
+		</item>
+	</loot>
 </monster>

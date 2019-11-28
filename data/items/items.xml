@@ -16197,6 +16197,12 @@
 		<attribute key="duration" value="3600" />
 		<attribute key="showduration" value="1" />
 	</item>
+	<item fromid="" toid="" article="a" name="silky tapestry">
+		<attribute key="forceSerialize" value="1" />
+	</item>
+	<item id="9959" article="a" name="silky tapestry">
+		<attribute key="weight" value="1000" />
+	</item>
 	<item id="9960" article="a" name="slain death blob">
 		<attribute key="containerSize" value="10" />
 		<attribute key="decayTo" value="9963" />

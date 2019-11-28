@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Mutated Bat" nameDescription="a mutated bat" race="blood" experience="615" speed="245" manacost="0">
+<monster name="Mutated Bat" nameDescription="a mutated bat" race="blood" experience="615" speed="186" manacost="0">
 	<health now="900" max="900"/>
 	<look type="307" corpse="9829"/>
 	<targetchange interval="5000" chance="8"/>
@@ -15,11 +15,11 @@
 		<flag canpushcreatures="1"/>
 		<flag targetdistance="1"/>
 		<flag staticattack="90"/>
-		<flag runonhealth="0"/>
+		<flag runonhealth="300"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" skill="60" attack="50" poison="120"/>
-		<attack name="poison" interval="2000" chance="12" range="7" min="70" max="-180">
+		<attack name="melee" interval="2000" min="-0" max="-170" poison="120"/>
+		<attack name="poison" interval="2000" chance="12" range="7" min="-70" max="-180">
 			<attribute key="shootEffect" value="poison"/>
 			<attribute key="areaEffect" value="poison"/>
 		</attack>
@@ -33,8 +33,8 @@
 			<attribute key="areaEffect" value="poison"/>
 		</attack>
 	</attacks>
-	<defenses armor="30" defense="30">
-			<defense name="healing" interval="2000" chance="10" min="80" max="100">
+	<defenses armor="19" defense="30">
+		<defense name="healing" interval="2000" chance="10" min="80" max="100">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>	
 	</defenses>
@@ -46,44 +46,26 @@
 		<immunity drunk="1"/>
 	</immunities>
 	<voices interval="2500" chance="10">
+		<voice sentence="Shriiiiiek"/>
 	</voices>
 	<loot>
-    <item id="2148" countmax="100" chance="37975" /><!-- gold coin -->
-    <item id="2148" countmax="28" chance="37975" /><!-- gold coin -->
-    <item id="2800" chance="5775" /><!-- star herb -->
-    <item id="9808" countmax="2" chance="7000" /><!-- rusty armor -->
-    <item id="2513" chance="8200" /><!-- battle shield -->
-    <item id="2425" chance="8025" /><!-- obsidian lance -->
-    <item id="5894" countmax="3" chance="4050" /><!-- bat wing -->
-    <item id="10578" chance="5700" /><!-- mutated bat ear -->
-    <item id="2167" chance="1400" /><!-- energy ring -->
-    <item id="1987" chance="100000"><!-- bag -->
-        <inside>
-            <item id="2150" countmax="2" chance="875" /><!-- small amethyst -->
-            <item id="2144" countmax="3" chance="1125" /><!-- black pearl -->
-            <item id="10016" chance="550" /><!-- batwing hat -->
-            <item id="2529" chance="650" /><!-- black shield -->
-            <item id="7386" chance="575" /><!-- mercenary sword -->
-        </inside>
-    </item>
-</loot>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+		<item id="2148" countmax="100" chance="37975" /><!-- gold coin -->
+		<item id="2148" countmax="30" chance="37975" /><!-- gold coin -->
+		<item id="2800" chance="5775" /><!-- star herb -->
+		<item id="9808" countmax="2" chance="7000" /><!-- rusty armor -->
+		<item id="2513" chance="8200" /><!-- battle shield -->
+		<item id="2425" chance="8025" /><!-- obsidian lance -->
+		<item id="5894" countmax="2" chance="4050" /><!-- bat wing -->
+		<item id="10578" chance="5700" /><!-- mutated bat ear -->
+		<item id="2167" chance="1400" /><!-- energy ring -->
+		<item id="1987" chance="100000"><!-- bag -->
+			<inside>
+				<item id="2150" countmax="2" chance="875" /><!-- small amethyst -->
+				<item id="2144" countmax="3" chance="1125" /><!-- black pearl -->
+				<item id="10016" chance="550" /><!-- batwing hat -->
+				<item id="2529" chance="650" /><!-- black shield -->
+				<item id="7386" chance="575" /><!-- mercenary sword -->
+			</inside>
+		</item>
+	</loot>
 </monster>

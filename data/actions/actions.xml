@@ -643,15 +643,7 @@
 	<!-- Lighthouse -->
 	<action actionid="12901" event="script" value="quests/lighthouse.lua" />
 	<action actionid="12902" event="script" value="quests/lighthouse2.lua" />
-	<action uniqueid="14009" event="script" value="quests/fibula.lua" />
-	
-	<!-- Genesis Quest -->
-	<action uniqueid="25000" event="script" value="Genesis Quest/CrunorWell.lua" />
-	<action uniqueid="25001" event="script" value="Genesis Quest/BanorGrave1.lua" />
-	<action uniqueid="25002" event="script" value="Genesis Quest/BanorGrave2.lua" />
-	<action uniqueid="25003" event="script" value="Genesis Quest/ElaneCoalBasin.lua" />
-	<action uniqueid="25004" event="script" value="Genesis Quest/KiranaLever.lua" />
-	
+	<action uniqueid="14009" event="script" value="quests/fibula.lua" />	
 	
 	<!-- BK -->
 	<action uniqueid="20000" event="script" value="quests/bk.lua" />

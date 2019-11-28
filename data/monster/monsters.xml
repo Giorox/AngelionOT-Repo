@@ -197,12 +197,6 @@
 	<monster name="Yeti" file="Bosses/yeti.xml"/>
 	<monster name="Zulazza the Corruptor" file="Bosses/Zulazza the Corruptor.xml"/>
 	
-	<!--Genesis Quest- -->
-	<monster name="Banor The Holy Warrior" file="Genesis Quest/Banor.xml"/>
-	<monster name="Crunor The Lord of the Trees" file="Genesis Quest/Crunor.xml"/>
-	<monster name="Kirana The Fire Wielder" file="Genesis Quest/Kirana.xml"/>
-	<monster name="Elane Queen of the Paladins" file="Genesis Quest/Elane.xml"/>
-	
 	<!-- Bosses Quests -->
 	<monster name="Achad" file="Bosses Quests/achad.xml"/>
 	<monster name="Avalanche" file="Bosses Quests/avalanche.xml"/>
