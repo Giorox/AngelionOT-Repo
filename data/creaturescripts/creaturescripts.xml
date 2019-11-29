@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <creaturescripts>
-	<event type="preparedeath" name="Arena" event="script" value="arena.lua"/>
 	<event type="login" name="PlayerLogin" event="script" value="login.lua"/>
 	<event type="joinchannel" name="GuildMotd" event="script" value="guildmotd.lua"/>
 	<event type="receivemail" name="Mail" event="script" value="mail.lua"/>
@@ -8,10 +7,6 @@
 	<event type="advance" name="AdvanceSave" event="script" value="advancesave.lua"/>
 	<event type="kill" name="ArenaKill" event="script" value="arenakill.lua"/>
 	<event type="death" name="PythiusTheRotten" event="script" value="PythiusTheRotten.lua"/>
-	<event type="death" name="elane" event="script" value="Genesis Quest/elanestorage.lua"/>
-	<event type="death" name="kirana" event="script" value="Genesis Quest/kiranastorage.lua"/>
-	<event type="death" name="crunor" event="script" value="Genesis Quest/crunorstorage.lua"/>
-	<event type="death" name="banor" event="script" value="Genesis Quest/banorstorage.lua"/>
 	
 	<event type="kill" name="KillingInTheNameOf" event="script" value="killinginthenameof.lua"/>
 

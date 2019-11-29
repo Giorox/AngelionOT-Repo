@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <actions>
-	<action actionid="4521" event="script" value="arena.lua"/>
-
 	<action actionid="4531" event="script" value="vocdoor.lua"/>
 	<action actionid="4532" event="script" value="vocdoor.lua"/>
 	<action actionid="4533" event="script" value="vocdoor.lua"/>
@@ -13,9 +11,6 @@
    	<action actionid="4213" script="training_room.lua" />
     	<action actionid="4214" script="training_room.lua" />
    	<!-- training room-doors, end -->
-
-	<!-- Cassino System, end -->
-	<action uniqueid="6297-6300" event="script" value="cassino.lua"/>
 	
 	<!-- Starting Gear -->
 	<action uniqueid="1801" event="script" value="starting/helmet.lua"/>
@@ -63,17 +58,12 @@
 	<action uniqueid="4505" event="script" value="trainwall.lua"/>
 	<action uniqueid="4506" event="script" value="quests/doublet.lua"/>
 	<action uniqueid="4507" event="script" value="bearroom.lua"/>
-	<action uniqueid="4508" event="script" value="rats.lua"/>
 	<action uniqueid="60048" event="script" value="katanaquestdoor.lua"/>
 
 	<action itemid="7131" event="script" value="railbymock.lua" />
 	<action itemid="7132" event="script" value="railbymock.lua" />
 
-	<action actionid="5555" event="script" value="fut.lua"/>
-
 	<action itemid="2093" event="script" value="tools/waterpipe.lua"/>
-	<action actionid="2387" event="script" value="tetris.lua"/>
-	<action itemid="9564" event="script" value="snakesys.lua"/>
 
 	<!-- unnatural selection quest -->
 	<action uniqueid="24150" event="script" value="unna/bones.lua"/>	<!-- pile of bones UID -->
@@ -109,9 +99,6 @@
     <action actionid="4331" event="script" value="zaoquest.lua"/> 
 	<action itemid="7734" event="script" value="food.lua" />
 	<action itemid="9661" event="script" value="crate.lua" />
-
-
-	<action itemid="11098" event="script" value="skull.lua"/>
 
 	<action actionid="1133" event="script" value="other/rats.lua" />  
 		<!-- rook -->
