@@ -17,8 +17,7 @@ So far we have some 40% of the work done to be completly honest.
 
 # Our Tiny Flaws
 
-Currently in the distro we have 1 NPC, 4 monsters, and approximately 10 differents areas around tibia that pertain to a custom
-quest that is completely lore-friendly, yet we strive to work on the distro as hard as we can, and then, when we feel like our work
+Currently in the distro we have a couple of stop-gap features that pertain to some critical functions such as some addons, some item exchanges, we have a small island pertaining to a starting point that will give players startings items and a training area. Yet we strive to work on the distro as hard as we can, and then, when we feel like our work
 is nearly done and we are satisfied with what we have accomplished we will outright remove it from the distro but still have it available
 elsewhere.
 
