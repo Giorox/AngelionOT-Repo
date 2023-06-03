@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Werewolf" nameDescription="a werewolf" experience="1450" speed="320" race="blood" manacost="0">
+<monster name="Werewolf" nameDescription="a werewolf" experience="1900" speed="140" race="blood" manacost="0">
 	<health now="1955" max="1955"/>
 	<strategy attack="100" defense="0"/>
 	<targetchange speed="0" chance="8"/>
@@ -57,8 +57,8 @@
 	<loot>
     <item id="2148" countmax="100" chance="34725" /><!-- gold coin -->
     <item id="2148" countmax="100" chance="34725" /><!-- gold coin -->
-    <item id="2148" countmax="24" chance="34725" /><!-- gold coin -->
-    <item id="2381" chance="3275" /><!-- halberd -->
+    <item id="2148" countmax="25" chance="34725" /><!-- gold coin -->
+    <item id="2381" chance="3070" /><!-- halberd -->
     <item id="2789" chance="7125" /><!-- brown mushroom -->
     <item id="2805" chance="5650" /><!-- troll green -->
     <item id="9808" chance="7900" /><!-- rusty armor -->
